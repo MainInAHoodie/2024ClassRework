@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="f01245cf-d242-4f5b-af85-f795d310ac2b">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4d2b99a4-dd70-4ab6-9270-7577848209fa" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="6e7b7bad-e122-4679-8b3c-8f8987a9d466" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="Warden" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Primal Order Default" />
+      </fields>
+    </stat_object>
+	<stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="029070fa-f362-43cf-aa0e-4b63aa49c030" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="64474b62-b4f5-46b3-b94a-c676c6da3116" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="Thaumaturge_ProduceFlame" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Cleric Divine Order Default" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

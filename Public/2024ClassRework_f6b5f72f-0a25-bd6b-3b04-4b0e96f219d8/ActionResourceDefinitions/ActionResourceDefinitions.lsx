@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="ActionResourceDefinitions">
+        <node id="root">
+            <children>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h717490b8g4849gb0f9gaa3eg0c6680290f91" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hae9f66d8gfd1fg663fg8370g0f749618e89e" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="MoonlightStepCharge"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="a97fde5b-f0ad-4a64-a070-9125b2e41740"/>
+                </node>
+				<node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="hd72bbd45gfe72g70b1gcb13g3cbe42472411" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="he55392cbg0a97g36e4gf73dg10fdbc9d6a0c" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="WardingFlareCharges"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="f6de1624-04af-4499-8f07-edd6721ead73"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="hacc9f556g0dcag7b09g68e5g3210b7e904b7" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h4496bbf8g8f01gb02dg2c40ga180d4dc7032" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="TrickstersTranspositionCharge"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="f740ed74-e657-4ee4-b738-cd8e45ea3fb0"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

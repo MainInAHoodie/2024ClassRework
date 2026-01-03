@@ -1,0 +1,6 @@
+new entry "GLO_AURAOFLIFE_DOWNED"
+type "StatusData"
+data "StatusType" "DOWNED"
+using "GLO_NIGHTSONGRESURRECTION_DOWNED"
+data "DisplayName" "hc9a8eb73gf2b9g268ag1bf8gf1179e3b0a87;1"
+

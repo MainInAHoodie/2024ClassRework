@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="bfa22a59-fd65-4e35-ae0f-ac960c3b5fd2">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b910098b-d401-4352-8388-413e00b56921" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h24915c3bg92abg94d4gcfaega87b09ba8f97" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4f0a9298g42bbg7bafge2a0g252beace901b" version="1" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="Druid_PrimalOrder" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="Druid_PrimalOrder" />
+        <field name="Hidden" type="BoolTableFieldDefinition" value="False" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Druid Primal Orders" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7517a12c-bddd-4314-b4a9-3d6750d63fa2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd64ab6cegdc8ageee4g0e0eg9d14ad161ddf" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h648e4977g7984g7751gd182g4447d24bd8e4" version="1" />
+        <field name="Hidden" type="BoolTableFieldDefinition" value="False" />
+        <field name="Type" type="FixedStringTableFieldDefinition" value="Proficiency" />
+        <field name="PassivePrototype" type="FixedStringTableFieldDefinition" value="Warden" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="Proficiency(MediumArmor);Proficiency(Scimitars)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4c88b853-2fc0-444f-a948-2c1365218188" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdf558a5cg41d9g08afg6633gedc7a7cce31b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h06c06c01g9476gd42eg7a08geef41e8d349c" version="1" />
+        <field name="Hidden" type="BoolTableFieldDefinition" value="False" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="Druid_ElementalFury" />
+      </fields>
+    </stat_object>
+	<stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0e5243ca-7e00-4a94-bf78-640e77af2cf2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6e1b75d1g73bfgdad0g0957g760d54239d56" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h722356a4g24e3g5c13g395bgec1627801e0e" version="1" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="ClericDivineOrders" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="64474b62-b4f5-46b3-b94a-c676c6da3116" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a54ff50b-7154-4e4c-ba00-c975f2fb35ec" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5e0501a1g7289gf72fge05bg1d0103e610a4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h787cae7fga74agd3f8g236fge7fe6378fc5e" version="1" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="Cleric_BlessedStrikes" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="CircleOfTheMoonSpells_3"/>
+                    <attribute id="Spells" type="LSString" value="Target_CureWounds,Target_Moonbeam,Projectile_StarryWisp"/>
+                    <attribute id="UUID" type="guid" value="2d2ce60e-f581-4b79-9873-2cfcb34bccda"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="CircleOfTheMoonSpells_5"/>
+                    <attribute id="Spells" type="LSString" value="Target_ConjureAnimal_Container"/>
+                    <attribute id="UUID" type="guid" value="62244d71-a840-4cce-8091-6ef711229f3d"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="CircleOfTheMoonSpells_7"/>
+                    <attribute id="Spells" type="LSString" value="Shout_FountOfMoonlight"/>
+                    <attribute id="UUID" type="guid" value="91c36aca-da9b-4f17-8ee8-8fd54026c1a6"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="CircleOfTheMoonSpells_9"/>
+                    <attribute id="Spells" type="LSString" value="Target_CureWounds_Mass"/>
+                    <attribute id="UUID" type="guid" value="716086ef-d583-433c-8285-938db1a0fb13"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="09c326c9-672c-4198-a4c0-6f07323bde27"/>
+                    <attribute id="Name" type="FixedString" value="New Druid Lvl 4"/>
+                    <attribute id="Spells" type="LSString" value="Shout_FountOfMoonlight;"/>
+                    <attribute id="UUID" type="guid" value="d1495ea8-48e4-4642-9ce0-1584feb2efe9"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="b8faf12f-ca42-45c0-84f8-6951b526182a"/>
+                    <attribute id="Name" type="FixedString" value="New Druid Cantrips"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Druidcraft;Projectile_StarryWisp;"/>
+                    <attribute id="UUID" type="guid" value="b5bf9da4-fc27-4205-bddf-53eaf8a15c74"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="3156daf5-9266-41d0-b52c-5bc559a98654"/>
+                    <attribute id="Name" type="FixedString" value="New Druid Lvl 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_ConjureAnimal_Container"/>
+                    <attribute id="UUID" type="guid" value="fabbc4e4-00fc-4ba4-87b8-d2fb71809612"/>
+                </node>
+				<node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Cleric channel divinity"/>
+                    <attribute id="Spells" type="LSString" value="Shout_TurnUndead;Target_DivineSpark"/>
+                    <attribute id="UUID" type="guid" value="239cc7cc-f642-4ddc-b091-498d81612c51"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Cleric Divine Strike"/>
+                    <attribute id="Spells" type="LSString" value="DivineStrike_Container"/>
+                    <attribute id="UUID" type="guid" value="6dbfe9e3-ac19-4508-93a8-d88307ba2ce9"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Cleric War Domain 7"/>
+                    <attribute id="Spells" type="LSString" value="Shout_FireShield;Target_FreedomOfMovement"/>
+                    <attribute id="UUID" type="guid" value="4c779ace-7ff1-461c-abc4-13182424b89a"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Cleric Life Domain 5"/>
+                    <attribute id="Spells" type="LSString" value="Teleportation_Revivify;Shout_MassHealingWord"/>
+                    <attribute id="UUID" type="guid" value="a9ff6ed3-050e-4963-b37b-c083285d6214"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Cleric Life Domain 7"/>
+                    <attribute id="Spells" type="LSString" value="Target_DeathWard;Shout_AuraOfLife"/>
+                    <attribute id="UUID" type="guid" value="28d41365-bc69-437a-a968-cac8f3b4b2c6"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="War Cleric level 2"/>
+                    <attribute id="Spells" type="LSString" value="Shout_GuidedStrike;Interrupt_WarGodsBlessing;Target_WarGodsBlessing_Interrupt"/>
+                    <attribute id="UUID" type="guid" value="4d04d97b-1bb6-4b1e-945b-be230335ede7"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Cleric SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_DeathWard;Target_FreedomOfMovement;Target_GuardianOfFaith"/>
+                    <attribute id="UUID" type="guid" value="37e9b20b-5fd1-45c5-b1c5-159c42397c83"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="2f43a103-5bf1-4534-b14f-663decc0c525"/>
+                    <attribute id="Name" type="FixedString" value="New Cleric Cantrips"/>
+                    <attribute id="Spells" type="LSString" value="Shout_WordOfRadiance"/>
+                    <attribute id="UUID" type="guid" value="1df2d566-3c6c-4d78-8245-97c8f80f2bba"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="37e9b20b-5fd1-45c5-b1c5-159c42397c83"/>
+                    <attribute id="Name" type="FixedString" value="New Cleric Spells"/>
+                    <attribute id="Spells" type="LSString" value="Shout_AuraOfLife"/>
+                    <attribute id="UUID" type="guid" value="9140dec9-8471-42b0-9e1e-5050a1b144b7"/>
+                </node>
+				<node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Lore Bard Magical Secrets 6"/>
+                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Target_CallLightning;Target_Counterspell;Target_Daylight_Container;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Zone_LightningBolt;Shout_HealingWord_Mass;Target_RemoveCurse;Teleportation_Revivify;Target_SleetStorm;Target_Slow;Shout_SpiritGuardians;Target_VampiricTouch;Target_ArcaneLock;Shout_Blur;Target_Darkness;Target_Darkvision;Target_MistyStep;Shout_PassWithoutTrace;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_SpikeGrowth;Target_SpiritualWeapon;Target_Web;Target_Bless;Projectile_ChromaticOrb;Target_Command_Container;Target_Entangle;Shout_FalseLife;Projectile_GuidingBolt;Shout_HellishRebuke;Projectile_IceKnife;Projectile_MagicMissile;Target_Sanctuary;Target_ChillTouch;Projectile_FireBolt;Projectile_RayOfFrost;Target_SacredFlame"/>
+                    <attribute id="UUID" type="guid" value="175ceed7-5a53-4f48-823c-41c4f72d18ae"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Bard Magical Secrets 10"/>
+                    <attribute id="Spells" type="LSString" value="Zone_ConeOfCold;Target_ConjureElemental_Container;Target_Contagion;Wall_WallOfStone;Target_Banishment;Target_Blight;Target_DeathWard;Target_DominateBeast;Shout_FireShield;Target_GuardianOfFaith;Target_IceStorm;Wall_WallOfFire;Target_AnimateDead;Target_CallLightning;Target_Counterspell;Target_Daylight_Container;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Zone_LightningBolt;Shout_HealingWord_Mass;Target_RemoveCurse;Teleportation_Revivify;Target_SleetStorm;Target_Slow;Shout_SpiritGuardians;Target_VampiricTouch;Target_ArcaneLock;Shout_Blur;Target_Darkness;Target_Darkvision;Target_MistyStep;Shout_PassWithoutTrace;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_SpikeGrowth;Target_SpiritualWeapon;Target_Web;Target_Bless;Projectile_ChromaticOrb;Target_Command_Container;Target_Entangle;Shout_FalseLife;Projectile_GuidingBolt;Shout_HellishRebuke;Projectile_IceKnife;Projectile_MagicMissile;Target_Sanctuary;Target_ChillTouch;Projectile_FireBolt;Projectile_RayOfFrost;Target_SacredFlame"/>
+                    <attribute id="UUID" type="guid" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

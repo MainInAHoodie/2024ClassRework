@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="11fa382c-a1d2-45ba-913c-b13062365ce8">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="845071eb-0cab-4a99-a7af-51882ef803c9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Druid_PrimalOrder" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Warden,Magician_Druidcraft,Magician_PoisonSpray,Magician_ProduceFlame,Magician_Resistance,Magician_Shillelagh,Magician_StarryWisp,Magician_ThornWhip" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5fbf0d3f-9a95-4818-8a46-f9f9b549f7f3" />
+        <field name="Name" type="NameTableFieldDefinition" value="Druid_ElementalFury" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PotentSpellcasting_Druid,ElementalStrike" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e64bc365-6037-4f82-b710-8d958d9334e6" />
+        <field name="Name" type="NameTableFieldDefinition" value="Druid Land Spells" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Land_Arid,Land_Polar,Land_Temperate,Land_Tropical" />
+      </fields>
+    </stat_object>
+	<stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="38776f0c-e88e-44e6-8e03-5efafc080d9d" />
+        <field name="Name" type="NameTableFieldDefinition" value="ClericDivineOrders" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Protector,Thaumaturge_ProduceFlame,Thaumaturge_TollTheDead,Thaumaturge_Thaumaturgy,Thaumaturge_WordOfRadiance" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eed4c8f4-6c0e-48c0-bd4a-eb5d8c58e549" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric_BlessedStrikes" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PotentSpellcasting,DivineStrike" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

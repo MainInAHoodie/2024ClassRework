@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="68e50044-f0bd-499d-94ad-7aa52f7abe18">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="25284f35-647d-4a92-acab-6a2750e9916c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Conjure Bear" />
+        <field name="Spells" type="StatReferenceTableFieldDefinition" value="Target_ConjureAnimal_Bear" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d41b7a14-5d70-425d-ab41-dda6fc375e3c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Conjure Boar" />
+        <field name="Spells" type="StatReferenceTableFieldDefinition" value="Target_ConjureAnimal_Boar" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cfdd5faf-478e-42c8-a4f9-07fe5fcbd96f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Conjure Giant Spider" />
+        <field name="Spells" type="StatReferenceTableFieldDefinition" value="Target_ConjureAnimal_GiantSpider" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c8708624-4788-4a52-81d6-1dfa6aa78ba6" />
+        <field name="Name" type="NameTableFieldDefinition" value="Conjure Raven" />
+        <field name="Spells" type="StatReferenceTableFieldDefinition" value="Target_ConjureAnimal_Raven" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="865d1d0e-d3b2-4c25-97d5-ff8c2987cc4c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Conjure Wolf" />
+        <field name="Spells" type="StatReferenceTableFieldDefinition" value="Target_ConjureAnimal_Wolf" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="75f6384f-81b5-4273-90ee-f38638e595c8" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fount of Moonlight" />
+        <field name="Spells" type="StatReferenceTableFieldDefinition" value="Shout_FountOfMoonlight" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="038d33a1-f4ca-4466-96bf-66aeb6c56457" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wild Resurgence" />
+        <field name="Spells" type="StatReferenceTableFieldDefinition" value="Shout_WildResurgence" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a0ddc904-17ca-46d2-b1a7-2ea8dda0e4d5" />
+        <field name="Name" type="NameTableFieldDefinition" value="Moonlight Step Regeneration" />
+        <field name="Spells" type="StatReferenceTableFieldDefinition" value="Shout_MoonlightStepRestoreUses" />
+      </fields>
+    </stat_object>
+	<stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="94a9cae9-5662-4df3-bd63-fad5269a67a6" />
+        <field name="Name" type="NameTableFieldDefinition" value="Aura of Life" />
+        <field name="Spells" type="StatReferenceTableFieldDefinition" value="Shout_AuraOfLife" />
+      </fields>
+    </stat_object>
+	<stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0b3bb26b-9dbc-4be3-a63b-922413673b66" />
+        <field name="Name" type="NameTableFieldDefinition" value="FontOfInspiration" />
+        <field name="Spells" type="StatReferenceTableFieldDefinition" value="Shout_FontOfInspiration" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

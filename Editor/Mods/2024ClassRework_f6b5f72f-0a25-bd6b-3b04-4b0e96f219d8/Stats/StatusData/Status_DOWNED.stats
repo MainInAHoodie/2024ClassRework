@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="030d44f1-be8c-4538-9512-08111d49292a">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="472eb65a-acc6-4d11-958d-57c9b7143c61" />
+        <field name="Name" type="NameTableFieldDefinition" value="GLO_AURAOFLIFE_DOWNED" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="587c9104-55ca-4b6d-a6f5-5ad12928d33b" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc9a8eb73gf2b9g268ag1bf8gf1179e3b0a87" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

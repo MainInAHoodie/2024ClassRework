@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3f5063e7-e02b-4849-a503-9ba01dc6e2e6">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2d2ce60e-f581-4b79-9873-2cfcb34bccda" />
+        <field name="Name" type="NameTableFieldDefinition" value="CircleOfTheMoonSpells_3" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_CureWounds,Target_Moonbeam,Projectile_StarryWisp" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="62244d71-a840-4cce-8091-6ef711229f3d" />
+        <field name="Name" type="NameTableFieldDefinition" value="CircleOfTheMoonSpells_5" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_ConjureAnimal_Container" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="91c36aca-da9b-4f17-8ee8-8fd54026c1a6" />
+        <field name="Name" type="NameTableFieldDefinition" value="CircleOfTheMoonSpells_7" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_FountOfMoonlight" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="716086ef-d583-433c-8285-938db1a0fb13" />
+        <field name="Name" type="NameTableFieldDefinition" value="CircleOfTheMoonSpells_9" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_CureWounds_Mass" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d1495ea8-48e4-4642-9ce0-1584feb2efe9" />
+        <field name="Name" type="NameTableFieldDefinition" value="New Druid Lvl 4" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_FountOfMoonlight;" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="09c326c9-672c-4198-a4c0-6f07323bde27" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b5bf9da4-fc27-4205-bddf-53eaf8a15c74" />
+        <field name="Name" type="NameTableFieldDefinition" value="New Druid Cantrips" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_Druidcraft;Projectile_StarryWisp;" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="b8faf12f-ca42-45c0-84f8-6951b526182a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fabbc4e4-00fc-4ba4-87b8-d2fb71809612" />
+        <field name="Name" type="NameTableFieldDefinition" value="New Druid Lvl 3" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_ConjureAnimal_Container" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="3156daf5-9266-41d0-b52c-5bc559a98654" />
+      </fields>
+    </stat_object>
+	<stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="239cc7cc-f642-4ddc-b091-498d81612c51" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric channel divinity" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_TurnUndead;Target_DivineSpark" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6dbfe9e3-ac19-4508-93a8-d88307ba2ce9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric Divine Strike" />
+        <field name="Spells" type="StringTableFieldDefinition" value="DivineStrike_Container" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4c779ace-7ff1-461c-abc4-13182424b89a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric War Domain 7" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_FireShield;Target_FreedomOfMovement" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a9ff6ed3-050e-4963-b37b-c083285d6214" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric Life Domain 5" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Teleportation_Revivify;Shout_MassHealingWord" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="28d41365-bc69-437a-a968-cac8f3b4b2c6" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric Life Domain 7" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_DeathWard;Shout_AuraOfLife" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4d04d97b-1bb6-4b1e-945b-be230335ede7" />
+        <field name="Name" type="NameTableFieldDefinition" value="War Cleric level 2" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_GuidedStrike;Interrupt_WarGodsBlessing;Target_WarGodsBlessing_Interrupt" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="37e9b20b-5fd1-45c5-b1c5-159c42397c83" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric SLevel 4" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Banishment;Target_DeathWard;Target_FreedomOfMovement;Target_GuardianOfFaith" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1df2d566-3c6c-4d78-8245-97c8f80f2bba" />
+        <field name="Name" type="NameTableFieldDefinition" value="New Cleric Cantrips" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_WordOfRadiance" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="2f43a103-5bf1-4534-b14f-663decc0c525" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9140dec9-8471-42b0-9e1e-5050a1b144b7" />
+        <field name="Name" type="NameTableFieldDefinition" value="New Cleric Spells" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_AuraOfLife" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="37e9b20b-5fd1-45c5-b1c5-159c42397c83" />
+      </fields>
+    </stat_object>
+	<stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="175ceed7-5a53-4f48-823c-41c4f72d18ae" />
+        <field name="Name" type="NameTableFieldDefinition" value="Lore Bard Magical Secrets 6" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_AnimateDead;Target_CallLightning;Target_Counterspell;Target_Daylight_Container;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Zone_LightningBolt;Shout_HealingWord_Mass;Target_RemoveCurse;Teleportation_Revivify;Target_SleetStorm;Target_Slow;Shout_SpiritGuardians;Target_VampiricTouch;Target_ArcaneLock;Shout_Blur;Target_Darkness;Target_Darkvision;Target_MistyStep;Shout_PassWithoutTrace;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_SpikeGrowth;Target_SpiritualWeapon;Target_Web;Target_Bless;Projectile_ChromaticOrb;Target_Command_Container;Target_Entangle;Shout_FalseLife;Projectile_GuidingBolt;Shout_HellishRebuke;Projectile_IceKnife;Projectile_MagicMissile;Target_Sanctuary;Target_ChillTouch;Projectile_FireBolt;Projectile_RayOfFrost;Target_SacredFlame" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bard Magical Secrets 10" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Zone_ConeOfCold;Target_ConjureElemental_Container;Target_Contagion;Wall_WallOfStone;Target_Banishment;Target_Blight;Target_DeathWard;Target_DominateBeast;Shout_FireShield;Target_GuardianOfFaith;Target_IceStorm;Wall_WallOfFire;Target_AnimateDead;Target_CallLightning;Target_Counterspell;Target_Daylight_Container;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_Haste;Zone_LightningBolt;Shout_HealingWord_Mass;Target_RemoveCurse;Teleportation_Revivify;Target_SleetStorm;Target_Slow;Shout_SpiritGuardians;Target_VampiricTouch;Target_ArcaneLock;Shout_Blur;Target_Darkness;Target_Darkvision;Target_MistyStep;Shout_PassWithoutTrace;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_SpikeGrowth;Target_SpiritualWeapon;Target_Web;Target_Bless;Projectile_ChromaticOrb;Target_Command_Container;Target_Entangle;Shout_FalseLife;Projectile_GuidingBolt;Shout_HellishRebuke;Projectile_IceKnife;Projectile_MagicMissile;Target_Sanctuary;Target_ChillTouch;Projectile_FireBolt;Projectile_RayOfFrost;Target_SacredFlame" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

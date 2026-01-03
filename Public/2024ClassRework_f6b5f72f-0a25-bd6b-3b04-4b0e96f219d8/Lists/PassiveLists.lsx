@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Druid_PrimalOrder"/>
+                    <attribute id="Passives" type="LSString" value="Warden,Magician_Druidcraft,Magician_PoisonSpray,Magician_ProduceFlame,Magician_Resistance,Magician_Shillelagh,Magician_StarryWisp,Magician_ThornWhip"/>
+                    <attribute id="UUID" type="guid" value="845071eb-0cab-4a99-a7af-51882ef803c9"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Druid_ElementalFury"/>
+                    <attribute id="Passives" type="LSString" value="PotentSpellcasting_Druid,ElementalStrike"/>
+                    <attribute id="UUID" type="guid" value="5fbf0d3f-9a95-4818-8a46-f9f9b549f7f3"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Druid Land Spells"/>
+                    <attribute id="Passives" type="LSString" value="Land_Arid,Land_Polar,Land_Temperate,Land_Tropical"/>
+                    <attribute id="UUID" type="guid" value="e64bc365-6037-4f82-b710-8d958d9334e6"/>
+                </node>
+				<node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="ClericDivineOrders"/>
+                    <attribute id="Passives" type="LSString" value="Protector,Thaumaturge_ProduceFlame,Thaumaturge_TollTheDead,Thaumaturge_Thaumaturgy,Thaumaturge_WordOfRadiance"/>
+                    <attribute id="UUID" type="guid" value="38776f0c-e88e-44e6-8e03-5efafc080d9d"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Cleric_BlessedStrikes"/>
+                    <attribute id="Passives" type="LSString" value="PotentSpellcasting,DivineStrike"/>
+                    <attribute id="UUID" type="guid" value="eed4c8f4-6c0e-48c0-bd4a-eb5d8c58e549"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

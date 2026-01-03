@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="a8098c1a-f86e-11da-bd1a-00112444be1e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fef42d42-c636-42d8-baaa-e253b9bc13b5" />
+        <field name="Name" type="NameTableFieldDefinition" value="_Base_override" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ac3c5a2f-6e8d-40b9-894b-6e60a18d1d3c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5c26028b-8efc-4c9b-ab18-6433bbb1b5e5" />
+        <field name="Name" type="NameTableFieldDefinition" value="Conjure_Wolf" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a9781b07-b2cc-4154-b09c-cd6e2ea5bf55" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PackTactics;ShortResting;CompanionsBond_Creature;AttackOfOpportunity;DarknessRules" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="972ff9bb-ec01-4c22-9b0d-bb059870894c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Conjure_Wolf_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f862e70a-8a86-4a30-9b07-caa46007366e" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;DarknessRules;PackTactics;ShortResting;CompanionsBond_Creature;ExceptionalTraining" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="69b7f884-4193-49fd-a0c7-f74e074e9bb2" />
+        <field name="Name" type="NameTableFieldDefinition" value="Conjure_Wolf_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9b6e05e7-e5f7-489e-97ec-a170a5d02ce7" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;DarknessRules;PackTactics;ShortResting;CompanionsBond_Creature;ExceptionalTraining" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5925ce5f-6579-4195-9e3e-31ed4178e484" />
+        <field name="Name" type="NameTableFieldDefinition" value="Conjure_Wolf_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b6f0bf7e-18c2-4efe-ac44-e4308e05f8c7" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;DarknessRules;PackTactics;ShortResting;CompanionsBond_Creature;ExceptionalTraining;BestialFury;ExtraAttack" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eb0db800-4a29-4323-8220-2497c6656a5c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Conjure_Bear" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dda5d55c-8655-4132-a888-89ffd60eb88a" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ShortResting;CompanionsBond_Creature;AttackOfOpportunity;DarknessRules" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1a30314b-5df7-48af-8c72-6339a27b88eb" />
+        <field name="Name" type="NameTableFieldDefinition" value="Conjure_Bear_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9116c107-020e-46e5-9339-12724903211b" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;DarknessRules;ShortResting;CompanionsBond_Creature;ExceptionalTraining" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="10000b8b-b3fc-4d7f-a243-c89906f9a010" />
+        <field name="Name" type="NameTableFieldDefinition" value="Conjure_Bear_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6c8145b6-098b-4550-8b27-4bc4a748746e" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="17" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;DarknessRules;ShortResting;CompanionsBond_Creature;ExceptionalTraining" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="082330d4-c94e-416c-8b9d-e60adac0b5f8" />
+        <field name="Name" type="NameTableFieldDefinition" value="Conjure_Bear_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f7e30bfe-1e0f-42ca-a8e8-48d80f52a957" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;DarknessRules;ShortResting;CompanionsBond_Creature;ExceptionalTraining;BestialFury;ExtraAttack" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0b9bb77a-a4bd-4b8d-9310-d7ecf53ef03d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Conjure_GiantSpider" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ee5d02d8-d4c3-4250-9f6e-bced6b9f8e1e" />
+        <field name="Passives" type="StringTableFieldDefinition" value="SpiderWalk;ShortResting;CompanionsBond_Creature;AttackOfOpportunity;Darkvision;DarknessRules" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ef2fddab-2ef9-43b4-bcc1-e86ed3d58043" />
+        <field name="Name" type="NameTableFieldDefinition" value="Conjure_GiantSpider_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="19630aab-4bf8-49f4-bef9-aecb00c8e860" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;SpiderWalk;DarknessRules;Darkvision;ShortResting;CompanionsBond_Creature;ExceptionalTraining" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="53398cae-cce0-4218-846a-64a2761880b7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Conjure_GiantSpider_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f5406894-ca0a-419c-8d52-9a416987d0dd" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="50" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;SpiderWalk;DarknessRules;Darkvision;ShortResting;CompanionsBond_Creature;ExceptionalTraining" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d2f2880c-c7d4-4354-bce5-10eecbdccb7b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Conjure_GiantSpider_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e591ba89-b241-4ff2-8a52-13dbd3d083bb" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="71" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;SpiderWalk;DarknessRules;Darkvision;CompanionsBond_Creature;EightLeggedWaltz_Spider;BestialFury;ExtraAttack" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="75d13f75-723c-4fe3-8cd6-be20a42456fc" />
+        <field name="Name" type="NameTableFieldDefinition" value="Conjure_Raven" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bbe1ed2b-da1e-4935-aece-c95920c3bfec" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ShortResting;CompanionsBond_Creature;AttackOfOpportunity;DarknessRules" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fdd3b0d5-49fb-4691-9a75-7283935ef152" />
+        <field name="Name" type="NameTableFieldDefinition" value="Conjure_Raven_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bbc81177-f1e2-41ba-b7b0-0945eac55f89" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;DarknessRules;ShortResting;CompanionsBond_Creature;ExceptionalTraining" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c2cd4002-4346-4b66-a9f5-5f45da051ca1" />
+        <field name="Name" type="NameTableFieldDefinition" value="Conjure_Raven_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21d25e0b-08ab-4336-b284-4d7c5e2f5a5d" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;DarknessRules;ShortResting;CompanionsBond_Creature;ExceptionalTraining" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9ad2c119-12a0-410b-9f05-b50d072193ea" />
+        <field name="Name" type="NameTableFieldDefinition" value="Conjure_Raven_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="23e301da-4baa-4b44-bc91-294922022f56" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="18" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;DarknessRules;ShortResting;CompanionsBond_Creature;ExceptionalTraining;BestialFury;ExtraAttack;ThirdEye" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1da52fc2-7f56-42f7-8cab-2aee38e79a06" />
+        <field name="Name" type="NameTableFieldDefinition" value="Conjure_Boar" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9b66048d-f09e-46fe-94ef-86fc8958f8d1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ShortResting;CompanionsBond_Creature;AttackOfOpportunity;DarknessRules" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="33c72b2d-92df-4fa5-9ff2-c7ec37e0a8c4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Conjure_Boar_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4279eb2a-0bbd-4f14-b87f-a1a3425d5fac" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;DarknessRules;ShortResting;CompanionsBond_Creature;ExceptionalTraining" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5955ed49-7e97-45b5-9fea-e534cbbab3b7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Conjure_Boar_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="28e1ee11-d3ea-45e1-8166-e16ef3817a5e" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="17" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;DarknessRules;ShortResting;CompanionsBond_Creature;ExceptionalTraining" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d019c15f-5cb3-48ac-85fe-391da27deb7e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Conjure_Boar_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8490d2b1-841d-4db4-9eaf-28612f0091e7" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="18" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;DarknessRules;ShortResting;CompanionsBond_Creature;ExceptionalTraining;BestialFury;ExtraAttack" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

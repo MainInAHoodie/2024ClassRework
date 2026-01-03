@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="239de60a-29b5-4010-bf7d-f6169d4ddd8a">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a71da5a5-01cb-4d6e-b87d-cca5cb547cf0" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Shield_Wood" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="eb8afd3e-7835-4453-bba3-c7fc739664b0" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

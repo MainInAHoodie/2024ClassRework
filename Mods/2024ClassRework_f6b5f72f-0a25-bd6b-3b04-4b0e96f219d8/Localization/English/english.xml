@@ -1,0 +1,420 @@
+<?xml version="1.0"?>
+<contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <content contentuid="h2cccd895g4b49gc5aag7436g454c7ce7406f" version="1">Warden</content>
+  <content contentuid="h76fbf8d5g3f6agf566g8540g9a218b83e946" version="1">Trained for battle, you gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LStag&gt; with Medium Armor and Scimitars.  In addition, you can bind a Club, Quarterstaff, Greatclub, or Scimitar.  While bound, this weapon uses your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; Modifier for Attack and Damage rolls, and the Damage Die becomes a d6 unless it was already higher.</content>
+  <content contentuid="h01a9ddf0g65b3g39b1gc91fg8cbcf531f266" version="1">At 5th Level, you can make two attacks instead of one when attacking with this weapon, and the weapon's damage becomes magical if it wasn't already.</content>
+  <content contentuid="h6b41695dg93dbg8b61g3245g8d665b175641" version="1">Warden But Better</content>
+  <content contentuid="h6b81cc5fgb781g8b3eg85bagbe3695684943" version="1">Warden: Bind Weapon</content>
+  <content contentuid="h07f25e82g280dg6db8g682bgf5d1e9dc194e" version="1">Bind a Club, Quarterstaff, Greatclub, or Scimitar.  When bound, the Weapon uses your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; for Attack and Damage rolls, and the Damage Die becomes a D6 unless it was already higher.</content>
+  <content contentuid="hf1be697bgb9aeg3ad7gb038g33e1716142eb" version="1">Warden: Remove Weapon Bind</content>
+  <content contentuid="h1ffdc52bg8883g97e7g20f7gef13bb81bea0" version="1">Remove a binding from your weapon.</content>
+  <content contentuid="h01c5c495gc037gb6c8gbe69gd3e79819deec" version="2">Magician: Resistance</content>
+  <content contentuid="hfb6c508bgf713ge06ege648ge5b4807c103b" version="2">You gain the &lt;LSTag Type="Spell" Tooltip="Target_Resistance"&gt;Resistance&lt;/LSTag&gt; cantrip.  In addition, you can add your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; modifier to Arcana and Nature checks.</content>
+  <content contentuid="h015d81a5g25ebg9ff4gd0f6g016b2ac1c809" version="1">Magician: Starry Wisp</content>
+  <content contentuid="h2e804833g3320gf929g82edg376ec41a3caa" version="1">You gain the &lt;LSTag Type="Spell" Tooltip="Target_StarryWisp"&gt;Starry Wisp&lt;/LSTag&gt; cantrip.  In addition, you can add your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; modifier to Arcana and Nature checks.</content>
+  <content contentuid="h335a5004gd565ga78cgdd6cga0f02322b09b" version="1">Starry Wisp</content>
+  <content contentuid="h9e57c995g97c5g0237g352cg275e9a1f7f94" version="3">Launch a mote of light at a target.  On a hit, the target emits Dim Light in a [1] radius and can't benefit from being &lt;LSTag Type="Status" Tooltip="INVISIBILITY"&gt;Invisible&lt;/LSTag&gt;</content>
+  <content contentuid="h331fc9b8g7392gd567g11c4g8c4e5c05a4c2" version="1">Starry Wisp</content>
+  <content contentuid="h5844b482g6c3bgb986g203ege0599d9fd1c4" version="2">Until the end of the caster's next turn, this creature emits Dim Light in a [1] radius</content>
+  <content contentuid="h70f8acd4g9c96gbb9dg0ddfgd13dfaed7c01" version="1">Magician: Shillelagh</content>
+  <content contentuid="h3923e021g000cg5756g8901g1aeff724f133" version="1">You gain the &lt;LSTag Type="Spell" Tooltip="Shout_Shillelagh"&gt;Shillelagh&lt;/LSTag&gt; cantrip.  In addition, you can add your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; modifier to Arcana and Nature checks.</content>
+  <content contentuid="h4ce4c860gc3ebg5e77g63ffg66fcc8e22789" version="1">Magician: Poison Spray</content>
+  <content contentuid="h322cc1fdgaf6ag019egcac3g3c961ae4b6b2" version="1">You gain the &lt;LSTag Type="Spell" Tooltip="Projectile_PoisonSpray"&gt;Poison Spray&lt;/LSTag&gt; cantrip.  In addition, you can add your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; modifier to Arcana and Nature checks.</content>
+  <content contentuid="h24915c3bg92abg94d4gcfaega87b09ba8f97" version="1">Primal Order</content>
+  <content contentuid="h4f0a9298g42bbg7bafge2a0g252beace901b" version="1">You have dedicated yourself to one of the following sacred roles of your choice.</content>
+  <content contentuid="hf1d4fb8ag0846g722eg7034g0b2b5ed57d51" version="1">Warden Weapon</content>
+  <content contentuid="h52ec511bgf490g650cgfa46g36553d0aceff" version="1">Magician: Produce Flame</content>
+  <content contentuid="h9a52b8a4ge3bag83cfgdeb5g0d7f0a01fca0" version="1">You gain the &lt;LSTag Type="Spell" Tooltip="Shout_ProduceFlame"&gt;Produce Flame&lt;/LSTag&gt; cantrip.  In addition, you can add your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; modifier to Arcana and Nature checks.</content>
+  <content contentuid="h09587c1cg6188g659bg20fbga253c340ff91" version="1">Magician: Thorn Whip</content>
+  <content contentuid="hb3f8d865g085bg44c8gc18fg9220a49205d7" version="1">You gain the &lt;LSTag Type="Spell" Tooltip="Target_ThornWhip"&gt;Thorn Whip&lt;/LSTag&gt; cantrip.  In addition, you can add your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; modifier to Arcana and Nature checks.</content>
+  <content contentuid="hd64ab6cegdc8ageee4g0e0eg9d14ad161ddf" version="1">Warden</content>
+  <content contentuid="h648e4977g7984g7751gd182g4447d24bd8e4" version="1">Trained for battle, you gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LStag&gt; with Medium Armor and Scimitars.</content>
+  <content contentuid="h43a06949g4fa4g0618gc7cdga02b99455822" version="1">This weapon is Bound to a Druid.  It uses &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; in place of its usual Ability.</content>
+  <content contentuid="h233a0607g2017gffa5g7b8eg1ef159b4a606" version="1">Shillelagh</content>
+  <content contentuid="hede5a0f6g947dge479gf860g749280a763ce" version="1">Your staff or club becomes magical: it deals [1], and uses your &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability&lt;/LSTag&gt; for &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
+  <content contentuid="h9ddcaf63g1f12g2cfag91a4g1957c96b52eb" version="1">Druidic</content>
+  <content contentuid="h39b49894g69f3g224eg6028g292e50a3f124" version="1">You know Druidic, the secret language of Druids. While learning this ancient tongue, you also unlocked the magic of communicating with animals; you always have the &lt;LSTag Type="Spell" Tooltip="SpeakWithAnimals"&gt;Speak with Animals&lt;/LSTag&gt; spell prepared.</content>
+  <content contentuid="hcf90ab81g4dfeg391dge6e7gbb1e8889b35f" version="3">The might of the elements flows through you. You can add your Wisdom &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; to the damage you deal with cantrips.</content>
+  <content contentuid="h50ffa190g9b68g055fg01f2gd50a11ba6305" version="1">Elemental Strike</content>
+  <content contentuid="hd1887b00gc72bg1937g590age68910d81ba6" version="1">The might of the elements flows through you. Once on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form’s attack in &lt;LSTag Tooltip="WildShape"&gt;Wild Shape&lt;/LSTag&gt;, you can cause the target to take an extra Cold, Fire, Lightning, or Thunder damage</content>
+  <content contentuid="h2298a2f3g3a90g694cg2c08g2677cb369f6a" version="2">Elemental Strike: Thunder (Ranged)</content>
+  <content contentuid="hc6d1fa18g993dg613bgc106g1ba9dd1687a3" version="1">Deal an additional [1].</content>
+  <content contentuid="hb7022181gbe88gb782gbcf1g8eca2f8415cd" version="2">Elemental Strike: Thunder (Melee)</content>
+  <content contentuid="h20eb2e47g5fbeg8d89g9bc5gcea9a723e32f" version="1">Once per turn deal [1] in addition to your weapon's [2] when you make a melee attack.</content>
+  <content contentuid="h466f7c1fg814ag53b8g98a6g49aa275c8cfa" version="2">Elemental Strike: Elemental Fury</content>
+  <content contentuid="hdc1d524agc078g892ag8e2egdb7a9180937a" version="2">Once per turn deal [1], [3], [4], or [5] in addition to your weapon's [2] when you make a melee attack.</content>
+  <content contentuid="hdf558a5cg41d9g08afg6633gedc7a7cce31b" version="1">Elemental Fury</content>
+  <content contentuid="h06c06c01g9476gd42eg7a08geef41e8d349c" version="1">The might of the elements flows through you. You gain one of the following options of your choice.</content>
+  <content contentuid="h9ad222abg343ege9b8ge33dga8ca49995f3a" version="1">Barkskin</content>
+  <content contentuid="h4da05c20gf105g17c0gdd1dga18302f73069" version="1">&lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; increased to 17.</content>
+  <content contentuid="hff7df859g8221ge0e7g5b26gd66f16c3fc54" version="1">Lunar Magic</content>
+  <content contentuid="ha074dd61gd566ga1feg77c6gb135499e9db2" version="1">While &lt;LSTag Tooltip="Wildshape"&gt;Wild shaped&lt;/LSTag&gt;, your &lt;LSTag Tooltip="ArmorClass"&gt;Armor Class&lt;/LSTag&gt; equals 13 plus your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; modifier if that total is higher than the AC of whatever you're Wild Shaped into.</content>
+  <content contentuid="h21d3a6dbg0876g818bg3164gba53ed07707a" version="1">%%% EMPTY</content>
+  <content contentuid="h6fba5ea6g5765g9e4fg5ddcg71d1285b3071" version="2">Wild Resurgence: Spell Slot to Wild Shape</content>
+  <content contentuid="h32433295g2862g4e60g8685g0177ba75fb1a" version="1">You can convert one &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; to a number of uses of &lt;LSTag Tooltip="WildShape"&gt;Wild Shape&lt;/LSTag&gt; equal to half the Spell Slot's level rounded up.</content>
+  <content contentuid="hfc588968g3577geabbg3c7fg1f08db05b453" version="1">Wild Resurgence: 1st Level Spell Slot</content>
+  <content contentuid="he4e38f4bg2955g10bega534g28c8e9d0a4c7" version="1">Convert a 1st Level Spell Slot to [1] use of Wild Shape.</content>
+  <content contentuid="hd005409fg3ccfge764g512eg65d8a3b79078" version="1">Convert Spell Slots to Wild Shape uses</content>
+  <content contentuid="hee50a6cagbbc5g18cbg56b5g0dbd8977ae3f" version="1">Wild Resurgence: 2nd Level Spell Slot</content>
+  <content contentuid="h343b04ecgc6b5gd41fg0fc8gfd4dc4fe9618" version="1">Convert a 2nd Level Spell Slot to [1] use of Wild Shape.</content>
+  <content contentuid="hd8607b4fgcfc4g0c96gc7a4gece5871f03d4" version="1">Wild Resurgence: 3rd Level Spell Slot</content>
+  <content contentuid="hc6a1ae49g1c1bgf353g2595g334836e7b5b8" version="1">Convert a 1st Level Spell Slot to [1] uses of Wild Shape.</content>
+  <content contentuid="h79a45a27g4657g0db7g11bagc1851915eae9" version="1">Wild Resurgence: 4th Level Spell Slot</content>
+  <content contentuid="hecc82015g0c7fg4d4egf287g586d83a69a11" version="1">Convert a 4th Level Spell Slot to [1] uses of Wild Shape.</content>
+  <content contentuid="h563df520g2e8eg90ecgcbe6ge4bf97c1b359" version="1">Wild Resurgence: 5th Level Spell Slot</content>
+  <content contentuid="hc8a14665gc92cgc946g612dg7b0e7cfe04ca" version="1">Convert a 5th Level Spell Slot to [1] use of Wild Shape.</content>
+  <content contentuid="h9c6175b0ga8c9g9203gabd4g926ecbd88e02" version="1">Wild Resurgence: 6th Level Spell Slot</content>
+  <content contentuid="h6cce1a81gcc35gdf2bgb150gd410b06f6ed5" version="1">Convert a 6th Level Spell Slot to [1] use of Wild Shape.</content>
+  <content contentuid="h8a6b87ddgb63eg7b59g5748g3dc30ffd0363" version="1">Wild Resurgence: Wild Shape to Spell Slot</content>
+  <content contentuid="h5fce2fb0g134dg073bg9e2eg8363d173366d" version="1">Convert one use of &lt;LSTag Tooltip="WildShape"&gt;Wild Shape&lt;/LSTag&gt; to a 1st Level &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;</content>
+  <content contentuid="h01410db1g28d9gf504gf606g994144cf36ca" version="1">Convert Wild Shape to a Spell Slot</content>
+  <content contentuid="hc1cebadag7a4ag0129g01fcgc750817fddd4" version="1">Wild Resurgence</content>
+  <content contentuid="h44d71b4bg20bcgca6dg3c98gaae7cf463d8d" version="3">Once on each of your turns, you can spend a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; to regain a number of uses of &lt;LSTag Tooltip="WildShape"&gt;Wild Shape&lt;/LSTag&gt; equal to half the Spell Slot's level, rounded up.&lt;br&gt;&lt;br&gt;In addition, once per Long Rest, you can spend one use of Wild Shape to regain one &lt;LSTag Tooltip="SpellSlot"&gt;1st Level Spell Slot&lt;/LSTag&gt;</content>
+  <content contentuid="he0ee862cg0437g48c6gc423g4e71fb87ffd2" version="1">Potent Spellcasting</content>
+  <content contentuid="hb4e156d1gbb2fgcedageb1bg98dc7f083f4f" version="1">Arctic</content>
+  <content contentuid="h42c3898dgb779gab9fg2b14g2f645508d539" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_HoldPerson"&gt;Hold Person&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_SpikeGrowth"&gt;Spike Growth&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Projectile_RayOfFrost"&gt;Ray of Frost&lt;/LSTag&gt;.</content>
+  <content contentuid="h94d04fd5g11f6g2c56gb892g3c58745e519b" version="1">Coast</content>
+  <content contentuid="hde50f94cg959bg8f63ge303g3f5eabf9718f" version="3">Gain &lt;LSTag Type="Spell" Tooltip="Shout_MirrorImage"&gt;Mirror Image&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_MistyStep"&gt;Misty Step&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_ChillTouch"&gt;Bone Chill&lt;/LSTag&gt;.</content>
+  <content contentuid="h73651bbegf6dfgcd71g5750g772fd1de0faf" version="1">Desert</content>
+  <content contentuid="h1761cd3eg6857g1b98gb7cbg39f89aa80e4a" version="1">Gain &lt;LSTag Type="Spell" Tooltip="Shout_Blur"&gt;Blur&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Silence"&gt;Silence&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Projectile_FireBolt"&gt;Fire Bolt&lt;/LSTag&gt;.</content>
+  <content contentuid="hb7670407g09d2g1d63ge621g8264afe212bb" version="1">Forest</content>
+  <content contentuid="h67f81df2g64a3g4edag5762g2c85e1796536" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_Barkskin"&gt;Barkskin&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_HoldPerson"&gt;Hold Person&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Projectile_PoisonSpray"&gt;Poison Spray&lt;/LSTag&gt;.</content>
+  <content contentuid="h689976a1g287cg25a9g7b55g1184eb6f8001" version="1">Grassland</content>
+  <content contentuid="h3749f7degd7e7g1407gdd56g228c54b1cf88" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_Invisibility"&gt;Invisibility&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_PassWithoutTrace"&gt;Pass Without Trace&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_ShockingGrasp"&gt;Shocking Grasp&lt;/LSTag&gt;.</content>
+  <content contentuid="hd478c6b7ga1degf8e0g3343g414d352fc9b9" version="1">Mountain</content>
+  <content contentuid="h9e8894f1g7a9bgaccagd3b8g8988eb5e0d4a" version="1">Gain &lt;LSTag Type="Spell" Tooltip="Shout_MirrorImage"&gt;Mirror Image&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_SpikeGrowth"&gt;Spike Growth&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_ThornWhip"&gt;Thorn Whip&lt;/LSTag&gt;.</content>
+  <content contentuid="hf458dcffg85e1g61f1gcf7eg9560448f7459" version="1">Swamp</content>
+  <content contentuid="h3e481a22gf727g1835g8f61gf4548b0cb38c" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Projectile_AcidArrow"&gt;Melf's Acid Arrow&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Darkness"&gt;Darkness&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Projectile_AcidSplash"&gt;Acid Splash&lt;/LSTag&gt;</content>
+  <content contentuid="hb97f1b72gf2f9gbf48g65e3g04d62bfb1625" version="1">Underdark</content>
+  <content contentuid="ha3746442g8efcg91cag888bgb69c539b21c1" version="1">Gain &lt;LSTag Type="Spell" Tooltip="Target_Web"&gt;Web&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_MistyStep"&gt;Misty Step&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_TollTheDead"&gt;Toll the Dead&lt;/LSTag&gt;.</content>
+  <content contentuid="h781c5166g2d8bg44f6g3a47g61289241820a" version="1">Wild Companion</content>
+  <content contentuid="h5ea080e5gaffcg531eg9dffg6283f65e19f4" version="1">You can summon a nature spirit that assumes an animal form to aid you.  You always have &lt;LSTag Type="Spell" Tooltip="Target_FindFamiliar"&gt;Find Familiar&lt;/LSTag&gt; prepared.</content>
+  <content contentuid="h92f616b5g4e73g7f5bgacf0ga09c8f79bf26" version="1">Arid Land</content>
+  <content contentuid="h23adfe18g2f40g4b29g9666g023aee27cb1d" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Shout_Blur"&gt;Blur&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Zone_BurningHands"&gt;Burning Hands&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Projectile_FireBolt"&gt;Fire Bolt&lt;/LSTag&gt;.</content>
+  <content contentuid="h494069c2ga2f6g2cdeg8a01ge9f1b4fdbeff" version="3">At 5th Level, gain &lt;LSTag Type="Spell" Tooltip="Projectile_Fireball"&gt;Fireball&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;At 7th Level, gain &lt;LSTag Type="Spell" Tooltip="Target_Blight"&gt;Blight&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;At 9th Level, gain &lt;LSTag Type="Spell" Tooltip="Wall_WallOfStone"&gt;Wall of Stone&lt;/LSTag&gt;</content>
+  <content contentuid="hb2b133bcgeefag3783gf343g545f9a1b9fbc" version="1">Polar Land</content>
+  <content contentuid="h75bf122cg7252g807dg81f9gb0bf5b37c898" version="1">Gain &lt;LSTag Type="Spell" Tooltip="Target_FogCloud"&gt;Fog Cloud&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_HoldPerson"&gt;Hold Person&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Projectile_RayOfFrost"&gt;Ray of Frost&lt;/LSTag&gt;.</content>
+  <content contentuid="h34e2e4f8g8b79g5c8ag00e1g4c00420e2b3e" version="3">At 5th Level, gain &lt;LSTag Type="Spell" Tooltip="Target_SleetStorm"&gt;Sleet Storm&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;At 7th Level, gain &lt;LSTag Type="Spell" Tooltip="Target_IceStorm"&gt;Ice Storm&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;At 9th Level, gain &lt;LSTag Type="Spell" Tooltip="Zone_ConeOfCold"&gt;Cone of Cold&lt;/LSTag&gt;</content>
+  <content contentuid="h2649e373g1cb0gb93dg9cf6ga81a86ff0535" version="1">Temperate Land</content>
+  <content contentuid="h72ab4badg1448g8771g7600gcf7234c4e1ab" version="2">Gain &lt;LSTag Type="Spell" Tooltip="Target_MistyStep"&gt;Misty Step&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Sleep"&gt;Sleep&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_ShockingGrasp"&gt;Shocking Grasp&lt;/LSTag&gt;.</content>
+  <content contentuid="h42911cdbg6a2eg5b4cg9a09gf8bfd07d68a9" version="2">At 5th Level, gain &lt;LSTag Type="Spell" Tooltip="Zone_LightningBolt"&gt;Lightning Bolt&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;At 7th Level, gain &lt;LSTag Type="Spell" Tooltip="Target_FreedomOfMovement"&gt;Freedom of Movement&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;At 9th Level, gain &lt;LSTag Type="Spell" Tooltip="Target_ConjureElemental_Container"&gt;Conjure Elemental&lt;/LSTag&gt;</content>
+  <content contentuid="h8db238cfg7d21g7e9bg6ef4g35b9bdb4a8f5" version="1">Tropical Land</content>
+  <content contentuid="h6f270fc6gce74g2346gc618gb140e68ae2be" version="1">Gain &lt;LSTag Type="Spell" Tooltip="Target_Web"&gt;Web&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Projectile_RayOfSickness"&gt;Ray of Sickness&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Projectile_AcidSplash"&gt;Acid Splash&lt;/LSTag&gt;.</content>
+  <content contentuid="h8212e101g32begce6eg4e3dge9b6bae86014" version="1">At 5th Level, gain &lt;LSTag Type="Spell" Tooltip="Target_StinkingCloud"&gt;Stinking Cloud&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;At 7th Level, gain &lt;LSTag Type="Spell" Tooltip="Target_Polymorph"&gt;Polymorph&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;At 9th Level, gain &lt;LSTag Type="Spell" Tooltip="Target_InsectPlague"&gt;Insect Plague&lt;/LSTag&gt;</content>
+  <content contentuid="h03a181d4gffdbga0d5gd5c3g4d01fe2c8d41" version="1">Elemental Strike: Cold (Melee)</content>
+  <content contentuid="h7bf451e4gd108gfe1fgb96aga0d7f07a1934" version="1">Elemental Strike</content>
+  <content contentuid="h416cf0edg2790g2624ge9d0g2a57d29c4049" version="1">Once per turn deal [1], [3], [4], or [5] in addition to your weapon's [2] when you make a melee attack.</content>
+  <content contentuid="h3dc8c749g89e7g6779g75b4gf082043d9a0f" version="1">Elemental Strike: Fire (Melee)</content>
+  <content contentuid="haa146936gb1a8g1e93ge799g1650f8b28589" version="1">Elemental Strike: Lightning (Melee)</content>
+  <content contentuid="h4e467e4fgbd51gf2ddg52e8g51b7fc983e15" version="2">Elemental Strike: Cold (Ranged)</content>
+  <content contentuid="hdd9aef92gc3e0g1230g3293g6f4386d510b7" version="1">Once per turn deal [1] in addition to your weapon's [2] when you make a melee attack.</content>
+  <content contentuid="h5a0b8126g8902g7cc8g82e6g12d0e7361f84" version="1">Once per turn deal [1] in addition to your weapon's [2] when you make a melee attack.</content>
+  <content contentuid="h0474487cgbe1fg3b3agef32gf9add0025309" version="1">Lunar Radiance</content>
+  <content contentuid="h9a065238g295cgacf0g00adg778efc76c6ff" version="1">While active, attacks in &lt;LSTag Tooltip="WildShape"&gt;Wild Shape&lt;/LSTag&gt; do [1] in place of their usual damage type.</content>
+  <content contentuid="h8f118826g2129g1f47ge144g28152c426cbf" version="1">Lunar Radiance</content>
+  <content contentuid="h97859ac2g77b7g0061g0066g3077f5dfc513" version="1">While &lt;LSTag Tooltip="WildShape"&gt;Wild Shaped&lt;/LSTag&gt;, you can deal [1] in place of the attack's usual damage type.</content>
+  <content contentuid="hcffaf08fgf401ge3eag4c1age7e01fc518cb" version="1">Do Radiant damage while Wild Shaped</content>
+  <content contentuid="h5b0c8a10g7386g1d8ag024fg58a504d35012" version="2">Lunar Radiance</content>
+  <content contentuid="he2c07f9fgff9eg0eb8g155fgd440175cf459" version="1">While &lt;LSTag Tooltip="WildShape"&gt;Wild Shaped&lt;/LSTag&gt;, you can deal [1] in place of the attack's usual damage type.</content>
+  <content contentuid="h5d27b7d5ga9ecgdd27gb30egfcc5cae22bcc" version="1">Improved Toughness</content>
+  <content contentuid="h204e22fegeeceg0c48g38f9g4c5e3a628c73" version="1">Add your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; Modifier to your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; Saving Throws</content>
+  <content contentuid="h06a0df5cgef24gafa6gc3dcg273d3537e407" version="1">Moonlight Step</content>
+  <content contentuid="h8ee81c18gc280g1fa2g24ecgef814a1e78bb" version="1">Affected entity has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on its next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+  <content contentuid="hcd8151c2gf437g35ebgfc1eg8ac71837a362" version="1">Moonlight Step</content>
+  <content contentuid="h4ef6f75egf6abg9da4g8a5fg84f94b12b822" version="1">You magically transport yourself, reappearing amid a burst of moonlight.&lt;br&gt;&lt;br&gt; As a Bonus Action, you teleport up to 30 feet to an unoccupied space you can see, and you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LStag&gt; on the next attack roll you make before the end of this turn.</content>
+  <content contentuid="hae9f66d8gfd1fg663fg8370g0f749618e89e" version="1">Moonlight Step Charge</content>
+  <content contentuid="h717490b8g4849gb0f9gaa3eg0c6680290f91" version="1">How many times you can use Moonlight Step</content>
+  <content contentuid="h3d75857bg0851gfa1agee33g83ed0260e5b1" version="1">Moonlight Step</content>
+  <content contentuid="hd6285625gd0efg19ddgccf4g26852fc99db4" version="1">You teleport yourself to a space you can see in a burst of moonlight.</content>
+  <content contentuid="h98210cadg8e7cg8d44g650fge5f3c70e1b85" version="1">You also have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on your next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;</content>
+  <content contentuid="hd5c60e55g68fbg4330gdce5gd9726e486cb6" version="1">Moonlight Step Restoration</content>
+  <content contentuid="h180cdd7eg3c30ge04cgba78g594cab223457" version="1">Turn &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt; into uses of &lt;LSTag Type="Spell" Tooltip="MoonlightStep"&gt;Moonlight Step&lt;/LSTag&gt;.</content>
+  <content contentuid="hbe95d9e6g3771g4a38g2bd9gb31149999330" version="2">Moonlight Step Restoration</content>
+  <content contentuid="h262ab9d3gf7b2g0c06g76b0g34c34372061b" version="3">Turn a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; a number of uses of &lt;LSTag Type="Spell" Tooltip="Target_MoonlightStep"&gt;Moonlight Step&lt;/LSTag&gt; equal to half the Spell Slot's level, rounded up.</content>
+  <content contentuid="h3dde6f11g048cg49b2gab72gdd4c8c5c8b30" version="1">Moonlight Step Restoration: 3rd Level</content>
+  <content contentuid="hf060c707gf1d4g0d8dg94bbg21bcfe542bee" version="1">Moonlight Step Restoration: 4th Level</content>
+  <content contentuid="h207f7d19g3ec0g4f9dgc29fg90384e745c52" version="3">Turn a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; a number of uses of &lt;LSTag Type="Spell" Tooltip="Target_MoonlightStep"&gt;Moonlight Step&lt;/LSTag&gt; equal to half the Spell Slot's level, rounded up.</content>
+  <content contentuid="he925c5cbgec30g37eag3ab7g4e9d0d528d55" version="1">Moonlight Step Restoration: 5th Level</content>
+  <content contentuid="h03dc67f5gfc0ag34e5g79fcge76bfa296659" version="1">Moonlight Step Restoration: 6th Level</content>
+  <content contentuid="hab82b1f5g74b4g3ce4g658cg67a489a0f3b3" version="1">Circle of the Moon Spells</content>
+  <content contentuid="h5407b262g6038g1afcg3612gcb08da783657" version="1">As a Circle of the Moon Druid, you unlock the </content>
+  <content contentuid="hb007c8bega65bg6daagff88g07698345805c" version="1">Fount of Moonlight</content>
+  <content contentuid="h6239fe35gc3f3gbaa4g2a1fg045266868fd2" version="2">A cool light wreathes your body for the duration.  Until the spell ends, you have &lt;LSTag Tooltip="Resistance"&gt;Resistance&lt;/LSTag&gt; to Radiant damage, and your melee attacks deal an extra [1] damage.</content>
+  <content contentuid="h3e03deaeg5aa7ga439g2743g4e1942427056" version="2">Fount of Moonlight Aura</content>
+  <content contentuid="h424bc4e5g879cg35f6g7f47g5078c8b2bd4f" version="3">The Caster has &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage and deals an extra [1] with their melee attacks.</content>
+  <content contentuid="hc0af3edeg458ege862g92f9gb53dd5ae637e" version="1">Fount of Moonlight</content>
+  <content contentuid="h70871811g40f9g6584g33b1gf2bf9ecb65cf" version="1">Target must make a &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; Saving Throw or be &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
+  <content contentuid="h49fb4a32g6bcagbdedgafcfg8a5e3feac953" version="1">Fount of Moonlight: Blind</content>
+  <content contentuid="hb493bd08ge089gcb62ga8bbg1c9ebb5ffb11" version="2">Immediately after you take damage from a creature you can see within [1] of yourself, you can take a Reaction to force the creature to make a &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; saving throw. On a failed save, the creature has the &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt; condition until the end of your next turn.</content>
+  <content contentuid="hf9721e2cg808dga5b6g8847g944fdaabc2ac" version="2">Spend one use of &lt;LSTag Tooltip="Wildshape"&gt;Wild Shape&lt;/LSTag&gt; to gain the ability to comprehend and communicate with beasts.</content>
+  <content contentuid="h6d43c5f8gd9bagd18dgdedbg7ff49245f8f0" version="1">Find Familiar: Wild Shape</content>
+  <content contentuid="h91c4e190g8000g60dbg62d4gb421b7acc532" version="1">Use a charge of &lt;LSTag Tooltip="WildShape"&gt;Wild Shape&lt;/LSTag&gt; to summon a familiar, a fey spirit that takes an animal form of your choosing.</content>
+  <content contentuid="h1e08e55dg41fegc391g1725gd857cfb7b4cf" version="1">Druidcraft</content>
+  <content contentuid="h2db780ebg75d4gf595g29e4g16f687784ad5" version="4">Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Type="Skill" Tooltip="Nature"&gt;Nature&lt;/LSTag&gt; and &lt;LSTag Type="Skill" Tooltip="Survival"&gt;Survival&lt;/LSTag&gt; checks.</content>
+  <content contentuid="h3498053fg2d12g8578g4da5g2f8807c4c4d5" version="1">Druidcraft</content>
+  <content contentuid="h86b4f55dgc746g1d2cgbbb7g2403170c6bd2" version="2">Whispering to the spirits of nature, you gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Type="Skill" Tooltip="Nature"&gt;Nature&lt;/LSTag&gt; and &lt;LSTag Type="Skill" Tooltip="Survival"&gt;Survival&lt;/LSTag&gt; checks for [1] minute.</content>
+  <content contentuid="h104b1b63g97dfg7de8g99d6g7eb9da241597" version="1">Magician: Druidcraft</content>
+  <content contentuid="hbae8dcdcga1aag6484g4e7ag850205e440f9" version="1">You gain the &lt;LSTag Type="Spell" Tooltip="Shout_Druidcraft"&gt;Druidcraft&lt;/LSTag&gt; cantrip.  In addition, you can add your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; modifier to Arcana and Nature checks.</content>
+  <content contentuid="hec76f0adg1b7ag334eg855dg6d4122f79054" version="1">Conjure Animal</content>
+  <content contentuid="h2a32ab0dg25degd65dg8694g9da92f583395" version="1">You call to the nature spirits to send an animal to aid you.</content>
+  <content contentuid="h1b545e86g3a31gdcedgf7bcg3072d979e4bc" version="1">Conjure Bear</content>
+  <content contentuid="h79ce8ca0g7c8dgb04aga3a9g6d1b5fcb24ba" version="1">Conjure Boar</content>
+  <content contentuid="h9f1bae14gf754gcd5cgdce3g8dcdb1c4e358" version="1">Conjure Giant Spider</content>
+  <content contentuid="h84e62ce6g1c09ga8c9g6aa8g68547db169ab" version="1">Conjure Raven</content>
+  <content contentuid="h63d2afe6g1c4fg6c1ag431cg37f878e1a515" version="1">Conjure Wolf</content>
+  <content contentuid="h58036e18gc127gb248gaa95g7b2b5b8695ee" version="1">Wolf</content>
+  <content contentuid="hc77bcf6bg134ag9fa6ga62fg6b5430b1cf3e" version="1">Wolf</content>
+  <content contentuid="h7c5467f7g6fd8g4fe6gda15gab0495972c1a" version="1">Wolf</content>
+  <content contentuid="h136a65c5gba2cg7311g130ag67741b9c2d97" version="1">Bear</content>
+  <content contentuid="hca4ed398g755bg64b6g9a4ag0cb1c379b656" version="1">At higher spell levels, the summoned animals have higher Ability Scores, more HP, and more abilities.</content>
+  <content contentuid="h33d7e57fg9bbfgb6b8ge5c6gae85fa29e33b" version="2">Nature Spirit: Bear</content>
+  <content contentuid="hfaa2a1b9gcec6gf60cg81a9gcc49ce1e3858" version="2">Nature Spirit: Bear</content>
+  <content contentuid="h52af401eg6dfeg7f60gef1eg6f9075314701" version="2">Nature Spirit: Bear</content>
+  <content contentuid="h251b6b20g5d2dg08edg2095g17ca30875531" version="2">Nature Spirit: Bear</content>
+  <content contentuid="hf2621b53g1f6bgb816g69a4g64d9d6f275ba" version="2">Nature Spirit: Boar</content>
+  <content contentuid="h23cf38edg0d84g2121g077dg4f7b1d52f2dc" version="2">Nature Spirit: Boar</content>
+  <content contentuid="h0eb96132gd13cg7ce3g35dag85877fa6cd87" version="2">Nature Spirit: Boar</content>
+  <content contentuid="h425fec75gf853g10d6g59e4g13ebd6e87379" version="2">Nature Spirit: Boar</content>
+  <content contentuid="h5107b224ga174gd1c1g7e1bg879115359e64" version="2">Nature Spirit: Giant Spider</content>
+  <content contentuid="h341d6deeg2633gb376g1173gb5587f47dad7" version="2">Nature Spirit: Giant Spider</content>
+  <content contentuid="h8965e0e1g2175g912dgad18g28bf18ae32a9" version="2">Nature Spirit: Giant Spider</content>
+  <content contentuid="h49dd0f08gd992ge613gb093gf2bb91a81cdd" version="2">Nature Spirit: Giant Spider</content>
+  <content contentuid="h8437ae06g3468g5b14g24b1g16a4c50823c6" version="2">Nature Spirit: Dire Raven</content>
+  <content contentuid="ha2ac4a1cg6926g41c6g04a8gdaa608bd52c2" version="2">Nature Spirit: Dire Raven</content>
+  <content contentuid="h2d93fbd6g40b7gf5c2g92dfg13d93ec1d90c" version="2">Nature Spirit: Dire Raven</content>
+  <content contentuid="hfcef923cg2755g8e27ga633g5a41ad8e07f0" version="2">Nature Spirit: Dire Raven</content>
+  <content contentuid="h96b38996gfb6ag34e8g8ab0ga214aab5995d" version="2">Nature Spirit: Wolf</content>
+  <content contentuid="h52b7bbb1g4adbg9f46g1bc5gf4036c64bee0" version="2">Nature Spirit: Wolf</content>
+  <content contentuid="h1965aacdg3444g6212g76cfg9645b2f67473" version="2">Nature Spirit: Wolf</content>
+  <content contentuid="h4cd47abaga087gfdadgf3ecge07a1532e2cc" version="2">Nature Spirit: Wolf</content>
+  <content contentuid="hb4dfbd9bgaebega643g3ce0g33aee32c5e6a" version="1">Blight</content>
+  <content contentuid="h463c0bb4g966ag1fdfg8022g8220dfca5136" version="1">Plants take maximum damage from this spell, and have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on the &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; against it. </content>
+  <content contentuid="hd16c12b3g9351g29a0g70dfgb1f94e9920b5" version="1">Lunar Mend</content>
+  <content contentuid="h7afda8bbgcef1g2a24g20c5g781948fbff5e" version="1">As a bonus action in animal form, you can expend &lt;LSTag Tooltip="SpellSlot"&gt;spell slots&lt;/LSTag&gt; to heal yourself. You regain [1] per spell slot level.</content>
+  <content contentuid="h6d3c789ag1154gca08gdeedg547983051d93" version="1">Wild Shape</content>
+  <content contentuid="h55028013g00e0g8becgeef2g668c73f4582c" version="1">Magically assume the shape of a beast. </content>
+  <content contentuid="h186f8251g49ebgd7b9g81feg3fcefd0b6dda" version="1">While in animal shape, you can't talk or cast spells. You take on the attributes of your beast form - excluding your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt;, and &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; scores. &lt;br&gt;&lt;br&gt;When your beast form drops to 0 &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;, you revert to your normal form. </content>
+  <content contentuid="h92aed352ga35bg7df2g346eg34ff9c01f5ed" version="1">Elemental Strike: Fire (Ranged)</content>
+  <content contentuid="hdf8da627gd39agbfd3gf06cg8d5d86c2f062" version="1">Elemental Strike: Lightning (Ranged)</content>
+  <content contentuid="hebcc3646g16a3gbce0g0a16gea426d953b61" version="1">Wild Shape: Badger</content>
+  <content contentuid="h992d21c5ge9dcgff02gf212g14283d96fd13" version="1">Elemental Strike (Wildshape)</content>
+  <content contentuid="habc68fcfgc9d9gdebagfdd1gf48a69a98e11" version="1">Once per turn deal [1], [3], [4], or [5] in addition to your claws' [2] when you make a melee attack.</content>
+  <content contentuid="he66faba4gd5d4gd097g8359g308366d2fe1d" version="1">Elemental Strike: Fire (Wildshape)</content>
+  <content contentuid="h55ce6ea2g5361g6dc0g0fc5gfa474db6039d" version="1">Once per turn deal [1] in addition to your claws' [2] when you make a melee attack.</content>
+  <content contentuid="h0b6912f2gb9d3g6991g8945g2f5a8c78d9e4" version="1">Elemental Strike: Cold (Wildshape)</content>
+  <content contentuid="h62a63dcfg0534g71e3g2bc1gc898c18542c8" version="1">Once per turn deal [1] in addition to your claws' [2] when you make a melee attack.</content>
+  <content contentuid="h63e9262cg9ee6gc949g73e8g1d3b86874d2b" version="1">Elemental Strike: Lightning (Wildshape)</content>
+  <content contentuid="hdabd091dg908cg4e2fg3651gd181df3a09a9" version="1">Once per turn deal [1] in addition to your claws' [2] when you make a melee attack.</content>
+  <content contentuid="hd3e75d5fg8296gf9f9g0b27g667d78862474" version="1">Elemental Strike: Thunder (Wildshape)</content>
+  <content contentuid="h83b38054g21cbg7189gbe9eg638a37147b2d" version="1">Once per turn deal [1] in addition to your claws' [2] when you make a melee attack.</content>
+  <content contentuid="he4fe3c26g95f3gfe6bg749cgae8f2fd58cc8" version="1">Wooden Shield</content>
+  <content contentuid="h2d8374c0g71dcgf2e2gf1cbg036f8d660a7f" version="1">A solid wooden shield that bears the scars of battle.</content>
+  <content contentuid="hbaf6d798gfc73g17c7gd14dg0d16b1252767" version="1">Barkskin</content>
+  <content contentuid="hf79d375agdadcg9660g65cbgc3f2648c64e7" version="1">Protect a creature from attacks: increase its &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; up to 17.</content>
+  <content contentuid="h5e30a1f8g17aag4e11gb94bgb5d377b746c7" version="3">Elixir of Barkskin</content>
+  <content contentuid="h5f5c93b3g2b39g44a5g84a8g5e9177042db6" version="7">Drink to increase your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; to 17. Replaces effects from other elixirs when drunk.</content>
+  <content contentuid="hd7454696g548dg4746g9542g7d1ad08c06d3" version="3">Before your eyes, the elixir firms into a tough, striated twig, then it liquefies once more. </content>
+  <content contentuid="h2dd74008g618fgd4f5g153cg4e72a6b2696e" version="1">Wild Resurgence</content>
+  <content contentuid="h75ecb573gf3e5g74f8gb19bg102dc4ce07ae" version="1">Convert Spell Slots to Wild Shape uses</content>
+  <content contentuid="h88bd3cf4g798fge9e4g6d93g62ad5e7b83e3" version="1">Convert Spell Slots to Wild Shape uses</content>
+  <content contentuid="hf000bc80gef16g4538g3a87gbde4be268d31" version="1">Wild Resurgence</content>
+  <content contentuid="h04019f98g1c04ga45fg2fe9g5c0f6ee290a3" version="1">Convert a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; to a number of uses of &lt;LSTag Tooltip="WildShape"&gt;Wild Shape&lt;/LSTag&gt; equal to half the Spell Slot's level, rounded up.</content>
+  <content contentuid="h3a92cd1bgee4dgd72fgd60eg253f97711671" version="1">Convert Spell Slots to Wild Shape uses.</content>
+    <content contentuid="hbedc12fcg4a2aga506gb47ag6fcb8ae9cbb8" version="2">Protector Cleric Weapon</content>
+  <content contentuid="hc978cea2g5dd7gc3bbg7a4eg3fb423a9a002" version="2">As a Protector, your weapon deals [1]. &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; use the wielder's &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt;.</content>
+  <content contentuid="h4432a90cge1ddg47b8g8630g8fcd8c20168d" version="2">Thaumaturge (Produce Flame)</content>
+  <content contentuid="h258e33f8gb212gd3e3g6fe5gc86fc79a7375" version="1">Protector</content>
+  <content contentuid="ha77faaaag24ffg1e9cga7degeba9519f46fc" version="4">Trained for battle, you gain &lt;LSTag Tooltip="ArmourProficiency"&gt;Proficiency&lt;/LSTag&gt; with Heavy Armor and can bind a Mace, Spear, or Dagger to imbue it with divine energy.  When attacking with this weapon, you can use your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; for Attack and Damage rolls.</content>
+  <content contentuid="h1c13c628g817fg7175g0287ga240c11a0357" version="1">%%% EMPTY</content>
+  <content contentuid="h21c69b28g831cg7f77g9607g74160c20031c" version="1">Bind Weapon</content>
+  <content contentuid="h539d2597gcbe1gc1bfg0d73g3b3db6158a04" version="3">Imbue your Mace, Dagger, or Spear with divine energy.  You can use your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; in place of &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; when making Attack and Damage rolls with these weapons.</content>
+  <content contentuid="hb7edcc50g8963g4c3dg55a5g48ba0ef23195" version="6">Your mystical connection to the divine gives you a bonus to your &lt;LSTag Tooltip="Arcana"&gt;Arcana&lt;/LSTag&gt; and &lt;LSTag Type="Skill" Tooltip="Religion"&gt;Religion&lt;/LSTag&gt; checks equal to your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; modifier.  You also gain the &lt;LSTag Type="Spell" Tooltip="Shout_ProduceFlame"&gt;Produce Flame&lt;/LSTag&gt; cantrip for free.</content>
+  <content contentuid="h6e1b75d1g73bfgdad0g0957g760d54239d56" version="1">Divine Order</content>
+  <content contentuid="h722356a4g24e3g5c13g395bgec1627801e0e" version="1">You have dedicated yourself to one of the following sacred roles of your choice.</content>
+  <content contentuid="h30208e26g73cag488bg8997g25cf7f74728f" version="1">Improved Sear Undead</content>
+  <content contentuid="hc24c0605g9769g28e4g0b67g9579367d74f4" version="1">Your Sear Undead has improved.  When you successfully &lt;LSTag Type="Spell" Tooltip="Shout_TurnUndead"&gt;Turn&lt;/LSTag&gt; an undead creature, it also takes [1].</content>
+  <content contentuid="h9ee4accbgacceg0136g6290g8609e0a6821e" version="1">Sear Undead</content>
+  <content contentuid="h6e00a223g29d3g3a1ag3e2bgfcf6ca1a1b04" version="1">When you successfully &lt;LSTag Type="Spell" Tooltip="Shout_TurnUndead"&gt;Turn&lt;/LSTag&gt; an undead creature, it also takes [1].</content>
+  <content contentuid="h223dd458g49a5gb35cgeff2g854974b2f660" version="1">Divine Spark</content>
+  <content contentuid="ha0176d36gba76g8c41g6f4ag527309ab635e" version="1">As a Magic action, you point your Holy Symbol at another creature you can see within 30 feet of yourself and focus divine energy at it.   You can either heal it for [1] hit points, or damage it for that many points of Radiant or Necrotic damage (your choice).</content>
+  <content contentuid="h89dd6427gc6c4gf28ag0d4cg841e03871b9f" version="1">Divine Spark: Heal</content>
+  <content contentuid="h313aec79g25b5g4557gcbf3g887e94f1c098" version="2">Channel a spark of divinity to heal a creature you can see.</content>
+  <content contentuid="hfcd31ff9gcb72g3b35g3bbbged996a911dd2" version="1">Divine Spark: Damage (Radiant)</content>
+  <content contentuid="hedb61806g309eg8ae5g5e42g0528b1595314" version="2">Channel a spark of divinity to damage a creature you can see with Radiant damage.  The creature makes a Constitution Saving Throw, taking half damage on a successful save.</content>
+  <content contentuid="ha889e56ag4a11g6276gf46eg22ebcea15998" version="1">Divine Spark: Damage (Necrotic)</content>
+  <content contentuid="hc7e38c1fgeccegd80eg6b5dg0846589008a3" version="2">Channel a spark of divinity to damage a creature you can see with Necrotic damage.  The creature makes a Constitution Saving Throw, taking half damage on a successful save.</content>
+  <content contentuid="hc0dd641dgdf22ge175g6993g83854a00b145" version="2">Divine Spark</content>
+  <content contentuid="hdb44bc6cg3c26gc483gdfacg4e141c6bef4f" version="1">Divine Spark</content>
+  <content contentuid="h59541ff2gb8dfge0a3g4d0bgcc70a37aa556" version="1">Divine Spark: Heal</content>
+  <content contentuid="hc1e4c55eg12d4ga424gf0cag77d5fdfc459c" version="1">Channel a spark of divinity to heal a creature you can see by [1]</content>
+  <content contentuid="hb72746fbg6865g8838gc24fgf9f5f1d01f3b" version="1">Divine Spark: Damage (Radiant)</content>
+  <content contentuid="h9c7a13d2gcf77g2f99g1243gdb666ccfca30" version="1">Channel a spark of divinity to damage a creature you can see.  That creature makes a Constitution saving throw.  On a failed save, that creature takes [1] or half as much on a successful one.</content>
+  <content contentuid="h14c5f78dg32b2gbe70g069eg4d2d786a0c83" version="1">Divine Spark</content>
+  <content contentuid="h563a0851gfa27ge0f3g7028ge380bb1f3388" version="1">As a Magic action, you point your Holy Symbol at another creature you can see within 30 feet of yourself and focus divine energy at it.   You can either heal it for [1] hit points, or damage it for that many points of Radiant or Necrotic damage (your choice).</content>
+  <content contentuid="h5f9d87ffgc7e5g5d72gbf3dgcffb38bb7917" version="1">Divine Spark</content>
+  <content contentuid="h24471438ga00bgca2agedd5g546b913be220" version="1">As a Magic action, you point your Holy Symbol at another creature you can see within 30 feet of yourself and focus divine energy at it.   You can either heal it for [1] hit points, or damage it for that many points of Radiant or Necrotic damage (your choice).</content>
+  <content contentuid="h67b481a0gb2d7gc5d9g1a83g44e4be7ffb03" version="1">Divine Spark: Damage (Necrotic)</content>
+  <content contentuid="hda0f3787g7c27gd5b8g2696g545682a47f20" version="1">Channel a spark of divinity to damage a creature you can see.  That creature makes a Constitution saving throw.  On a failed save, that creature takes [1] or half as much on a successful one.</content>
+  <content contentuid="ha11d0c36g29b9g3b2ag7a79gfe95b998da84" version="1">Divine Spark</content>
+  <content contentuid="h38a2310bgf8c9ge8d9gc4c1g15927474ad72" version="1">Divine Spark: Heal</content>
+  <content contentuid="he4b942adge2f1g5c23g80ccg0faa27e40b14" version="1">Channel a spark of divinity to heal a creature you can see by [1]</content>
+  <content contentuid="h574825c9gbacdg462bg2082g880472208467" version="1">Divine Spark: Damage (Radiant)</content>
+  <content contentuid="h7b38a073g796bgc2efg18adg10520dcb2856" version="1">Channel a spark of divinity to damage a creature you can see.  That creature makes a Constitution saving throw.  On a failed save, that creature takes [1] or half as much on a successful one.</content>
+  <content contentuid="had02e93dgb769gcdb2gd395g9b845d92c900" version="1">Divine Spark: Damage (Necrotic)</content>
+  <content contentuid="hc33144d6g2364g950fg912bg09c63ca0504b" version="1">Channel a spark of divinity to damage a creature you can see.  That creature makes a Constitution saving throw.  On a failed save, that creature takes [1] or half as much on a successful one.</content>
+  <content contentuid="hd76969fage6ffg7063g4006ge09263f39b0f" version="2">Channel a spark of divinity to heal a creature you can see by [1] plus your Wisdom modifier or inflict an equal amount of Radiant or Necrotic damage.</content>
+  <content contentuid="h3371fad0g56b4g2a43g8b71g2d02182cf260" version="1">Channel a spark of divinity to damage a creature you can see.  That creature makes a Constitution saving throw.  On a failed save, that creature takes [1] or half as much on a successful one.</content>
+  <content contentuid="h198e5477gbae2ged73g908bg529129364928" version="1">Channel a spark of divinity to damage a creature you can see.  That creature makes a Constitution saving throw.  On a failed save, that creature takes [1] or half as much on a successful one.</content>
+  <content contentuid="h8841b157ge76fg7959gd96dg924acebce07f" version="1">Thaumaturge (Thaumaturgy)</content>
+  <content contentuid="hb1ca56cfg7808g471ag0175g17152fcb7807" version="1">Your mystical connection to the divine gives you a bonus to your &lt;LSTag Tooltip="Arcana"&gt;Arcana&lt;/LSTag&gt; and &lt;LSTag Type="Skill" Tooltip="Religion"&gt;Religion&lt;/LSTag&gt; checks equal to your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; modifier (minimum of +1).  You also gain the &lt;LSTag Type="Spell" Tooltip="Shout_Thaumaturgy"&gt;Thaumaturgy&lt;/LSTag&gt; cantrip (how fitting) for free.</content>
+  <content contentuid="h437d521bg8774gc538geefaga78d41913ac0" version="1">Thaumaturge (Guidance)</content>
+  <content contentuid="h98d7209dg1119g4896gc010g11d2b5b2ff16" version="1">Your mystical connection to the divine gives you a bonus to your &lt;LSTag Tooltip="Arcana"&gt;Arcana&lt;/LSTag&gt; and &lt;LSTag Type="Skill" Tooltip="Religion"&gt;Religion&lt;/LSTag&gt; checks equal to your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; modifier (minimum of +1).  You also gain the &lt;LSTag Type="Spell" Tooltip="Target_Guidance"&gt;Guidance&lt;/LSTag&gt; cantrip for free.</content>
+  <content contentuid="hdd6a77ddgf902gb95bg5f2fg78b28ab4cae6" version="1">Thaumaturge (Toll the Dead)</content>
+  <content contentuid="h24da17c5g0a44g6a23g4ea1g3f039a37d844" version="1">Your mystical connection to the divine gives you a bonus to your &lt;LSTag Tooltip="Arcana"&gt;Arcana&lt;/LSTag&gt; and &lt;LSTag Type="Skill" Tooltip="Religion"&gt;Religion&lt;/LSTag&gt; checks equal to your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; modifier (minimum of +1).  You also gain the &lt;LSTag Type="Spell" Tooltip="Target_TollTheDead"&gt;Toll the Dead&lt;/LSTag&gt; cantrip for free.</content>
+  <content contentuid="hff215c75gbd20g0783g7d27ge6efa7a0a247" version="1">Thaumaturge (Thaumaturgy)</content>
+  <content contentuid="h34db9f33gf7b0gd13dg8001g9d6703b83ff4" version="2">Your mystical connection to the divine gives you a bonus to your &lt;LSTag Tooltip="Arcana"&gt;Arcana&lt;/LSTag&gt; and &lt;LSTag Type="Skill" Tooltip="Religion"&gt;Religion&lt;/LSTag&gt; checks equal to your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; modifier.  You also gain the &lt;LSTag Type="Spell" Tooltip="Shout_Thaumaturgy"&gt;Thaumaturgy&lt;/LSTag&gt; cantrip (how fitting) for free.</content>
+  <content contentuid="h319edb71g3ee9g5f41g711dg37303006653a" version="1">Thaumaturge (Toll the Dead)</content>
+  <content contentuid="h991ce155gce35g72fageab0g40fe2c650df9" version="2">Your mystical connection to the divine gives you a bonus to your &lt;LSTag Tooltip="Arcana"&gt;Arcana&lt;/LSTag&gt; and &lt;LSTag Type="Skill" Tooltip="Religion"&gt;Religion&lt;/LSTag&gt; checks equal to your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; modifier.  You also gain the &lt;LSTag Type="Spell" Tooltip="Target_TollTheDead"&gt;Toll the Dead&lt;/LSTag&gt; cantrip for free.</content>
+  <content contentuid="h1282a3cdga1e6g61e2g5434g79368a432c6a" version="2">Dismiss Protector</content>
+  <content contentuid="h014623bag4058g3972g0616gb904609a388a" version="1">This removes Protector from a given weapon.</content>
+  <content contentuid="h53363fb3g34e5g9a9fg9beag672383aced57" version="3">At 5th Level, you can make a second attack when attacking with this weapon, and the weapon's damage becomes Magical if it wasn't already.</content>
+  <content contentuid="h125c12a2gb6cfg3d87g8d5bgf6bc41e0398a" version="1">Remove Protector Bind</content>
+  <content contentuid="h08c4e663g8587g0505gd400g5ca49286cd61" version="1">Remove this weapon as your bound Protector weapon.</content>
+  <content contentuid="h8248d111g295dg28e2gdc1ag05396016bbb6" version="1">Potent Spellcasting</content>
+  <content contentuid="h85733bb1g9e7bg2504g209bg2d955a1e3dee" version="2">Add your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; modifier to the Damage you deal with any Cantrip.</content>
+  <content contentuid="h1b285e85g2d82g22fcg6904gb2510937147a" version="3">Warding Flare</content>
+  <content contentuid="h42654ee2g8b2bg5221gc18bg1b500aa3e977" version="2">Impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on an attacker, possibly causing their attack to miss.</content>
+  <content contentuid="h578cd35cg77cdgf9d3g6dc0g05e635b1ccf5" version="1">Has no effect on creatures that can't be &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
+  <content contentuid="he09fae85gb3a6ga7fcg8224g8fe11ffd9a40" version="3">Warding Flare</content>
+  <content contentuid="h0d6385e4gbff3gbde2g1468g032ed63b1ad2" version="3">Impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on an attacker, possibly causing their attack to miss, and gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt;.</content>
+  <content contentuid="he55392cbg0a97g36e4gf73dg10fdbc9d6a0c" version="1">Warding Flare Charges</content>
+  <content contentuid="hd72bbd45gfe72g70b1gcb13g3cbe42472411" version="1">Represents how many times you can use Warding Flare.</content>
+  <content contentuid="hdce8627eg52a1ga5e1g26ebg6c7e3eeafbae" version="1">Improved Warding Flare</content>
+  <content contentuid="h595177d9gd321g6b9bg57d9g3fdf7b9c89ec" version="3">Your Warding Flare Charges are now restored on either a &lt;LStag Tooltip="ShortRest"&gt;Short&lt;/LSTag&gt; or a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.  In addition, when you protect an ally with Warding Flare, they gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt;.</content>
+  <content contentuid="hf9e05aeag97d5g6378g1741gee0f6d7d9d48" version="1">Improved Warding Flare Aura</content>
+  <content contentuid="h1ff88a21gcbf2gad76g1363gafcb24c25e00" version="1">Warding Flare</content>
+  <content contentuid="h77ce7853g1377gb0d5g8dc6ga1d0e21e7c1d" version="1">The next attack against this creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
+  <content contentuid="h17a72a84gec8agdb5fgbc2eg114ab4f04939" version="1">Warding Flare</content>
+  <content contentuid="h4dc28e3eg75feg0d06gc3b6g24535beec5c9" version="1">Shield yourself or an ally with divine light. Use your reaction to impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on an attacker, possibly causing their attack to miss.</content>
+  <content contentuid="h790fa221g30f1ga1d6gd972g3cc5d9cf468d" version="1">An attacker that can't be Blinded is immune to this effect. </content>
+  <content contentuid="h886d077bg19c2g1afdg19f6g2eab53d78193" version="1">Improved Warding Flare</content>
+  <content contentuid="h5a8819e3ge3beg3419g663ag230690556611" version="2">Shield yourself or an ally with divine light to impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on an attacker, possibly causing their attack to miss. </content>
+  <content contentuid="hc52da9b2g185eg3c40gcd2ag61d0adcf4fb6" version="1"> In addition, the target of the attack gains [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt;.</content>
+  <content contentuid="hcb5dba46g1576g6e11gaf10g033919b8af12" version="1">War Priest</content>
+  <content contentuid="hc9c13bb0gb44ag20aeg6803g536f5ff75f5d" version="1">When you make an unarmed or weapon attack, you can spend a War Priest Charge to make an additional attack as a bonus action.</content>
+  <content contentuid="hd3f1823ega75fg7f04g6f7dgd97fc736a36b" version="1">Warding Flare Aura</content>
+  <content contentuid="hde45aeecg1260g03dcge373ge5d640916b38" version="1">Warding Flare Toggle</content>
+  <content contentuid="h27c9d598g5958g2bc6gcde3g5ece755a8dc7" version="1">Warding Flare Temp HP</content>
+  <content contentuid="h0c133d6bg0237gb625g989dgbb38628d5d47" version="1">You gain &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt; as a result of your ally's Warding Flare</content>
+  <content contentuid="h5a89c9bbg6191g60a9gfa5fg98f80647ea09" version="1">Has no effect on creatures that can't be &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
+  <content contentuid="he3583540g52d1g67feg1571g0cc7fd3dee7d" version="2">Warding Flare: Allies</content>
+  <content contentuid="hedf7d71bg71bbg39fegef17gd885feafa291" version="2">Impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on an ally's attacker, possibly causing their attack to miss.</content>
+  <content contentuid="hed161404gcc5dg6d67g24c4g640a1cf5d0c4" version="1">Has no effect on creatures that can't be &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
+  <content contentuid="hadf42cc7g6c90g2f50g0173g7308b345b477" version="2">Warding Flare: Allies</content>
+  <content contentuid="ha015b44bg7701gf1e5g4ac7g4a84f9fe9f8c" version="3">Impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on an ally's attacker, possibly causing their attack to miss.  That ally also gains [1].</content>
+  <content contentuid="h5bc79706ge358gd647g7420g6217db40a983" version="1">Has no effect on creatures that can't be &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
+  <content contentuid="h4b356a45g3e87g21bdgddfag7782b550ab52" version="1">Word of Radiance</content>
+  <content contentuid="h2cff2127g2974g3229g6063g6c27dd90d262" version="3">Burning radiance erupts from you in a 5-foot emanation. Every enemy that you can see in it must succeed on a &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; saving throw or take damage.</content>
+  <content contentuid="ha16bdf67g5ac1gb2beg66ebgeb0ec076c6c7" version="1">Word of Radiance</content>
+  <content contentuid="hcd3ed5d3g9b30g0b2bg7fe1ga497ee1f36a7" version="1">Affected Creatures take [1] damage</content>
+  <content contentuid="h154993aeg5cc8gf635g5b09gf067c656b9bf" version="1">Thaumaturge (Word Of Radiance)</content>
+  <content contentuid="h6fcb0028g2391g587dg6577g6d2aa1ad260f" version="2">Your mystical connection to the divine gives you a bonus to your &lt;LSTag Tooltip="Arcana"&gt;Arcana&lt;/LSTag&gt; and &lt;LSTag Type="Skill" Tooltip="Religion"&gt;Religion&lt;/LSTag&gt; checks equal to your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; modifier.  You also gain the &lt;LSTag Type="Spell" Tooltip="Shout_WordOfRadiance"&gt;Word Of Radiance&lt;/LSTag&gt; cantrip for free.</content>
+  <content contentuid="h12b307efg41e1g36f7ge038gd4c55737a560" version="1">Word of Radiance</content>
+  <content contentuid="h1907f21ag104fg27ecg99b5g361880251e9b" version="1">Affected Creatures take [1] damage</content>
+  <content contentuid="h2c4df643g3b75g4267g5775gac8ea647c7c0" version="1">Mass Cure Wounds</content>
+  <content contentuid="h1c0dcd6fg342cgccefg44a5gdbba5e271469" version="1">Unleash a soothing hum of energy that heals you and nearby allies. </content>
+  <content contentuid="hadb57fc6gff05gdd31gb5bagce6f4052e678" version="1">Healing Word</content>
+  <content contentuid="h62c8f87dga097ga36dg4690ga02f17cbb36a" version="1">Heal a creature you can see.</content>
+  <content contentuid="h17365612g7649gaccdg7b6bg3baa1a095f83" version="1">Mass Healing Word</content>
+  <content contentuid="h8fe30369gb09fgeed1g72a8g875c36d3567f" version="1">Heal your nearby allies.</content>
+  <content contentuid="h85e19fb8gdccdg5120gcf1cga359215c05b9" version="1">Cure Wounds</content>
+  <content contentuid="he8c13b79geb71g98cbgec98g9136d264acce" version="1">Heal a creature you can touch.</content>
+  <content contentuid="h8d55b94bgd78fg00a3g1668gd29e3f9b6b3a" version="1">Divine Strike</content>
+  <content contentuid="h15a00080g251bg3577gbe49ga5a842818988" version="1">Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra 1d8 Necrotic or Radiant damage (your choice).</content>
+  <content contentuid="h7e20aef3gd1e0g1542g4ee0g2e29c8e715f9" version="1">Divine Strike: Radiant (Ranged)</content>
+  <content contentuid="h7880c595g1c2ag3c12gf5edgfc2915590ce2" version="1">Deal an additional [1].</content>
+  <content contentuid="h4f827637g3aacgd1b5gf5adgde4119156cfe" version="1">Divine Strike: Radiant (Melee)</content>
+  <content contentuid="h7232679dg0817gd8dcg595bg7ca677fd0c96" version="1">Hew into a foe with your weapon as it flames with an exquisite radiance. </content>
+  <content contentuid="hbf064ba2g2b6ag32f2g9eaeg142d85b731e8" version="1">Divine Strike: Necrotic (Melee)</content>
+  <content contentuid="h877d8cbag9738gbf1cga720gbce151078a89" version="1">Deal an additional [1].</content>
+  <content contentuid="h2f4f30c4ge97cg5a43gb4e4g7f890b040853" version="1">Divine Strike: Necrotic (Ranged)</content>
+  <content contentuid="hc20345feg9af5gae6cg3641g5b249e93cbb4" version="1">Deal an additional [1].</content>
+  <content contentuid="hb39cd746g82bbgb578g8730g7fc4c8dd7413" version="1">Divine Strike</content>
+  <content contentuid="hdc78f8afgce0dg2036gc7f1g7e41ff875989" version="2">Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra [1] or [2] (your choice).</content>
+  <content contentuid="h5e0501a1g7289gf72fge05bg1d0103e610a4" version="1">Blessed Strikes</content>
+  <content contentuid="h787cae7fga74agd3f8g236fge7fe6378fc5e" version="1">Divine power infuses you in battle. You gain one of the following options of your choice.</content>
+  <content contentuid="h7d2de4d9gd015g663ega6cdgc64f781f42e0" version="1">Guided Strike</content>
+  <content contentuid="hd04d0550g0538g61adga630g0ed71638cff8" version="1">You gain a +10 bonus to your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+  <content contentuid="h3b786453g6bf8gbb23g5762g44f54406dd04" version="1">Channel Divinity: Guided Strike</content>
+  <content contentuid="he64dd1edg44d3ge0e5g328cg6e8484756c3b" version="1">Channel the guidance of your god to strike with supernatural accuracy. You or an Ally gain a +[1] bonus to your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+  <content contentuid="h4b3a11a1gf67cg6120gf0e5g6f781999f55d" version="1">Channel Divinity: Guided Strike</content>
+  <content contentuid="h8246ed8egb10fg150ag37d3gda40fd446427" version="1">Channel the guidance of your god to strike with supernatural accuracy. You gain a +[1] bonus to your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+  <content contentuid="h08d1b4c1g9fe4ge326g7936g95a931fa70f5" version="1">Guided Strike</content>
+  <content contentuid="h7839449fg9c5eg52beg8be7ge147934447dd" version="2">Gain a +[1] bonus to an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; for you or an ally.</content>
+  <content contentuid="hbe3e7ee9ga482geb50gba2eg65c98705cf90" version="1">Guided Strike</content>
+  <content contentuid="h6dbb5d34gf153g5c7fg792bg24ec06930454" version="2">Gain a +[1] bonus to your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+  <content contentuid="h08a0cedag9ca1g9a3dg2693ge25b154ec980" version="1">Guided Strike</content>
+  <content contentuid="hdfb3dd6bge758g407cg3967g29bf6176b715" version="1">You gain a +10 bonus to your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+  <content contentuid="hadbb3039g8f58ge773gd985gb0febc9b45f0" version="1">Guided Strike: Ally</content>
+  <content contentuid="h64c45348g1f18g52c0ga62bg000c0c6c8587" version="1">Gain a +[1] bonus to an ally's &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+  <content contentuid="h1bb90d47g8114gb8cegb23bgf46e781b417d" version="2">You can cast this spell once per Long Rest.  It will last for [1] rounds, and it does not require &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt;.</content>
+  <content contentuid="ha0f7a1bfg89e3gf6f8g390dg51dd595132ea" version="1">You can cast this spell once per Long Rest.  It will last for [1] rounds, and it does not require &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt;.</content>
+  <content contentuid="hab9ae0c4gfcf8g957bgd95bg9b40acbe4a9a" version="1">War God's Blessing: Spells</content>
+  <content contentuid="h8874bfdbga7f7gef34ge56dge3adc47e0906" version="2">Cast either &lt;LSTag Type="Spell" Tooltip="Target_SpiritualWeapon"&gt;Spiritual Weapon&lt;/LSTag&gt; or &lt;LStag Type="Spell" Tooltip="Target_ShieldOfFaith"&gt;Shield of Faith&lt;/LSTag&gt; without spending a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.  These versions last for [1] minute and do not require &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt;.</content>
+  <content contentuid="hc05412c2ga984gb2b4g8207g0730fba44541" version="1">War God's Blessing</content>
+  <content contentuid="h99164972ga764g1345gc9bag3ea1bb928e9c" version="2">Once per Long Rest, you can cast either &lt;LSTag Type="Spell" Tooltip="Target_SpiritualWeapon"&gt;Spiritual Weapon&lt;/LSTag&gt; or &lt;LStag Type="Spell" Tooltip="Target_ShieldOfFaith"&gt;Shield of Faith&lt;/LSTag&gt; without spending a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.  These versions last for [1] minute and do not require &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt;.</content>
+  <content contentuid="hd2187260gc512g1259gf513gb58121176318" version="1">Guided Strike: Ally</content>
+  <content contentuid="hc184bcaag7fa2gda5age2c4g3e45bb201276" version="1">Endow a nearby ally with the glory of your god to grant them a +[1] bonus to their &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+  <content contentuid="h88f5af2ag776fg94afgbbe7g8e95e9043d14" version="1">Trickster’s Transposition </content>
+  <content contentuid="h9d005e8bg476eg4175g61a8gf38985b4da91" version="2">Teleport to an unoccupied space that you can see.  This spell does not have Verbal Components.</content>
+  <content contentuid="h29b8c09bg882ag063dg5f29gf0d07496a29d" version="1">You can use this spell [1] times per &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;</content>
+  <content contentuid="h4496bbf8g8f01gb02dg2c40ga180d4dc7032" version="1">Trickster's Transposition Charges</content>
+  <content contentuid="hacc9f556g0dcag7b09g68e5g3210b7e904b7" version="1">Represents how many times you can use &lt;LSTag Type="Spell" Tooltip="Target_TrickstersTransposition&gt;Trickster's Transposition&lt;/LSTag&gt;</content>
+  <content contentuid="he0013c56gf0deg1619g1b00g40e697d6c748" version="1">Trickster's Transposition</content>
+  <content contentuid="h17ba08a7gb913gd2f5g93e8gaafb8b5bbede" version="1">Cast &lt;LSTag Type="Spell" Tooltip="MistyStep"&gt;Misty Step&lt;/LSTag&gt; without Verbal Components and without using a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.</content>
+  <content contentuid="haa87aa31gd607gb18fg2102g9db12fdfc7c0" version="1">You can use this ability [1] times per &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;</content>
+  <content contentuid="h37b0e748gbc09ga4b7g83a8gb798d301ef3b" version="1">Blessed Healer</content>
+  <content contentuid="h75f6a7a2g0077g0014g6bc6gc71a513c255b" version="1">The healing spells you cast on others heal you as well. Immediately after you cast a spell with a spell slot that restores &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; to one or more creatures other than yourself, you regain &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; equal to 2 plus the spell slot’s level.</content>
+  <content contentuid="h2a1c1a2eg5e2ag4684g4786gd4b413d9b81c" version="1">Aura of Life</content>
+  <content contentuid="hcb8ee826g3374g9999g98dbgc0258856401f" version="3">An aura radiates from you in a 30-foot Emanation for the duration. While in the aura, you and your allies have &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Necrotic damage, and your &lt;LSTag Tooltip="HitPoints"&gt;Hit Point&lt;/LSTag&gt; maximum can't be reduced. If an ally with 0 &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; starts its turn in the aura, that ally regains 1 &lt;LSTag Tooltip="HitPoints"&gt;Hit Point&lt;/LSTag&gt;.</content>
+  <content contentuid="ha4f6cf87g3c84g9442ga48bg55b45b962c79" version="1">"Hit Point Maximum can't be reduced" only applies to conditions that were in the game to start with.  If a mod adds a Status that lowers Hit Point Maximum, you're out of luck.</content>
+  <content contentuid="h8cf8bf7fg47dag817fg55eag3d762b4513a7" version="1">Aura Of Life</content>
+  <content contentuid="hccd0d6ccgbb94gf122ga072g52126cd0363b" version="1">The creature is in a protective aura.  While there, this creature has &lt;LStag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Necrotic damage, and its &lt;LSTag Tooltip="HitPoints"&gt;Hit Point&lt;/LSTag&gt;maximum can't be reduced. If it has 0 &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; starts its turn in the aura, it regains 1 &lt;LSTag Tooltip="HitPoints"&gt;Hit Point&lt;/LSTag&gt;.</content>
+  <content contentuid="h8c01581eg299agf149g32d9g6ac448dbf2dd" version="1">Aura of Life</content>
+  <content contentuid="h3d70ce3eg33e5g2e45g89deg6476e77f3a24" version="1">The creature is in a protective aura.  While there, this creature has &lt;LStag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Necrotic damage, and its &lt;LSTag Tooltip="HitPoints"&gt;Hit Point&lt;/LSTag&gt;maximum can't be reduced. If it has 0 &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; starts its turn in the aura, it regains 1 &lt;LSTag Tooltip="HitPoints"&gt;Hit Point&lt;/LSTag&gt;.</content>
+  <content contentuid="h200d9861g14f5ga989g7b2bgd7f60262381f" version="1">Impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on an attacker, possibly causing their attack to miss.</content>
+  <content contentuid="hf59550d0g43d7gc775gfe1cg35da4eea2707" version="1">Impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on an attacker, possibly causing their attack to miss.  You also gain [1].</content>
+  <content contentuid="hc9a8eb73gf2b9g268ag1bf8gf1179e3b0a87" version="1">Aura of Life</content>
+  <content contentuid="h04425c6cg676ag21e1g5e9dg65bd062176d4" version="1">Vicious Mockery</content>
+  <content contentuid="h4a19f74fgc452g73ddg089bg30a58fb37d5b" version="1">Insult a creature: it has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on its next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+  <content contentuid="h9c5de9f4g8982g3463g1e9aga2ca1ab4e05f" version="1">Font of Inspiration</content>
+  <content contentuid="ha97dbcd5g1b0dgaac0ge3f6g3a2938c25f1d" version="1">Spend a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LStag&gt; to restore some uses of &lt;LSTag Tooltip="BARDIC_INSPIRATION"&gt;Bardic Inspiration&lt;/LSTag&gt;</content>
+  <content contentuid="hf7b8d87dge9e0g4b2fg6880gaa19f9064904" version="1">Using a higher-level spell slot restores half the Slot's level, rounded up.</content>
+  <content contentuid="ha0c02175ge628gde46g7371g72914c865ff7" version="1">Font of Inspiration: Level 1</content>
+  <content contentuid="hf5021722g7c68g7f85gfa2cgc9a025234b36" version="2">Convert a 1st Level &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; into [1] use of &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt;</content>
+  <content contentuid="h3acf61begd72egc5a7geeddg138f8ad612ba" version="1">Font of Inspiration: Level 2</content>
+  <content contentuid="h4841afa0g8926ga7cbg0338g6c2586d78d35" version="2">Convert a 2nd Level &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; into [1] use of &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt;</content>
+  <content contentuid="h28cb0d9dgbfedg4043g9e7dg3009d92afcb8" version="1">Font of Inspiration: Level 3</content>
+  <content contentuid="hb85dabb9g90ceg77deg0023g087fd899b3c0" version="2">Convert a 3rd Level &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; into [1] uses of &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt;</content>
+  <content contentuid="h53dd9fa0g19bfgceffg3a2cgf86db8233f63" version="1">Font of Inspiration: Level 4</content>
+  <content contentuid="h2ffff74fg51afg7cbagba6bg6d1528efab02" version="2">Convert a 4th Level &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; into [1] uses of &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt;</content>
+  <content contentuid="hade05f46g1bafgc04cgb990ga9d5a078ec7f" version="1">Font of Inspiration: Level 5</content>
+  <content contentuid="h1d0f0c1cgcd21gf887g691egf354021586b3" version="2">Convert a 5th Level &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; into [1] uses of &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt;</content>
+  <content contentuid="h81f079b9gdf44ga213g83a8gb00ade1d814f" version="1">Font of Inspiration: Level 6</content>
+  <content contentuid="hec71039eg2150gf640ga52aga1a7c690b620" version="2">Convert a 6th Level &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; into [1] use of &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt;</content>
+  <content contentuid="h68364c69gbd0cgd9c2g5f77g2e9efde605fc" version="1">Font of Inspiration</content>
+  <content contentuid="h5999595dg5201g2cccg0a57g0a63788b7141" version="1">You regain all your &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt; after a &lt;LSTag Tooltip="LongRest"&gt;Long&lt;/LSTag&gt; or &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.  In addition, you can spend a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; to restore some uses of &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt;</content>
+  <content contentuid="hb31d015fg205dg06b2gcdc1ga0a2c41e26fe" version="1">Spend a Level [1] &lt;LSTag Tooltip="SpellSlots"&gt;Spell Slot&lt;/LSTag&gt; to restore [2] use of &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt;</content>
+  <content contentuid="h2b222d94g6503g49b2g3deeg95377d3ecacb" version="1">Font of Inspiration</content>
+  <content contentuid="h7e848f1bg0f66g775eg071fg3e728dd843f7" version="1">Spend a &lt;LSTag Tooltip="SpellSlots"&gt;Spell Slot&lt;/LSTag&gt; to restore some uses of &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt;</content>
+  <content contentuid="h31012dfag89eageb28gced9g8c5e627a9535" version="1">You restore a number of Bardic Inspiration uses equal to half the Spell Slot's level, rounded up.</content>
+  <content contentuid="hbd909edcg633cg87cfg23c0g1c237a730e8b" version="2">Font of Inspiration</content>
+  <content contentuid="hcb90ffa1gd484g6107gb36eg60cce56b5052" version="1">Font of Inspiration: Level 1</content>
+  <content contentuid="hb30be15dg6949g4f96gf261g527c866e903b" version="1">Grants [1] Sorcery Point</content>
+  <content contentuid="hd6fec356ge2c5g6b20g4e3fg46d19e657e00" version="1">Font of Inspiration: Level 2</content>
+  <content contentuid="h0b83d105g4fbdgf01dg2268g81ade948b4d0" version="1">Spend a Level [1] &lt;LSTag Tooltip="SpellSlots"&gt;Spell Slot&lt;/LSTag&gt; to restore [2] use of &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt;</content>
+  <content contentuid="h8c74cceegf6b3g45c4g8152g870156fabec6" version="1">Font of Inspiration: Level 3</content>
+  <content contentuid="hadc535a0g5800ga13dg3f94gb31159143e86" version="1">Font of Inspiration: Level 4</content>
+  <content contentuid="hb598fb3eg0985g8e04g899cge7a2c2c4a8bf" version="1">Font of Inspiration: Level 5</content>
+  <content contentuid="h70879920g6f19gdb43gbbadg74dd422e7876" version="1">Font of Inspiration: Level 6</content>
+</contentList>

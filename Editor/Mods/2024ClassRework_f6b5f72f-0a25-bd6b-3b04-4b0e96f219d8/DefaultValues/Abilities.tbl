@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="f01245cf-d242-4f5b-af85-f795d310ac2c">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1b88eb5a-a370-46cc-a501-b7dd3537a08e" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="64474b62-b4f5-46b3-b94a-c676c6da3116" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="Wisdom;Constitution" />
+        <field name="SelectorId" type="StringTableFieldDefinition" value="AbilityBonus" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Cleric Ability Bonus" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
