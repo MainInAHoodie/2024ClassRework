@@ -220,7 +220,7 @@
   <content contentuid="hf000bc80gef16g4538g3a87gbde4be268d31" version="1">Wild Resurgence</content>
   <content contentuid="h04019f98g1c04ga45fg2fe9g5c0f6ee290a3" version="1">Convert a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; to a number of uses of &lt;LSTag Tooltip="WildShape"&gt;Wild Shape&lt;/LSTag&gt; equal to half the Spell Slot's level, rounded up.</content>
   <content contentuid="h3a92cd1bgee4dgd72fgd60eg253f97711671" version="1">Convert Spell Slots to Wild Shape uses.</content>
-    <content contentuid="hbedc12fcg4a2aga506gb47ag6fcb8ae9cbb8" version="2">Protector Cleric Weapon</content>
+  <content contentuid="hbedc12fcg4a2aga506gb47ag6fcb8ae9cbb8" version="2">Protector Cleric Weapon</content>
   <content contentuid="hc978cea2g5dd7gc3bbg7a4eg3fb423a9a002" version="2">As a Protector, your weapon deals [1]. &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; use the wielder's &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt;.</content>
   <content contentuid="h4432a90cge1ddg47b8g8630g8fcd8c20168d" version="2">Thaumaturge (Produce Flame)</content>
   <content contentuid="h258e33f8gb212gd3e3g6fe5gc86fc79a7375" version="1">Protector</content>
@@ -417,4 +417,12 @@
   <content contentuid="hadc535a0g5800ga13dg3f94gb31159143e86" version="1">Font of Inspiration: Level 4</content>
   <content contentuid="hb598fb3eg0985g8e04g899cge7a2c2c4a8bf" version="1">Font of Inspiration: Level 5</content>
   <content contentuid="h70879920g6f19gdb43gbbadg74dd422e7876" version="1">Font of Inspiration: Level 6</content>
+  <content contentuid="hc87ecdefge9fag54a7g5f8cg3d90133f08a4" version="1">Shield</content>
+  <content contentuid="h7e793e4cg79e1g38daga838gfd04fbb1c692" version="1">Though bearing the scars of battle, this shield feels sturdy.</content>
+  <content contentuid="hc9c12af7gcc75gba90gcfc8ga69b71336c6e" version="1">Shield</content>
+  <content contentuid="h698bf396g2d6dga1ddg12dcg3c3a44b46add" version="1">Shield</content>
+  <content contentuid="hc7e9b38bg954eg436dg870eg3a9f4950faed" version="1">Starting Melee Weapon</content>
+  <content contentuid="h633b7565g2ed6ge296ge8a2gd55d77816371" version="1">Pick your starting melee weapon.</content>
+  <content contentuid="h6c3eaf24g8119g3e16g5a28g95d97c0788af" version="1">Starting Ranged Weapon</content>
+  <content contentuid="h24e453acg3237g823ag88b5g5ed3eb0d0943" version="1">Pick your starting ranged weapon</content>
 </contentList>

@@ -22,7 +22,7 @@
         <field name="Hidden" type="BoolTableFieldDefinition" value="False" />
         <field name="Type" type="FixedStringTableFieldDefinition" value="Proficiency" />
         <field name="PassivePrototype" type="FixedStringTableFieldDefinition" value="Warden" />
-        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="Proficiency(MediumArmor);Proficiency(Scimitars)" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="Warden" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -35,7 +35,7 @@
         <field name="SelectorId" type="FixedStringTableFieldDefinition" value="Druid_ElementalFury" />
       </fields>
     </stat_object>
-	<stat_object is_substat="false">
+    <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
         <field name="UUID" type="IdTableFieldDefinition" value="0e5243ca-7e00-4a94-bf78-640e77af2cf2" />
@@ -52,6 +52,26 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5e0501a1g7289gf72fge05bg1d0103e610a4" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h787cae7fga74agd3f8g236fge7fe6378fc5e" version="1" />
         <field name="SelectorId" type="FixedStringTableFieldDefinition" value="Cleric_BlessedStrikes" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1d234636-178e-4040-ad8e-10d0a0893a5b" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc7e9b38bg954eg436dg870eg3a9f4950faed" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h633b7565g2ed6ge296ge8a2gd55d77816371" version="1" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="403f00e9-1ceb-46c4-8e26-ecaad574996a" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="StartingMeleeWeaponMartial" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9cfd5f6f-82b2-4716-9934-452106af94c9" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6c3eaf24g8119g3e16g5a28g95d97c0788af" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h24e453acg3237g823ag88b5g5ed3eb0d0943" version="1" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="e0f11a39-1d64-4f59-bc10-744e61606353" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="StartingRangedWeaponMartial" />
       </fields>
     </stat_object>
   </stat_objects>

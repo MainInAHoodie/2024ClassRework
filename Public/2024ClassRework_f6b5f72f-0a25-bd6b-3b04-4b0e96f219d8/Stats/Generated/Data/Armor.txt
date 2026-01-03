@@ -3,3 +3,8 @@ type "Armor"
 using "ARM_Shield"
 data "RootTemplate" "eb8afd3e-7835-4453-bba3-c7fc739664b0"
 
+new entry "ARM_Shield_Fighter"
+type "Armor"
+using "ARM_Shield"
+data "RootTemplate" "f38ea8be-0819-4497-8934-71433effe395"
+
