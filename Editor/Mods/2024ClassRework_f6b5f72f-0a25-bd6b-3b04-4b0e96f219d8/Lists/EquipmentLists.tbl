@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="01663a87-740b-4681-8ae4-4d63901066dd">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="403f00e9-1ceb-46c4-8e26-ecaad574996a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Starting Melee Weapon: Martial" />
+        <field name="Items" type="StringTableFieldDefinition" value="WPN_Longsword;WPN_Battleaxe;WPN_Warhammer;WPN_Shortsword;WPN_Scimitar;WPN_Rapier;WPN_Maul;WPN_Greataxe;WPN_Greatsword" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e0f11a39-1d64-4f59-bc10-744e61606353" />
+        <field name="Name" type="NameTableFieldDefinition" value="Starting Ranged Weapon: Martial" />
+        <field name="Items" type="StringTableFieldDefinition" value="WPN_Longbow;WPN_HeavyCrossbow;WPN_HandCrossbow;WPN_LightCrossbow;WPN_Shortbow" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c6b7f155-fc20-4a76-844e-3c3a49b56055" />
+        <field name="Name" type="NameTableFieldDefinition" value="Starting Ranged Weapon: Rogue" />
+        <field name="Items" type="StringTableFieldDefinition" value="WPN_HandCrossbow;WPN_LightCrossbow;WPN_Shortbow" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="42b9ae23-958d-41dc-9a41-fcb8c3aaa976" />
+        <field name="Name" type="NameTableFieldDefinition" value="Starting Ranged Weapon: Ranger" />
+        <field name="Items" type="StringTableFieldDefinition" value="WPN_Longbow;WPN_HeavyCrossbow;WPN_HandCrossbow;WPN_LightCrossbow;WPN_Shortbow" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

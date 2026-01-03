@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="79d3077a-8518-495e-b44c-5ce7a91c4265">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="690dea80-25f7-4d26-9142-25ce546085c3" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="60bbcc97-5381-4898-bc15-908c072895de" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="WPN_Greataxe" />
+        <field name="SelectorId" type="StringTableFieldDefinition" value="StartingMeleeWeaponBarbarian" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Barbarian Starting Melee Weapon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2a283fcc-a105-481f-92a3-e31885b3519b" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="60bbcc97-5381-4898-bc15-908c072895de" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="WPN_HeavyCrossbow" />
+        <field name="SelectorId" type="StringTableFieldDefinition" value="StartingRangedWeaponBarbarian" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Barbarian Starting Ranged Weapon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="30858b63-b110-4a82-b009-60ef47137a9f" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="9a44e828-92db-4d6c-acbc-a4f8ef340415" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="WPN_HandCrossbow" />
+        <field name="SelectorId" type="StringTableFieldDefinition" value="StartingRangedWeaponRogue" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Rogue Starting Ranged Weapon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="71e13ee7-a5e2-4b95-9211-c4efb74b976a" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="8f068974-ed32-43fc-a9d9-028be1c01a9c" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="WPN_Longbow" />
+        <field name="SelectorId" type="StringTableFieldDefinition" value="StartingRangedWeaponRanger" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Barbarian Starting Ranged Weapon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
+        <field name="UUID" type="IdTableFieldDefinition" value="25762a93-7a0b-431d-b4b5-f6f660dc171f" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="ba4e707e-4bbd-4630-963b-ce2f2947f971" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="WPN_Longsword" />
+        <field name="SelectorId" type="StringTableFieldDefinition" value="StartingMeleeWeaponFighter" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Fighter Starting Melee Weapon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c30f305e-eb39-4b0d-862c-3e51e9d5e54c" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="ba4e707e-4bbd-4630-963b-ce2f2947f971" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="WPN_LightCrossbow" />
+        <field name="SelectorId" type="StringTableFieldDefinition" value="StartingRangedWeaponFighter" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Fighter Starting Ranged Weapon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_6" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e48df7df-6396-4b9d-aea7-c3e1e54f8755" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="ba2afe85-acba-4ea1-a238-2b4543f47821" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="WPN_Longsword" />
+        <field name="SelectorId" type="StringTableFieldDefinition" value="StartingMeleeWeaponPaladin" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Paladin Starting Melee Weapon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_7" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0705a097-1a61-4b87-9e4b-82102b08b921" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="ba2afe85-acba-4ea1-a238-2b4543f47821" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="WPN_LightCrossbow" />
+        <field name="SelectorId" type="StringTableFieldDefinition" value="StartingRangedWeaponPaladin" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Paladin Starting Ranged Weapon" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

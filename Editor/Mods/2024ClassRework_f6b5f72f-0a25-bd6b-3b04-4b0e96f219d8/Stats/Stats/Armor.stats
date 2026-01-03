@@ -9,5 +9,13 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="eb8afd3e-7835-4453-bba3-c7fc739664b0" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6964cc70-340f-4581-aba1-e329e998499c" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Shield_Fighter" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f38ea8be-0819-4497-8934-71433effe395" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
