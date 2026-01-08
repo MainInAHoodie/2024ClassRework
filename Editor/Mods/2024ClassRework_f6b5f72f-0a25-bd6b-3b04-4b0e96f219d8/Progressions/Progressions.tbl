@@ -10,7 +10,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Constitution);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(Rage,2,0)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(233793b3-838a-4d4e-9d68-1e0a1089aba5,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectEquipment(403f00e9-1ceb-46c4-8e26-ecaad574996a,1,StartingMeleeWeaponMartial);SelectEquipment(e0f11a39-1d64-4f59-bc10-744e61606353,1,StartingRangedWeaponMartial)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(233793b3-838a-4d4e-9d68-1e0a1089aba5,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectEquipment(403f00e9-1ceb-46c4-8e26-ecaad574996a,1,StartingMeleeWeaponMartial);SelectEquipment(e0f11a39-1d64-4f59-bc10-744e61606353,1,StartingRangedWeaponMartial);SelectEquipment(f791f7e4-7344-409a-bf35-f0265a51d119,1,BarbarianArmor);SelectEquipment(7de2e5f1-a324-4bdd-a28c-a491962e77b7,1,ShieldOrNoShield)" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="RageUnlock;UnarmouredDefence_Barbarian;Rage_Armour_Message;Rage_NoHeavyArmour_VFX" />
       </fields>
     </stat_object>
@@ -24,7 +24,7 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="DomainSpells;UnlockedSpellSlotLevel1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(Morningstars);Proficiency(Flails)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(6cb9d731-a518-46f0-b20e-9e2bf18e6acd,2);SelectSpells(2f43a103-5bf1-4534-b14f-663decc0c525,3,0,,,,AlwaysPrepared);AddSpells(269d1a3b-eed8-4131-8901-a562238f5289);SelectPassives(38776f0c-e88e-44e6-8e03-5efafc080d9d,1,ClericDivineOrders);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(6cb9d731-a518-46f0-b20e-9e2bf18e6acd,2);SelectSpells(2f43a103-5bf1-4534-b14f-663decc0c525,3,0,,,,AlwaysPrepared);AddSpells(269d1a3b-eed8-4131-8901-a562238f5289);SelectPassives(38776f0c-e88e-44e6-8e03-5efafc080d9d,1,ClericDivineOrders);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectEquipment(aac9fd64-1de4-4eea-a14e-0dddc60a79ed,1,StartingArmorCleric)" />
         <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="b927a22a-d64b-48d6-bc7c-38c5f7f6a061;ebe18794-b5e1-41c4-befa-4b9d6922b0ec;4b5da2f5-b999-4623-8bff-a63df5560fb3;c54d7591-b305-4f22-b2a7-1bf5c4a3470a;6dec76d0-df22-411c-8a78-3d6fb843ae50;89bacf1b-8f15-4972-ada7-bf59c7c78441;f013d01b-3310-43f7-81bf-a51130442b5e;b9ccf90e-b35b-4b73-b896-8ed2d32ae8c6" />
       </fields>
     </stat_object>
@@ -343,7 +343,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(LightArmor);Proficiency(SimpleWeapons);Proficiency(Shields)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(a3e28a89-3c36-4516-a1ed-c8061ba7f166,2);SelectSpells(b8faf12f-ca42-45c0-84f8-6951b526182a,2,0,,,,AlwaysPrepared);AddSpells(2cd54137-2fe5-4100-aad3-df64735a8145);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(845071eb-0cab-4a99-a7af-51882ef803c9,1,Druid_PrimalOrder)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(a3e28a89-3c36-4516-a1ed-c8061ba7f166,2);SelectSpells(b8faf12f-ca42-45c0-84f8-6951b526182a,2,0,,,,AlwaysPrepared);AddSpells(2cd54137-2fe5-4100-aad3-df64735a8145);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(845071eb-0cab-4a99-a7af-51882ef803c9,1,Druid_PrimalOrder);SelectEquipment(e05c1da4-b250-4f30-b0a3-99e65c3b1526,1,StartingArmorDruid)" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Druidic" />
       </fields>
     </stat_object>
@@ -516,43 +516,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
-        <field name="UUID" type="IdTableFieldDefinition" value="73773a6a-f107-4718-95d3-f8624d372fb5" />
-        <field name="TableUUID" type="GuidTableFieldDefinition" value="9dc4240b-cd1a-4905-afbb-d2718477f617" />
-        <field name="FSName" type="StringTableFieldDefinition" value="NPC_Jaheria" />
-        <field name="Level" type="ByteTableFieldDefinition" value="1" />
-        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,9,0);Tag(DRUID);ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(Clubs);Proficiency(Daggers);Proficiency(Javelins);Proficiency(Maces);Proficiency(Quarterstaffs);Proficiency(Scimitars);Proficiency(Sickles);Proficiency(Spears)" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Warden" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_8" />
-        <field name="UUID" type="IdTableFieldDefinition" value="09274227-be19-4275-a9f9-9fff4cb4a24b" />
-        <field name="TableUUID" type="GuidTableFieldDefinition" value="9dc4240b-cd1a-4905-afbb-d2718477f617" />
-        <field name="FSName" type="StringTableFieldDefinition" value="NPC_Jaheria" />
-        <field name="Level" type="ByteTableFieldDefinition" value="5" />
-        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,2,3);" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Warden_Advanced" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
-        <field name="UUID" type="IdTableFieldDefinition" value="e9bd3ad3-31d1-4ea5-8604-e28a719591f2" />
-        <field name="TableUUID" type="GuidTableFieldDefinition" value="9c77844d-c201-47f4-a25f-7925dec8180d" />
-        <field name="FSName" type="StringTableFieldDefinition" value="NPC_Halsin" />
-        <field name="Level" type="ByteTableFieldDefinition" value="1" />
-        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,10.5,0);Tag(DRUID);ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(Clubs);Proficiency(Daggers);Proficiency(Javelins);Proficiency(Maces);Proficiency(Quarterstaffs);Proficiency(Scimitars);Proficiency(Sickles);Proficiency(Spears)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(50115a84-a7d7-4734-98a2-03fccfbdbcd3)" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Magician_StarryWisp" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_510" />
         <field name="UUID" type="IdTableFieldDefinition" value="dfb2fd83-9849-4c2d-be84-adedb81a867a" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="ba4e707e-4bbd-4630-963b-ce2f2947f971" />
@@ -561,7 +524,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Constitution);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons)" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="AllowImprovement" type="BoolTableFieldDefinition" value="False" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(6a4f8598-3a17-42d1-beac-d7ced582bafa,2);AddSpells(9e32fc2b-ce4f-47aa-b113-25cbdc025123);SelectPassives(da3203d8-750a-4de1-b8eb-1eccfccddf46,1,FightingStyle);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectEquipment(403f00e9-1ceb-46c4-8e26-ecaad574996a,1,StartingMeleeWeaponMartial);SelectEquipment(e0f11a39-1d64-4f59-bc10-744e61606353,1,StartingRangedWeaponMartial)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(6a4f8598-3a17-42d1-beac-d7ced582bafa,2);AddSpells(9e32fc2b-ce4f-47aa-b113-25cbdc025123);SelectPassives(da3203d8-750a-4de1-b8eb-1eccfccddf46,1,FightingStyle);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectEquipment(403f00e9-1ceb-46c4-8e26-ecaad574996a,1,StartingMeleeWeaponMartial);SelectEquipment(e0f11a39-1d64-4f59-bc10-744e61606353,1,StartingRangedWeaponMartial);SelectEquipment(a15f6072-57fe-4a5c-a759-6e09ba16eff5,1,StartingArmorFighter)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -601,6 +564,55 @@
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(a1c2b712-2ed6-4e5b-820f-c5db654fe006,4);AddSpells(d84379aa-8bd1-41e5-a21c-242669151fae);SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectEquipment(c6b7f155-fc20-4a76-844e-3c3a49b56055,1,StartingRangedWeaponRogue)" />
         <field name="AllowImprovement" type="BoolTableFieldDefinition" value="False" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="SneakAttack_Unlock" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5d8df68e-7cc2-4e8b-b03b-74616cd13d9f" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="2b9b50de-48e2-4b1c-b40d-6050aa85009a" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Hexblade" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="HexWarrior;HexbladesCurse" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(c4020f68-bb82-4c45-8a4a-8c24fb400526);SelectSpells(d90e88eb-e5f9-4db2-b7ef-1dccb044839a,2,0,,,e9127b70-22b7-42a1-b172-d02f828f260a);SelectEquipment(403f00e9-1ceb-46c4-8e26-ecaad574996a,1,WarlockMeleeWeapon)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="73773a6a-f107-4718-95d3-f8624d372fb5" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="9dc4240b-cd1a-4905-afbb-d2718477f617" />
+        <field name="FSName" type="StringTableFieldDefinition" value="NPC_Jaheria" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,9,0);Tag(DRUID);ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(Clubs);Proficiency(Daggers);Proficiency(Javelins);Proficiency(Maces);Proficiency(Quarterstaffs);Proficiency(Scimitars);Proficiency(Sickles);Proficiency(Spears)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Warden" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_8" />
+        <field name="UUID" type="IdTableFieldDefinition" value="09274227-be19-4275-a9f9-9fff4cb4a24b" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="9dc4240b-cd1a-4905-afbb-d2718477f617" />
+        <field name="FSName" type="StringTableFieldDefinition" value="NPC_Jaheria" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,2,3);" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Warden_Advanced" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e9bd3ad3-31d1-4ea5-8604-e28a719591f2" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="9c77844d-c201-47f4-a25f-7925dec8180d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="NPC_Halsin" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,10.5,0);Tag(DRUID);ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(Clubs);Proficiency(Daggers);Proficiency(Javelins);Proficiency(Maces);Proficiency(Quarterstaffs);Proficiency(Scimitars);Proficiency(Sickles);Proficiency(Spears)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(50115a84-a7d7-4734-98a2-03fccfbdbcd3)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Magician_StarryWisp" />
       </fields>
     </stat_object>
   </stat_objects>

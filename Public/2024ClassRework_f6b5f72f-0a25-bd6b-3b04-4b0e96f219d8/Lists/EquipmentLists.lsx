@@ -5,7 +5,7 @@
         <node id="root">
             <children>
                 <node id="EquipmentList">
-                    <attribute id="Items" type="LSString" value="WPN_Longsword;WPN_Battleaxe;WPN_Warhammer;WPN_Shortsword;WPN_Scimitar;WPN_Rapier;WPN_Maul;WPN_Greataxe;WPN_Greatsword"/>
+                    <attribute id="Items" type="LSString" value="WPN_Longsword;WPN_Battleaxe;WPN_Warhammer;WPN_Morningstar;WPN_Shortsword;WPN_Scimitar;WPN_Rapier;WPN_Maul;WPN_Greataxe;WPN_Greatsword;WPN_Halberd;WPN_Pike;WPN_Glaive;WPN_Spear;WPN_Quarterstaff"/>
                     <attribute id="Name" type="FixedString" value="Starting Melee Weapon: Martial"/>
                     <attribute id="UUID" type="guid" value="403f00e9-1ceb-46c4-8e26-ecaad574996a"/>
                 </node>
@@ -23,6 +23,31 @@
                     <attribute id="Items" type="LSString" value="WPN_Longbow;WPN_HeavyCrossbow;WPN_HandCrossbow;WPN_LightCrossbow;WPN_Shortbow"/>
                     <attribute id="Name" type="FixedString" value="Starting Ranged Weapon: Ranger"/>
                     <attribute id="UUID" type="guid" value="42b9ae23-958d-41dc-9a41-fcb8c3aaa976"/>
+                </node>
+                <node id="EquipmentList">
+                    <attribute id="Items" type="LSString" value="ARM_StuddedLeather_Body;ARM_ScaleMail_Body;ARM_ChainMail_Body"/>
+                    <attribute id="Name" type="FixedString" value="Starting Armor: Fighter"/>
+                    <attribute id="UUID" type="guid" value="a15f6072-57fe-4a5c-a759-6e09ba16eff5"/>
+                </node>
+                <node id="EquipmentList">
+                    <attribute id="Items" type="LSString" value="ARM_Barbarian;ARM_ScaleMail_Body"/>
+                    <attribute id="Name" type="FixedString" value="Starting Armor: Barbarian"/>
+                    <attribute id="UUID" type="guid" value="f791f7e4-7344-409a-bf35-f0265a51d119"/>
+                </node>
+                <node id="EquipmentList">
+                    <attribute id="Items" type="LSString" value="ARM_ChainShirt_Body;ARM_RingMail_Body"/>
+                    <attribute id="Name" type="FixedString" value="Starting Armor: Cleric"/>
+                    <attribute id="UUID" type="guid" value="aac9fd64-1de4-4eea-a14e-0dddc60a79ed"/>
+                </node>
+                <node id="EquipmentList">
+                    <attribute id="Items" type="LSString" value="ARM_Shield;WPN_Dagger"/>
+                    <attribute id="Name" type="FixedString" value="Shield or No Shield"/>
+                    <attribute id="UUID" type="guid" value="7de2e5f1-a324-4bdd-a28c-a491962e77b7"/>
+                </node>
+                <node id="EquipmentList">
+                    <attribute id="Items" type="LSString" value="ARM_Leather_Body_Druid;ARM_Hide_Body"/>
+                    <attribute id="Name" type="FixedString" value="Starting Armor: Druid"/>
+                    <attribute id="UUID" type="guid" value="e05c1da4-b250-4f30-b0a3-99e65c3b1526"/>
                 </node>
             </children>
         </node>

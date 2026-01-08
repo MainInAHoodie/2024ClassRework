@@ -20,7 +20,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd64ab6cegdc8ageee4g0e0eg9d14ad161ddf" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h648e4977g7984g7751gd182g4447d24bd8e4" version="1" />
         <field name="Hidden" type="BoolTableFieldDefinition" value="False" />
-        <field name="Type" type="FixedStringTableFieldDefinition" value="Proficiency" />
+        <field name="Type" type="FixedStringTableFieldDefinition" value="Proficiency(MediumArmor);Proficiency(Scimitars)" />
         <field name="PassivePrototype" type="FixedStringTableFieldDefinition" value="Warden" />
         <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="Warden" />
       </fields>
@@ -33,6 +33,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h06c06c01g9476gd42eg7a08geef41e8d349c" version="1" />
         <field name="Hidden" type="BoolTableFieldDefinition" value="False" />
         <field name="SelectorId" type="FixedStringTableFieldDefinition" value="Druid_ElementalFury" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="5fbf0d3f-9a95-4818-8a46-f9f9b549f7f3" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -52,6 +53,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5e0501a1g7289gf72fge05bg1d0103e610a4" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h787cae7fga74agd3f8g236fge7fe6378fc5e" version="1" />
         <field name="SelectorId" type="FixedStringTableFieldDefinition" value="Cleric_BlessedStrikes" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="eed4c8f4-6c0e-48c0-bd4a-eb5d8c58e549" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -72,6 +74,76 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h24e453acg3237g823ag88b5g5ed3eb0d0943" version="1" />
         <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="e0f11a39-1d64-4f59-bc10-744e61606353" />
         <field name="SelectorId" type="FixedStringTableFieldDefinition" value="StartingRangedWeaponMartial" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f18732a4-9b47-48e2-8ded-358c1c861e84" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h17993721g183bg3e1dg1688ga7f76dbf1e02" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he368f618gd5c1gbbb8g7c3fgca962dc0550c" version="2" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="StartingArmorFighter" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="a15f6072-57fe-4a5c-a759-6e09ba16eff5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_6" />
+        <field name="UUID" type="IdTableFieldDefinition" value="6a116cbb-ed15-4aa6-8cd6-67001715bf9a" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3c965320g7fddgf3a4g3144g9529e8b37ab0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hadf4f50fg96eeg1f90g89a9g0f0b6a71bc12" version="2" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="StartingArmorBarbarian" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="f791f7e4-7344-409a-bf35-f0265a51d119" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_7" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1872caba-6e2d-4f19-b7aa-95bbdbcc1e15" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4aa6cb5agbf57g72e2gd511g4b429ada065f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4c0de2c0gbce1gcb0fgb1e7g39768fa9c88e" version="2" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="StartingArmorCleric" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="aac9fd64-1de4-4eea-a14e-0dddc60a79ed" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_8" />
+        <field name="UUID" type="IdTableFieldDefinition" value="932dd956-c8a4-4379-b45f-2b5ac7b37cac" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h03d94c0fg47c5gd449g7289g65c161267269" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h78bba0d8gdd52g6a9cg7be8g343477890874" version="1" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="StartingArmorDruid" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="e05c1da4-b250-4f30-b0a3-99e65c3b1526" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_9" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a6b9ac2e-457c-47e3-bb8e-cf435a69b99d" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h04b5a95ag887eg2732g8933ge9ccade6b0e3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h032892c0g2744g456egc7a0gd0bd4badd559" version="1" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="ShieldOrNoShield" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="7de2e5f1-a324-4bdd-a28c-a491962e77b7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_10" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a54f609b-50c0-4531-989e-7230d16c8e82" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdcb65d24g54b5gcf31ga0c9gbe5feb6771b5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3749339cg1aa5g8ffdg7e54gedd066390361" version="1" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="StartingRangedWeaponRogue" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="c6b7f155-fc20-4a76-844e-3c3a49b56055" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_11" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2e0edcc9-61e4-4936-b479-ea569544abbb" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h427945deg82abgc5eegeef0ga7f246a79d0b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfafe1922g011fgb388g991dgc18df6e00d12" version="1" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="StartingRangedWeaponRanger" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="42b9ae23-958d-41dc-9a41-fcb8c3aaa976" />
       </fields>
     </stat_object>
   </stat_objects>

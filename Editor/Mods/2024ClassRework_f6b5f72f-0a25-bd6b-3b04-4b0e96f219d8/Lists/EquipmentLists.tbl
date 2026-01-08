@@ -5,7 +5,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="403f00e9-1ceb-46c4-8e26-ecaad574996a" />
         <field name="Name" type="NameTableFieldDefinition" value="Starting Melee Weapon: Martial" />
-        <field name="Items" type="StringTableFieldDefinition" value="WPN_Longsword;WPN_Battleaxe;WPN_Warhammer;WPN_Shortsword;WPN_Scimitar;WPN_Rapier;WPN_Maul;WPN_Greataxe;WPN_Greatsword" />
+        <field name="Items" type="StringTableFieldDefinition" value="WPN_Longsword;WPN_Battleaxe;WPN_Warhammer;WPN_Morningstar;WPN_Shortsword;WPN_Scimitar;WPN_Rapier;WPN_Maul;WPN_Greataxe;WPN_Greatsword;WPN_Halberd;WPN_Pike;WPN_Glaive;WPN_Spear;WPN_Quarterstaff" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -27,6 +27,41 @@
         <field name="UUID" type="IdTableFieldDefinition" value="42b9ae23-958d-41dc-9a41-fcb8c3aaa976" />
         <field name="Name" type="NameTableFieldDefinition" value="Starting Ranged Weapon: Ranger" />
         <field name="Items" type="StringTableFieldDefinition" value="WPN_Longbow;WPN_HeavyCrossbow;WPN_HandCrossbow;WPN_LightCrossbow;WPN_Shortbow" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a15f6072-57fe-4a5c-a759-6e09ba16eff5" />
+        <field name="Name" type="NameTableFieldDefinition" value="Starting Armor: Fighter" />
+        <field name="Items" type="StringTableFieldDefinition" value="ARM_StuddedLeather_Body;ARM_ScaleMail_Body;ARM_ChainMail_Body" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f791f7e4-7344-409a-bf35-f0265a51d119" />
+        <field name="Name" type="NameTableFieldDefinition" value="Starting Armor: Barbarian" />
+        <field name="Items" type="StringTableFieldDefinition" value="ARM_Barbarian;ARM_ScaleMail_Body" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="aac9fd64-1de4-4eea-a14e-0dddc60a79ed" />
+        <field name="Name" type="NameTableFieldDefinition" value="Starting Armor: Cleric" />
+        <field name="Items" type="StringTableFieldDefinition" value="ARM_ChainShirt_Body;ARM_RingMail_Body" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e05c1da4-b250-4f30-b0a3-99e65c3b1526" />
+        <field name="Name" type="NameTableFieldDefinition" value="Starting Armor: Druid" />
+        <field name="Items" type="StringTableFieldDefinition" value="ARM_Leather_Body_Druid;ARM_Hide_Body" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7de2e5f1-a324-4bdd-a28c-a491962e77b7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Shield or No Shield" />
+        <field name="Items" type="StringTableFieldDefinition" value="ARM_Shield;WPN_Dagger" />
       </fields>
     </stat_object>
   </stat_objects>
