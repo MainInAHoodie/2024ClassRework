@@ -18,13 +18,14 @@
                     <attribute id="ExactMatch" type="FixedString" value="Warden"/>
                     <attribute id="Hidden" type="bool" value="false"/>
                     <attribute id="PassivePrototype" type="FixedString" value="Warden"/>
-                    <attribute id="Type" type="FixedString" value="Proficiency"/>
+                    <attribute id="Type" type="FixedString" value="Proficiency(MediumArmor);Proficiency(Scimitars)"/>
                     <attribute id="UUID" type="guid" value="7517a12c-bddd-4314-b4a9-3d6750d63fa2"/>
                 </node>
                 <node id="ProgressionDescription">
                     <attribute id="Description" type="TranslatedString" handle="h06c06c01g9476gd42eg7a08geef41e8d349c" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="hdf558a5cg41d9g08afg6633gedc7a7cce31b" version="1"/>
                     <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ProgressionTableId" type="guid" value="5fbf0d3f-9a95-4818-8a46-f9f9b549f7f3"/>
                     <attribute id="SelectorId" type="FixedString" value="Druid_ElementalFury"/>
                     <attribute id="UUID" type="guid" value="4c88b853-2fc0-444f-a948-2c1365218188"/>
                 </node>
@@ -38,6 +39,7 @@
                 <node id="ProgressionDescription">
                     <attribute id="Description" type="TranslatedString" handle="h787cae7fga74agd3f8g236fge7fe6378fc5e" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h5e0501a1g7289gf72fge05bg1d0103e610a4" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="eed4c8f4-6c0e-48c0-bd4a-eb5d8c58e549"/>
                     <attribute id="SelectorId" type="FixedString" value="Cleric_BlessedStrikes"/>
                     <attribute id="UUID" type="guid" value="a54ff50b-7154-4e4c-ba00-c975f2fb35ec"/>
                 </node>
@@ -54,6 +56,55 @@
                     <attribute id="ProgressionTableId" type="guid" value="e0f11a39-1d64-4f59-bc10-744e61606353"/>
                     <attribute id="SelectorId" type="FixedString" value="StartingRangedWeaponMartial"/>
                     <attribute id="UUID" type="guid" value="9cfd5f6f-82b2-4716-9934-452106af94c9"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="he368f618gd5c1gbbb8g7c3fgca962dc0550c" version="2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h17993721g183bg3e1dg1688ga7f76dbf1e02" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="a15f6072-57fe-4a5c-a759-6e09ba16eff5"/>
+                    <attribute id="SelectorId" type="FixedString" value="StartingArmorFighter"/>
+                    <attribute id="UUID" type="guid" value="f18732a4-9b47-48e2-8ded-358c1c861e84"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hadf4f50fg96eeg1f90g89a9g0f0b6a71bc12" version="2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3c965320g7fddgf3a4g3144g9529e8b37ab0" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="f791f7e4-7344-409a-bf35-f0265a51d119"/>
+                    <attribute id="SelectorId" type="FixedString" value="StartingArmorBarbarian"/>
+                    <attribute id="UUID" type="guid" value="6a116cbb-ed15-4aa6-8cd6-67001715bf9a"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h4c0de2c0gbce1gcb0fgb1e7g39768fa9c88e" version="2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h4aa6cb5agbf57g72e2gd511g4b429ada065f" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="aac9fd64-1de4-4eea-a14e-0dddc60a79ed"/>
+                    <attribute id="SelectorId" type="FixedString" value="StartingArmorCleric"/>
+                    <attribute id="UUID" type="guid" value="1872caba-6e2d-4f19-b7aa-95bbdbcc1e15"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h78bba0d8gdd52g6a9cg7be8g343477890874" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h03d94c0fg47c5gd449g7289g65c161267269" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="e05c1da4-b250-4f30-b0a3-99e65c3b1526"/>
+                    <attribute id="SelectorId" type="FixedString" value="StartingArmorDruid"/>
+                    <attribute id="UUID" type="guid" value="932dd956-c8a4-4379-b45f-2b5ac7b37cac"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h032892c0g2744g456egc7a0gd0bd4badd559" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h04b5a95ag887eg2732g8933ge9ccade6b0e3" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="7de2e5f1-a324-4bdd-a28c-a491962e77b7"/>
+                    <attribute id="SelectorId" type="FixedString" value="ShieldOrNoShield"/>
+                    <attribute id="UUID" type="guid" value="a6b9ac2e-457c-47e3-bb8e-cf435a69b99d"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h3749339cg1aa5g8ffdg7e54gedd066390361" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hdcb65d24g54b5gcf31ga0c9gbe5feb6771b5" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="c6b7f155-fc20-4a76-844e-3c3a49b56055"/>
+                    <attribute id="SelectorId" type="FixedString" value="StartingRangedWeaponRogue"/>
+                    <attribute id="UUID" type="guid" value="a54f609b-50c0-4531-989e-7230d16c8e82"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hfafe1922g011fgb388g991dgc18df6e00d12" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h427945deg82abgc5eegeef0ga7f246a79d0b" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="42b9ae23-958d-41dc-9a41-fcb8c3aaa976"/>
+                    <attribute id="SelectorId" type="FixedString" value="StartingRangedWeaponRanger"/>
+                    <attribute id="UUID" type="guid" value="2e0edcc9-61e4-4936-b479-ea569544abbb"/>
                 </node>
             </children>
         </node>
