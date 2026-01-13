@@ -445,4 +445,13 @@
   <content contentuid="hfafe1922g011fgb388g991dgc18df6e00d12" version="1">Pick your starting ranged weapon.</content>
   <content contentuid="hdcb65d24g54b5gcf31ga0c9gbe5feb6771b5" version="1">Starting Ranged Weapon</content>
   <content contentuid="h3749339cg1aa5g8ffdg7e54gedd066390361" version="1">Pick your starting ranged weapon.</content>
+  <content contentuid="h21c29294g61d3gaec8g8fb6gd2aa106f1361" version="1">Link yourself to a target with a bolt of lightning. Deal an additional [1] each turn by activating it.</content>
+  <content contentuid="h53fc2f38g23a2g7a8egc398ga2ca0ba99730" version="1">Witch Bolt</content>
+  <content contentuid="h05719c51g4105ga6b1ga84cg727583803779" version="1">Link yourself to a target with a bolt of lightning. Deal an additional [1] each turn by activating it.</content>
+  <content contentuid="ha275b668g7d9agbfb1g0393g6cf753e22af7" version="1">Witch Bolt</content>
+  <content contentuid="he6f865degccadg95d7g2734g2fb32fc86c5a" version="1">Activate Witch Bolt</content>
+  <content contentuid="h067b533dga861gf2c4gad8bg2ec2631d0d78" version="1">Activate the bolt and deal [1].</content>
+  <content contentuid="h7a9a1197g7d8fg109fg53eage8a4a64127d3" version="1">Draconic Resilience</content>
+  <content contentuid="h27b8cd74gc5b1g90d1g638cg8e3e115fa393" version="3">Dragon-like scales cover parts of your skin. When you aren't wearing armour, your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; is 10 plus your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; and &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; modifiers.</content>
+  <content contentuid="hb45aa9e4g163cg9baag3fe1g52389cfe1949" version="1">You can use a Shield and still gain this benefit.</content>
 </contentList>

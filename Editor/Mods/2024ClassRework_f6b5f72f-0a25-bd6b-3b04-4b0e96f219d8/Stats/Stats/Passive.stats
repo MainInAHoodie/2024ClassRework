@@ -239,7 +239,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_MoonlightStep,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,,Wisdom);UnlockSpell(Shout_MoonlightStepRestoreUses,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,,Wisdom);" />
       </fields>
     </stat_object>
-	<stat_object is_substat="false">
+    <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="01a20d29-e932-450a-bedc-58306d673a94" />
         <field name="Name" type="NameTableFieldDefinition" value="Protector" />
@@ -407,7 +407,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_TrickstersTransposition);" />
       </fields>
     </stat_object>
-	<stat_object is_substat="false">
+    <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="923ed6cf-cfd6-4a0e-9799-bf29a5b2b7d6" />
         <field name="Name" type="NameTableFieldDefinition" value="FontOfInspiration" />
@@ -416,6 +416,20 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceReplenishTypeOverride(BardicInspiration,ShortRest);UnlockSpell(Shout_FontOfInspiration,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,,Charisma);" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_FontOfInspiration" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3e687354-b55c-40e4-bc8d-9e9975abaafb" />
+        <field name="Name" type="NameTableFieldDefinition" value="DraconicResilience" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7a9a1197g7d8fg109fg53eage8a4a64127d3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h27b8cd74gc5b1g90d1g638cg8e3e115fa393" version="3" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ACOverrideFormula(130true,Dexterity,Charisma);" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="not WearingArmor(context.Source)" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_DraconicResilience" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hb45aa9e4g163cg9baag3fe1g52389cfe1949" version="1" />
       </fields>
     </stat_object>
   </stat_objects>

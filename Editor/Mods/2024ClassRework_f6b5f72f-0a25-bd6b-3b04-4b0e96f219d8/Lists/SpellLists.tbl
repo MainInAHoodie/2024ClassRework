@@ -53,7 +53,7 @@
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="3156daf5-9266-41d0-b52c-5bc559a98654" />
       </fields>
     </stat_object>
-	<stat_object is_substat="false">
+    <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="239cc7cc-f642-4ddc-b091-498d81612c51" />
         <field name="Name" type="NameTableFieldDefinition" value="Cleric channel divinity" />
@@ -118,7 +118,7 @@
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="37e9b20b-5fd1-45c5-b1c5-159c42397c83" />
       </fields>
     </stat_object>
-	<stat_object is_substat="false">
+    <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="175ceed7-5a53-4f48-823c-41c4f72d18ae" />
         <field name="Name" type="NameTableFieldDefinition" value="Lore Bard Magical Secrets 6" />
