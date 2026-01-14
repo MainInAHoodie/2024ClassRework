@@ -454,4 +454,6 @@
   <content contentuid="h7a9a1197g7d8fg109fg53eage8a4a64127d3" version="1">Draconic Resilience</content>
   <content contentuid="h27b8cd74gc5b1g90d1g638cg8e3e115fa393" version="3">Dragon-like scales cover parts of your skin. When you aren't wearing armour, your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; is 10 plus your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; and &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; modifiers.</content>
   <content contentuid="hb45aa9e4g163cg9baag3fe1g52389cfe1949" version="1">You can use a Shield and still gain this benefit.</content>
+  <content contentuid="h155bcdb0g8b15g6c90g888bg4a0f022ee252" version="1">Wild Magic: Burning</content>
+  <content contentuid="hb04bf123g1fcdg44b8g2a58g774e4dc1392e" version="1">Each creature and item within [1] starts burning and takes [2] per turn.</content>
 </contentList>
