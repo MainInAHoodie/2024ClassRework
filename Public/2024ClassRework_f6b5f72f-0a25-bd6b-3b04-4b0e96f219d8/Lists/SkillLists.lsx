@@ -9,6 +9,12 @@
                     <attribute id="Skills" type="LSString" value="Arcana, History, Nature, Religion, Medicine"/>
                     <attribute id="UUID" type="guid" value="b0b9bc80-8468-4a53-b9ca-6d9146f23801"/>
                 </node>
+                <node id="SkillList">
+                    <attribute id="MergedInto" type="guid" value="6a4f8598-3a17-42d1-beac-d7ced582bafa"/>
+                    <attribute id="Name" type="FixedString" value="Fighter Skill Additions"/>
+                    <attribute id="Skills" type="LSString" value="Persuasion"/>
+                    <attribute id="UUID" type="guid" value="d5f8b512-c7dc-45df-bdfd-93d173846f25"/>
+                </node>
             </children>
         </node>
     </region>

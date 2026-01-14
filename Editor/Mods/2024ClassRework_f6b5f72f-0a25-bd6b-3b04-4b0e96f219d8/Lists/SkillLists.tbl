@@ -8,5 +8,13 @@
         <field name="Skills" type="StringTableFieldDefinition" value="Arcana, History, Nature, Religion, Medicine" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d5f8b512-c7dc-45df-bdfd-93d173846f25" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fighter Skill Additions" />
+        <field name="Skills" type="StringTableFieldDefinition" value="Persuasion" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="6a4f8598-3a17-42d1-beac-d7ced582bafa" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
