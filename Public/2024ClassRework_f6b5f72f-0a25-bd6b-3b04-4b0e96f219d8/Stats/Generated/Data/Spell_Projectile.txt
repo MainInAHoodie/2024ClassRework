@@ -178,3 +178,17 @@ data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
 data "RootSpellID" "Projectile_WitchBolt"
 data "PowerLevel" "6"
 
+new entry "Projectile_SorcerousBurst"
+type "SpellData"
+data "SpellType" "Projectile"
+data "Level" "0"
+data "SpellSchool" "Evocation"
+data "ContainerSpells" "Projectile_SorcerousBurst_Acid;Projectile_SorcerousBurst_Cold;Projectile_SorcerousBurst_Fire;Projectile_SorcerousBurst_Poison;Projectile_SorcerousBurst_Thunder;"
+
+new entry "Projectile_SorcerousBurst_Acid"
+type "SpellData"
+data "SpellType" "Projectile"
+data "Level" "0"
+data "SpellSchool" "Evocation"
+data "SpellContainerID" "Projectile_SorcerousBurst"
+

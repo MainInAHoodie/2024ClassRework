@@ -205,5 +205,23 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d6,Lightning)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="71e374e4-fead-4bdd-a141-5556d465df3e" />
+        <field name="Name" type="NameTableFieldDefinition" value="SorcerousBurst" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="0" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Projectile_SorcerousBurst_Acid;Projectile_SorcerousBurst_Cold;Projectile_SorcerousBurst_Fire;Projectile_SorcerousBurst_Poison;Projectile_SorcerousBurst_Thunder;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d9ee1852-1cd5-4ef0-9488-51959282bfab" />
+        <field name="Name" type="NameTableFieldDefinition" value="SorcerousBurst_Acid" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="0" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_SorcerousBurst" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
