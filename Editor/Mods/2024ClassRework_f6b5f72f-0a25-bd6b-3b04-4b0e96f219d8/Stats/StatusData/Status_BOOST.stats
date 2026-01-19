@@ -283,8 +283,8 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6d6acd73-5cda-4bbf-a81d-ee455c4924c6" />
         <field name="Name" type="NameTableFieldDefinition" value="MAGIC_DAMAGE_REROLL" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7687e97bg91cfge8f1g7cd2ga377fb79111f" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he44a9144g9559g814eg5773g89f273d3e2e0" version="2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7687e97bg91cfge8f1g7cd2ga377fb79111f" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he44a9144g9559g814eg5773g89f273d3e2e0" version="3" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Damage" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGIC_DAMAGE_REROLL" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Reroll(Damage,20,true);" />

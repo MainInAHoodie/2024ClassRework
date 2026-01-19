@@ -217,10 +217,12 @@
         <field name="Level" type="IntegerTableFieldDefinition" value="0" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
         <field name="ContainerSpells" type="StringTableFieldDefinition" value="Projectile_SorcerousBurst_Acid;Projectile_SorcerousBurst_Cold;Projectile_SorcerousBurst_Fire;Projectile_SorcerousBurst_Lightning;Projectile_SorcerousBurst_Poison;Projectile_SorcerousBurst_Thunder;" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Damage" />
+        <field name="Icon" type="StringTableFieldDefinition" value="SorcerousBurst" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h72f2c51dg959dg4d3dg436fg3771439c11e8" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1b98b166g4778gba1bg6224g741185f35591" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1b98b166g4778gba1bg6224g741185f35591" version="5" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="LevelMapValue(D8Cantrip)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="LevelMapValue(D8Cantrip)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -230,7 +232,7 @@
         <field name="Level" type="IntegerTableFieldDefinition" value="0" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_SorcerousBurst" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(LevelMapValue(D8Cantrip),Acid,Magical);ApplyStatus(SELF,MAGIC_DAMAGE_REROLL,100,1);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(LevelMapValue(D8Cantrip),Acid,Magical);" />
         <field name="TargetFloor" type="StringTableFieldDefinition" value="-1" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.RangedSpellAttack)" />
@@ -240,7 +242,6 @@
         <field name="Trajectories" type="StringTableFieldDefinition" value="f77c14be-cc25-40d6-a7dd-99b2e0a2df1c" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Acid" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h258300c9g0c3eg4726gc1afg928fdbffe4bd" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Acid,Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Acid,Magical);" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="RangedSpellAttack" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Acid_Gen_L1to3" />
@@ -265,12 +266,11 @@
         <field name="UUID" type="IdTableFieldDefinition" value="247c451d-7227-4609-b8a0-0a0f38505777" />
         <field name="Name" type="NameTableFieldDefinition" value="SorcerousBurst_Cold" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d9ee1852-1cd5-4ef0-9488-51959282bfab" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(LevelMapValue(D8Cantrip),Cold,Magical);ApplyStatus(SELF,MAGIC_DAMAGE_REROLL,100,1);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(LevelMapValue(D8Cantrip),Cold,Magical);" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Cold,Magical);" />
         <field name="Trajectories" type="StringTableFieldDefinition" value="32fab210-8c88-4fe2-a33c-ade6a9c880b7" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Cold" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8746bfafg098agbfe6g5f4bg75de29cbd156" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Cold,Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Cold,Magical);" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Cold_Gen_L1to3" />
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Cold_Gen_L1to3_Loop" />
@@ -286,12 +286,11 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ca971d17-96d1-4d3f-8f97-3b2c090683f3" />
         <field name="Name" type="NameTableFieldDefinition" value="SorcerousBurst_Fire" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d9ee1852-1cd5-4ef0-9488-51959282bfab" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(LevelMapValue(D8Cantrip),Fire,Magical);ApplyStatus(SELF,MAGIC_DAMAGE_REROLL,100,1);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(LevelMapValue(D8Cantrip),Fire,Magical);" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Fire,Magical);" />
         <field name="Trajectories" type="StringTableFieldDefinition" value="02038395-3092-4580-a119-0e5fd1a650ee" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Fire" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h629710acgb9e5g1bb5g0ce8g8778d7b0f67a" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Fire,Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Fire,Magical);" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Fire_Gen_L1to3" />
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Fire_Gen_L1to3_Loop" />
@@ -308,12 +307,11 @@
         <field name="UUID" type="IdTableFieldDefinition" value="462e830b-40ca-43a3-b41c-4789b96f4061" />
         <field name="Name" type="NameTableFieldDefinition" value="SorcerousBurst_Lightning" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d9ee1852-1cd5-4ef0-9488-51959282bfab" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(LevelMapValue(D8Cantrip),Lightning,Magical);ApplyStatus(SELF,MAGIC_DAMAGE_REROLL,100,1);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(LevelMapValue(D8Cantrip),Lightning,Magical);" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Lightning,Magical);" />
         <field name="Trajectories" type="StringTableFieldDefinition" value="7a2eea92-5a51-408d-ac76-c45098c87d93" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Lightning" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2dc7d425gfd24gae36g4430ga26c811fbfdb" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Lightning,Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Lightning,Magical);" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Lightning_Gen_L1to3" />
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Lightning_Gen_L1to3_Loop" />
@@ -329,12 +327,11 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ca38d3a1-273a-4fde-901d-c3392683a4e7" />
         <field name="Name" type="NameTableFieldDefinition" value="SorcerousBurst_Poison" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d9ee1852-1cd5-4ef0-9488-51959282bfab" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(LevelMapValue(D8Cantrip),Poison,Magical);ApplyStatus(SELF,MAGIC_DAMAGE_REROLL,100,1);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(LevelMapValue(D8Cantrip),Poison,Magical);" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Poison,Magical);" />
         <field name="Trajectories" type="StringTableFieldDefinition" value="8c7bb016-4706-45b0-bcf4-5b59011ced12" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Poison" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfd4a6f4bg9fc2g3c88gda35gdffa7002663f" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Poison,Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Poison,Magical);" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Poison_Gen_L1to3" />
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Poison_Gen_L1to3_Loop" />
@@ -348,14 +345,13 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1413bf35-1138-4b00-b6c1-5577877ff4e0" />
-        <field name="Name" type="NameTableFieldDefinition" value="SorcerousBust_Thunder" />
+        <field name="Name" type="NameTableFieldDefinition" value="SorcerousBurst_Thunder" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d9ee1852-1cd5-4ef0-9488-51959282bfab" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(LevelMapValue(D8Cantrip),Thunder,Magical);ApplyStatus(SELF,MAGIC_DAMAGE_REROLL,100,1);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(LevelMapValue(D8Cantrip),Thunder,Magical);" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Thunder,Magical);" />
         <field name="Trajectories" type="StringTableFieldDefinition" value="c7cd4b0a-2b2e-47ae-a4e8-849ad5d448f8" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Thunder" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha04a3a4eg92d0g5f36g5478g1e8427dc7a4a" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Thunder,Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Thunder,Magical);" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Thunder_Gen_L1to3" />
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Thunder_Gen_L1to3_Loop" />
