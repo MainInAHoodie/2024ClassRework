@@ -11,7 +11,7 @@
         <field name="Comment" type="CommentTableFieldDefinition" value="Primal Order Default" />
       </fields>
     </stat_object>
-	<stat_object is_substat="false">
+    <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
         <field name="UUID" type="IdTableFieldDefinition" value="029070fa-f362-43cf-aa0e-4b63aa49c030" />
@@ -19,6 +19,49 @@
         <field name="Level" type="IntegerTableFieldDefinition" value="1" />
         <field name="DefaultValues" type="StringTableFieldDefinition" value="Thaumaturge_ProduceFlame" />
         <field name="Comment" type="CommentTableFieldDefinition" value="Cleric Divine Order Default" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5c753535-8d9c-4d72-b41a-216ca34231a1" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="ba4e707e-4bbd-4630-963b-ce2f2947f971" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="2" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="FightingStyle_Defense" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Fighter Fighting Style" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_8" />
+        <field name="UUID" type="IdTableFieldDefinition" value="481ca64e-ba18-447f-aa07-86cf784b86b3" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="ba4e707e-4bbd-4630-963b-ce2f2947f971" />
+        <field name="Origin" type="GuidTableFieldDefinition" value="fb3bc4c3-49eb-4944-b714-d0cb357bb635" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="2" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="FightingStyle_GreatWeaponFighting" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Laezel Fighting Style" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="61cc90f4-853c-4375-ad3a-7f183e99367a" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="6e7b7bad-e122-4679-8b3c-8f8987a9d466" />
+        <field name="Origin" type="GuidTableFieldDefinition" value="a36281c5-adcd-4d6e-8e5a-b5650b8f17eb" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="Magician_StarryWisp" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Halsin Default Primal Order" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="eff58622-e93e-4681-bce9-3e314da5b3fb" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="6e7b7bad-e122-4679-8b3c-8f8987a9d466" />
+        <field name="Origin" type="GuidTableFieldDefinition" value="c1f137c7-a17c-47b0-826a-12e44a8ec45c" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="Warden" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Jaheira Primal Order" />
       </fields>
     </stat_object>
   </stat_objects>
