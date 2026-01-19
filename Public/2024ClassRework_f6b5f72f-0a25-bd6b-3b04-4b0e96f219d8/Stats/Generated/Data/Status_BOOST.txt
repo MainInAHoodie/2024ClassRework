@@ -238,3 +238,14 @@ data "Boosts" "DownedStatus(GLO_AURAOFLIFE_DOWNED,20);Resistance(Necrotic,Resist
 data "ApplyEffect" "d21494e5-5c30-4a69-85ef-75a785e71105"
 data "EndEffect" "a5c11e94-efa3-4998-a76b-fc12502ea565"
 
+new entry "MAGIC_DAMAGE_REROLL"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h7687e97bg91cfge8f1g7cd2ga377fb79111f;1"
+data "Description" "he44a9144g9559g814eg5773g89f273d3e2e0;2"
+data "Icon" "GenericIcon_Intent_Damage"
+data "StackId" "MAGIC_DAMAGE_REROLL"
+data "Boosts" "Reroll(Damage,20,true);"
+data "RemoveEvents" "OnAttack"
+data "StatusGroups" "SG_RemoveOnRespec"
+

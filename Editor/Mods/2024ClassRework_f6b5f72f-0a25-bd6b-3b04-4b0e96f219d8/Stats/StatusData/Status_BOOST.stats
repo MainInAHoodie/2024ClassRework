@@ -126,7 +126,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Skill, Nature);Advantage(Skill, Survival);" />
       </fields>
     </stat_object>
-	<stat_object is_substat="false">
+    <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9417d696-1183-45d3-a50e-4f0403ed20f9" />
         <field name="Name" type="NameTableFieldDefinition" value="PROTECTOR" />
@@ -277,6 +277,19 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="DownedStatus(GLO_AURAOFLIFE_DOWNED,20);Resistance(Necrotic,Resistant);StatusImmunity(HARM);StatusImmunity(CURSE_MUMMY);StatusImmunity(INCUBUS_DRAININGKISS);StatusImmunity(HP_REDUCTION_VAMPIRE);StatusImmunity(LIFE_DRAIN);StatusImmunity(MOO_ABSOLUTES_CURSE);StatusImmunity(MOO_BALTHAZARSSECRETS_HEARTALTAR);StatusImmunity(LOW_ANCIENTLAIR_CURSE);" />
         <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="d21494e5-5c30-4a69-85ef-75a785e71105" />
         <field name="EndEffect" type="GuidObjectTableFieldDefinition" value="a5c11e94-efa3-4998-a76b-fc12502ea565" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6d6acd73-5cda-4bbf-a81d-ee455c4924c6" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAGIC_DAMAGE_REROLL" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7687e97bg91cfge8f1g7cd2ga377fb79111f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he44a9144g9559g814eg5773g89f273d3e2e0" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Damage" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MAGIC_DAMAGE_REROLL" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Reroll(Damage,20,true);" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
   </stat_objects>

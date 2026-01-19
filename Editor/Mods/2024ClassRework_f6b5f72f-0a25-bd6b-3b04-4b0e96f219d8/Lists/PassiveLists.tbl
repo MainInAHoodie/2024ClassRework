@@ -22,7 +22,7 @@
         <field name="Passives" type="StringTableFieldDefinition" value="Land_Arid,Land_Polar,Land_Temperate,Land_Tropical" />
       </fields>
     </stat_object>
-	<stat_object is_substat="false">
+    <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="38776f0c-e88e-44e6-8e03-5efafc080d9d" />
         <field name="Name" type="NameTableFieldDefinition" value="ClericDivineOrders" />
@@ -34,6 +34,20 @@
         <field name="UUID" type="IdTableFieldDefinition" value="eed4c8f4-6c0e-48c0-bd4a-eb5d8c58e549" />
         <field name="Name" type="NameTableFieldDefinition" value="Cleric_BlessedStrikes" />
         <field name="Passives" type="StringTableFieldDefinition" value="PotentSpellcasting,DivineStrike" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="da3203d8-750a-4de1-b8eb-1eccfccddf46" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fighter fighting style" />
+        <field name="Passives" type="StringTableFieldDefinition" value="FightingStyle_Archery,FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_Protection,FightingStyle_TwoWeaponFighting" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fd86f4f5-76b1-41ef-902d-cad87ea56e9f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fighting Style List" />
+        <field name="Passives" type="StringTableFieldDefinition" value="FightingStyle_Archery,FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_Protection,FightingStyle_TwoWeaponFighting" />
       </fields>
     </stat_object>
   </stat_objects>

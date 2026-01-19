@@ -1,8 +1,6 @@
 new equipment "EQP_CC_Barbarian"
 add initialweaponset "Melee"
 add equipmentgroup
-add equipment entry "WPN_Greataxe"
-add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
@@ -10,8 +8,6 @@ add equipmentgroup
 add equipment entry "OBJ_Scroll_Revivify"
 add equipmentgroup
 add equipment entry "ARM_Shoes_Barbarian"
-add equipmentgroup
-add equipment entry "ARM_Barbarian"
 add equipmentgroup
 add equipment entry "WPN_Handaxe"
 add equipmentgroup
@@ -73,6 +69,8 @@ add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
 add equipment entry "ARM_Boots_Leather"
 add equipmentgroup
+add equipment entry "ARM_ChainShirt_Body"
+add equipmentgroup
 add equipment entry "OBJ_Scroll_Revivify"
 add equipmentgroup
 add equipment entry "OBJ_Keychain"
@@ -113,8 +111,6 @@ add equipmentgroup
 add equipment entry "OBJ_Backpack_CampSupplies"
 add equipmentgroup
 add equipment entry "WPN_Dagger"
-add equipmentgroup
-add equipment entry "ARM_Shield_Wood"
 
 new equipment "EQP_CC_Fighter"
 add initialweaponset "Melee"
@@ -124,8 +120,6 @@ add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
-add equipmentgroup
-add equipment entry "ARM_ScaleMail_Body"
 add equipmentgroup
 add equipment entry "OBJ_Scroll_Revivify"
 add equipmentgroup
@@ -338,6 +332,8 @@ add equipment entry "WPN_Dagger"
 new equipment "EQP_CC_Ranger"
 add initialweaponset "Ranged"
 add equipmentgroup
+add equipment entry "WPN_Longbow"
+add equipmentgroup
 add equipment entry "WPN_Shortsword"
 add equipmentgroup
 add equipment entry "ARM_Boots_Leather"
@@ -369,6 +365,8 @@ add initialweaponset "Ranged"
 add equipmentgroup
 add equipment entry "WPN_Dagger"
 add equipmentgroup
+add equipment entry "WPN_Dagger"
+add equipmentgroup
 add equipment entry "OBJ_Kit_ThievesTools"
 add equipmentgroup
 add equipment entry "OBJ_GreaseBottle"
@@ -394,8 +392,6 @@ add equipmentgroup
 add equipment entry "ARM_Camp_Shoes"
 add equipmentgroup
 add equipment entry "OBJ_Backpack_CampSupplies"
-add equipmentgroup
-add equipment entry "WPN_Dagger"
 
 new equipment "EQP_CC_Sorcerer"
 add initialweaponset "Melee"

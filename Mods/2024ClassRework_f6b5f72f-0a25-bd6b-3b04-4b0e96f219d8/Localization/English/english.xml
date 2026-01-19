@@ -458,4 +458,14 @@
   <content contentuid="hb04bf123g1fcdg44b8g2a58g774e4dc1392e" version="1">Each creature and item within [1] starts burning and takes [2] per turn.</content>
   <content contentuid="h42f455cfgb3aag5ec5ga979gd11d2a67b88f" version="1">Paladin</content>
   <content contentuid="h3357a084ga792gba6cg5a1eg224f5783c4e4" version="1">A promise made so deeply that it becomes divine in itself flows through a paladin, burning bright enough to inspire allies and smite foes.</content>
+  <content contentuid="h7687e97bg91cfge8f1g7cd2ga377fb79111f" version="1">Magic Damage Reroll</content>
+  <content contentuid="he44a9144g9559g814eg5773g89f273d3e2e0" version="2">Roll damage twice and take the higher of the two.</content>
+  <content contentuid="h258300c9g0c3eg4726gc1afg928fdbffe4bd" version="1">Sorcerous Burst: Acid</content>
+  <content contentuid="h629710acgb9e5g1bb5g0ce8g8778d7b0f67a" version="1">Sorcerous Burst: Fire</content>
+  <content contentuid="h72f2c51dg959dg4d3dg436fg3771439c11e8" version="1">Sorcerous Burst</content>
+  <content contentuid="h1b98b166g4778gba1bg6224g741185f35591" version="1">Deal variable damage</content>
+  <content contentuid="h8746bfafg098agbfe6g5f4bg75de29cbd156" version="1">Sorcerous Burst: Cold</content>
+  <content contentuid="h2dc7d425gfd24gae36g4430ga26c811fbfdb" version="1">Sorcerous Burst: Lightning</content>
+  <content contentuid="hfd4a6f4bg9fc2g3c88gda35gdffa7002663f" version="1">Sorcerous Burst: Poison</content>
+  <content contentuid="ha04a3a4eg92d0g5f36g5478g1e8427dc7a4a" version="1">Sorcerous Burst: Thunder</content>
 </contentList>

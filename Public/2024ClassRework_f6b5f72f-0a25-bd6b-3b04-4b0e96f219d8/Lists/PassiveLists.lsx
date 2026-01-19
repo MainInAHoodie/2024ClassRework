@@ -19,7 +19,7 @@
                     <attribute id="Passives" type="LSString" value="Land_Arid,Land_Polar,Land_Temperate,Land_Tropical"/>
                     <attribute id="UUID" type="guid" value="e64bc365-6037-4f82-b710-8d958d9334e6"/>
                 </node>
-				<node id="PassiveList">
+                <node id="PassiveList">
                     <attribute id="Name" type="FixedString" value="ClericDivineOrders"/>
                     <attribute id="Passives" type="LSString" value="Protector,Thaumaturge_ProduceFlame,Thaumaturge_TollTheDead,Thaumaturge_Thaumaturgy,Thaumaturge_WordOfRadiance"/>
                     <attribute id="UUID" type="guid" value="38776f0c-e88e-44e6-8e03-5efafc080d9d"/>
@@ -28,6 +28,16 @@
                     <attribute id="Name" type="FixedString" value="Cleric_BlessedStrikes"/>
                     <attribute id="Passives" type="LSString" value="PotentSpellcasting,DivineStrike"/>
                     <attribute id="UUID" type="guid" value="eed4c8f4-6c0e-48c0-bd4a-eb5d8c58e549"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Fighter fighting style"/>
+                    <attribute id="Passives" type="LSString" value="FightingStyle_Archery,FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_Protection,FightingStyle_TwoWeaponFighting"/>
+                    <attribute id="UUID" type="guid" value="da3203d8-750a-4de1-b8eb-1eccfccddf46"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Fighting Style List"/>
+                    <attribute id="Passives" type="LSString" value="FightingStyle_Archery,FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_Protection,FightingStyle_TwoWeaponFighting"/>
+                    <attribute id="UUID" type="guid" value="fd86f4f5-76b1-41ef-902d-cad87ea56e9f"/>
                 </node>
             </children>
         </node>
