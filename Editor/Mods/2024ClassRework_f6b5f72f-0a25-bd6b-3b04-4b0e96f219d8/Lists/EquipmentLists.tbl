@@ -61,7 +61,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7de2e5f1-a324-4bdd-a28c-a491962e77b7" />
         <field name="Name" type="NameTableFieldDefinition" value="Shield or No Shield" />
-        <field name="Items" type="StringTableFieldDefinition" value="ARM_Shield;WPN_Dagger" />
+        <field name="Items" type="StringTableFieldDefinition" value="ARM_Shield;WPN_Javelin" />
       </fields>
     </stat_object>
   </stat_objects>

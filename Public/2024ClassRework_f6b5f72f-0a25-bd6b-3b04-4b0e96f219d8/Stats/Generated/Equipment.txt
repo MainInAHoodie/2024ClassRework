@@ -9,6 +9,8 @@ add equipment entry "OBJ_Scroll_Revivify"
 add equipmentgroup
 add equipment entry "ARM_Shoes_Barbarian"
 add equipmentgroup
+add equipment entry "ARM_Robe_Body"
+add equipmentgroup
 add equipment entry "WPN_Handaxe"
 add equipmentgroup
 add equipment entry "WPN_Handaxe"

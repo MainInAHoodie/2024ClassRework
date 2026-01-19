@@ -91,9 +91,9 @@
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_6" />
         <field name="UUID" type="IdTableFieldDefinition" value="6a116cbb-ed15-4aa6-8cd6-67001715bf9a" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3c965320g7fddgf3a4g3144g9529e8b37ab0" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hadf4f50fg96eeg1f90g89a9g0f0b6a71bc12" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hadf4f50fg96eeg1f90g89a9g0f0b6a71bc12" version="3" />
         <field name="SelectorId" type="FixedStringTableFieldDefinition" value="StartingArmorBarbarian" />
-        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="f791f7e4-7344-409a-bf35-f0265a51d119" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="60bbcc97-5381-4898-bc15-908c072895de" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
