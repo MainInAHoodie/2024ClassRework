@@ -13,7 +13,7 @@
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
                     <attribute id="UUID" type="guid" value="a97fde5b-f0ad-4a64-a070-9125b2e41740"/>
                 </node>
-				<node id="ActionResourceDefinition">
+                <node id="ActionResourceDefinition">
                     <attribute id="Description" type="TranslatedString" handle="hd72bbd45gfe72g70b1gcb13g3cbe42472411" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="he55392cbg0a97g36e4gf73dg10fdbc9d6a0c" version="1"/>
                     <attribute id="IsHidden" type="bool" value="false"/>

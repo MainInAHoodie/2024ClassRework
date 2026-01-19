@@ -40,14 +40,14 @@
                     <attribute id="UUID" type="guid" value="aac9fd64-1de4-4eea-a14e-0dddc60a79ed"/>
                 </node>
                 <node id="EquipmentList">
-                    <attribute id="Items" type="LSString" value="ARM_Shield;WPN_Dagger"/>
-                    <attribute id="Name" type="FixedString" value="Shield or No Shield"/>
-                    <attribute id="UUID" type="guid" value="7de2e5f1-a324-4bdd-a28c-a491962e77b7"/>
-                </node>
-                <node id="EquipmentList">
                     <attribute id="Items" type="LSString" value="ARM_Leather_Body_Druid;ARM_Hide_Body"/>
                     <attribute id="Name" type="FixedString" value="Starting Armor: Druid"/>
                     <attribute id="UUID" type="guid" value="e05c1da4-b250-4f30-b0a3-99e65c3b1526"/>
+                </node>
+                <node id="EquipmentList">
+                    <attribute id="Items" type="LSString" value="ARM_Shield;WPN_Javelin"/>
+                    <attribute id="Name" type="FixedString" value="Shield or No Shield"/>
+                    <attribute id="UUID" type="guid" value="7de2e5f1-a324-4bdd-a28c-a491962e77b7"/>
                 </node>
             </children>
         </node>

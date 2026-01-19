@@ -65,9 +65,9 @@
                     <attribute id="UUID" type="guid" value="f18732a4-9b47-48e2-8ded-358c1c861e84"/>
                 </node>
                 <node id="ProgressionDescription">
-                    <attribute id="Description" type="TranslatedString" handle="hadf4f50fg96eeg1f90g89a9g0f0b6a71bc12" version="2"/>
+                    <attribute id="Description" type="TranslatedString" handle="hadf4f50fg96eeg1f90g89a9g0f0b6a71bc12" version="3"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h3c965320g7fddgf3a4g3144g9529e8b37ab0" version="1"/>
-                    <attribute id="ProgressionTableId" type="guid" value="f791f7e4-7344-409a-bf35-f0265a51d119"/>
+                    <attribute id="ProgressionTableId" type="guid" value="60bbcc97-5381-4898-bc15-908c072895de"/>
                     <attribute id="SelectorId" type="FixedString" value="StartingArmorBarbarian"/>
                     <attribute id="UUID" type="guid" value="6a116cbb-ed15-4aa6-8cd6-67001715bf9a"/>
                 </node>

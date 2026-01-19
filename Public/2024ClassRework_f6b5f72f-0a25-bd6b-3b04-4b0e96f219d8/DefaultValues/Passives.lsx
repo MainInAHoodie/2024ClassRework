@@ -17,13 +17,6 @@
                     <attribute id="UUID" type="guid" value="029070fa-f362-43cf-aa0e-4b63aa49c030"/>
                 </node>
                 <node id="DefaultValue">
-                    <attribute id="Add" type="LSString" value="Magician_StarryWisp"/>
-                    <attribute id="Level" type="int32" value="1"/>
-                    <attribute id="OriginUUID" type="guid" value="a36281c5-adcd-4d6e-8e5a-b5650b8f17eb"/>
-                    <attribute id="TableUUID" type="guid" value="6e7b7bad-e122-4679-8b3c-8f8987a9d466"/>
-                    <attribute id="UUID" type="guid" value="61cc90f4-853c-4375-ad3a-7f183e99367a"/>
-                </node>
-                <node id="DefaultValue">
                     <attribute id="Add" type="LSString" value="FightingStyle_Defense"/>
                     <attribute id="Level" type="int32" value="2"/>
                     <attribute id="TableUUID" type="guid" value="ba4e707e-4bbd-4630-963b-ce2f2947f971"/>
@@ -35,6 +28,13 @@
                     <attribute id="OriginUUID" type="guid" value="fb3bc4c3-49eb-4944-b714-d0cb357bb635"/>
                     <attribute id="TableUUID" type="guid" value="ba4e707e-4bbd-4630-963b-ce2f2947f971"/>
                     <attribute id="UUID" type="guid" value="481ca64e-ba18-447f-aa07-86cf784b86b3"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Magician_StarryWisp"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="OriginUUID" type="guid" value="a36281c5-adcd-4d6e-8e5a-b5650b8f17eb"/>
+                    <attribute id="TableUUID" type="guid" value="6e7b7bad-e122-4679-8b3c-8f8987a9d466"/>
+                    <attribute id="UUID" type="guid" value="61cc90f4-853c-4375-ad3a-7f183e99367a"/>
                 </node>
                 <node id="DefaultValue">
                     <attribute id="Add" type="LSString" value="Warden"/>

@@ -10,7 +10,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Constitution);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(Rage,2,0)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(233793b3-838a-4d4e-9d68-1e0a1089aba5,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectEquipment(403f00e9-1ceb-46c4-8e26-ecaad574996a,1,StartingMeleeWeaponMartial);SelectEquipment(e0f11a39-1d64-4f59-bc10-744e61606353,1,StartingRangedWeaponMartial);SelectEquipment(f791f7e4-7344-409a-bf35-f0265a51d119,1,BarbarianArmor);SelectEquipment(7de2e5f1-a324-4bdd-a28c-a491962e77b7,1,ShieldOrNoShield);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(233793b3-838a-4d4e-9d68-1e0a1089aba5,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectEquipment(f791f7e4-7344-409a-bf35-f0265a51d119,1,StartingArmorBarbarian);SelectEquipment(7de2e5f1-a324-4bdd-a28c-a491962e77b7,1,ShieldOrNoShield);SelectEquipment(403f00e9-1ceb-46c4-8e26-ecaad574996a,1,StartingMeleeWeaponMartial);SelectEquipment(e0f11a39-1d64-4f59-bc10-744e61606353,1,StartingRangedWeaponMartial);" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="RageUnlock;UnarmouredDefence_Barbarian;Rage_Armour_Message;Rage_NoHeavyArmour_VFX" />
       </fields>
     </stat_object>

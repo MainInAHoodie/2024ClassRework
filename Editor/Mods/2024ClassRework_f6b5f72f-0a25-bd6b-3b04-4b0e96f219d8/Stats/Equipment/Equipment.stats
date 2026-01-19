@@ -18,6 +18,7 @@
         <field name="12" type="StatReferenceTableFieldDefinition" value="ARM_Camp_Shoes" />
         <field name="13" type="StatReferenceTableFieldDefinition" value="OBJ_Backpack_CampSupplies" />
         <field name="14" type="StatReferenceTableFieldDefinition" value="WPN_Dagger" />
+        <field name="6" type="StatReferenceTableFieldDefinition" value="ARM_Robe_Body" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
