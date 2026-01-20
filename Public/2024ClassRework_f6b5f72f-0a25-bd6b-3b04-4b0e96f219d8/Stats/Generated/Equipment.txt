@@ -590,5 +590,5 @@ add equipment entry "ARM_Underwear_Shadowheart"
 add equipmentgroup
 add equipment entry "OBJ_Scroll_Revivify"
 add equipmentgroup
-add equipment entry "WPN_Dagger"
+add equipment entry "WPN_Dagger_Shar"
 
