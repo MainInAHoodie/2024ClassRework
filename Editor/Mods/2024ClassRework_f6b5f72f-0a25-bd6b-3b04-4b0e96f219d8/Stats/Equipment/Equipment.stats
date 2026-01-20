@@ -405,7 +405,7 @@
         <field name="13" type="StatReferenceTableFieldDefinition" value="OBJ_Backpack_CampSupplies" />
         <field name="14" type="StatReferenceTableFieldDefinition" value="ARM_Underwear_Shadowheart" />
         <field name="15" type="StatReferenceTableFieldDefinition" value="OBJ_Scroll_Revivify" />
-        <field name="16" type="StatReferenceTableFieldDefinition" value="WPN_Dagger" />
+        <field name="16" type="StatReferenceTableFieldDefinition" value="WPN_Dagger_Shar" />
       </fields>
     </stat_object>
   </stat_objects>
