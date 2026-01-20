@@ -20,7 +20,7 @@
         <field name="EnableContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatsFunctorContext" version="1" />
       </fields>
     </stat_object>
-	<stat_object is_substat="false">
+    <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f1d3f56f-25b2-4a75-9702-525202d4d57c" />
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_WardingFlare" />
@@ -92,6 +92,25 @@
         <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
         <field name="EnableCondition" type="StringTableFieldDefinition" value="not HasStatus('SG_Polymorph') or HasAnyStatus({'SG_Disguise','WILDSHAPE_STARRY_ARCHER_PLAYER','WILDSHAPE_STARRY_CHALICE_PLAYER','WILDSHAPE_STARRY_DRAGON_PLAYER'});" />
         <field name="EnableContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemove" enumeration_type_name="StatsFunctorContext" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d8bc7f5c-5d29-44d1-858b-6d31fd7c6f50" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_Indomitable" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha837ddc6gf503g9832gf185g860f31dbe7d0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2681456eg2275g6fc9g8973g774806588e81" version="2" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnPostRoll" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="not Dead(context.Observer) and HasInterruptedSavingThrow() and Self(context.Observer,context.Target) and not AnyEntityIsItem() and IsRerollInterruptInteresting()" />
+        <field name="Properties" type="StringTableFieldDefinition" value="SetReroll(19,true);AdjustRoll(10);" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Indomitable" />
+        <field name="Cost" type="StringTableFieldDefinition" value="Interrupt_Indomitable:1" />
+        <field name="EnableCondition" type="StringTableFieldDefinition" value="HasActionResource('Interrupt_Indomitable', 1, 0, false, false, context.Source) and not HasStatus('SG_Polymorph');" />
+        <field name="EnableContext" type="EnumerationListTableFieldDefinition" value="OnActionResourcesChanged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="10" />
       </fields>
     </stat_object>
   </stat_objects>
