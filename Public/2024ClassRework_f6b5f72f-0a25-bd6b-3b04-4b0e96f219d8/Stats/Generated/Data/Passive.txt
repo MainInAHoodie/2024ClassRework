@@ -318,3 +318,12 @@ data "BoostContext" "OnEquip;OnCreate"
 data "BoostConditions" "not WearingArmor(context.Source)"
 data "Boosts" "ACOverrideFormula(130true,Dexterity,Charisma);"
 
+new entry "Indomitable"
+type "PassiveData"
+data "DisplayName" "hfd52dcb9gb4a3gd15cgc80eg4b60935378cc;1"
+data "Description" "ha3043488ge1b1g3beag3e8cg08e674686ff5;1"
+data "DescriptionParams" "10"
+data "Icon" "PassiveFeature_Indomitable"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockInterrupt(Interrupt_Indomitable);ActionResource(Interrupt_Indomitable,1,0)"
+

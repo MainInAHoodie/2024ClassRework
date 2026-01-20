@@ -432,5 +432,17 @@
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hb45aa9e4g163cg9baag3fe1g52389cfe1949" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1419d988-af70-4033-bac2-6cce356cb312" />
+        <field name="Name" type="NameTableFieldDefinition" value="Indomitable" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfd52dcb9gb4a3gd15cgc80eg4b60935378cc" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha3043488ge1b1g3beag3e8cg08e674686ff5" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_Indomitable);ActionResource(Interrupt_Indomitable,1,0)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Indomitable" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="10" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
