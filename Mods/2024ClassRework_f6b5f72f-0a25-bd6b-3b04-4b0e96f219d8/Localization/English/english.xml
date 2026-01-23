@@ -492,4 +492,10 @@
   <content contentuid="h1e4ca3e7gdf0bg7119g79cegc1c4e6ebbc18" version="1">You gain half your movement speed, and you don't provoke &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;</content>
   <content contentuid="hc006c714gf881g6e04g142bgc697f537be30" version="1">Brutal Strike</content>
   <content contentuid="hae40ca6fg5cebg6e03gdc45gdb3dd0231027" version="1">If you use &lt;LSTag Type="Status" Tooltip="RECKLESS_ATTACK"&gt;Reckless Attack&lt;/LSTag&gt;, you can forgo the &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; it gives you on one Strength-based attack roll of your choice on your turn, as long as you don't have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on the roll.  If the chosen attack roll hits, the target takes an extra  [1], and you can cause one Brutal Strike effect of your choice</content>
+  <content contentuid="h691484edgdfcege91ega587g813533c2f81f" version="1">Retaliation</content>
+  <content contentuid="h72e4bc89g228fg8f53gb4cfg5e3beb40d8fb" version="2">When you take damage from a creature that is within [1] of you, you can take a Reaction to make one melee attack against that creature, using a weapon or an Unarmed Strike.</content>
+  <content contentuid="h8ba2bfb0gd3d4gde32gbf63gf47147bbfc5d" version="1">Retaliation</content>
+  <content contentuid="hcc637576ga930g69ecgf0c7gb48c4dfe8729" version="2">When you take damage from a creature that is within [1] of you, you can take a Reaction to make one melee attack against that creature, using a weapon or an Unarmed Strike.</content>
+  <content contentuid="h8a1ad60fgf86eg058cgf128g3bbc8637cef0" version="1">Retaliation</content>
+  <content contentuid="hcd83b376g8bfdg148ag3e39g6b352eb82f47" version="1">When you take damage from a creature that is within [1] of you, you can take a Reaction to make one melee attack against that creature, using a weapon or an Unarmed Strike.</content>
 </contentList>

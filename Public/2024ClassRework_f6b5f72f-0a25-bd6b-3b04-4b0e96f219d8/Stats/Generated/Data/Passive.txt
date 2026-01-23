@@ -345,3 +345,12 @@ data "Icon" "PassiveFeature_BrutalCritical"
 data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Target_BrutalStrike_Container,AddChildren,,,);"
 
+new entry "Retaliation"
+type "PassiveData"
+data "DisplayName" "h8a1ad60fgf86eg058cgf128g3bbc8637cef0;1"
+data "Description" "hcd83b376g8bfdg148ag3e39g6b352eb82f47;1"
+data "DescriptionParams" "Distance(1.5)"
+data "Icon" "PassiveFeature_Riposte"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockInterrupt(Interrupt_Retaliation);"
+

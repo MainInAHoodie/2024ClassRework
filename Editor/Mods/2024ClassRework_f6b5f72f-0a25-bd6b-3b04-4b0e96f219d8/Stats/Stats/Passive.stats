@@ -468,5 +468,17 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_BrutalStrike_Container,AddChildren,,,);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d9844d39-9431-4383-9eae-2e65a6cf1b84" />
+        <field name="Name" type="NameTableFieldDefinition" value="Retaliation" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8a1ad60fgf86eg058cgf128g3bbc8637cef0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcd83b376g8bfdg148ag3e39g6b352eb82f47" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Riposte" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_Retaliation);" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
