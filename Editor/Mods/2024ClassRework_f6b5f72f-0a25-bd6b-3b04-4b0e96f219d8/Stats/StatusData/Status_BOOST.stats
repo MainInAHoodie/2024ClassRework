@@ -281,14 +281,44 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="6d6acd73-5cda-4bbf-a81d-ee455c4924c6" />
-        <field name="Name" type="NameTableFieldDefinition" value="MAGIC_DAMAGE_REROLL" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7687e97bg91cfge8f1g7cd2ga377fb79111f" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he44a9144g9559g814eg5773g89f273d3e2e0" version="3" />
-        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Damage" />
-        <field name="StackId" type="StringTableFieldDefinition" value="MAGIC_DAMAGE_REROLL" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Reroll(Damage,20,true);" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b0f481ef-b3a9-40a8-a808-b3917d4abc49" />
+        <field name="Name" type="NameTableFieldDefinition" value="BRUTAL_STRIKE_REMOVE_ADVANTAGE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5ed5fbf1g3036g3584gf5ccg15fdad076b27" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf6b868e5g3b10g18a2gfbc3gf3c66d23653a" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_BrutalCritical" />
+        <field name="StackId" type="StringTableFieldDefinition" value="BRUTAL_STRIKE_DISADVANTAGE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsMeleeAttack()):Disadvantage(AttackRoll);IF(IsRangedUnarmedAttack()):Disadvantage(AttackRoll);" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="acbb1300-8ee7-46f3-8fd4-f925da0388f2" />
+        <field name="Name" type="NameTableFieldDefinition" value="BRUTAL_STRIKE_HAMSTRING_BLOW" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0c7cd5c9g5a29g9d04g1002g9bb99797939b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcb447069g5ad0g90c2gb9e0gac3e135026c2" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(4.5)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_HamstringShot" />
+        <field name="StackId" type="StringTableFieldDefinition" value="BRUTAL_STRIKE_HAMSTRING" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,-4.5,0);" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ec9b1048-bf4d-4c4a-91ec-d1f1778fc7e3" />
+        <field name="Name" type="NameTableFieldDefinition" value="BRUTAL_STRIKE_FORCEFUL_BLOW" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb80de60eg6173gc2ddge911g5146f03d3f67" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1e4ca3e7gdf0bg7119g79cegc1c4e6ebbc18" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_BrutalCritical" />
+        <field name="StackId" type="StringTableFieldDefinition" value="BRUTAL_STRIKE_FORCEFUL_SELF" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceMultiplier(Movement,150,0);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>

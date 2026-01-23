@@ -444,5 +444,29 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="10" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="72a8eb1e-0d84-43ed-afce-94e9711f670e" />
+        <field name="Name" type="NameTableFieldDefinition" value="PrimalKnowledge" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha38c81f9g5a7egf6dege726gd0ad23857ed3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h96957f2bgb4bdg1f39gc32bgf00a4ff44561" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h881155cdg14fdg6c85g580ag86af75e12ea3" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_DireWolfPack_Howl" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Intimidation, StrengthModifier/2);Skill(Stealth, StrengthModifier/2);Skill(Survival, StrengthModifier/2);Skill(Perception, StrengthModifier/2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1595d0ed-fcb5-45c4-8bcd-3af5d45b6d1c" />
+        <field name="Name" type="NameTableFieldDefinition" value="BrutalStrike" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc006c714gf881g6e04g142bgc697f537be30" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hae40ca6fg5cebg6e03gdc45gdb3dd0231027" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d10,MainMeleeWeaponDamageType)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_BrutalCritical" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_BrutalStrike_Container,AddChildren,,,);" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
