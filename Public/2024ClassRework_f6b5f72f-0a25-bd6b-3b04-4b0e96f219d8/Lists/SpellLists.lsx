@@ -69,7 +69,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="War Cleric level 2"/>
-                    <attribute id="Spells" type="LSString" value="Shout_GuidedStrike;Interrupt_WarGodsBlessing;Target_WarGodsBlessing_Interrupt"/>
+                    <attribute id="Spells" type="LSString" value="Shout_GuidedStrike;WarGodsBlessing;Target_WarGodsBlessing_Interrupt"/>
                     <attribute id="UUID" type="guid" value="4d04d97b-1bb6-4b1e-945b-be230335ede7"/>
                 </node>
                 <node id="SpellList">

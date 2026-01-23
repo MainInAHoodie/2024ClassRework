@@ -43,6 +43,22 @@
                     </children>
                 </node>
                 <node id="Progression">
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="Barbarian"/>
+                    <attribute id="PassivesAdded" type="LSString" value="BrutalStrike"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="60bbcc97-5381-4898-bc15-908c072895de"/>
+                    <attribute id="UUID" type="guid" value="2b2be55c-8c01-4bcd-84ff-b4c9ca23faf8"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="BerserkerPath"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Retaliation"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="b2a03b63-809f-4df9-a179-bf5b899082ef"/>
+                    <attribute id="UUID" type="guid" value="ad9a37aa-bc2d-4024-9b5f-5aaf330cb25c"/>
+                </node>
+                <node id="Progression">
                     <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(Morningstars);Proficiency(Flails)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Cleric"/>
@@ -584,14 +600,6 @@
                     <attribute id="Selectors" type="LSString" value="AddSpells(50115a84-a7d7-4734-98a2-03fccfbdbcd3)"/>
                     <attribute id="TableUUID" type="guid" value="9c77844d-c201-47f4-a25f-7925dec8180d"/>
                     <attribute id="UUID" type="guid" value="e9bd3ad3-31d1-4ea5-8604-e28a719591f2"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="9"/>
-                    <attribute id="Name" type="LSString" value="Barbarian"/>
-                    <attribute id="PassivesAdded" type="LSString" value="BrutalStrike"/>
-                    <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="TableUUID" type="guid" value="60bbcc97-5381-4898-bc15-908c072895de"/>
-                    <attribute id="UUID" type="guid" value="2b2be55c-8c01-4bcd-84ff-b4c9ca23faf8"/>
                 </node>
             </children>
         </node>

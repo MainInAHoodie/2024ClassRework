@@ -92,7 +92,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4d04d97b-1bb6-4b1e-945b-be230335ede7" />
         <field name="Name" type="NameTableFieldDefinition" value="War Cleric level 2" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Shout_GuidedStrike;Interrupt_WarGodsBlessing;Target_WarGodsBlessing_Interrupt" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_GuidedStrike;WarGodsBlessing;Target_WarGodsBlessing_Interrupt" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

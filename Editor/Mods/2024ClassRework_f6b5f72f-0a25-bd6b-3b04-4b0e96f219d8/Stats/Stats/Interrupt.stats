@@ -113,5 +113,25 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="10" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="366dfd45-2586-4306-af54-d8337dd52647" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_Retaliation" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h691484edgdfcege91ega587g813533c2f81f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h72e4bc89g228fg8f53gb4cfg5e3beb40d8fb" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Enemy(context.Source,context.Observer) and IsHit() and not HasStatus('INVISIBILITY') and not AnyEntityIsItem() and not DistanceToEntityGreaterThan(1.5, context.ObserverPosition, context.Source) and HasLastAttackTriggered();" />
+        <field name="Properties" type="StringTableFieldDefinition" value="UseSpell(SWAP,Target_Retaliation,true,true,true);ApplyStatus(OBSERVER_OBSERVER,INTERRUPT_RIPOSTE,100,0);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Enabled;Ask" enumeration_type_name="InterruptDefaultValue" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Riposte" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnCastHit" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesOrNoDecision" />
+        <field name="EnableCondition" type="StringTableFieldDefinition" value="not HasAnyStatus({'SG_Polymorph','SG_Blinded'}) or HasAnyStatus({'SG_Disguise','WILDSHAPE_STARRY_ARCHER_PLAYER','WILDSHAPE_STARRY_CHALICE_PLAYER','WILDSHAPE_STARRY_DRAGON_PLAYER'});" />
+        <field name="EnableContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemove;OnStatusRemoved" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
