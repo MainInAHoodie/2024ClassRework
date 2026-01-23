@@ -475,4 +475,21 @@
   <content contentuid="h2681456eg2275g6fc9g8973g774806588e81" version="2">Whenever you fail a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, you can roll again with a bonus of [1].</content>
   <content contentuid="hfd52dcb9gb4a3gd15cgc80eg4b60935378cc" version="1">Indomitable</content>
   <content contentuid="ha3043488ge1b1g3beag3e8cg08e674686ff5" version="1">You have become as durable as an iron golem. Whenever you fail a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, you can roll again with a bonus of [1].</content>
+  <content contentuid="ha38c81f9g5a7egf6dege726gd0ad23857ed3" version="1">Primal Knowledge</content>
+  <content contentuid="h96957f2bgb4bdg1f39gc32bgf00a4ff44561" version="1">Primal power courses through you, heightening your senses, honing your agility, bearing, and senses.  You add half your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; bonus to your &lt;LSTag Tooltip="Intimidation"&gt;Intimidation&lt;/LSTag&gt;, &lt;LSTag Tooltip="Stealth"&gt;Stealth&lt;/LSTag&gt;, &lt;LSTag Tooltip="Survival"&gt;Survival&lt;/LSTag&gt;, and &lt;LSTag Tooltip="Perception"&gt;Perception&lt;/LSTag&gt; checks.</content>
+  <content contentuid="h881155cdg14fdg6c85g580ag86af75e12ea3" version="2">In addition, you gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in one more Barbarian skill.</content>
+  <content contentuid="h5ed5fbf1g3036g3584gf5ccg15fdad076b27" version="1">Brutal Strike</content>
+  <content contentuid="hf6b868e5g3b10g18a2gfbc3gf3c66d23653a" version="1">Removes the &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; from your &lt;LSTag Type="Spell" Tooltip="RECKLESS_ATTACK"&gt;Reckless Attack&lt;/LSTag&gt; in exchange for some extra damage and a rider effect.</content>
+  <content contentuid="he428499bgfbf1g8ba8g6005gd02f74ba25c7" version="1">Brutal Strike</content>
+  <content contentuid="h63a64c6fg6f27gf8f1gb323g0fb5b22ca87a" version="1">When you use &lt;LSTag Type="Status" Tooltip="RECKLESS_ATTACK"&gt;Reckless Attack&lt;/LSTag&gt;, you can give up Advantage on one Strength-based attack to gain [1] extra damage as well as one of the contained effects.</content>
+  <content contentuid="h81e850adge451g0712ga152g5eff836cf82f" version="1">Brutal Strike: Forceful Strike</content>
+  <content contentuid="h365633bdg3ec7g0cc3ge7a6gf06075ed35ae" version="2">Push the target back [1].  You can also move up to half your movement speed without provoking &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;.</content>
+  <content contentuid="h0c7cd5c9g5a29g9d04g1002g9bb99797939b" version="1">Brutal Strike: Hamstring Blow</content>
+  <content contentuid="hcb447069g5ad0g90c2gb9e0gac3e135026c2" version="1">Affected target's movement speed is reduced by [1].</content>
+  <content contentuid="h87591065gb8b6g85eegcbd7g669a501fa991" version="1">Brutal Strike: Hamstring Blow</content>
+  <content contentuid="h63662639g2766g0b42g901fg3f6dde056b01" version="1">Reduce the target's movement speed by [1] until the end of their next turn.</content>
+  <content contentuid="hb80de60eg6173gc2ddge911g5146f03d3f67" version="1">Brutal Strike: Forceful Blow</content>
+  <content contentuid="h1e4ca3e7gdf0bg7119g79cegc1c4e6ebbc18" version="1">You gain half your movement speed, and you don't provoke &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;</content>
+  <content contentuid="hc006c714gf881g6e04g142bgc697f537be30" version="1">Brutal Strike</content>
+  <content contentuid="hae40ca6fg5cebg6e03gdc45gdb3dd0231027" version="1">If you use &lt;LSTag Type="Status" Tooltip="RECKLESS_ATTACK"&gt;Reckless Attack&lt;/LSTag&gt;, you can forgo the &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; it gives you on one Strength-based attack roll of your choice on your turn, as long as you don't have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on the roll.  If the chosen attack roll hits, the target takes an extra  [1], and you can cause one Brutal Strike effect of your choice</content>
 </contentList>
