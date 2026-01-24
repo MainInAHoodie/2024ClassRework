@@ -480,5 +480,16 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_Retaliation);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fc9525ae-c09b-4a86-9766-d47ca9ec0e64" />
+        <field name="Name" type="NameTableFieldDefinition" value="TotemSpirit_Bear" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9286b510gef12gb70ag5462g0ae0cc6bf32e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h84f5ca53g9bd3gd3b1gc725g7fcecc346897" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Rage_Totem_Bear);UnlockSpell(Shout_FerociousAppetite)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_Rage_BearTotem" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

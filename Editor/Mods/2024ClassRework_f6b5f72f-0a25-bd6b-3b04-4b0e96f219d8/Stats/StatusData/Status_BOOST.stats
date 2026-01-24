@@ -322,5 +322,32 @@
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bfc99d24-1cc1-4a74-9883-c388a1a62db6" />
+        <field name="Name" type="NameTableFieldDefinition" value="RAGE_TOTEM_BEAR" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="855fb809-8a50-44a1-98fc-911b67ed0f33" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf4638bbfg770cg0d7egbb0dgeed98efb4506" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9a716da3g87c3g392agccd6g337840a033e6" version="2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(VFX_RAGE);BlockSpellCast();UnlockSpell(Shout_EndRage);Attribute(ForceMainhandAlternativeEquipBones);Resistance(Slashing, Resistant);Resistance(Piercing, Resistant);Resistance(Bludgeoning, Resistant);Resistance(Acid, Resistant);Resistance(Thunder, Resistant);Resistance(Fire, Resistant);Resistance(Lightning, Resistant);Resistance(Cold, Resistant);Resistance(Poison, Resistant);" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(RAGE_TOTEM_BEAR_HEAL_TOGGLE);RemoveStatus(RAGE_MUTE);RemoveStatus(RAGE_STOP_REMOVE);RemoveStatus(RAGE_BEAR_NO_HEAVY_ARMOUR_VFX);IF(RemoveCause(StatusRemoveCause.TimeOut) or RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(RAGE_ENDED,100,1);IF(RemoveCause(StatusRemoveCause.TimeOut) or RemoveCause(StatusRemoveCause.Condition)):UseSpell(Shout_EndRage,true,true,true)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="RAGE" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_Rage_BearTotem" />
+        <field name="Passives" type="StringTableFieldDefinition" value="TotemSpirit_Bear_Rage_Boosts;Rage_Attack;Rage_Damaged;Rage_Bear_NoHeavyArmour_VFX" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="f1162d63-e269-47f7-94ad-abda93b2e08a" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_Rage" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="LevelMapValue(RageDamage)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasHeavyArmor(context.Source)):ApplyStatus(RAGE_BEAR_NO_HEAVY_ARMOUR_VFX,100,10);ApplyStatus(RAGE_STOP_REMOVE,100,1);BreakConcentration();ApplyStatus(RAGE_TOTEM_BEAR_HEAL_TOGGLE,100,10)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fafa7062-d457-4d1c-b4cf-d9c91abda28b" />
+        <field name="Name" type="NameTableFieldDefinition" value="RAGE_TOTEM_BEAR_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bfc99d24-1cc1-4a74-9883-c388a1a62db6" />
+        <field name="Passives" type="StringTableFieldDefinition" value="TotemSpirit_Bear_Rage_Boosts_2;Rage_Attack;Rage_Damaged;Rage_Bear_NoHeavyArmour_VFX;" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

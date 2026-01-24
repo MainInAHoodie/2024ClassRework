@@ -498,4 +498,8 @@
   <content contentuid="hcc637576ga930g69ecgf0c7gb48c4dfe8729" version="2">When you take damage from a creature that is within [1] of you, you can take a Reaction to make one melee attack against that creature, using a weapon or an Unarmed Strike.</content>
   <content contentuid="h8a1ad60fgf86eg058cgf128g3bbc8637cef0" version="1">Retaliation</content>
   <content contentuid="hcd83b376g8bfdg148ag3e39g6b352eb82f47" version="1">When you take damage from a creature that is within [1] of you, you can take a Reaction to make one melee attack against that creature, using a weapon or an Unarmed Strike.</content>
+  <content contentuid="hf4638bbfg770cg0d7egbb0dgeed98efb4506" version="1">Rage: Bear Heart</content>
+  <content contentuid="h9a716da3g87c3g392agccd6g337840a033e6" version="2">Deals an additional [1] damage with melee and improvised weapons, and when throwing objects.&lt;br&gt;&lt;br&gt;Has Resistance to all damage except Psychic, Force, Radiant, and Necrotic damage, and &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. &lt;br&gt;&lt;br&gt;Cannot cast or concentrate on spells.</content>
+  <content contentuid="h9286b510gef12gb70ag5462g0ae0cc6bf32e" version="1">Bear Heart</content>
+  <content contentuid="h84f5ca53g9bd3gd3b1gc725g7fcecc346897" version="1">While &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Raging&lt;/LSTag&gt;, you can use &lt;LSTag Type="Spell" Tooltip="Shout_FerociousAppetite"&gt;Unrelenting Ferocity&lt;/LSTag&gt;, and have Resistance to all damage except Psychic, Force, Radiant, and Necrotic damage.</content>
 </contentList>

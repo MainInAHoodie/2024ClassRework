@@ -354,3 +354,11 @@ data "Icon" "PassiveFeature_Riposte"
 data "Properties" "Highlighted"
 data "Boosts" "UnlockInterrupt(Interrupt_Retaliation);"
 
+new entry "TotemSpirit_Bear"
+type "PassiveData"
+data "DisplayName" "h9286b510gef12gb70ag5462g0ae0cc6bf32e;1"
+data "Description" "h84f5ca53g9bd3gd3b1gc725g7fcecc346897;1"
+data "Icon" "Action_Barbarian_Rage_BearTotem"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Shout_Rage_Totem_Bear);UnlockSpell(Shout_FerociousAppetite)"
+
