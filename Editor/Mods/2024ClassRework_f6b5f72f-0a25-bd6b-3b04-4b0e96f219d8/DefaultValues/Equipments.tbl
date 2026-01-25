@@ -144,5 +144,49 @@
         <field name="Comment" type="CommentTableFieldDefinition" value="Druid Starting Armor" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_14" />
+        <field name="UUID" type="IdTableFieldDefinition" value="35d728f1-ae38-430b-9eb3-d1f88c341dc0" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="b82864a7-b093-4553-a802-e176831029c1" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="ARM_ScaleMail_Body_Paladin_Ancients" />
+        <field name="SelectorId" type="StringTableFieldDefinition" value="AncientsPaladinArmor" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Oath of the Ancients Starting Armor" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_15" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b4bcb18b-6e91-425a-a298-0e5826011c22" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="941ca27d-02f7-4f59-bd33-63fa3366134d" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="ARM_ScaleMail_Body_Paladin_Devotion" />
+        <field name="SelectorId" type="StringTableFieldDefinition" value="DevotionPaladinArmor" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Oath of Devotion Paladin Armor" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_16" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e37327e6-6134-4d05-9fdb-3f2c8483a3f6" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="f769aa02-1f74-4fb6-b94c-8850143daa20" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="ARM_ScaleMail_Body_Paladin_Vengeance" />
+        <field name="SelectorId" type="StringTableFieldDefinition" value="Vengeance Paladin Armor" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Oath of Vengeance Paladin Armor" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_13" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b39188b3-b478-418e-ad7c-281fef78f40d" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="e3a25a7a-e793-4b99-9d4a-0fbc17fcc1ff" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="ARM_ScaleMail_Body_Paladin_Crown" />
+        <field name="SelectorId" type="StringTableFieldDefinition" value="CrownPaladinArmor" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Oath of the Crown Starting Armor" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

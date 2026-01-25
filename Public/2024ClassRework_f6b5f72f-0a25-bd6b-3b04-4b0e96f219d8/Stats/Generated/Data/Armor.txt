@@ -12,6 +12,49 @@ new entry "ARM_StuddedLeather_Devotion"
 type "Armor"
 using "ARM_StuddedLeather_Body"
 data "RootTemplate" "9d16f6a1-0246-442b-93f9-605e044b7993"
-data "ValueOverride" "40"
-data "Rarity" "Common"
+
+new entry "ARM_StuddedLeather_Ancients"
+type "Armor"
+using "ARM_StuddedLeather_Body"
+data "RootTemplate" "612192a5-7b29-4e98-ae38-5cf6d4eaebd1"
+
+new entry "ARM_StuddedLeather_Vengeance"
+type "Armor"
+using "ARM_StuddedLeather_Body"
+data "RootTemplate" "4f6572ae-593e-4736-9155-5149a730a113"
+
+new entry "ARM_StuddedLeather_Crown"
+type "Armor"
+using "ARM_StuddedLeather_Body"
+data "RootTemplate" "02a8ce8d-3ff6-4eca-8bbf-416c4d5ff97e"
+
+new entry "ARM_ChainMail_Devotion"
+type "Armor"
+using "ARM_ChainMail_Body"
+data "RootTemplate" "1bdf0ca0-e299-4dd6-b030-0417c97dd4b2"
+
+new entry "ARM_ChainMail_Ancients"
+type "Armor"
+using "ARM_ChainMail_Body"
+data "RootTemplate" "b6bac819-e017-4f72-ac1b-f59f071b9b36"
+
+new entry "ARM_ChainMail_Vengeance"
+type "Armor"
+using "ARM_ChainMail_Body"
+data "RootTemplate" "0f8e0c57-36a4-43e2-b55d-2179e64ccbf4"
+
+new entry "ARM_ChainMail_Crown"
+type "Armor"
+using "ARM_ChainMail_Body"
+data "RootTemplate" "237749e1-229f-4056-b083-6fc72af603b5"
+
+new entry "ARM_StuddedLeather_Body_Ranger"
+type "Armor"
+using "ARM_StuddedLeather_Body"
+data "RootTemplate" "8c876bdb-a734-4de9-898b-96b81357fb54"
+
+new entry "ARM_ChainShirt_Body_Hexblade"
+type "Armor"
+using "ARM_ChainShirt_Body"
+data "RootTemplate" "b0a49de3-01bc-4e77-89be-897b439db933"
 

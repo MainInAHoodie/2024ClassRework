@@ -95,6 +95,34 @@
                     <attribute id="TableUUID" type="guid" value="6e7b7bad-e122-4679-8b3c-8f8987a9d466"/>
                     <attribute id="UUID" type="guid" value="8f94bf24-2e5e-4f19-a6ca-d270953b51b8"/>
                 </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="ARM_ScaleMail_Body_Paladin_Ancients"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="AncientsPaladinArmor"/>
+                    <attribute id="TableUUID" type="guid" value="b82864a7-b093-4553-a802-e176831029c1"/>
+                    <attribute id="UUID" type="guid" value="35d728f1-ae38-430b-9eb3-d1f88c341dc0"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="ARM_ScaleMail_Body_Paladin_Devotion"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="DevotionPaladinArmor"/>
+                    <attribute id="TableUUID" type="guid" value="941ca27d-02f7-4f59-bd33-63fa3366134d"/>
+                    <attribute id="UUID" type="guid" value="b4bcb18b-6e91-425a-a298-0e5826011c22"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="ARM_ScaleMail_Body_Paladin_Vengeance"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="Vengeance Paladin Armor"/>
+                    <attribute id="TableUUID" type="guid" value="f769aa02-1f74-4fb6-b94c-8850143daa20"/>
+                    <attribute id="UUID" type="guid" value="e37327e6-6134-4d05-9fdb-3f2c8483a3f6"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="ARM_ScaleMail_Body_Paladin_Crown"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="CrownPaladinArmor"/>
+                    <attribute id="TableUUID" type="guid" value="e3a25a7a-e793-4b99-9d4a-0fbc17fcc1ff"/>
+                    <attribute id="UUID" type="guid" value="b39188b3-b478-418e-ad7c-281fef78f40d"/>
+                </node>
             </children>
         </node>
     </region>
