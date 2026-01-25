@@ -320,6 +320,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceMultiplier(Movement,150,0);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,BRUTAL_STRIKE_FORCEFUL_BLOW,100,1);ApplyStatus(SELF,DISENGAGE,100,1);TARGET:Force(4.5,TargetToEntity);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -1073,15 +1073,15 @@
         <field name="UUID" type="IdTableFieldDefinition" value="060061a3-2777-4717-b0cf-bb0eebaaf153" />
         <field name="Name" type="NameTableFieldDefinition" value="BrutalStrike_ForcefulBlow" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);CastOffhand[GROUND:DealDamage(OffhandMeleeWeapon, OffhandMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(OffHand)];IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);IF(HasStatus('RECKLESS_ATTACK'):ApplyStatus(SELF,BRUTAL_STRIKE_REMOVE_ADVANTAGE,100,1);ApplyStatus(SELF,BRUTAL_STRIKE_FORCEFUL_BLOW,100,1);ApplyStatus(SELF,DISENGAGE,100,1);ApplyStatus(SELF,RECKLESS_ATTACK,100,1);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);CastOffhand[GROUND:DealDamage(OffhandMeleeWeapon, OffhandMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(OffHand)];IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);IF(HasStatus('RECKLESS_ATTACK')):ApplyStatus(SELF,BRUTAL_STRIKE_REMOVE_ADVANTAGE,100,1);ApplyStatus(SELF,RECKLESS_ATTACK,100,1);" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="MeleeMainWeaponRange" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="CanUseWeaponActions() and not HasDisadvantage(AttackType.MeleeWeaponAttack);" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeWeaponAttack);CastOffhand[Attack(AttackType.MeleeOffHandWeaponAttack)]" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon + 1d10,MainMeleeWeaponDamageType);Force(4.5);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon + 1d10,MainMeleeWeaponDamageType);IF(not SavingThrow(Ability.Strength, ManeuverSaveDC())):ApplyStatus(BRUTAL_STRIKE_FORCEFUL_BLOW,100,1);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead() and not Self() and not HasStatus('SG_UNCONSCIOUS');" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Steady" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h81e850adge451g0712ga152g5eff836cf82f" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h365633bdg3ec7g0cc3ge7a6gf06075ed35ae" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h365633bdg3ec7g0cc3ge7a6gf06075ed35ae" version="3" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(4.5)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon + 1d10,MainMeleeWeaponDamageType);" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Topple" />
@@ -1111,7 +1111,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e1a3503e-4f5d-43ac-9c50-dda5b4c1eea4" />
         <field name="Name" type="NameTableFieldDefinition" value="BrutalStrike_HamstringBlow" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);CastOffhand[GROUND:DealDamage(OffhandMeleeWeapon, OffhandMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(OffHand)];IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);ApplyStatus(BRUTAL_STRIKE_HAMSTRING_BLOW,100,1);IF(HasStatus('RECKLESS_ATTACK'):ApplyStatus(SELF,BRUTAL_STRIKE_REMOVE_ADVANTAGE,100,1);ApplyStatus(SELF,RECKLESS_ATTACK,100,1);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);CastOffhand[GROUND:DealDamage(OffhandMeleeWeapon, OffhandMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(OffHand)];IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);ApplyStatus(BRUTAL_STRIKE_HAMSTRING_BLOW,100,1);IF(HasStatus('RECKLESS_ATTACK')):ApplyStatus(SELF,BRUTAL_STRIKE_REMOVE_ADVANTAGE,100,1);ApplyStatus(SELF,RECKLESS_ATTACK,100,1);" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="MeleeMainWeaponRange" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="CanUseWeaponActions() and not HasDisadvantage(AttackType.MeleeWeaponAttack);" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeWeaponAttack);CastOffhand[Attack(AttackType.MeleeOffHandWeaponAttack)]" />

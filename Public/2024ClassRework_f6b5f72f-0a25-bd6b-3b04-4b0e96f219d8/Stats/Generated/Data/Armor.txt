@@ -8,3 +8,10 @@ type "Armor"
 using "ARM_Shield"
 data "RootTemplate" "f38ea8be-0819-4497-8934-71433effe395"
 
+new entry "ARM_StuddedLeather_Devotion"
+type "Armor"
+using "ARM_StuddedLeather_Body"
+data "RootTemplate" "9d16f6a1-0246-442b-93f9-605e044b7993"
+data "ValueOverride" "40"
+data "Rarity" "Common"
+

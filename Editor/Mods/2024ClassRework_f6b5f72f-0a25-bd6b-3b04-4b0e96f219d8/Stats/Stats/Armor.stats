@@ -17,5 +17,15 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f38ea8be-0819-4497-8934-71433effe395" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1480bbf5-3dad-42d0-b2aa-78483807303a" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_StuddedLeather_Devotion" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8b1a0b15-fcd5-4df6-badb-0d6ac9ba1c61" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="9d16f6a1-0246-442b-93f9-605e044b7993" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="40" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
