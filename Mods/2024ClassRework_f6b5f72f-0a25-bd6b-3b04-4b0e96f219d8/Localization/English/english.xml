@@ -483,7 +483,7 @@
   <content contentuid="he428499bgfbf1g8ba8g6005gd02f74ba25c7" version="1">Brutal Strike</content>
   <content contentuid="h63a64c6fg6f27gf8f1gb323g0fb5b22ca87a" version="1">When you use &lt;LSTag Type="Status" Tooltip="RECKLESS_ATTACK"&gt;Reckless Attack&lt;/LSTag&gt;, you can give up Advantage on one Strength-based attack to gain [1] extra damage as well as one of the contained effects.</content>
   <content contentuid="h81e850adge451g0712ga152g5eff836cf82f" version="1">Brutal Strike: Forceful Strike</content>
-  <content contentuid="h365633bdg3ec7g0cc3ge7a6gf06075ed35ae" version="2">Push the target back [1].  You can also move up to half your movement speed without provoking &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;.</content>
+  <content contentuid="h365633bdg3ec7g0cc3ge7a6gf06075ed35ae" version="3">If the target fails a &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag, it will be pushed back [1].  You can also move up to half your movement speed without provoking &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;.</content>
   <content contentuid="h0c7cd5c9g5a29g9d04g1002g9bb99797939b" version="1">Brutal Strike: Hamstring Blow</content>
   <content contentuid="hcb447069g5ad0g90c2gb9e0gac3e135026c2" version="1">Affected target's movement speed is reduced by [1].</content>
   <content contentuid="h87591065gb8b6g85eegcbd7g669a501fa991" version="1">Brutal Strike: Hamstring Blow</content>
@@ -502,4 +502,8 @@
   <content contentuid="h9a716da3g87c3g392agccd6g337840a033e6" version="2">Deals an additional [1] damage with melee and improvised weapons, and when throwing objects.&lt;br&gt;&lt;br&gt;Has Resistance to all damage except Psychic, Force, Radiant, and Necrotic damage, and &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. &lt;br&gt;&lt;br&gt;Cannot cast or concentrate on spells.</content>
   <content contentuid="h9286b510gef12gb70ag5462g0ae0cc6bf32e" version="1">Bear Heart</content>
   <content contentuid="h84f5ca53g9bd3gd3b1gc725g7fcecc346897" version="1">While &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Raging&lt;/LSTag&gt;, you can use &lt;LSTag Type="Spell" Tooltip="Shout_FerociousAppetite"&gt;Unrelenting Ferocity&lt;/LSTag&gt;, and have Resistance to all damage except Psychic, Force, Radiant, and Necrotic damage.</content>
+  <content contentuid="h71004cf9gc162g8742gc0e5g79b340e4c92c" version="1">Studded Leather of Devotion</content>
+  <content contentuid="h5ed64338g9326g9eadgdca9g397bfa889e3b" version="1">Embroidered on the belt are the tenets of Devotion: Honesty, Courage, Compassion, Honor, and Duty.</content>
+  <content contentuid="h98ae9c37g90c4ge5e5g33cbge5fffab11a4c" version="1">Eldritch Blast</content>
+  <content contentuid="h4386e446g0ebdga5dcgf3a2g7f3971c4b6ce" version="1">Conjure [1] beam(s) of crackling energy.</content>
 </contentList>

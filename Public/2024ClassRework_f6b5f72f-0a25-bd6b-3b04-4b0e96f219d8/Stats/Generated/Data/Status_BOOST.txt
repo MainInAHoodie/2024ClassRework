@@ -273,6 +273,7 @@ data "StackId" "BRUTAL_STRIKE_FORCEFUL_SELF"
 data "TickType" "EndTurn"
 data "Boosts" "ActionResourceMultiplier(Movement,150,0);"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog"
+data "OnApplyFunctors" "ApplyStatus(SELF,BRUTAL_STRIKE_FORCEFUL_BLOW,100,1);ApplyStatus(SELF,DISENGAGE,100,1);TARGET:Force(4.5,TargetToEntity);"
 data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "RAGE_TOTEM_BEAR"
