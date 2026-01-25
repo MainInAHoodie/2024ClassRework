@@ -210,8 +210,6 @@ add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
 add equipment entry "ARM_Boots_Leather"
 add equipmentgroup
-add equipment entry "ARM_ScaleMail_Body_Paladin_Ancients"
-add equipmentgroup
 add equipment entry "OBJ_Scroll_Revivify"
 add equipmentgroup
 add equipment entry "WPN_Javelin"
@@ -242,8 +240,6 @@ add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
 add equipment entry "ARM_Boots_Leather"
-add equipmentgroup
-add equipment entry "ARM_ScaleMail_Body_Paladin_Devotion"
 add equipmentgroup
 add equipment entry "OBJ_Scroll_Revivify"
 add equipmentgroup
@@ -276,8 +272,6 @@ add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
 add equipment entry "ARM_Boots_Leather"
 add equipmentgroup
-add equipment entry "ARM_ScaleMail_Body_Paladin_Vengeance"
-add equipmentgroup
 add equipment entry "OBJ_Scroll_Revivify"
 add equipmentgroup
 add equipment entry "WPN_Javelin"
@@ -308,8 +302,6 @@ add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
 add equipment entry "ARM_Boots_Leather"
-add equipmentgroup
-add equipment entry "ARM_ScaleMail_Body_Paladin_Crown"
 add equipmentgroup
 add equipment entry "OBJ_Scroll_Revivify"
 add equipmentgroup
@@ -346,7 +338,7 @@ add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
-add equipment entry "ARM_StuddedLeather_Body"
+add equipment entry "ARM_StuddedLeather_Body_Ranger"
 add equipmentgroup
 add equipment entry "OBJ_Scroll_Revivify"
 add equipmentgroup
@@ -514,7 +506,7 @@ add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
-add equipment entry "ARM_ChainShirt_Body"
+add equipment entry "ARM_ChainShirt_Body_Hexblade"
 add equipmentgroup
 add equipment entry "ARM_Shield"
 add equipmentgroup

@@ -49,6 +49,26 @@
                     <attribute id="Name" type="FixedString" value="Shield or No Shield"/>
                     <attribute id="UUID" type="guid" value="7de2e5f1-a324-4bdd-a28c-a491962e77b7"/>
                 </node>
+                <node id="EquipmentList">
+                    <attribute id="Items" type="LSString" value="ARM_StuddedLeather_Devotion;ARM_ScaleMail_Body_Paladin_Devotion;ARM_ChainMail_Devotion"/>
+                    <attribute id="Name" type="FixedString" value="Starting Armor: Oath of Devotion Paladin"/>
+                    <attribute id="UUID" type="guid" value="04e594a5-a100-4694-86e5-11f90fd6c2e4"/>
+                </node>
+                <node id="EquipmentList">
+                    <attribute id="Items" type="LSString" value="ARM_StuddedLeather_Ancients;ARM_ScaleMail_Body_Paladin_Ancients;ARM_ChainMail_Ancients"/>
+                    <attribute id="Name" type="FixedString" value="Starting Armor: Oath of the Ancients Paladin"/>
+                    <attribute id="UUID" type="guid" value="4ab00008-a488-4f84-9ae5-90408c0c4a61"/>
+                </node>
+                <node id="EquipmentList">
+                    <attribute id="Items" type="LSString" value="ARM_StuddedLeather_Vengeance;ARM_ScaleMail_Body_Paladin_Vengeance;ARM_ChainMail_Vengeance"/>
+                    <attribute id="Name" type="FixedString" value="Starting Armor: Oath of Vengeance Paladin"/>
+                    <attribute id="UUID" type="guid" value="ae4cc84c-3899-4edc-b9c9-05c57ca4799e"/>
+                </node>
+                <node id="EquipmentList">
+                    <attribute id="Items" type="LSString" value="ARM_StuddedLeather_Crown;ARM_ScaleMail_Body_Paladin_Crown;ARM_ChainMail_Crown"/>
+                    <attribute id="Name" type="FixedString" value="Starting Armor: Oath of the Crown Paladin"/>
+                    <attribute id="UUID" type="guid" value="1f510967-e638-486f-8db0-a12d507a6c0c"/>
+                </node>
             </children>
         </node>
     </region>

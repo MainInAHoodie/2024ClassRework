@@ -590,6 +590,54 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_267" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c5896730-ac3f-4f00-b719-41a1ed82616b" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="b82864a7-b093-4553-a802-e176831029c1" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Ancients" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(9e04298e-871d-414d-979a-c05570df603b,,,,AlwaysPrepared);SelectEquipment(4ab00008-a488-4f84-9ae5-90408c0c4a61,1,StartingArmorAncientsPaladin)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Oath_Ancients_Tenents" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_270" />
+        <field name="UUID" type="IdTableFieldDefinition" value="394623a5-f829-4295-9efc-3ea14197536a" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="941ca27d-02f7-4f59-bd33-63fa3366134d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Devotion" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(b4220712-15bb-4235-b4a8-9946a9708a9c,,,,AlwaysPrepared);SelectEquipment(04e594a5-a100-4694-86e5-11f90fd6c2e4,1,StartingArmorDevotionPaladin)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Oath_Devotion_Tenents" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_520" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ebe9b2bf-97fb-460b-860b-22ae602b7e97" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="f769aa02-1f74-4fb6-b94c-8850143daa20" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Vengeance" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(bc56da1f-38fa-49b6-bf58-1159cecd92a4,,,,AlwaysPrepared);SelectEquipment(ae4cc84c-3899-4edc-b9c9-05c57ca4799e,1,StartingArmorVengeancePaladin)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Oath_Vengeance_Tenents" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_32" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f0cc5c2d-c817-4f3d-8517-e2286c9590e4" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="e3a25a7a-e793-4b99-9d4a-0fbc17fcc1ff" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Crown" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(0e170ae3-56b4-487a-9690-83b7a9975a43);SelectEquipment(1f510967-e638-486f-8db0-a12d507a6c0c,1,StartingArmorCrownPaladin)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Oath_Crown_Tenents" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_507" />
         <field name="UUID" type="IdTableFieldDefinition" value="16f00e7f-12f6-4cff-b610-4ee738b02d62" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="9a44e828-92db-4d6c-acbc-a4f8ef340415" />

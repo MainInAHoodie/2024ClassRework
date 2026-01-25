@@ -64,5 +64,33 @@
         <field name="Items" type="StringTableFieldDefinition" value="ARM_Shield;WPN_Javelin" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="04e594a5-a100-4694-86e5-11f90fd6c2e4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Starting Armor: Oath of Devotion Paladin" />
+        <field name="Items" type="StringTableFieldDefinition" value="ARM_StuddedLeather_Devotion;ARM_ScaleMail_Body_Paladin_Devotion;ARM_ChainMail_Devotion" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4ab00008-a488-4f84-9ae5-90408c0c4a61" />
+        <field name="Name" type="NameTableFieldDefinition" value="Starting Armor: Oath of the Ancients Paladin" />
+        <field name="Items" type="StringTableFieldDefinition" value="ARM_StuddedLeather_Ancients;ARM_ScaleMail_Body_Paladin_Ancients;ARM_ChainMail_Ancients" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ae4cc84c-3899-4edc-b9c9-05c57ca4799e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Starting Armor: Oath of Vengeance Paladin" />
+        <field name="Items" type="StringTableFieldDefinition" value="ARM_StuddedLeather_Vengeance;ARM_ScaleMail_Body_Paladin_Vengeance;ARM_ChainMail_Vengeance" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1f510967-e638-486f-8db0-a12d507a6c0c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Starting Armor: Oath of the Crown Paladin" />
+        <field name="Items" type="StringTableFieldDefinition" value="ARM_StuddedLeather_Crown;ARM_ScaleMail_Body_Paladin_Crown;ARM_ChainMail_Crown" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
