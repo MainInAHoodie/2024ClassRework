@@ -554,6 +554,42 @@
                     </children>
                 </node>
                 <node id="Progression">
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Ancients"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Oath_Ancients_Tenents"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(9e04298e-871d-414d-979a-c05570df603b,,,,AlwaysPrepared);SelectEquipment(4ab00008-a488-4f84-9ae5-90408c0c4a61,1,StartingArmorAncientsPaladin)"/>
+                    <attribute id="TableUUID" type="guid" value="b82864a7-b093-4553-a802-e176831029c1"/>
+                    <attribute id="UUID" type="guid" value="c5896730-ac3f-4f00-b719-41a1ed82616b"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Devotion"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Oath_Devotion_Tenents"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(b4220712-15bb-4235-b4a8-9946a9708a9c,,,,AlwaysPrepared);SelectEquipment(04e594a5-a100-4694-86e5-11f90fd6c2e4,1,StartingArmorDevotionPaladin)"/>
+                    <attribute id="TableUUID" type="guid" value="941ca27d-02f7-4f59-bd33-63fa3366134d"/>
+                    <attribute id="UUID" type="guid" value="394623a5-f829-4295-9efc-3ea14197536a"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Vengeance"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Oath_Vengeance_Tenents"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(bc56da1f-38fa-49b6-bf58-1159cecd92a4,,,,AlwaysPrepared);SelectEquipment(ae4cc84c-3899-4edc-b9c9-05c57ca4799e,1,StartingArmorVengeancePaladin)"/>
+                    <attribute id="TableUUID" type="guid" value="f769aa02-1f74-4fb6-b94c-8850143daa20"/>
+                    <attribute id="UUID" type="guid" value="ebe9b2bf-97fb-460b-860b-22ae602b7e97"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Crown"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Oath_Crown_Tenents"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(0e170ae3-56b4-487a-9690-83b7a9975a43);SelectEquipment(1f510967-e638-486f-8db0-a12d507a6c0c,1,StartingArmorCrownPaladin)"/>
+                    <attribute id="TableUUID" type="guid" value="e3a25a7a-e793-4b99-9d4a-0fbc17fcc1ff"/>
+                    <attribute id="UUID" type="guid" value="f0cc5c2d-c817-4f3d-8517-e2286c9590e4"/>
+                </node>
+                <node id="Progression">
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Boosts" type="LSString" value="ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(LightArmor);Proficiency(SimpleWeapons);Proficiency(HandCrossbows);Proficiency(Longswords);Proficiency(Rapiers);Proficiency(Shortswords);ActionResource(SneakAttack_Charge,1,0)"/>
                     <attribute id="Level" type="uint8" value="1"/>
@@ -600,42 +636,6 @@
                     <attribute id="Selectors" type="LSString" value="AddSpells(50115a84-a7d7-4734-98a2-03fccfbdbcd3)"/>
                     <attribute id="TableUUID" type="guid" value="9c77844d-c201-47f4-a25f-7925dec8180d"/>
                     <attribute id="UUID" type="guid" value="e9bd3ad3-31d1-4ea5-8604-e28a719591f2"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="Crown"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Oath_Crown_Tenents"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(0e170ae3-56b4-487a-9690-83b7a9975a43);SelectEquipment(1f510967-e638-486f-8db0-a12d507a6c0c,1,StartingArmorCrownPaladin)"/>
-                    <attribute id="TableUUID" type="guid" value="e3a25a7a-e793-4b99-9d4a-0fbc17fcc1ff"/>
-                    <attribute id="UUID" type="guid" value="f0cc5c2d-c817-4f3d-8517-e2286c9590e4"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="Ancients"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Oath_Ancients_Tenents"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(9e04298e-871d-414d-979a-c05570df603b,,,,AlwaysPrepared);SelectEquipment(4ab00008-a488-4f84-9ae5-90408c0c4a61,1,StartingArmorAncientsPaladin)"/>
-                    <attribute id="TableUUID" type="guid" value="b82864a7-b093-4553-a802-e176831029c1"/>
-                    <attribute id="UUID" type="guid" value="c5896730-ac3f-4f00-b719-41a1ed82616b"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="Devotion"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Oath_Devotion_Tenents"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(b4220712-15bb-4235-b4a8-9946a9708a9c,,,,AlwaysPrepared);SelectEquipment(04e594a5-a100-4694-86e5-11f90fd6c2e4,1,StartingArmorDevotionPaladin)"/>
-                    <attribute id="TableUUID" type="guid" value="941ca27d-02f7-4f59-bd33-63fa3366134d"/>
-                    <attribute id="UUID" type="guid" value="394623a5-f829-4295-9efc-3ea14197536a"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="Vengeance"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Oath_Vengeance_Tenents"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(bc56da1f-38fa-49b6-bf58-1159cecd92a4,,,,AlwaysPrepared);SelectEquipment(ae4cc84c-3899-4edc-b9c9-05c57ca4799e,1,StartingArmorVengeancePaladin)"/>
-                    <attribute id="TableUUID" type="guid" value="f769aa02-1f74-4fb6-b94c-8850143daa20"/>
-                    <attribute id="UUID" type="guid" value="ebe9b2bf-97fb-460b-860b-22ae602b7e97"/>
                 </node>
             </children>
         </node>

@@ -39,5 +39,24 @@
         <field name="Level12" type="StringTableFieldDefinition" value="5d8" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="FlurryOfBlows" />
+        <field name="UUID" type="IdTableFieldDefinition" value="08ded334-2eed-4151-8e90-4c1abb6c1249" />
+        <field name="PreferredClass" type="GuidObjectTableFieldDefinition" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f" />
+        <field name="Level1" type="StringTableFieldDefinition" value="2" />
+        <field name="Level2" type="StringTableFieldDefinition" value="2" />
+        <field name="Level3" type="StringTableFieldDefinition" value="2" />
+        <field name="Level4" type="StringTableFieldDefinition" value="2" />
+        <field name="Level5" type="StringTableFieldDefinition" value="2" />
+        <field name="Level6" type="StringTableFieldDefinition" value="2" />
+        <field name="Level7" type="StringTableFieldDefinition" value="2" />
+        <field name="Level8" type="StringTableFieldDefinition" value="2" />
+        <field name="Level9" type="StringTableFieldDefinition" value="2" />
+        <field name="Level10" type="StringTableFieldDefinition" value="3" />
+        <field name="Level11" type="StringTableFieldDefinition" value="3" />
+        <field name="Level12" type="StringTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

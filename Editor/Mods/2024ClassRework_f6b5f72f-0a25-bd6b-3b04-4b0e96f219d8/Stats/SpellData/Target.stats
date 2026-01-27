@@ -1163,5 +1163,114 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="ReactionActionPoint:1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="287b9102-acaf-40dc-bdd0-0eb0fa05e922" />
+        <field name="Name" type="NameTableFieldDefinition" value="FlurryOfBlows" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cb2e2d55-aef5-4d96-a881-7b5d5da09203" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1e79c6bfg66fcg9d48g9a91gfe7afa70b56d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbbc36ca0g6e78g2f0dgc0ffg58420da73b7e" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Monk_FlurryofBlows_L1to3" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeUnarmedAttack );" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage , Bludgeoning);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MartialArtsUnarmedDamage, Bludgeoning);DealDamage(MartialArtsUnarmedDamage, Bludgeoning)" />
+        <field name="AlternativeCastTextEvents" type="StringTableFieldDefinition" value="Cast2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;KiPoint:1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;IsHarmful;DisableBlood" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3acc079d-c27c-4568-9205-61150621c271,,;55562ea5-4c1c-4682-a824-d65a4e647ae8,,;b62ae1c7-0846-41ce-8377-780c90cf1ff5,,;a6456c59-0ad3-4311-a5d8-02bce73ac18a,,;b3299f52-cd3a-47a3-8432-2f97777c04c4,,;,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="d8ea7a73-027c-4472-b638-2b939d384900" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="57a6a6b3-a088-4b90-9777-683963616236" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="dc8efa81-182b-4446-82ac-5e0e4c5f87d0" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monk_FlurryOfBlows" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Vocal_Component_Monk_Damage" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Sheathed" enumeration_type_name="SpellSheathing" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Bludgeoning" enumeration_type_name="Damage Type" version="1" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="LevelMapValue(FlurryOfBlows)" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="ha33c99bcgf934ge8c6g775eg75e97d94f3e5" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9817cf58-aef9-459d-aef1-b664c4024261" />
+        <field name="Name" type="NameTableFieldDefinition" value="OpenHandTechnique_Knock" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage , Bludgeoning);IF(not SavingThrow(Ability.Dexterity, ManeuverSaveDC())):ApplyStatus(PRONE,100,1)];" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monk_OpenHandTechnique_Knock" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbcc1bb7ag360bgfe80g21ffg997f7791c242" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h14e2d9dagc42eg820egd81fg5fec0a42c567" version="1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="26fe0848-ce88-41c7-8184-4e405936cfd1,,;bb71ceb0-5636-40c6-8af3-eb6d98bcf5a4,,;4595e579-0b44-498f-8eb4-26375b9fe9fb,,;4fe5d677-2411-4e63-bfa1-bb449f7c6942,,;284c7d71-e6b8-4026-8b8f-f4a5da2e3183,,;c50242af-8b22-4f9f-a890-cd8e58b3ff70,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;IsHarmful;DisableBlood" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="287b9102-acaf-40dc-bdd0-0eb0fa05e922" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(PRONE,100,1)" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="85386181-e9ec-4996-a1dd-7f09f3013189" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="208b02ef-5847-493d-94b8-a901691979ef" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="82b8aad9-5031-41f8-a871-dc55eb52af88" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Monk_OpenHandTech_L1to3" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeUnarmedAttack );" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9303d50a-ea95-4e24-96a3-31b9e5d0ed1b" />
+        <field name="Name" type="NameTableFieldDefinition" value="OpenHandTechnique_NoReactions" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage , Bludgeoning);ApplyStatus(OPEN_HAND_NO_REACTIONS,100,1)];" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monk_OpenHandTechnique_NoReactions" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4dd9fb54gff6egf487gf6f8gcc9f2242463b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7e5e38e5gb9d5g0fd3g81edgac146235a0a8" version="1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="2e348409-bedb-4a37-8f2d-e879f40ca420,,;0b341bac-f564-4dc2-ae0c-36adf49c7e93,,;1340ccad-d59c-4e8b-9cf0-edecf6c82739,,;5a92e20c-3300-43f4-af06-d57df9999713,,;f59f036d-969f-4480-af65-c85138f58e85,,;88faa5d1-94bc-44c1-8d0b-3845c01a984a,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;IsHarmful;DisableBlood" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="287b9102-acaf-40dc-bdd0-0eb0fa05e922" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(OPEN_HAND_NO_REACTIONS,100,1)" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="85386181-e9ec-4996-a1dd-7f09f3013189" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="cff54a9a-6f6d-4b1b-9d0e-4177302cd63d" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Monk_OpenHandTech_L1to3" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeUnarmedAttack );" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b1463d66-1cf3-4a2e-9a4c-aed04a6361df" />
+        <field name="Name" type="NameTableFieldDefinition" value="OpenHandTechnique_Push" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage , Bludgeoning);IF(not SavingThrow(Ability.Strength, ManeuverSaveDC())):Force(5)];" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monk_OpenHandTechnique_Push" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1227b030gca51gf493g6fc6ga99abb73ec7f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdbeab2a9g49b8g6894g0137g03461063a5ec" version="1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="e1a544d9-209c-4928-aaa8-34158e755235,,;c06d3974-75cc-47db-94fc-58ffee6f6d9c,,;5fac68a4-bf82-471c-a3f1-f170652e5305,,;0f459162-778f-4bc4-97d0-f54130ec73be,,;4d79a581-a66e-49d3-a6bf-b7f66085cae4,,;37602812-a7a8-45a8-8cd3-2efa6f81f60d,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;IsHarmful;DisableBlood;AddFallDamageOnLand" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="287b9102-acaf-40dc-bdd0-0eb0fa05e922" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="85386181-e9ec-4996-a1dd-7f09f3013189" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="f02c259a-32ff-4667-80db-3a52f290081d" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="4aac52d4-55eb-4867-95b9-c8309bb48129" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Monk_OpenHandTech_L1to3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(5)" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeUnarmedAttack );" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ba584d1a-efc3-49af-be01-28ab09a8ea7b" />
+        <field name="Name" type="NameTableFieldDefinition" value="DrunkenTechnique" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);ApplyStatus(SELF,DRUNKEN_TECHNIQUE,100,1)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h033709b7g1216gf429g3e95g97b9cd85542e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h734e632bgbdedgb47dgda2cg99c271f7e6c0" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="d9cea656-28ad-4e1b-baa2-3ae471f17065,,;8d084ad6-45f1-4b9a-9d56-59b68203641b,,;96fe3649-67ad-4794-99c7-de3c4e51b47b,,;ea7fba8c-d7ab-422a-8601-ac48310a023f,,;cf5a233b-7d24-4314-a964-19cfc5ba9a85,,;b00647fc-33a0-4324-bad0-8d762bd3c57b,,;e1b69db4-0a23-47d7-81b8-1a91695ce134,,;,,;,," />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="287b9102-acaf-40dc-bdd0-0eb0fa05e922" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monk_DrunkenTechnique" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="d318787f-2fe6-49b2-aeda-65ada70a0165" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Monk_DrunkenMaster_General" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Monk_DrunkenMaster_DrunkenTechnique" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Monk_DrunkenMaster_DrunkenTechnique" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="52ef0f05-f6a4-4f18-88e8-729d34a168d6" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="649b9d2b-438d-41ff-86dd-378a599e5c10" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeUnarmedAttack );" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage , Bludgeoning);" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
