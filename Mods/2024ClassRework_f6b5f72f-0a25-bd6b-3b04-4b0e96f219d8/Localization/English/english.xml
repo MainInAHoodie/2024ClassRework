@@ -547,4 +547,28 @@
   <content contentuid="h3bc28113gad1fg4772g3586g70f66f618d13" version="1">Tight chains protect the wearer from many sharp weapons, while fabric padding protects the skin from cold metal. </content>
   <content contentuid="h2a691e5fg883dgb0e9ga780g9806deed51d0" version="1">Shadow Chain Shirt</content>
   <content contentuid="h803519fbg5ecbgb26cg6038gd225d0b4cd35" version="1">Shadow Chain Shirt</content>
+  <content contentuid="h8a5248e5g2b0eg2addg2135g7a1532db2897" version="1">Punch three times in quick succession.</content>
+  <content contentuid="h6d79edb2gbd21g3835g3106gf225e2446af3" version="1">Punch three times in quick succession and possibly knock the target &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+  <content contentuid="hc7106e08g920dg904cgfbddgd6c2bb2cc0cf" version="1">Punch three times in quick succession and &lt;LSTag Type="Status" Tooltip="OPEN_HAND_NO_REACTIONS"&gt;Stagger&lt;/LSTag&gt; the target, making it unable to take reactions.</content>
+  <content contentuid="h6ff236ffg13bbg511cgeff0g793441cb6963" version="1">Punch three times in quick succession and possibly push the target [1] away.</content>
+  <content contentuid="hefb8c8d4gb3e8g1ac0gb594g19b541aa866a" version="1">Punch three times in quick succession and grant yourself an additional [1] movement and the benefits of &lt;LSTag Type="Status" Tooltip="DISENGAGE"&gt;Disengage&lt;/LSTag&gt;.</content>
+  <content contentuid="h4fd64fbbg3d35ga6dfgf9e6g1b952f3efa54" version="1">Open Hand Techniques</content>
+  <content contentuid="h695fda3aga1f8gf3abgd9a9g1fc5944c7359" version="2">Gain unique, improved variants of &lt;LSTag Type="Spell" Tooltip="Target_FlurryOfBlows"&gt;Flurry of Blows&lt;/LSTag&gt;</content>
+  <content contentuid="h0e96c722g5035g0de3gb122gf43d845a0bdc" version="2">Enhanced Open Hand Techniques</content>
+  <content contentuid="h365ccab2ga2f2g58faga0e1gc0576a46fd40" version="2">Gain better variants of your Open Hand Techniques.</content>
+  <content contentuid="h1eea77adg015cgc577gbe58gc0fb01603ec0" version="1">Drunken Technique</content>
+  <content contentuid="h5da17dbcgf6b5g9702g5b20g10aeca1b4d16" version="1">Gain an enhanced variant of &lt;LSTag Type="Spell" Tooltip="Target_FlurryOfBlows"&gt;Flurry of Blows that grants additional movement.</content>
+  <content contentuid="haa19e6fcg44f5ga797gd27cg5162aba30e0c" version="1">Enhanced Drunken Technique</content>
+  <content contentuid="hf27a1f0ege601g1114g6bceg68064ee6e000" version="1">Gain an even more enhanced variant of &lt;LSTag Type="Spell" Tooltip="Target_FlurryOfBlows"&gt;Flurry of Blows that grants additional movement.</content>
+  <content contentuid="h4dd9fb54gff6egf487gf6f8gcc9f2242463b" version="1">Flurry of Blows: Stagger</content>
+  <content contentuid="h7e5e38e5gb9d5g0fd3g81edgac146235a0a8" version="1">Punch twice in quick succession and &lt;LSTag Type="Status" Tooltip="OPEN_HAND_NO_REACTIONS"&gt;Stagger&lt;/LSTag&gt; the target, making it unable to take reactions.</content>
+  <content contentuid="h1227b030gca51gf493g6fc6ga99abb73ec7f" version="1">Flurry of Blows: Push</content>
+  <content contentuid="hdbeab2a9g49b8g6894g0137g03461063a5ec" version="1">Punch twice in quick succession and possibly push the target [1] away.</content>
+  <content contentuid="hbcc1bb7ag360bgfe80g21ffg997f7791c242" version="1">Flurry of Blows: Topple</content>
+  <content contentuid="h14e2d9dagc42eg820egd81fg5fec0a42c567" version="1">Punch twice in quick succession and possibly knock the target &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+  <content contentuid="h1e79c6bfg66fcg9d48g9a91gfe7afa70b56d" version="1">Flurry of Blows</content>
+  <content contentuid="hbbc36ca0g6e78g2f0dgc0ffg58420da73b7e" version="1">Punch twice in quick succession.</content>
+  <content contentuid="h033709b7g1216gf429g3e95g97b9cd85542e" version="1">Drunken Technique</content>
+  <content contentuid="h734e632bgbdedgb47dgda2cg99c271f7e6c0" version="1">Punch twice in quick succession and grant yourself an additional [1] movement and the benefits of &lt;LSTag Type="Status" Tooltip="DISENGAGE"&gt;Disengage&lt;/LSTag&gt;.</content>
+  <content contentuid="ha33c99bcgf934ge8c6g775eg75e97d94f3e5" version="1">At 10th Level, you can punch three times.</content>
 </contentList>
