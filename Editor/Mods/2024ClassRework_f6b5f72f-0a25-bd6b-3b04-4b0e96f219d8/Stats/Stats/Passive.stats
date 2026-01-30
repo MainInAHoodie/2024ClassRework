@@ -491,5 +491,40 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="006a259e-7cb6-48ef-abf1-8542a25dd0d3" />
+        <field name="Name" type="NameTableFieldDefinition" value="MonksFocus" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3c00607dg9b7cg085egcfecg24a5162accd9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h665993ddg10a7g7c4dgaf5cga16cea6e1e65" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monk_StepOfTheWind_Dash" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_PatientDefense_Disengage);UnlockSpell(Shout_PatientDefense_Dodge);UnlockSpell(Shout_StepOfTheWind_Dash);UnlockSpell(Shout_StepOfTheWind_Both);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9b304dfe-a92e-4069-a358-a6877a61ee7d" />
+        <field name="Name" type="NameTableFieldDefinition" value="HeightenedFocus" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd445d70fg99bcga620gbd3cg78c4064b1223" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hef9da409g1f9dgba0eg7d4bgc9f8c27381c5" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h4b674f04g4515g48ebgb00eg5c6495c29d24" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monk_StepOfTheWind_Dash" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_PatientDefense_Disengage);UnlockSpell(Shout_StepOfTheWind_Dash);UnlockSpell(Shout_StepOfTheWind_Both);UnlockSpell(Shout_PatientDefense_TempHP);UnlockSpell(Teleportation_StepOfTheWind_Teleport);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="797da5a7-02f5-4b67-a15a-ba71f79a4338" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisciplinedSurvivor" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h47eaac38gcdf7gb966g1423g2d7ed9f536a3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4e0ab6cbgd7ffgc25cg7c65g7b90b076f0e8" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h5234fe9dgce36g328aga8c7gf12b9c2ee00a" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_PurityOfBody" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Constitution);ProficiencyBonus(SavingThrow,Intelligence);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Charisma);" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

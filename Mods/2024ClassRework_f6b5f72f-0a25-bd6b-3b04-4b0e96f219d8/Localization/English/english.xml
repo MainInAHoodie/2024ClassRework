@@ -571,4 +571,27 @@
   <content contentuid="h033709b7g1216gf429g3e95g97b9cd85542e" version="1">Drunken Technique</content>
   <content contentuid="h734e632bgbdedgb47dgda2cg99c271f7e6c0" version="1">Punch twice in quick succession and grant yourself an additional [1] movement and the benefits of &lt;LSTag Type="Status" Tooltip="DISENGAGE"&gt;Disengage&lt;/LSTag&gt;.</content>
   <content contentuid="ha33c99bcgf934ge8c6g775eg75e97d94f3e5" version="1">At 10th Level, you can punch three times.</content>
+  <content contentuid="hc0ab1752gf397gb1d0g04d4g38c2a825a530" version="2">Patient Defense: Disengage</content>
+  <content contentuid="h10f0e2f8gf2e7g4f07g3954g4b44f49401c6" version="4">&lt;LSTag Type="Spell" Tooltip="Shout_Disengage"&gt;Disengage&lt;/LSTag&gt; as a Bonus Action.  Jumping still costs a Bonus Action.</content>
+  <content contentuid="he9f23cb8gcbcege180g09d6gb1d6bd806b35" version="1">Patient Defence: Dodge</content>
+  <content contentuid="he33cfd86g876ega778gaadfge217363e76ee" version="3">&lt;LSTag Type="Spell" Tooltip="Shout_Disengage"&gt;Disengage&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="DODGE"&gt;Dodge&lt;/LStag&gt; as a Bonus Action.&lt;br&gt;&lt;br&gt;&lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against you have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;, and you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+  <content contentuid="h044e45d4g7bb9g0950gdda8gfb72a296f6cf" version="1">Step of the Wind: Dash and Disengage</content>
+  <content contentuid="h2648354fgb66dg3f8fgeff6g068b2d57b97d" version="1">Double your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; and retreat to safety by &lt;LSTag Type="Spell" Tooltip="Shout_Disengage"&gt;Disengaging&lt;/LSTag&gt;. Jumping no longer requires a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt;.</content>
+  <content contentuid="hcecfdf1bg9f0bge443gf0b1g3441a91703bb" version="1">Patient Defence: Heightened Focus</content>
+  <content contentuid="hb6dc9dfdgc052g6e24g306bgb9b10b6d9840" version="1">In addition, you gain [1] Temporary Hit Points.</content>
+  <content contentuid="h3c00607dg9b7cg085egcfecg24a5162accd9" version="1">Monk's Focus</content>
+  <content contentuid="h665993ddg10a7g7c4dgaf5cga16cea6e1e65" version="1">Your focus and martial training allow you to harness a well of extraordinary energy within yourself, unlocking some new abilities.</content>
+  <content contentuid="hf93e6dadg2cadgcee7g0cf5g87135b2a81e3" version="1">Step of the Wind: Dash</content>
+  <content contentuid="h3bda8065g654eg8f50g5817g490ea3a63da2" version="1">&lt;LSTag Type="Spell" Tooltip="Shout_Dash"&gt;Dash&lt;/LSTag&gt; as a Bonus Action.  Jumping no longer costs a Bonus Action.</content>
+  <content contentuid="hd571855dg0b01gfb55ge0e1gad6249a5d880" version="1">Step of the Wind: Teleport</content>
+  <content contentuid="h2e39c945gfb2ag25b7ge00fgba9a48201f83" version="2">Once per Short Rest, spending a &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt; on your &lt;LSTag Type="Spell" Tooltip="Shout_StepOfTheWind_Both"&gt;Step of the Wind&lt;/LSTag&gt; allows you to teleport yourself and one ally up to [1].</content>
+  <content contentuid="hb8e735c9gf907ga94bgbea8g809a6df6a797" version="1">Your ally must be Medium or smaller.</content>
+  <content contentuid="hd445d70fg99bcga620gbd3cg78c4064b1223" version="1">Heightened Focus</content>
+  <content contentuid="hef9da409g1f9dgba0eg7d4bgc9f8c27381c5" version="1">Your focus has improved, and your Monk abilities gain some interesting new properties.</content>
+  <content contentuid="h4b674f04g4515g48ebgb00eg5c6495c29d24" version="1">You can also make a third attack with your &lt;LSTag Type="Spell" Tooltip="Target_FlurryOfBlows"&gt;Flurry of Blows&lt;/LSTag&gt;</content>
+  <content contentuid="h47eaac38gcdf7gb966g1423g2d7ed9f536a3" version="1">Disciplined Survivor</content>
+  <content contentuid="h4e0ab6cbgd7ffgc25cg7c65g7b90b076f0e8" version="1">Your physical and mental discipline grant you proficiency in all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+  <content contentuid="h5234fe9dgce36g328aga8c7gf12b9c2ee00a" version="1">Yep, you get this one two levels early.  Have fun!</content>
+  <content contentuid="h4cb45672gac36g4e13g29bdg14b55dc6174c" version="1">Patient Defense: Heightened Focus</content>
+  <content contentuid="h6a6fd215gf74ag74e6gcc80g1cb13ef43a71" version="1">Gain [1] Temporary Hit Points</content>
 </contentList>
