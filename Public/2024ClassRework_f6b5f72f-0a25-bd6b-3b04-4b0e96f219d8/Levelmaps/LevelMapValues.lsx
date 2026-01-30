@@ -55,6 +55,13 @@
                     <attribute id="PreferredClassUUID" type="guid" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f"/>
                     <attribute id="UUID" type="guid" value="08ded334-2eed-4151-8e90-4c1abb6c1249"/>
                 </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1d4"/>
+                    <attribute id="Level10" type="LSString" value="2d8"/>
+                    <attribute id="Name" type="FixedString" value="MonkTempHP"/>
+                    <attribute id="PreferredClassUUID" type="guid" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f"/>
+                    <attribute id="UUID" type="guid" value="f0ee6565-6423-4c8e-85df-cd5b04a46b2a"/>
+                </node>
             </children>
         </node>
     </region>

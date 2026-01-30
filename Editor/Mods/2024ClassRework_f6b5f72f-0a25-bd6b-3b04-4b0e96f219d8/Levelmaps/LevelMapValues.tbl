@@ -58,5 +58,14 @@
         <field name="Level12" type="StringTableFieldDefinition" value="3" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="MonkTempHP" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f0ee6565-6423-4c8e-85df-cd5b04a46b2a" />
+        <field name="PreferredClass" type="GuidObjectTableFieldDefinition" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f" />
+        <field name="Level1" type="StringTableFieldDefinition" value="1d4" />
+        <field name="Level10" type="StringTableFieldDefinition" value="2d8" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

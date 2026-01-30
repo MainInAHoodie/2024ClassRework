@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="c777d263-6c6a-4347-9652-667e59945528">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="44b27be3-af63-4b5c-8691-7341c91efa7c" />
+        <field name="Name" type="NameTableFieldDefinition" value="StepOfTheWind_Teleport" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="2" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="15" />
+        <field name="LineOfSightFlags" type="EnumerationListTableFieldDefinition" value="AddSourceHeight" enumeration_type_name="LineOfSightFlags" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('') and not Character();" />
+        <field name="OriginTargetConditions" type="StringTableFieldDefinition" value="Ally() and not Grounded() and (Tagged('WEIGHT_MEDIUM') or Tagged('WEIGHT_SMALL') or Tagged('WEIGHT_TINY'));" />
+        <field name="TeleportSelf" type="EnumerationTableFieldDefinition" value="No" enumeration_type_name="YesNo" version="1" />
+        <field name="TeleportSurface" type="EnumerationTableFieldDefinition" value="No" enumeration_type_name="YesNo" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_Blink_Teleport" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd571855dg0b01gfb55ge0e1gad6249a5d880" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2e39c945gfb2ag25b7ge00fgba9a48201f83" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(15)" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hb8e735c9gf907ga94bgbea8g809a6df6a797" version="1" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Action_Prepare_Monk_StepoftheWind" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Action_Loop_Monk_StepoftheWind" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Dash" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Dash" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;KiPoint:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="4f0a01e4-761d-4236-b789-33c1e7532023,,;9dec9d1f-ac78-4e2d-9095-1e0c8351144c,,;bd7104f0-6bb8-413c-8a38-ca0b2072a624,,;e3dd360c-2bc6-470b-aa4a-6b6a64e8e215,,;e85be5a8-6e48-4da4-8486-0d168159df4e,,;,,;5fdb66be-7506-411a-a7ea-c4783288aac8,,;,,;,," />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence;Stealth" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="DisappearEffect" type="GuidObjectTableFieldDefinition" value="b214ce9c-33c2-4dfc-bfc2-3af8e4124714" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

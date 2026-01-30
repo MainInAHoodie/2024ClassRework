@@ -714,5 +714,56 @@
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d6,Lightning)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0c4522e1-42e8-437e-a2c5-b663f3cd06e9" />
+        <field name="Name" type="NameTableFieldDefinition" value="PatientDefense_Disengage" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="701b4f79-15bf-4da8-a70b-bfe613bee61f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc0ab1752gf397gb1d0g04d4g38c2a825a530" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h10f0e2f8gf2e7g4f07g3954g4b44f49401c6" version="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="37cb1088-0995-4e8b-b6aa-1869aac3f65b" />
+        <field name="Name" type="NameTableFieldDefinition" value="PatientDefense_Dodge" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4a97e468-7a6b-4ab9-93f5-d613d32ace8d" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,PATIENT_DEFENCE,100,1);ApplyStatus(SELF,DISENGAGE,100,1);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he9f23cb8gcbcege180g09d6gb1d6bd806b35" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he33cfd86g876ega778gaadfge217363e76ee" version="3" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(PATIENT_DEFENCE,100,1);ApplyStatus(DISENGAGE,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3bb68665-4583-48ac-9c71-87b47d75fb3b" />
+        <field name="Name" type="NameTableFieldDefinition" value="StepOfTheWind_Dash" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3f56de45-417a-4c9a-89c4-2a923fe91599" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf93e6dadg2cadgcee7g0cf5g87135b2a81e3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3bda8065g654eg8f50g5817g490ea3a63da2" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cf6b9c56-faa4-424f-834d-4a10bc45cb91" />
+        <field name="Name" type="NameTableFieldDefinition" value="StepOfTheWind_Both" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3f56de45-417a-4c9a-89c4-2a923fe91599" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DASH,100,1);ApplyStatus(STEP_OF_THE_WIND,100,1);ApplyStatus(DISENGAGE,100,1);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h044e45d4g7bb9g0950gdda8gfb72a296f6cf" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2648354fgb66dg3f8fgeff6g068b2d57b97d" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="86b38855-5b7f-4e6a-9c36-086cf93b457a" />
+        <field name="Name" type="NameTableFieldDefinition" value="PatientDefense_TempHP" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="37cb1088-0995-4e8b-b6aa-1869aac3f65b" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,PATIENT_DEFENCE,100,1);ApplyStatus(SELF,DISENGAGE,100,1);ApplyStatus(SELF,PATIENT_DEFENSE_TEMP_HP,100,-1);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcecfdf1bg9f0bge443gf0b1g3441a91703bb" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hb6dc9dfdgc052g6e24g306bgb9b10b6d9840" version="1" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="LevelMapValue(MonkTempHP)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
