@@ -594,4 +594,31 @@
   <content contentuid="h5234fe9dgce36g328aga8c7gf12b9c2ee00a" version="1">Yep, you get this one two levels early.  Have fun!</content>
   <content contentuid="h4cb45672gac36g4e13g29bdg14b55dc6174c" version="1">Patient Defense: Heightened Focus</content>
   <content contentuid="h6a6fd215gf74ag74e6gcc80g1cb13ef43a71" version="1">Gain [1] Temporary Hit Points</content>
+  <content contentuid="h3e82ee53gb3a4g4d5ag5ec0ge9c2069a666a" version="1">Elemental Attunement</content>
+  <content contentuid="h1f60dc8bg5e75gc183g2820g1061b6269185" version="4">Spend one &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt; to imbue your attacks with elemental energy for 1 minute.  Your unarmed attacks will deal an additional damage of that element type.</content>
+  <content contentuid="h6ed0b707g3649g61a4g309fg7599f8de2adc" version="1">Elemental Attunement: Acid</content>
+  <content contentuid="h6a743cdbg6aa2g1bd0g70f4g14fb930ccc7b" version="2">Spend one &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt; to make your unarmed attacks deal an extra [1].</content>
+  <content contentuid="hf1b05c4cg7edeg211bg7e0eg9b548ade1d03" version="1">Elemental Attunement: Cold</content>
+  <content contentuid="hcc174476gaf62g3784g526bg8684eb955231" version="1">Spend one &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt; to make your unarmed attacks deal Cold damage.</content>
+  <content contentuid="h1bbef0bag9e53g63bfgb9b8gadc9e0996784" version="1">Elemental Attunement: Acid</content>
+  <content contentuid="h3e7bf313gb487g5a07g5327gd2e0429167ea" version="1">Your Unarmed Attacks do [1] in place of their usual damage.</content>
+  <content contentuid="hf64a4f28g08d7g3f73gbb17g42b5cb09937c" version="1">Elemental Attunement: Cold</content>
+  <content contentuid="hc7ec7fc1g5985g9780g13b0ge56f44a5ae59" version="1">Elemental Attunement</content>
+  <content contentuid="hd596eaccg8eccgeb8bgdc13gcc533acc05bf" version="4">You can imbue the elements into your Unarmed Strikes, allowing them to deal an extra [1], [2], [3], [4], or [5].</content>
+  <content contentuid="hb0961074g363fg0627ga9c4g36d6c39c761a" version="1">Flurry of Blows: Acid</content>
+  <content contentuid="ha0755940gf13cg178fg4c10gf74e2701a286" version="1">Punch twice in quick succession with Acid imbued in your punches.</content>
+  <content contentuid="h1425f9a8gb461g8d2fg8418g9acaef919ead" version="1">Flurry of Blows: Cold</content>
+  <content contentuid="hf9c0b85agb71ag6080g9486g87cc7e0e9434" version="1">Punch twice in quick succession with Cold imbued in your punches.</content>
+  <content contentuid="h037b400cgfe22g56cag41c8g41131c4a896f" version="1">Elemental Attunement: Fire</content>
+  <content contentuid="h2f1e7579gada8gfa0eg6144gdd9163e78a3a" version="1">Elemental Attunement: Lightning</content>
+  <content contentuid="h19577067g32afg793dg9ab9gac2d5112d39d" version="1">Elemental Attunement: Thunder</content>
+  <content contentuid="hfea60570g529egf93dg1ff7g83241573020a" version="1">Elemental Attunement: Fire</content>
+  <content contentuid="h319c452cg04b6g61b9ga1f6gfa4fe43147b3" version="1">Elemental Attunement: Lightning</content>
+  <content contentuid="hb40b75b8g5f10gade6g43fege79905755e11" version="1">Elemental Attunement: Thunder</content>
+  <content contentuid="hc02ff41fgf744g12cbg0a4egea20e19a09e4" version="1">Fangs of the Fire Snake</content>
+  <content contentuid="h965fc49cg8c7cgc48bgfa45g06b25e228256" version="1">Affected entity's fists are flickering with flame. Its melee attacks deal an additional [1].</content>
+  <content contentuid="hb1f7c169gc2a0ge36egf37dgf05620379dd1" version="1">Improved Elemental Casting</content>
+  <content contentuid="h23e49e56g376dg0c22g4938gd6e4ce3563e7" version="2">Your affinity with elemental ki deepens.  Your &lt;LSTag Type="Spell" Tooltip="Shout_ElementalAttunement_Container"&gt;Elemental Attunement&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tootlip="Projectile_FangsOfTheFireSnake"&gt;Fangs of the Fire Snake&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_WaterWhip"&gt;Water Whip&lt;/LSTag&gt; deal an extra die of damage.</content>
+  <content contentuid="h286ceae6g1077gb922g6d6fgb0b83c835cda" version="1">Fangs of the Fire Snake</content>
+  <content contentuid="h644f87adg1e06g397ag3570g854bea6ba40d" version="1">Hit your foe from afar. Your next melee attacks deal an additional [1].</content>
 </contentList>

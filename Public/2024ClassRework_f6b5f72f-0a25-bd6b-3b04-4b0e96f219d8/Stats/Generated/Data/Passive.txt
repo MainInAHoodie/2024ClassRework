@@ -388,3 +388,18 @@ data "Icon" "PassiveFeature_PurityOfBody"
 data "Properties" "Highlighted"
 data "Boosts" "ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Constitution);ProficiencyBonus(SavingThrow,Intelligence);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Charisma);"
 
+new entry "ElementalAttunement"
+type "PassiveData"
+data "DisplayName" "hc7ec7fc1g5985g9780g13b0ge56f44a5ae59;1"
+data "Description" "hd596eaccg8eccgeb8bgdc13gcc533acc05bf;4"
+data "DescriptionParams" "DealDamage(1d4+WisdomModifier,Acid);DealDamage(1d4+WisdomModifier,Cold);DealDamage(1d4+WisdomModifier,Fire);DealDamage(1d4+WisdomModifier,Lightning);DealDamage(1d4+WisdomModifier,Thunder)"
+data "Icon" "Spell_HarmonyOfFireAndWater"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Shout_ElementalAttunement_Container);"
+
+new entry "ImprovedElementalCasting"
+type "PassiveData"
+data "DisplayName" "hb1f7c169gc2a0ge36egf37dgf05620379dd1;1"
+data "Description" "h23e49e56g376dg0c22g4938gd6e4ce3563e7;2"
+data "Icon" "PassiveFeature_Generic_Magical"
+

@@ -364,8 +364,90 @@
         <field name="Passives" type="StringTableFieldDefinition" value="HeightenedFocus;" />
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage;OnSourceDeath" enumeration_type_name="StatusEvent" version="1" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisablePortraitIndicator;RemoveOnLongRest" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a8621f9a-a959-435a-8029-e94d8cba297b" />
+        <field name="Name" type="NameTableFieldDefinition" value="ELEMENTAL_ATTUNEMENT_ACID" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1bbef0bag9e53g63bfgb9b8gadc9e0996784" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3e7bf313gb487g5a07g5327gd2e0429167ea" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(MonkElementalAttunement)+WisdomModifier, Acid)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Flurry_of_Blows_Acid" />
+        <field name="StackId" type="StringTableFieldDefinition" value="ELEMENTAL_ATTUNEMENT" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(LevelMapValue(MonkElementalAttunement)+WisdomModifier, Acid);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="HasStatus('SG_Incapacitated')" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnSourceDeath" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisablePortraitIndicator;RemoveOnLongRest" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="3798c69d-e202-4323-b660-2e1778dafafc" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ElementalAttunement;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4a75d60f-f8a8-49ed-9db5-033dcc0a2bee" />
+        <field name="Name" type="NameTableFieldDefinition" value="ELEMENTAL_ATTUNEMENT_COLD" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a8621f9a-a959-435a-8029-e94d8cba297b" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf64a4f28g08d7g3f73gbb17g42b5cb09937c" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(MonkElementalAttunement)+WisdomModifier, Cold)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Flurry_of_Blows_Cold" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(LevelMapValue(MonkElementalAttunement)+WisdomModifier, Cold);" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="e92003cd-6622-4a82-a3c7-69d6222f0ba0" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnSourceDeath" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="98f4e81d-3b65-4fca-acc6-9a3d85b421e9" />
+        <field name="Name" type="NameTableFieldDefinition" value="ELEMENTAL_ATTUNEMENT_FIRE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a8621f9a-a959-435a-8029-e94d8cba297b" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h037b400cgfe22g56cag41c8g41131c4a896f" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(MonkElementalAttunement)+WisdomModifier, Fire)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Flurry_of_Blows_Fire" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(LevelMapValue(MonkElementalAttunement)+WisdomModifier, Fire);" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="8a4c7e6e-a629-4765-9c5d-d354838703d8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="59d59be0-8f0a-4a50-b1e1-8200de0aaeea" />
+        <field name="Name" type="NameTableFieldDefinition" value="ELEMENTAL_ATTUNEMENT_LIGHTNING" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a8621f9a-a959-435a-8029-e94d8cba297b" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2f1e7579gada8gfa0eg6144gdd9163e78a3a" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(MonkElementalAttunement)+WisdomModifier, Lightning)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Flurry_of_Blows_Lightning" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(LevelMapValue(MonkElementalAttunement)+WisdomModifier, Lightning);" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="7905bb82-0284-46b8-855b-24f17560fe4a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5c9689c6-7aed-4410-82bd-65d327945089" />
+        <field name="Name" type="NameTableFieldDefinition" value="ELEMENTAL_ATTUNEMENT_THUNDER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a8621f9a-a959-435a-8029-e94d8cba297b" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h19577067g32afg793dg9ab9gac2d5112d39d" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(MonkElementalAttunement)+WisdomModifier, Thunder)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Flurry_of_Blows_Thunder" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(LevelMapValue(MonkElementalAttunement)+WisdomModifier, Thunder);" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="ca0b3ab3-dac0-47f7-b313-7ca69c85b5b4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3d14a534-818e-4f17-9ef0-dd1424152891" />
+        <field name="Name" type="NameTableFieldDefinition" value="FANGS_OF_THE_FIRE_SNAKE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc02ff41fgf744g12cbg0a4egea20e19a09e4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h965fc49cg8c7cgc48bgfa45g06b25e228256" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monk_FangsOfTheFireSnake" />
+        <field name="StackId" type="StringTableFieldDefinition" value="FANGS_OF_THE_FIRE_SNAKE" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Fire)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="CharacterUnarmedDamage(1d4, Fire);" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="9c1c9ea9-e5d5-4f1e-91f2-415f5e80e942" />
       </fields>
     </stat_object>
   </stat_objects>

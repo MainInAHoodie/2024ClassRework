@@ -526,5 +526,26 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Constitution);ProficiencyBonus(SavingThrow,Intelligence);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Charisma);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cc67ee03-881e-44a1-a6b9-f58516344359" />
+        <field name="Name" type="NameTableFieldDefinition" value="ElementalAttunement" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc7ec7fc1g5985g9780g13b0ge56f44a5ae59" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd596eaccg8eccgeb8bgdc13gcc533acc05bf" version="4" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_HarmonyOfFireAndWater" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_ElementalAttunement_Container);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4+WisdomModifier,Acid);DealDamage(1d4+WisdomModifier,Cold);DealDamage(1d4+WisdomModifier,Fire);DealDamage(1d4+WisdomModifier,Lightning);DealDamage(1d4+WisdomModifier,Thunder)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="60740f22-82ac-47be-9725-75a32edaaa12" />
+        <field name="Name" type="NameTableFieldDefinition" value="ImprovedElementalCasting" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb1f7c169gc2a0ge36egf37dgf05620379dd1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h23e49e56g376dg0c22g4938gd6e4ce3563e7" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Magical" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

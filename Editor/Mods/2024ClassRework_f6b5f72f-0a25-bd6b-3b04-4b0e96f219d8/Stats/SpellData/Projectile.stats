@@ -398,5 +398,42 @@
         <field name="CastTargetHitDelay" type="IntegerTableFieldDefinition" value="100" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="21959524-f6c1-4b11-ac84-3cce6f85ad6f" />
+        <field name="Name" type="NameTableFieldDefinition" value="FangsOfTheFireSnake" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dc75f60c-beac-4588-a14a-43834eeb8f8f" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(1d10,Fire);IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);ApplyStatus(SELF,FANGS_OF_THE_FIRE_SNAKE,100,1);ApplyStatus(SELF,MARTIAL_ARTS_BONUS_UNARMED_STRIKE,100,1)" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="6" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeUnarmedAttack)&#x9;" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage , Bludgeoning);DealDamage(1d10,Fire,Magical)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monk_FangsOfTheFireSnake" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h286ceae6g1077gb922g6d6fgb0b83c835cda" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h644f87adg1e06g397ag3570g854bea6ba40d" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MartialArtsUnarmedDamage, Bludgeoning);DealDamage(LevelMapValue(FangsOfTheFireSnake),Fire) " />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeUnarmedAttack" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(FANGS_OF_THE_FIRE_SNAKE,100,1); " />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="AlternativeCastTextEvents" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;KiPoint:2;" />
+        <field name="DualWieldingUseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="WeaponType" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Fire" enumeration_type_name="Damage Type" version="1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;1f9a253f-8846-4384-a4a7-cb2a80b4c8e3,,;a22ad7c5-8341-4efb-957b-54874af62a49,,;5b7ab241-191e-48d5-a063-5ac788609674,,;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;b2e9c771-3497-444c-b360-23b4441985a1,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="DualWieldingSpellAnimation" type="CastAnimationsTableFieldDefinition" value="73afb4e5-8cfe-4479-95cf-16889597fee3,,;1f9a253f-8846-4384-a4a7-cb2a80b4c8e3,,;a22ad7c5-8341-4efb-957b-54874af62a49,,;5b7ab241-191e-48d5-a063-5ac788609674,,;6ec808e1-e128-44ef-9361-a713bf86de8f,,;b2e9c771-3497-444c-b360-23b4441985a1,,;f920a0a6-f257-4ce4-8d17-2dcaa7bb7bbb,,;,,;,," />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="10cfd191-3a8c-4a03-b22c-289334d651d2" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="cf4ffbe0-cf90-4e21-b74b-e62bb0662035" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="cc6bc4ff-33f2-4494-a6d5-7b88f10ef806" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Monk_FangsOfTheFireSnake_L1to3" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Vocal_Component_Monk_Damage" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Fire)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="ExtraProjectileTargetConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

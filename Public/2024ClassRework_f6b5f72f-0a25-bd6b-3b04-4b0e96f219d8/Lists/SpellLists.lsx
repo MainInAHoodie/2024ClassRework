@@ -105,6 +105,21 @@
                     <attribute id="Spells" type="LSString" value="Projectile_SorcerousBurst"/>
                     <attribute id="UUID" type="guid" value="71d397e7-3863-4f88-b6fe-b6e9988ea978"/>
                 </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Four Elements Monk Good Spells"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_FangsOfTheFireSnake;Target_WaterWhip;Target_ShapeTheFlowingRiver_IceBlock"/>
+                    <attribute id="UUID" type="guid" value="f280dcae-2753-4781-9bd9-37d75fe91273"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Four Elements Monk Level 11"/>
+                    <attribute id="Spells" type="LSString" value="Shout_GaseousForm_Monk"/>
+                    <attribute id="UUID" type="guid" value="3740f072-84c0-48f2-bab3-c34b740b820a"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Four Elements Monk 12"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Fly_Monk"/>
+                    <attribute id="UUID" type="guid" value="a17d00f2-33d8-4255-a2b6-6d3030be5f94"/>
+                </node>
             </children>
         </node>
     </region>
