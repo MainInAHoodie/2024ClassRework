@@ -1272,5 +1272,27 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage , Bludgeoning);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bdf8ec4e-0344-4923-8f09-1ed85059be72" />
+        <field name="Name" type="NameTableFieldDefinition" value="FlurryOfBlows_Acid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="287b9102-acaf-40dc-bdd0-0eb0fa05e922" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage, Acid);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb0961074g363fg0627ga9c4g36d6c39c761a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha0755940gf13cg178fg4c10gf74e2701a286" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MartialArtsUnarmedDamage, Acid);DealDamage(MartialArtsUnarmedDamage, Acid)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="60c8c396-d42d-4f32-93d7-97a9d96d7ef8" />
+        <field name="Name" type="NameTableFieldDefinition" value="FlurryOfBlows_Cold" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="287b9102-acaf-40dc-bdd0-0eb0fa05e922" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage, Cold);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1425f9a8gb461g8d2fg8418g9acaef919ead" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf9c0b85agb71ag6080g9486g87cc7e0e9434" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MartialArtsUnarmedDamage, Cold);DealDamage(MartialArtsUnarmedDamage, Cold)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

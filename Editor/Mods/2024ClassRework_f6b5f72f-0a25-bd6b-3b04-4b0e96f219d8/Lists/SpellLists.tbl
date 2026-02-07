@@ -140,5 +140,26 @@
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="485a68b4-c678-4888-be63-4a702efbe391" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f280dcae-2753-4781-9bd9-37d75fe91273" />
+        <field name="Name" type="NameTableFieldDefinition" value="Four Elements Monk Good Spells" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Projectile_FangsOfTheFireSnake;Target_WaterWhip;Target_ShapeTheFlowingRiver_IceBlock" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3740f072-84c0-48f2-bab3-c34b740b820a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Four Elements Monk Level 11" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_GaseousForm_Monk" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a17d00f2-33d8-4255-a2b6-6d3030be5f94" />
+        <field name="Name" type="NameTableFieldDefinition" value="Four Elements Monk 12" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_Fly_Monk" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
