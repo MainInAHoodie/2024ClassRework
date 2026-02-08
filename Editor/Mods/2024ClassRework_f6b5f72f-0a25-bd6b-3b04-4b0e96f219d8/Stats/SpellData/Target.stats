@@ -743,7 +743,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3b324f29-b27d-4d18-9cc1-759aa05eb6f5" />
         <field name="Name" type="NameTableFieldDefinition" value="HealingWord_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c7e3f94b-b631-4ed8-a464-2cee8f69e1f0" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(3d4+SpellCastingAbilityModifier);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(4d4+SpellCastingAbilityModifier);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:2" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_HealingWord" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
@@ -755,7 +755,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="8b3bb403-a4ff-4a6b-b2ff-aaf90c38e8ae" />
         <field name="Name" type="NameTableFieldDefinition" value="HealingWord_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c7e3f94b-b631-4ed8-a464-2cee8f69e1f0" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(4d4+SpellCastingAbilityModifier);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(6d4+SpellCastingAbilityModifier);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(4d4+SpellCastingAbilityModifier)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:3" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_HealingWord" />
@@ -767,7 +767,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="aaa1f26f-b3f9-4c9d-995d-0d11d2d17540" />
         <field name="Name" type="NameTableFieldDefinition" value="HealingWord_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c7e3f94b-b631-4ed8-a464-2cee8f69e1f0" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(5d4+SpellCastingAbilityModifier);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(8d4+SpellCastingAbilityModifier);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(5d4+SpellCastingAbilityModifier)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:4" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_HealingWord" />
@@ -779,7 +779,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="39ac9aee-f850-4345-a6d1-ad71b83c08eb" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c7e3f94b-b631-4ed8-a464-2cee8f69e1f0" />
         <field name="Name" type="NameTableFieldDefinition" value="HealingWord_5" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(6d4+SpellCastingAbilityModifier);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(10d4+SpellCastingAbilityModifier);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:5" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_HealingWord" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
@@ -791,7 +791,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="07303f0c-a4da-4a6f-b0d0-e6adbd396375" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c7e3f94b-b631-4ed8-a464-2cee8f69e1f0" />
         <field name="Name" type="NameTableFieldDefinition" value="HealingWord_6" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(7d4+SpellCastingAbilityModifier);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(12d4+SpellCastingAbilityModifier);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:6" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_HealingWord" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
@@ -835,7 +835,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1c418cc9-1f6d-4b94-b436-ee1e9b32e73a" />
         <field name="Name" type="NameTableFieldDefinition" value="CureWounds_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="274ca174-0a39-4c9f-b60a-285fa07d4ba5" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(3d8+SpellCastingAbilityModifier);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(4d8+SpellCastingAbilityModifier);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CureWounds" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
@@ -847,7 +847,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="7af1c196-e407-4fd9-8adb-258504550354" />
         <field name="Name" type="NameTableFieldDefinition" value="CureWounds_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="274ca174-0a39-4c9f-b60a-285fa07d4ba5" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(4d8+SpellCastingAbilityModifier);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(6d8+SpellCastingAbilityModifier);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CureWounds" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
@@ -859,7 +859,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="383432d5-0e67-4203-ab01-64dfe0b34338" />
         <field name="Name" type="NameTableFieldDefinition" value="CureWounds_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="274ca174-0a39-4c9f-b60a-285fa07d4ba5" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(5d8+SpellCastingAbilityModifier);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(8d8+SpellCastingAbilityModifier);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4d8+SpellCastingAbilityModifier)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(5d8+SpellCastingAbilityModifier)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
@@ -872,7 +872,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="11e6779c-cf58-46cc-a1a3-928c0c044c13" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="274ca174-0a39-4c9f-b60a-285fa07d4ba5" />
         <field name="Name" type="NameTableFieldDefinition" value="CureWounds_5" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(6d8+SpellCastingAbilityModifier);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(10d8+SpellCastingAbilityModifier);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CureWounds" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
@@ -884,7 +884,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="16c6cd17-49e7-48ed-97ce-643eb788de2e" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="274ca174-0a39-4c9f-b60a-285fa07d4ba5" />
         <field name="Name" type="NameTableFieldDefinition" value="CureWounds_6" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(7d8+SpellCastingAbilityModifier);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(12d8+SpellCastingAbilityModifier);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CureWounds" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
