@@ -601,7 +601,7 @@
   <content contentuid="hf1b05c4cg7edeg211bg7e0eg9b548ade1d03" version="1">Elemental Attunement: Cold</content>
   <content contentuid="hcc174476gaf62g3784g526bg8684eb955231" version="1">Spend one &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt; to make your unarmed attacks deal Cold damage.</content>
   <content contentuid="h1bbef0bag9e53g63bfgb9b8gadc9e0996784" version="1">Elemental Attunement: Acid</content>
-  <content contentuid="h3e7bf313gb487g5a07g5327gd2e0429167ea" version="1">Your Unarmed Attacks do [1] in place of their usual damage.</content>
+  <content contentuid="h3e7bf313gb487g5a07g5327gd2e0429167ea" version="2">Your Unarmed Attacks do [1] in addition to their usual damage.</content>
   <content contentuid="hf64a4f28g08d7g3f73gbb17g42b5cb09937c" version="1">Elemental Attunement: Cold</content>
   <content contentuid="hc7ec7fc1g5985g9780g13b0ge56f44a5ae59" version="1">Elemental Attunement</content>
   <content contentuid="hd596eaccg8eccgeb8bgdc13gcc533acc05bf" version="4">You can imbue the elements into your Unarmed Strikes, allowing them to deal an extra [1], [2], [3], [4], or [5].</content>
