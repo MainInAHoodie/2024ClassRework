@@ -780,6 +780,10 @@
         <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="not Immobilized()" />
         <field name="CinematicArenaFlags" type="EnumerationTableFieldDefinition" value="Ignore" enumeration_type_name="CinematicArenaFlags" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self();" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="SpellCategory" type="EnumerationListTableFieldDefinition" value="SC_IntentBuff" enumeration_type_name="SpellCategoryFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -788,7 +792,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ElementalAttunement_Acid" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ElementalAttunement_Container" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,ELEMENTAL_ATTUNEMENT_ACID,100,10);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(ELEMENTAL_ATTUNEMENT_ACID,100,10);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self();" />
         <field name="Icon" type="StringTableFieldDefinition" value="Flurry_of_Blows_Acid" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6ed0b707g3649g61a4g309fg7599f8de2adc" version="1" />
@@ -809,7 +813,8 @@
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="41193b01-e0c2-4945-ba40-7c3464b71bc0" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="6b9003b3-aa7a-4acc-b39c-926484eb9ec8" />
         <field name="CinematicArenaFlags" type="EnumerationTableFieldDefinition" value="Ignore" enumeration_type_name="CinematicArenaFlags" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4 + WisdomModifier,Acid)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(MonkElementalAttunement) + WisdomModifier,Acid)" />
+        <field name="SpellCategory" type="EnumerationListTableFieldDefinition" value="SC_IntentBuff" enumeration_type_name="SpellCategoryFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -817,7 +822,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e6424abe-839a-4567-93ce-46bf298210f3" />
         <field name="Name" type="NameTableFieldDefinition" value="ElementalAttunement_Cold" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="8d6effeb-de0d-4575-a2d0-f881ad1aa586" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,ELEMENTAL_ATTUNEMENT_COLD,100,10);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(ELEMENTAL_ATTUNEMENT_COLD,100,10);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Flurry_of_Blows_Cold" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf1b05c4cg7edeg211bg7e0eg9b548ade1d03" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ELEMENTAL_ATTUNEMENT_COLD,100,10)" />
@@ -826,7 +831,7 @@
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Ice_ChromaticOrbIce_L1to3" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="ee97e6e4-90a1-4181-b7fa-f6fe8b2af2d0" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="842f3fd6-e2a8-4cf9-86c3-03217df99c07" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4 + WisdomModifier,Cold)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(MonkElementalAttunement) + WisdomModifier,Cold)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -834,10 +839,10 @@
         <field name="UUID" type="IdTableFieldDefinition" value="23fcf9cf-9311-4fe3-9f54-8f29b1f39e23" />
         <field name="Name" type="NameTableFieldDefinition" value="ElementalAttunement_Fire" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="8d6effeb-de0d-4575-a2d0-f881ad1aa586" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,ELEMENTAL_ATTUNEMENT_FIRE,100,10);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(ELEMENTAL_ATTUNEMENT_FIRE,100,10);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Flurry_of_Blows_Fire" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfea60570g529egf93dg1ff7g83241573020a" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4 + WisdomModifier,Fire)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(MonkElementalAttunement) + WisdomModifier,Fire)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ELEMENTAL_ATTUNEMENT_FIRE,100,10)" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Fire_Gen_L1to3" />
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Fire_Gen_L1to3_Loop" />
@@ -851,10 +856,10 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e25b93ce-b082-465d-ade2-2dfeed650399" />
         <field name="Name" type="NameTableFieldDefinition" value="ElementalAttunement_Lightning" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="8d6effeb-de0d-4575-a2d0-f881ad1aa586" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,ELEMENTAL_ATTUNEMENT_LIGHTNING,100,10);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(ELEMENTAL_ATTUNEMENT_LIGHTNING,100,10);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Flurry_of_Blows_Lightning" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h319c452cg04b6g61b9ga1f6gfa4fe43147b3" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4 + WisdomModifier,Lightning)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(MonkElementalAttunement) + WisdomModifier,Lightning)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ELEMENTAL_ATTUNEMENT_LIGHTNING,100,10)" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Lightning_Gen_L1to3" />
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Lightning_Gen_L1to3_Loop" />
@@ -868,10 +873,10 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b7849a1f-9874-4e09-94b1-d32d6799450a" />
         <field name="Name" type="NameTableFieldDefinition" value="ElementalAttunement_Thunder" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="8d6effeb-de0d-4575-a2d0-f881ad1aa586" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,ELEMENTAL_ATTUNEMENT_THUNDER,100,10);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(ELEMENTAL_ATTUNEMENT_THUNDER,100,10);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Flurry_of_Blows_Thunder" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb40b75b8g5f10gade6g43fege79905755e11" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4 + WisdomModifier,Thunder)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(MonkElementalAttunement)+ WisdomModifier,Thunder)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ELEMENTAL_ATTUNEMENT_THUNDER,100,10)" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Thunder_Gen_L1to3" />
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Thunder_Gen_L1to3_Loop" />

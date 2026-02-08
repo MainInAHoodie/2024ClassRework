@@ -403,10 +403,10 @@
         <field name="UUID" type="IdTableFieldDefinition" value="21959524-f6c1-4b11-ac84-3cce6f85ad6f" />
         <field name="Name" type="NameTableFieldDefinition" value="FangsOfTheFireSnake" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="dc75f60c-beac-4588-a14a-43834eeb8f8f" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(1d10,Fire);IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);ApplyStatus(SELF,FANGS_OF_THE_FIRE_SNAKE,100,1);ApplyStatus(SELF,MARTIAL_ARTS_BONUS_UNARMED_STRIKE,100,1)" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(LevelMapValue(FangsOfTheFireSnake),Fire);IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);ApplyStatus(SELF,FANGS_OF_THE_FIRE_SNAKE,100,1);ApplyStatus(SELF,MARTIAL_ARTS_BONUS_UNARMED_STRIKE,100,1);" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="6" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeUnarmedAttack)&#x9;" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage , Bludgeoning);DealDamage(1d10,Fire,Magical)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage , Bludgeoning);DealDamage(LevelMapValue(FangsOfTheFireSnake),Fire,Magical);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Monk_FangsOfTheFireSnake" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h286ceae6g1077gb922g6d6fgb0b83c835cda" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h644f87adg1e06g397ag3570g854bea6ba40d" version="1" />
