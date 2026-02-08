@@ -367,7 +367,7 @@ Activating the ongoing damage now costs a Bonus Action instead of a full Action.
 
 ## 3rd Level
 ### Cleric
-- **Mass Healing Word** now starts at 2d4 + Spellcasting and scales up 2d4 per level from there
+- **Mass Healing Word** now starts at 2d4 + Spellcasting and scales up 1d4 per level from there
 
 ### Druid
 - **Conjure Animal**:
@@ -384,7 +384,7 @@ Activating the ongoing damage now costs a Bonus Action instead of a full Action.
 
 ## 5th Level
 ### Cleric
-- **Mass Cure Wounds**  now starts at 5d8 + Spellcasting and scales up 2d8 per level from there
+- **Mass Cure Wounds**  now starts at 5d8 + Spellcasting and scales up 1d8 per level from there
 ---
 
 # New Spells
