@@ -392,3 +392,52 @@ data "TickType" "StartTurn"
 data "Boosts" "CharacterUnarmedDamage(1d4, Fire);"
 data "StatusEffect" "9c1c9ea9-e5d5-4f1e-91f2-415f5e80e942"
 
+new entry "WITCH_BOLT_OWNER_TECHNICAL"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h0b878b56g07fcgf38cg75begdfd0ccc5d2aa;1"
+data "Icon" "Spell_Evocation_WitchBolt"
+data "StatusPropertyFlags" "DisableCombatlog;DisablePortraitIndicator;DisableOverhead;NonExtendable"
+data "OnRemoveFunctors" "IF(not IsConcentrating()):RemoveStatus(WITCH_BOLT_OWNER);
+IF(not IsConcentrating()):RemoveStatus(WITCH_BOLT_OWNER_2);
+IF(not IsConcentrating()):RemoveStatus(WITCH_BOLT_OWNER_3);
+IF(not IsConcentrating()):RemoveStatus(WITCH_BOLT_OWNER_4);
+IF(not IsConcentrating()):RemoveStatus(WITCH_BOLT_OWNER_5);
+IF(not IsConcentrating()):RemoveStatus(WITCH_BOLT_OWNER_6);"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+new entry "WITCH_BOLT_OWNER_2"
+type "StatusData"
+data "StatusType" "BOOST"
+using "WITCH_BOLT_OWNER"
+data "Description" "h3065341dg4898g02cfgedbbg8d94944eaf6a;1"
+data "Boosts" "UnlockSpell(Shout_WitchBolt_Activate_2);"
+
+new entry "WITCH_BOLT_OWNER_3"
+type "StatusData"
+data "StatusType" "BOOST"
+using "WITCH_BOLT_OWNER"
+data "Description" "h5b3bcf0fg5c50gbab9g6a35g3df4c63b11f6;1"
+data "Boosts" "UnlockSpell(Shout_WitchBolt_Activate_3);"
+
+new entry "WITCH_BOLT_OWNER_4"
+type "StatusData"
+data "StatusType" "BOOST"
+using "WITCH_BOLT_OWNER"
+data "Description" "h81e20f0cg93b2g6828ge067gfc31a0c9499a;1"
+data "Boosts" "UnlockSpell(Shout_WitchBolt_Activate_4);"
+
+new entry "WITCH_BOLT_OWNER_5"
+type "StatusData"
+data "StatusType" "BOOST"
+using "WITCH_BOLT_OWNER"
+data "Description" "h8910e591g145bgb8cdg5559g2804227e0d8b;1"
+data "Boosts" "UnlockSpell(Shout_WitchBolt_Activate_5);"
+
+new entry "WITCH_BOLT_OWNER_6"
+type "StatusData"
+data "StatusType" "BOOST"
+using "WITCH_BOLT_OWNER"
+data "Description" "h11bbfb7bg8daage08dg3edeg6713e6a84943;1"
+data "Boosts" "UnlockSpell(Shout_WitchBolt_Activate_6);"
+

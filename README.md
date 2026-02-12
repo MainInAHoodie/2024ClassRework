@@ -398,7 +398,7 @@ Each enemy within 7.5 ft of you (an increase from the book, because the Effect R
 - **Starry Wisp**: Hurl a mote of light at a target.  On a hit, they take a scaling amount of D8s of Radiant damage and can't benefit from being Invisible until the end of their next turn.
 
 ### Sorcerer
-**Sorcerous Burst**: Make a ranged spell attack that deals your choice of Acid, Cold, Fire, Lightning, Poison, or Thunder.  This spell will start out dealing 1d8 + 1 damage, scaling up to 2d8 + 2 and 3d8 + 3 at higher levels (the "exploding dice" mechanic the book uses just isn't really possible to implement in BG3).
+**Sorcerous Burst**: Make a ranged spell attack that deals your choice of Acid, Cold, Fire, Lightning, Poison, or Thunder.  This spell, unlike the PHB, will deal a number of D4s equal to your Spellcasting Ability Modifier.
 
 ## 2nd Level
 

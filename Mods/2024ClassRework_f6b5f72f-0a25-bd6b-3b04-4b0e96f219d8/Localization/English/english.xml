@@ -463,7 +463,7 @@
   <content contentuid="h258300c9g0c3eg4726gc1afg928fdbffe4bd" version="1">Sorcerous Burst: Acid</content>
   <content contentuid="h629710acgb9e5g1bb5g0ce8g8778d7b0f67a" version="1">Sorcerous Burst: Fire</content>
   <content contentuid="h72f2c51dg959dg4d3dg436fg3771439c11e8" version="1">Sorcerous Burst</content>
-  <content contentuid="h1b98b166g4778gba1bg6224g741185f35591" version="5">Cast sorcerous energy at a target to deal [1] Acid, Cold, Fire, Lightning, Poison, or Thunder damage.</content>
+  <content contentuid="h1b98b166g4778gba1bg6224g741185f35591" version="7">Cast sorcerous energy at a target to deal [1] times your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; modifier minus one (minimum of 1d4) of Acid, Cold, Fire, Lightning, Poison, or Thunder damage.</content>
   <content contentuid="h8746bfafg098agbfe6g5f4bg75de29cbd156" version="1">Sorcerous Burst: Cold</content>
   <content contentuid="h2dc7d425gfd24gae36g4430ga26c811fbfdb" version="1">Sorcerous Burst: Lightning</content>
   <content contentuid="hfd4a6f4bg9fc2g3c88gda35gdffa7002663f" version="1">Sorcerous Burst: Poison</content>
@@ -623,4 +623,26 @@
   <content contentuid="h644f87adg1e06g397ag3570g854bea6ba40d" version="1">Hit your foe from afar. Your next melee attacks deal an additional [1].</content>
   <content contentuid="hb0ea4bd5gd0b8gcda6g1d78g7ed1010df231" version="1">Way of the Elements</content>
   <content contentuid="h22f46e4fgd443g6182g4e15gf0ffb7eab92d" version="1">You focus your ki to bend the elements to your will, using them as an extension of your own body.</content>
+  <content contentuid="he6a7fdc9gac00g6ec4gff53g9c3739ce3352" version="1">Psionic Backlash</content>
+  <content contentuid="h03eb21ecg4d23g56c3g8eabgb29d6dc4c79f" version="1">When a nearby enemy casts a spell, you use your reaction to deal [1] for every level of that spell.</content>
+  <content contentuid="h087de81dg9939g9bbbg8f78g5ad4ef344c34" version="1">Psionic Backlash</content>
+  <content contentuid="h78dd0f22g3098gc1b0g2024g0dd6ef1afa59" version="1">When a nearby enemy casts a spell, you use your reaction to deal [1] for every level of that spell.</content>
+  <content contentuid="h0b878b56g07fcgf38cg75begdfd0ccc5d2aa" version="1">%%% EMPTY</content>
+  <content contentuid="ha974ca26gc9bcgadeeg288cga5ca30749f7a" version="1">Witch Bolt: Level 2</content>
+  <content contentuid="hab62e5bagaeeeg4d47g0accgb20ac424ac23" version="1">The spellcaster can activate the arc linking it to this creature to automatically deal 1d12 Lightning damage.</content>
+  <content contentuid="h5839eabegb095g7dedg658eg6a37e2d7e160" version="1">Witch Bolt: Level 3</content>
+  <content contentuid="h0b442ae7ge93ag1ea9g79b2g6775e4efb0b1" version="1">The spellcaster can activate the arc linking it to this creature to automatically deal 2d6 Lightning damage.</content>
+  <content contentuid="h0a841502g5e74g962dg6f5cg9a47bbc14204" version="1">Witch Bolt: Level 4</content>
+  <content contentuid="ha26cd7e6g4252g3c4cgbabcg9db506598ac5" version="1">The spellcaster can activate the arc linking it to this creature to automatically deal 3d6 Lightning damage.</content>
+  <content contentuid="haace7503g00d0g1590g5384g2e49f277cbce" version="1">Witch Bolt: Level 5</content>
+  <content contentuid="h35b8947agfdf0gc0afgf2b3g6b136a8ece85" version="1">The spellcaster can activate the arc linking it to this creature to automatically deal 2d12 Lightning damage.</content>
+  <content contentuid="h997571d6g59dbg5308g3ca7g19f06c0ba5de" version="1">Witch Bolt: Level 6</content>
+  <content contentuid="h33e95f73g6e62g152ege880g24bba8a79661" version="1">The spellcaster can activate the arc linking it to this creature to automatically deal 4d6 Lightning damage.</content>
+  <content contentuid="h3065341dg4898g02cfgedbbg8d94944eaf6a" version="1">Unlocked Witch Bolt: Activate 2</content>
+  <content contentuid="h5b3bcf0fg5c50gbab9g6a35g3df4c63b11f6" version="1">Unlocked Witch Bolt: Activate 3</content>
+  <content contentuid="h81e20f0cg93b2g6828ge067gfc31a0c9499a" version="1">Unlocked Witch Bolt: Activate 4</content>
+  <content contentuid="h8910e591g145bgb8cdg5559g2804227e0d8b" version="1">Unlocked Witch Bolt: Activate 5</content>
+  <content contentuid="h11bbfb7bg8daage08dg3edeg6713e6a84943" version="1">Unlocked Witch Bolt: Activate 6</content>
+  <content contentuid="h81f9a941g589eg0158ga48cg285d804e72bb" version="1">Witch Bolt</content>
+  <content contentuid="h63115dc3g6851g5f60g0720gb46e151a2a8a" version="1">Link yourself to a target with a bolt of lightning. Deal an additional [1] each turn by activating it.</content>
 </contentList>
