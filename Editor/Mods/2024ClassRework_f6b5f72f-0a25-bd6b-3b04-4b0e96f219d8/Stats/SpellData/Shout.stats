@@ -672,6 +672,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="DealDamage(1d12,Lightning,Magical);SetStatusDuration(SELF,WITCH_BOLT_OWNER,2);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d12,Lightning)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d12,Lightning)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="HasStatus('WITCH_BOLT_2',context.Target,context.Source) and not Self();" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -682,6 +683,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="DealDamage(2d6,Lightning,Magical);SetStatusDuration(SELF,WITCH_BOLT_OWNER,2);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Lightning)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d6,Lightning)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="HasStatus('WITCH_BOLT_3',context.Target,context.Source) and not Self();" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -692,6 +694,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="DealDamage(3d6,Lightning,Magical);SetStatusDuration(SELF,WITCH_BOLT_OWNER,2);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d6,Lightning)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d6,Lightning)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="HasStatus('WITCH_BOLT_4',context.Target,context.Source) and not Self();" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -699,9 +702,10 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ca2786b6-353d-48c8-8884-1d7f16b53675" />
         <field name="Name" type="NameTableFieldDefinition" value="WitchBolt_Activate_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5576e387-3937-43e0-8f00-973525cfc91b" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="DealDamage(2d12Lightning,Magical);SetStatusDuration(SELF,WITCH_BOLT_OWNER,2);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="DealDamage(2d12,Lightning,Magical);SetStatusDuration(SELF,WITCH_BOLT_OWNER,2);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d12,Lightning)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d12,Lightning)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="HasStatus('WITCH_BOLT_5',context.Target,context.Source) and not Self();" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -712,6 +716,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="DealDamage(4d6,Lightning,Magical);SetStatusDuration(SELF,WITCH_BOLT_OWNER,2);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d6,Lightning)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d6,Lightning)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="HasStatus('WITCH_BOLT_6',context.Target,context.Source) and not Self();" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

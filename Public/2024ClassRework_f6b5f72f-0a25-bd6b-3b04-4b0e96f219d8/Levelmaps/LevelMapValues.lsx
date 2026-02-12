@@ -87,6 +87,14 @@
                     <attribute id="PreferredClassUUID" type="guid" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f"/>
                     <attribute id="UUID" type="guid" value="36270ebc-44ce-4304-99cc-a529432ddbf1"/>
                 </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="2d4"/>
+                    <attribute id="Level10" type="LSString" value="4d4"/>
+                    <attribute id="Level5" type="LSString" value="3d4"/>
+                    <attribute id="Name" type="FixedString" value="SorcerousBurst"/>
+                    <attribute id="PreferredClassUUID" type="guid" value="784001e2-c96d-4153-beb6-2adbef5abc92"/>
+                    <attribute id="UUID" type="guid" value="41c44e3e-bb3b-449b-865e-121b0983b985"/>
+                </node>
             </children>
         </node>
     </region>

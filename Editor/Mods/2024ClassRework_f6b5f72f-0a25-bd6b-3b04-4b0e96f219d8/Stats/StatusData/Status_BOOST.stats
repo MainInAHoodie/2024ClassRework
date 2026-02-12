@@ -457,5 +457,61 @@
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="47974106-c8d1-4d46-9d7e-e1f67a61035d" />
+        <field name="Name" type="NameTableFieldDefinition" value="WITCH_BOLT_OWNER_TECHNICAL" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableCombatlog;DisablePortraitIndicator;DisableOverhead;NonExtendable" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(not IsConcentrating()):RemoveStatus(WITCH_BOLT_OWNER);&#xD;&#xA;IF(not IsConcentrating()):RemoveStatus(WITCH_BOLT_OWNER_2);&#xD;&#xA;IF(not IsConcentrating()):RemoveStatus(WITCH_BOLT_OWNER_3);&#xD;&#xA;IF(not IsConcentrating()):RemoveStatus(WITCH_BOLT_OWNER_4);&#xD;&#xA;IF(not IsConcentrating()):RemoveStatus(WITCH_BOLT_OWNER_5);&#xD;&#xA;IF(not IsConcentrating()):RemoveStatus(WITCH_BOLT_OWNER_6);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0b878b56g07fcgf38cg75begdfd0ccc5d2aa" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_WitchBolt" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="db8a5343-af98-4d2c-986a-bf0e087498b7" />
+        <field name="Name" type="NameTableFieldDefinition" value="WITCH_BOLT_OWNER_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="359630dd-9096-457f-a276-3b7ee10d38e0" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3065341dg4898g02cfgedbbg8d94944eaf6a" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_WitchBolt_Activate_2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="652057af-6a7a-4c6a-99d3-04302d3cbf5e" />
+        <field name="Name" type="NameTableFieldDefinition" value="WITCH_BOLT_OWNER_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="359630dd-9096-457f-a276-3b7ee10d38e0" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5b3bcf0fg5c50gbab9g6a35g3df4c63b11f6" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_WitchBolt_Activate_3);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="34d95cd2-aefa-4448-a0ea-3cf10bf2ee90" />
+        <field name="Name" type="NameTableFieldDefinition" value="WITCH_BOLT_OWNER_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="359630dd-9096-457f-a276-3b7ee10d38e0" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h81e20f0cg93b2g6828ge067gfc31a0c9499a" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_WitchBolt_Activate_4);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="342a1dc1-75a2-4dc9-95b3-baa824c42f4b" />
+        <field name="Name" type="NameTableFieldDefinition" value="WITCH_BOLT_OWNER_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="359630dd-9096-457f-a276-3b7ee10d38e0" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8910e591g145bgb8cdg5559g2804227e0d8b" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_WitchBolt_Activate_5);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="07f1dbd9-ad0a-4e9b-aa18-53469e290a7b" />
+        <field name="Name" type="NameTableFieldDefinition" value="WITCH_BOLT_OWNER_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="359630dd-9096-457f-a276-3b7ee10d38e0" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h11bbfb7bg8daage08dg3edeg6713e6a84943" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_WitchBolt_Activate_6);" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

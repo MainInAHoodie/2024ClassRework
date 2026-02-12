@@ -94,5 +94,15 @@
         <field name="Level12" type="StringTableFieldDefinition" value="2d4" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="SorcerousBurst" />
+        <field name="UUID" type="IdTableFieldDefinition" value="41c44e3e-bb3b-449b-865e-121b0983b985" />
+        <field name="PreferredClass" type="GuidObjectTableFieldDefinition" value="784001e2-c96d-4153-beb6-2adbef5abc92" />
+        <field name="Level1" type="StringTableFieldDefinition" value="2d4" />
+        <field name="Level5" type="StringTableFieldDefinition" value="3d4" />
+        <field name="Level10" type="StringTableFieldDefinition" value="4d4" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
