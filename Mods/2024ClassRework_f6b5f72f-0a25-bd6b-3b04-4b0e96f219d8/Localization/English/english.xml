@@ -463,7 +463,7 @@
   <content contentuid="h258300c9g0c3eg4726gc1afg928fdbffe4bd" version="1">Sorcerous Burst: Acid</content>
   <content contentuid="h629710acgb9e5g1bb5g0ce8g8778d7b0f67a" version="1">Sorcerous Burst: Fire</content>
   <content contentuid="h72f2c51dg959dg4d3dg436fg3771439c11e8" version="1">Sorcerous Burst</content>
-  <content contentuid="h1b98b166g4778gba1bg6224g741185f35591" version="7">Cast sorcerous energy at a target to deal [1] times your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; modifier minus one (minimum of 1d4) of Acid, Cold, Fire, Lightning, Poison, or Thunder damage.</content>
+  <content contentuid="h1b98b166g4778gba1bg6224g741185f35591" version="8">Cast sorcerous energy at a target to deal [1] of Acid, Cold, Fire, Lightning, Poison, Psychic, or Thunder damage.</content>
   <content contentuid="h8746bfafg098agbfe6g5f4bg75de29cbd156" version="1">Sorcerous Burst: Cold</content>
   <content contentuid="h2dc7d425gfd24gae36g4430ga26c811fbfdb" version="1">Sorcerous Burst: Lightning</content>
   <content contentuid="hfd4a6f4bg9fc2g3c88gda35gdffa7002663f" version="1">Sorcerous Burst: Poison</content>
@@ -645,4 +645,5 @@
   <content contentuid="h11bbfb7bg8daage08dg3edeg6713e6a84943" version="1">Unlocked Witch Bolt: Activate 6</content>
   <content contentuid="h81f9a941g589eg0158ga48cg285d804e72bb" version="1">Witch Bolt</content>
   <content contentuid="h63115dc3g6851g5f60g0720gb46e151a2a8a" version="1">Link yourself to a target with a bolt of lightning. Deal an additional [1] each turn by activating it.</content>
+  <content contentuid="hf7368a55g52f7g717dg5d50g4c957905a9b4" version="1">Sorcerous Burst: Psychic</content>
 </contentList>

@@ -2,6 +2,16 @@
 <save>
     <version major="4" minor="8" revision="0" build="500"/>
     <region id="DefaultValues">
-        <node id="root"/>
+        <node id="root">
+            <children>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Target_ChillTouch;Projectile_AcidSplash;Projectile_SorcerousBurst;Target_Light;Target_MageHand;Projectile_RayOfFrost;Projectile_FireBolt;Shout_BladeWard;Target_DancingLights;Projectile_PoisonSpray;Target_ShockingGrasp;Target_MinorIllusion;Target_Friends;Target_TrueStrike;"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="SorcererCantrip"/>
+                    <attribute id="TableUUID" type="guid" value="e2416b02-953a-4ce8-aa8f-eb98d549d86d"/>
+                    <attribute id="UUID" type="guid" value="07fb60ab-d647-4943-9cc5-aadfa64bb6cb"/>
+                </node>
+            </children>
+        </node>
     </region>
 </save>
