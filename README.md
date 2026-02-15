@@ -313,9 +313,13 @@ Rogues get their choice of a Hand Crossbow, a Light Crossbow, or a Shortbow.  Me
 ### Starting Equipment
 Your starting equipment now includes a Dagger.
 
+### All Sorcerers
+#### **1st Level**
+- **Innate Sorcery**: Gain Advantage on your Spell Attacks and a +1 increase to your Spell Save DC for 1 minute.  Costs 1 Sorcery Point and can be used once per Short Rest, unlike the book.
+
 ### Draconic Bloodline Sorcerer
 #### **1st Level**
-Your Draconic Resilience now sets you AC to 10 + DEX + CHA when you're not wearing Armor.  You can use a Shield and still gain this benefit.
+Your Draconic Resilience now sets you AC to 10 + DEX + CHA when you're not wearing Armor.  You can use a Shield and still gain this benefit, assuming you get Shield proficiency from somewhere else.
 
 ## Warlock
 ### Starting Ability Scores
@@ -370,13 +374,7 @@ Activating the ongoing damage now costs a Bonus Action instead of a full Action.
 - **Mass Healing Word** now starts at 2d4 + Spellcasting and scales up 1d4 per level from there
 
 ### Druid
-- **Conjure Animal**:
-   - You call to the nature spirits to take the form of an animal to aid you.  This effectively lets you summon a Ranger's animal companion (though unlike them, you have to spend a spell slot to do it).
-   - To start with, they have the Companion's Bond Passive
-   - If you summon them with a 4th level spell slot, they get the Exceptional Training passive as well
-   - If you summon them with a 5th level spell slot, they get an Ability Score boost
-   - If you summon them with a 6th level spell slot, they get an extra attack.
-   - This should have been Conjure Animals, perhaps letting you conjure a Large pack of spectral, intangible animals in an unoccupied space, but the nature spirits are a bit short-staffed right now what with the whole Shadow Curse thing.
+
 
 ## 4th Level
 ### Druid
@@ -398,9 +396,19 @@ Each enemy within 7.5 ft of you (an increase from the book, because the Effect R
 - **Starry Wisp**: Hurl a mote of light at a target.  On a hit, they take a scaling amount of D8s of Radiant damage and can't benefit from being Invisible until the end of their next turn.
 
 ### Sorcerer
-**Sorcerous Burst**: Make a ranged spell attack that deals your choice of Acid, Cold, Fire, Lightning, Poison, or Thunder.  This spell, unlike the PHB, will deal a number of D4s equal to your Spellcasting Ability Modifier.
+- **Sorcerous Burst**: Make a ranged spell attack that deals your choice of Acid, Cold, Fire, Lightning, Poison, or Thunder.  This spell, unlike the PHB, will deal 2d4 at 1st Level, 3d4 at 5th Level, and 4d4 at 10th Level, a change made in a misguided attempt at game balance (the "exploding dice" mechanic isn't especially easy to implement in the BG3 engine, and leaving it at 1d8 meant there was very little reason to select anything else).
 
 ## 2nd Level
+
+## 3rd Level
+### Druid
+- **Conjure Animal**:
+   - You call to the nature spirits to take the form of an animal to aid you.  This effectively lets you summon a Ranger's animal companion (though unlike them, you have to spend a spell slot to do it).
+   - To start with, they have the Companion's Bond Passive
+   - If you summon them with a 4th level spell slot, they get the Exceptional Training passive as well
+   - If you summon them with a 5th level spell slot, they get an Ability Score boost
+   - If you summon them with a 6th level spell slot, they get an extra attack.
+   - This should have been Conjure Animals, perhaps letting you conjure a Large pack of spectral, intangible animals in an unoccupied space, but the nature spirits are a bit short-staffed right now what with the whole Shadow Curse thing.
 
 ## 4th Level
 ### Cleric
@@ -412,7 +420,8 @@ You and any Allies within 30 feet of you gain Resistance to Necrotic damage and 
 
 # Character Defaults
 
-- Jaheira and Halsin both start with Warden for their Primal Order
+- Jaheira starts with Warden for her Primal Order
+- Halsin starts with Magician: Starry Wisp for his Primal Order
 - Shadowheart has Thaumaturge: Produce Flame for her Divine Order
 - Shadowheart starts with a fancy Sharran Dagger (the same one the Justiciar Nightweavers carry in the Gauntlet of Shar) instead of the standard one.
 
