@@ -379,7 +379,7 @@
         <field name="StackId" type="StringTableFieldDefinition" value="ELEMENTAL_ATTUNEMENT" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(LevelMapValue(MonkElementalAttunement)+WisdomModifier, Acid);" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="HasStatus('SG_Incapacitated')" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="HasAnyStatus({'SG_Unconscious','SG_Incapacitated'},{},{'LONG_REST'})" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnSourceDeath" enumeration_type_name="StatusEvent" version="1" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;RemoveOnLongRest" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
@@ -511,6 +511,22 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="359630dd-9096-457f-a276-3b7ee10d38e0" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h11bbfb7bg8daage08dg3edeg6713e6a84943" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_WitchBolt_Activate_6);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="62ce88fb-666c-49d0-900a-574e881d058f" />
+        <field name="Name" type="NameTableFieldDefinition" value="INNATE_SORCERY" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h82decedegee53g2c43g69c2g46a59c75dc82" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6e73c1a3g3666g980bg91e4g6c38ac384490" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="InnateSorcery" />
+        <field name="StackId" type="StringTableFieldDefinition" value="INNATE_SORCERY" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsSpell()):Advantage(AttackRoll);SpellSaveDC(1);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="HasAnyStatus({'SG_Unconscious','SG_Incapacitated'},{},{'LONG_REST'})" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnSourceDeath" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="ad8270a0-6a77-4a80-9367-c4f0e84396e4" />
       </fields>
     </stat_object>
   </stat_objects>

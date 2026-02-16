@@ -890,5 +890,32 @@
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="7be34b37-43b8-4b47-bd2d-a20c7ea1c8fd" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9dffd7f0-c635-4b1f-9c32-92f9a54e7491" />
+        <field name="Name" type="NameTableFieldDefinition" value="InnateSorcery" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(INNATE_SORCERY,100,10);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="InnateSorcery" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hae117034g4498g2f4agf93dgd997cb7b1fdb" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb944b27bgbcafg6b96g8d51g55f9faec6756" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="1;1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(INNATE_SORCERY,100,10)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Sorcerer_Wildmagic_TurnMagic" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SorceryPoint:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value=",,;921aedc8-10a0-47b3-b5a3-85f2b8a105af,,;924d3103-e770-47ad-b472-f0f0c79baea3,,;,,;,,;,,;,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellCategory" type="EnumerationListTableFieldDefinition" value="SC_IntentBuff" enumeration_type_name="SpellCategoryFlags" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not Immobilized()" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="469505dd-fe63-4940-9b14-7efe9fc320d1" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="469505dd-fe63-4940-9b14-7efe9fc320d1" />
+        <field name="CinematicArenaFlags" type="EnumerationTableFieldDefinition" value="Ignore" enumeration_type_name="CinematicArenaFlags" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -646,4 +646,8 @@
   <content contentuid="h81f9a941g589eg0158ga48cg285d804e72bb" version="1">Witch Bolt</content>
   <content contentuid="h63115dc3g6851g5f60g0720gb46e151a2a8a" version="1">Link yourself to a target with a bolt of lightning. Deal an additional [1] each turn by activating it.</content>
   <content contentuid="hf7368a55g52f7g717dg5d50g4c957905a9b4" version="1">Sorcerous Burst: Psychic</content>
+  <content contentuid="h82decedegee53g2c43g69c2g46a59c75dc82" version="1">Innate Sorcery</content>
+  <content contentuid="h6e73c1a3g3666g980bg91e4g6c38ac384490" version="1">Affected Creature gains &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Spell Attacks and +1 to their &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw DCs&lt;/LSTag&gt;.</content>
+  <content contentuid="hae117034g4498g2f4agf93dgd997cb7b1fdb" version="1">Innate Sorcery</content>
+  <content contentuid="hb944b27bgbcafg6b96g8d51g55f9faec6756" version="2">Spend [1] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt; to give yourself &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Spell Attacks and [2] to your Spell Save DC.</content>
 </contentList>
