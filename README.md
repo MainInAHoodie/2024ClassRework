@@ -314,8 +314,11 @@ Rogues get their choice of a Hand Crossbow, a Light Crossbow, or a Shortbow.  Me
 Your starting equipment now includes a Dagger.
 
 ### All Sorcerers
-#### **1st Level**
-- **Innate Sorcery**: Gain Advantage on your Spell Attacks and a +1 increase to your Spell Save DC for 1 minute.  Costs 1 Sorcery Point and can be used once per Short Rest, unlike the book.
+#### **2nd Level**
+**Innate Sorcery**: Gain Advantage on your Spell Attacks and a +1 increase to your Spell Save DC for 1 minute.  Costs 1 Sorcery Point and can be used once per Short Rest, unlike the book.
+
+#### **7th Level**
+**Sorcerous Restoration**: Restore up to half your Sorcery Points once per Long Rest.
 
 ### Draconic Bloodline Sorcerer
 #### **1st Level**
@@ -343,12 +346,10 @@ You're not gonna believe this, but Wizards start with a Dagger now.
 # Spell Changes
 ## Cantrips
 ### Bard
-**Vicious Mockery**
-Vicious Mockery now uses a D6 instead of a D4.
+- **Vicious Mockery**: Vicious Mockery now uses a D6 instead of a D4.
 
 ### Druid
-**Shillelagh**
-Shillelagh can now apply to Greatclubs, too.  Hey, a giant club is still a club.
+- **Shillelagh**: Shillelagh can now apply to Greatclubs, too.  Hey, a giant club is still a club.
 
 ## 1st Level
 ### Cleric
@@ -375,14 +376,13 @@ Activating the ongoing damage now costs a Bonus Action instead of a full Action.
 
 ### Druid
 
-
 ## 4th Level
 ### Druid
 - **Fount of Moonlight**: A cool light wreathes your body.  Until the spell ends, you are Resistant to Radiant damage, and your weapon attacks deal an extra 2d6 damage.
 
 ## 5th Level
 ### Cleric
-- **Mass Cure Wounds**  now starts at 5d8 + Spellcasting and scales up 1d8 per level from there
+- **Mass Cure Wounds**  now starts at 5d8 + Spellcasting and scales up 1d8 per level from there.
 ---
 
 # New Spells

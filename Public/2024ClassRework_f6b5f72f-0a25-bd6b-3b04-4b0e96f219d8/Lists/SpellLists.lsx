@@ -125,6 +125,11 @@
                     <attribute id="Spells" type="LSString" value="Shout_InnateSorcery"/>
                     <attribute id="UUID" type="guid" value="3fde3c3b-2395-480c-a5ef-390bf002935f"/>
                 </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Sorcerous Restoration"/>
+                    <attribute id="Spells" type="LSString" value="Shout_SorcerousRestoration"/>
+                    <attribute id="UUID" type="guid" value="7e93fc68-f8c8-4c9c-9017-30807ddcacf4"/>
+                </node>
             </children>
         </node>
     </region>

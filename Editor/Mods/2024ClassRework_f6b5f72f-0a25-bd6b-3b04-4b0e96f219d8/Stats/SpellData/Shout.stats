@@ -915,6 +915,37 @@
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="469505dd-fe63-4940-9b14-7efe9fc320d1" />
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="469505dd-fe63-4940-9b14-7efe9fc320d1" />
         <field name="CinematicArenaFlags" type="EnumerationTableFieldDefinition" value="Ignore" enumeration_type_name="CinematicArenaFlags" version="1" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_SorcererGen_L1to3_01" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_SorcererGen_L1to3_01" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0a8fc7f7-24bc-455c-8686-440dfe1a120b" />
+        <field name="Name" type="NameTableFieldDefinition" value="SorcerousRestoration" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RestoreResource(SorceryPoint, 50%, 0);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Sorcerer_Passive_Metamagic_ExtendedSpell" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5fae102agae4egb3bfg7769gd8bdd34dd519" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1a7fad4ega75bg37f1g4360g5d3bc9e3b1cb" version="1" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_SorcererGen_L1to3_01" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_SorcererGen_L1to3_01" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Utility_CreateSorceryPoint_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Utility_CreateSorceryPoint_L1to3" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="9fd22d7d-5d7a-470b-a939-810046915bed,,;,,;4222840e-85c4-41d4-89f3-cf525ab7a2ce,,;d58199b1-9bc5-4715-99d4-43a5b5c1ec16,,;2d19a206-bf18-4f4d-ba95-f83c5fc38fd7,,;,,;57db495b-2467-467b-a599-d7df2fa4d659,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellCategory" type="EnumerationListTableFieldDefinition" value="SC_IntentUtility" enumeration_type_name="SpellCategoryFlags" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Peaceful" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not Immobilized()" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="8f9043e2-4608-43c5-b78f-c4a1b91ea340" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="d822f332-8213-49a1-bc48-4668a89199ad" />
       </fields>
     </stat_object>
   </stat_objects>
