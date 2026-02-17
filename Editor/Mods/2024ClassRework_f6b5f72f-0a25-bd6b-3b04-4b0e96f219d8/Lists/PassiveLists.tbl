@@ -50,5 +50,12 @@
         <field name="Passives" type="StringTableFieldDefinition" value="FightingStyle_Archery,FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_Protection,FightingStyle_TwoWeaponFighting" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c3506532-36eb-4d18-823e-497a537a9619" />
+        <field name="Name" type="NameTableFieldDefinition" value="Metamagic level 3" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Metamagic_Careful,Metamagic_Distant,Metamagic_Extended,Metamagic_Heightened,Metamagic_Quickened,Metamagic_Subtle,Metamagic_Twinned,Metamagic_Empowered" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

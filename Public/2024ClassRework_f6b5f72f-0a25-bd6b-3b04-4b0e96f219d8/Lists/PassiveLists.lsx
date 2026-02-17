@@ -39,6 +39,11 @@
                     <attribute id="Passives" type="LSString" value="FightingStyle_Archery,FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_Protection,FightingStyle_TwoWeaponFighting"/>
                     <attribute id="UUID" type="guid" value="fd86f4f5-76b1-41ef-902d-cad87ea56e9f"/>
                 </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Metamagic level 3"/>
+                    <attribute id="Passives" type="LSString" value="Metamagic_Careful,Metamagic_Distant,Metamagic_Extended,Metamagic_Heightened,Metamagic_Quickened,Metamagic_Subtle,Metamagic_Twinned,Metamagic_Empowered"/>
+                    <attribute id="UUID" type="guid" value="c3506532-36eb-4d18-823e-497a537a9619"/>
+                </node>
             </children>
         </node>
     </region>
