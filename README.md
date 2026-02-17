@@ -317,6 +317,9 @@ Your starting equipment now includes a Dagger.
 #### **2nd Level**
 **Innate Sorcery**: Gain Advantage on your Spell Attacks and a +1 increase to your Spell Save DC for 1 minute.  Costs 1 Sorcery Point and can be used once per Short Rest, unlike the book.
 
+#### **3rd Level**
+The **Empowered Spell** Metamagic returns.  For 1 Sorcery Point, reroll damage of a direct damage spell and use the higher of the two.
+
 #### **7th Level**
 **Sorcerous Restoration**: Restore up to half your Sorcery Points once per Long Rest.
 
