@@ -577,6 +577,17 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_226" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3b20daaa-91e3-45ec-ad66-69763bc5ab2d" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba4e707e-4bbd-4630-963b-ce2f2947f971" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Fighter" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ExtraAttack;TacticalShift" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_38" />
         <field name="UUID" type="IdTableFieldDefinition" value="c17915f1-df2b-4cce-876f-68faf153f373" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="fe1319a2-86be-469c-aab5-e3b0bd714e0e" />
@@ -795,6 +806,30 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_40" />
+        <field name="UUID" type="IdTableFieldDefinition" value="706a869d-7894-453d-b6ac-9428f617649c" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="e2416b02-953a-4ce8-aa8f-eb98d549d86d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Sorcerer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="2" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1);ActionResource(SorceryPoint,2,0);Tag(SORCERER_METAMAGIC)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(92c4751f-6255-4f67-822c-a75d53830b27,1,2,SorcererSpell);AddSpells(979e37ad-05fa-466c-af99-9eb104a6e876);SelectPassives(49704931-e47b-4ce6-abc6-dfa7ba640752,2,Metamagic);AddSpells(3fde3c3b-2395-480c-a5ef-390bf002935f)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_89" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0e10748f-f9bf-4d10-9786-0ecda400cb14" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="e2416b02-953a-4ce8-aa8f-eb98d549d86d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Sorcerer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,4);ActionResource(SorceryPoint,1,0)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(5fe40622-1d3e-4cc1-8d89-e66fe51d8c5c,1,2,SorcererSpell);AddSpells(7e93fc68-f8c8-4c9c-9017-30807ddcacf4);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
         <field name="UUID" type="IdTableFieldDefinition" value="5d8df68e-7cc2-4e8b-b03b-74616cd13d9f" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="2b9b50de-48e2-4b1c-b40d-6050aa85009a" />
@@ -840,30 +875,6 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,10.5,0);Tag(DRUID);ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(Clubs);Proficiency(Daggers);Proficiency(Javelins);Proficiency(Maces);Proficiency(Quarterstaffs);Proficiency(Scimitars);Proficiency(Sickles);Proficiency(Spears)" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(50115a84-a7d7-4734-98a2-03fccfbdbcd3)" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="Magician_StarryWisp" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_40" />
-        <field name="UUID" type="IdTableFieldDefinition" value="706a869d-7894-453d-b6ac-9428f617649c" />
-        <field name="TableUUID" type="GuidTableFieldDefinition" value="e2416b02-953a-4ce8-aa8f-eb98d549d86d" />
-        <field name="FSName" type="StringTableFieldDefinition" value="Sorcerer" />
-        <field name="Level" type="ByteTableFieldDefinition" value="2" />
-        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1);ActionResource(SorceryPoint,2,0);Tag(SORCERER_METAMAGIC)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(92c4751f-6255-4f67-822c-a75d53830b27,1,2,SorcererSpell);AddSpells(979e37ad-05fa-466c-af99-9eb104a6e876);SelectPassives(49704931-e47b-4ce6-abc6-dfa7ba640752,2,Metamagic);AddSpells(3fde3c3b-2395-480c-a5ef-390bf002935f)" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_89" />
-        <field name="UUID" type="IdTableFieldDefinition" value="0e10748f-f9bf-4d10-9786-0ecda400cb14" />
-        <field name="TableUUID" type="GuidTableFieldDefinition" value="e2416b02-953a-4ce8-aa8f-eb98d549d86d" />
-        <field name="FSName" type="StringTableFieldDefinition" value="Sorcerer" />
-        <field name="Level" type="ByteTableFieldDefinition" value="7" />
-        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,4);ActionResource(SorceryPoint,1,0)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(5fe40622-1d3e-4cc1-8d89-e66fe51d8c5c,1,2,SorcererSpell);AddSpells(7e93fc68-f8c8-4c9c-9017-30807ddcacf4);" />
       </fields>
     </stat_object>
   </stat_objects>

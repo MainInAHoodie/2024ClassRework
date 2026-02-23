@@ -402,4 +402,13 @@ type "PassiveData"
 data "DisplayName" "hb1f7c169gc2a0ge36egf37dgf05620379dd1;1"
 data "Description" "h23e49e56g376dg0c22g4938gd6e4ce3563e7;2"
 data "Icon" "PassiveFeature_Generic_Magical"
+data "Properties" "Highlighted"
+
+new entry "TacticalShift"
+type "PassiveData"
+data "DisplayName" "h9d63c2f1g80e7g9196g36c7gb2b46d03648d;1"
+data "Description" "h06949edcg7053g1763g32abgfe79dc8f30b6;1"
+data "DescriptionParams" "Distance(3)"
+data "Icon" "Skill_Fighter_SecondWind"
+data "Properties" "Highlighted"
 
