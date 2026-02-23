@@ -1081,8 +1081,8 @@
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead() and not Self() and not HasStatus('SG_UNCONSCIOUS');" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Steady" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h81e850adge451g0712ga152g5eff836cf82f" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h365633bdg3ec7g0cc3ge7a6gf06075ed35ae" version="3" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(4.5)" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h365633bdg3ec7g0cc3ge7a6gf06075ed35ae" version="4" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(4.5);Distance(4.5)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon + 1d10,MainMeleeWeaponDamageType);" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Topple" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Topple" />
@@ -1270,6 +1270,23 @@
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="649b9d2b-438d-41ff-86dd-378a599e5c10" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeUnarmedAttack );" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage , Bludgeoning);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8de58018-3f70-4d84-9a64-4e8fe50643db" />
+        <field name="Name" type="NameTableFieldDefinition" value="SneakAttackOffHand" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5f124fec-1605-4952-a13f-f61f92cb53f8" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="MeleeMainWeaponRange" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeOffHandWeaponAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(OffhandMeleeWeapon + LevelMapValue(SneakAttack), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(OffHand);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Sneak_Attack_Melee_Offhand" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc9d85b01gd06fgc1fegdf11g06896fe24cd2" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(OffhandMeleeWeapon + LevelMapValue(SneakAttack), OffhandMeleeWeaponDamageType)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeOffHandWeaponAttack" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SneakAttack_Charge:1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(OffhandMeleeWeapon, OffhandMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(Offhand);IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="WieldingFinesseWeaponInSpecificHand(context.Source,true) and HasActionResource('SneakAttack_Charge',1,0,false,false,context.Source);" />
       </fields>
     </stat_object>
   </stat_objects>

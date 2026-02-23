@@ -313,7 +313,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ec9b1048-bf4d-4c4a-91ec-d1f1778fc7e3" />
         <field name="Name" type="NameTableFieldDefinition" value="BRUTAL_STRIKE_FORCEFUL_BLOW" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb80de60eg6173gc2ddge911g5146f03d3f67" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1e4ca3e7gdf0bg7119g79cegc1c4e6ebbc18" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1e4ca3e7gdf0bg7119g79cegc1c4e6ebbc18" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_BrutalCritical" />
         <field name="StackId" type="StringTableFieldDefinition" value="BRUTAL_STRIKE_FORCEFUL_SELF" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
@@ -321,6 +321,7 @@
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,BRUTAL_STRIKE_FORCEFUL_BLOW,100,1);ApplyStatus(SELF,DISENGAGE,100,1);TARGET:Force(4.5,TargetToEntity);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(4.5)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -527,6 +528,22 @@
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnSourceDeath" enumeration_type_name="StatusEvent" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="ad8270a0-6a77-4a80-9367-c4f0e84396e4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bacb5d23-2cb7-4d59-af26-0fd1fb839030" />
+        <field name="Name" type="NameTableFieldDefinition" value="TACTICAL_SHIFT" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9f059cfcga456ga17bgdadbg0009318de36c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf3aba112g46e4gae56g1781gd2c6cd6d1421" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Fighter_SecondWind" />
+        <field name="StackId" type="StringTableFieldDefinition" value="TACTICAL_SHIFT" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IgnoreLeaveAttackRange();ActionResource(Movement,3,0);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="HasAnyStatus({'SG_Unconscious','SG_Incapacitated'},{},{'LONG_REST'})" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnSourceDeath" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
   </stat_objects>

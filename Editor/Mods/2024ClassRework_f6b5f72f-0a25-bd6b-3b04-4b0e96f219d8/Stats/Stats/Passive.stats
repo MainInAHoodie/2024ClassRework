@@ -545,6 +545,18 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb1f7c169gc2a0ge36egf37dgf05620379dd1" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h23e49e56g376dg0c22g4938gd6e4ce3563e7" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Magical" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="69c191ff-d0b9-416b-b9d8-f91686aea8c4" />
+        <field name="Name" type="NameTableFieldDefinition" value="TacticalShift" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9d63c2f1g80e7g9196g36c7gb2b46d03648d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h06949edcg7053g1763g32abgfe79dc8f30b6" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Fighter_SecondWind" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
   </stat_objects>
