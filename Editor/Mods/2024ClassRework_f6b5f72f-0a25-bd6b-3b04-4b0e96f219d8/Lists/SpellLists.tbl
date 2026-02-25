@@ -175,5 +175,12 @@
         <field name="Spells" type="StringTableFieldDefinition" value="Shout_SorcerousRestoration" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6ae2ff96-6506-4b5c-aae6-7eebbc34b8cd" />
+        <field name="Name" type="NameTableFieldDefinition" value="TacticalMind" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_TacticalMind" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

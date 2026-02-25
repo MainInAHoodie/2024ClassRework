@@ -572,7 +572,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="2" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="AllowImprovement" type="BoolTableFieldDefinition" value="False" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(964e765d-5881-463e-b1b0-4fc6b8035aa8);SelectPassives(da3203d8-750a-4de1-b8eb-1eccfccddf46,1,FightingStyle)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(964e765d-5881-463e-b1b0-4fc6b8035aa8);AddSpells(6ae2ff96-6506-4b5c-aae6-7eebbc34b8cd);SelectPassives(da3203d8-750a-4de1-b8eb-1eccfccddf46,1,FightingStyle)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

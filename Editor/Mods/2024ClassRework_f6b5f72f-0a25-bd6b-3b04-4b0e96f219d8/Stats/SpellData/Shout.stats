@@ -972,5 +972,30 @@
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Healing" enumeration_type_name="VerbalIntent" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e8fe017d-5173-4a5f-bab7-9a59f3861066" />
+        <field name="Name" type="NameTableFieldDefinition" value="TacticalMind" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,TACTICAL_MIND,100,1);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self();" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5e9063ebg3595ge739g0dbagde4c17f45310" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h016fc4a7g43dbg5b3eg43a8gd1103b1900a0" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="1d10" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="TACTICAL_MIND" />
+        <field name="Icon" type="StringTableFieldDefinition" value="TacticalMind" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_SecondWind" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_SecondWind" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="used" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="9122eb08-93f1-4010-a275-f5ae3ec7c76e,,;,,;9fb11cca-02d4-4d2f-955f-2826c0553b17,,;5103d398-d8de-4aa4-9633-db2e1b7f6254,,;5301d674-b7da-47b6-b4cf-2802ba33a9e9,,;,,;86b3cf93-21fb-4a3d-bed9-97d0a567d084,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not Immobilized()" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="bd833cb2-2d28-4533-bfdf-67e4f77dd10f" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="bc392fbd-4ca6-4066-954b-169eb0b963e0" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -546,5 +546,21 @@
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0df7a359-3afb-4e39-b523-7709aba604cc" />
+        <field name="Name" type="NameTableFieldDefinition" value="TACTICAL_MIND" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0f518f6bg3a02g88cbge967g95c747eec54c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdec04575g36d8g0fa8gf395ge5432a07f081" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="1d10" />
+        <field name="Icon" type="StringTableFieldDefinition" value="TacticalMind" />
+        <field name="StackId" type="StringTableFieldDefinition" value="TACTICAL_MIND" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SkillCheck,1d10);" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnSourceDeath;OnApplyAndTurn" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

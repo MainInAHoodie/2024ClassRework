@@ -470,3 +470,17 @@ data "RemoveConditions" "HasAnyStatus({'SG_Unconscious','SG_Incapacitated'},{},{
 data "RemoveEvents" "OnSourceDeath"
 data "StatusGroups" "SG_RemoveOnRespec"
 
+new entry "TACTICAL_MIND"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h0f518f6bg3a02g88cbge967g95c747eec54c;1"
+data "Description" "hdec04575g36d8g0fa8gf395ge5432a07f081;1"
+data "DescriptionParams" "1d10"
+data "Icon" "TacticalMind"
+data "StackId" "TACTICAL_MIND"
+data "StackPriority" "1"
+data "TickType" "EndTurn"
+data "Boosts" "RollBonus(SkillCheck,1d10);"
+data "RemoveEvents" "OnSourceDeath;OnApplyAndTurn"
+data "StatusGroups" "SG_RemoveOnRespec"
+

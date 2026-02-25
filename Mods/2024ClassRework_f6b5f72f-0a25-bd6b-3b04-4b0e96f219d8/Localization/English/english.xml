@@ -660,4 +660,8 @@
   <content contentuid="hf3aba112g46e4gae56g1781gd2c6cd6d1421" version="1">Move an additional [1] without provoking &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;</content>
   <content contentuid="h9d63c2f1g80e7g9196g36c7gb2b46d03648d" version="1">Tactical Shift</content>
   <content contentuid="h06949edcg7053g1763g32abgfe79dc8f30b6" version="1">When you use your &lt;LSTag Type="Spell" Tooltip="Shout_SecondWind"&gt;Second Wind&lt;/LSTag&gt;, you can move up to an additional [1].</content>
+  <content contentuid="h5e9063ebg3595ge739g0dbagde4c17f45310" version="1">Tactical Mind</content>
+  <content contentuid="h016fc4a7g43dbg5b3eg43a8gd1103b1900a0" version="1">Gain a [1] bonus to your next Skill Check.</content>
+  <content contentuid="h0f518f6bg3a02g88cbge967g95c747eec54c" version="1">Tactical Mind</content>
+  <content contentuid="hdec04575g36d8g0fa8gf395ge5432a07f081" version="1">Gain [1] to your next Skill Check.</content>
 </contentList>
