@@ -130,6 +130,11 @@
                     <attribute id="Spells" type="LSString" value="Shout_SorcerousRestoration"/>
                     <attribute id="UUID" type="guid" value="7e93fc68-f8c8-4c9c-9017-30807ddcacf4"/>
                 </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="TacticalMind"/>
+                    <attribute id="Spells" type="LSString" value="Shout_TacticalMind"/>
+                    <attribute id="UUID" type="guid" value="6ae2ff96-6506-4b5c-aae6-7eebbc34b8cd"/>
+                </node>
             </children>
         </node>
     </region>
