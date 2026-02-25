@@ -225,6 +225,9 @@ Fighting Style has been moved to 2nd Level for reasons discussed under Known Iss
 
 Persuasion has been added to the Fighter's Skill list.
 
+#### **2nd Level**
+- **Tactical Mind**: Once per Short Rest, you can add 1d10 to a Skill Check.
+
 #### **5th Level**
 - **Tactical Shift**: When you use your Second Wind, you can move an additional 10 ft without provoking Opportunity Attacks.
 
