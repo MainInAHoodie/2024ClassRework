@@ -559,5 +559,16 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0d789b53-2379-4408-94b6-4060d9baac25" />
+        <field name="Name" type="NameTableFieldDefinition" value="TacticalMastery" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h67e3d6b7gec54g20ddg999agbc321177d392" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc076598cge511g9246g6a74gce9b4b5a0920" version="2" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_TacticalMastery_Container,AddChildren);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="TacticalMastery" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

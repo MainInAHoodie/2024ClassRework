@@ -412,3 +412,11 @@ data "DescriptionParams" "Distance(3)"
 data "Icon" "Skill_Fighter_SecondWind"
 data "Properties" "Highlighted"
 
+new entry "TacticalMastery"
+type "PassiveData"
+data "DisplayName" "h67e3d6b7gec54g20ddg999agbc321177d392;1"
+data "Description" "hc076598cge511g9246g6a74gce9b4b5a0920;2"
+data "Icon" "TacticalMastery"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Target_TacticalMastery_Container,AddChildren);"
+

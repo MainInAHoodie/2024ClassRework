@@ -767,6 +767,14 @@
                     <attribute id="TableUUID" type="guid" value="9c77844d-c201-47f4-a25f-7925dec8180d"/>
                     <attribute id="UUID" type="guid" value="e9bd3ad3-31d1-4ea5-8604-e28a719591f2"/>
                 </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="Fighter"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Indomitable;TacticalMastery"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="TableUUID" type="guid" value="ba4e707e-4bbd-4630-963b-ce2f2947f971"/>
+                    <attribute id="UUID" type="guid" value="5f69e04b-1d97-481c-995f-a069dfb9f555"/>
+                </node>
             </children>
         </node>
     </region>

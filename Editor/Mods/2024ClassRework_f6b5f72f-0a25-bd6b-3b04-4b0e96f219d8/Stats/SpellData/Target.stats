@@ -1190,6 +1190,7 @@
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Bludgeoning" enumeration_type_name="Damage Type" version="1" />
         <field name="AmountOfTargets" type="StringTableFieldDefinition" value="LevelMapValue(FlurryOfBlows)" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="ha33c99bcgf934ge8c6g775eg75e97d94f3e5" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="used" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1287,6 +1288,92 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SneakAttack_Charge:1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(OffhandMeleeWeapon, OffhandMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(Offhand);IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="WieldingFinesseWeaponInSpecificHand(context.Source,true) and HasActionResource('SneakAttack_Charge',1,0,false,false,context.Source);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0de812e9-2a4f-492c-8e48-f659e4761bed" />
+        <field name="Name" type="NameTableFieldDefinition" value="TacticalMastery_Container" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_TacticalMastery_Push;Target_TacticalMastery_Sap;Target_TacticalMastery_Slow;" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="MeleeMainWeaponRange" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2b033ad2g309dg30cbgd6d9g239af097ccd0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0be676d9g3693g7a63g4e0eg30c139a8d98e" version="2" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeWeaponAttack" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsAttack;IsMelee;IgnoreSilence;IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="CanUseWeaponActions();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="TacticalMastery" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="31c6b61d-a889-4ec9-aa37-8a54a8d6e271" />
+        <field name="Name" type="NameTableFieldDefinition" value="TacticalMastery_Push" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6707901c-81b4-4e77-8b0c-4eb486b44976" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_TacticalMastery_Container" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);CastOffhand[GROUND:DealDamage(OffhandMeleeWeapon, OffhandMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(OffHand)];IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);" />
+        <field name="TargetCeiling" type="StringTableFieldDefinition" value="0" />
+        <field name="TargetFloor" type="StringTableFieldDefinition" value=".25" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="MeleeMainWeaponRange" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="CanUseWeaponActions();" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeWeaponAttack) and " />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(max(1,MainMeleeWeapon), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);CastOffhand[DealDamage(max(0,OffhandMeleeWeapon), OffhandMeleeWeaponDamageType);ExecuteWeaponFunctors(OffHand)];IF(not SavingThrow(Ability.Strength,ManeuverSaveDC())):Force(3);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead();" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6c37c5fbgc393g369dg7b95g3948b36b515b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h73723757ged76ge995g65b0g85906f27cea2" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Strength" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Topple" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Topple" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="used" />
+        <field name="AlternativeCastTextEvents" type="StringTableFieldDefinition" value="used" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Character() and Enemy() and not Dead();" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="d11b68a0-5c5c-430f-a033-90ab91e04525,,;8c5b6452-a6eb-44f3-8830-f8e1a06678ba,,;412f122d-0773-4a08-bf1c-65749e543fb6,,;87c14b90-fb0a-4cd3-8364-b38c3204dae4,,;082f9ee1-a009-4234-9fb5-412d3afba640,,;dced792c-ab29-450c-b9ec-d0c291c6c022,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="DualWieldingSpellAnimation" type="CastAnimationsTableFieldDefinition" value="ce4e5210-46ca-436f-90c0-00ef3e9eeb29,,;f2a2f68b-8ee1-402e-a374-6cddacc16fe4,,;f63970b8-ddbe-4058-a6e4-c689ffa8f4bb,,;aec7bcca-5a0b-4f73-bddd-2f1dc3ce6f00,,;3201ba74-a4d2-428b-be90-cbef244878df,,;9946ece2-74fc-4b81-927a-4bf83503cc20,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="da5a1f91-7bc7-422d-8ba0-a30552744f24" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="4fcd1f5a-58dd-4649-b20b-b7d4152c1ddd" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_PushingAttack_Melee" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="9342eaf4-6a20-44c6-a740-863b0f9c2475" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2aee29fc-2cd3-41d0-88e7-6ccbaa025285" />
+        <field name="Name" type="NameTableFieldDefinition" value="TacticalMastery_Sap" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6707901c-81b4-4e77-8b0c-4eb486b44976" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_TacticalMastery_Container" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="CanUseWeaponActions();" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(max(1,MainMeleeWeapon), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);CastOffhand[DealDamage(max(0,OffhandMeleeWeapon), OffhandMeleeWeaponDamageType);ExecuteWeaponFunctors(OffHand)];IF(not SavingThrow(Ability.Constitution,ManeuverSaveDC())):ApplyStatus(TACTICAL_MASTERY_SAP,100,10);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf67226f6g76b6ga9begaeb0g2daaa55acbf7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3fdec874g4e14g3ea3g0748gcae5bb6daccb" version="1" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="Icon" type="StringTableFieldDefinition" value="statIcons_OffBalanced" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="TACTICAL_MASTERY_SAP" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="9342eaf4-6a20-44c6-a740-863b0f9c2475" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="59d1089f-6e17-452b-8b8d-8fec281137df" />
+        <field name="Name" type="NameTableFieldDefinition" value="TacticalMastery_Slow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6707901c-81b4-4e77-8b0c-4eb486b44976" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_TacticalMastery_Container" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="CanUseWeaponActions();" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(max(1,MainMeleeWeapon), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);CastOffhand[DealDamage(max(0,OffhandMeleeWeapon), OffhandMeleeWeaponDamageType);ExecuteWeaponFunctors(OffHand)];IF(not SavingThrow(Ability.Constitution,ManeuverSaveDC())):ApplyStatus(TACTICAL_MASTERY_SLOW,100,1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="statIcons_Hamstring" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd0ea885bg4e5cg4f02gbd71gd3db229318e8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc244cfc0g8b3agbc20g488fg58715f83e14e" version="3" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="TACTICAL_MASTERY_SLOW" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_OpeningAttack" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_OpeningAttack" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="d11b68a0-5c5c-430f-a033-90ab91e04525,,;8c5b6452-a6eb-44f3-8830-f8e1a06678ba,,;412f122d-0773-4a08-bf1c-65749e543fb6,,;87c14b90-fb0a-4cd3-8364-b38c3204dae4,,;082f9ee1-a009-4234-9fb5-412d3afba640,,;dced792c-ab29-450c-b9ec-d0c291c6c022,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="DualWieldingSpellAnimation" type="CastAnimationsTableFieldDefinition" value="ce4e5210-46ca-436f-90c0-00ef3e9eeb29,,;f2a2f68b-8ee1-402e-a374-6cddacc16fe4,,;f63970b8-ddbe-4058-a6e4-c689ffa8f4bb,,;aec7bcca-5a0b-4f73-bddd-2f1dc3ce6f00,,;3201ba74-a4d2-428b-be90-cbef244878df,,;9946ece2-74fc-4b81-927a-4bf83503cc20,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Debuff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="9342eaf4-6a20-44c6-a740-863b0f9c2475" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="a289cc42-2bdb-448e-8b1c-cf375fe55120" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="24ed0e06-f655-41bc-b796-f781527b8399" />
       </fields>
     </stat_object>
   </stat_objects>

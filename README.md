@@ -231,6 +231,12 @@ Persuasion has been added to the Fighter's Skill list.
 #### **5th Level**
 - **Tactical Shift**: When you use your Second Wind, you can move an additional 10 ft without provoking Opportunity Attacks.
 
+#### **9th Level**
+ - **Tactical Mastery**: Once per turn, you can attempt to apply one of the following effects to the target of one of your melee attacks:
+    - **Push**: On a failed Strength save, the target is pushed back 10 feet/3 meters.
+    - **Sap**: On a failed Constitution save, the target has Disadvantage on their next attack.
+    - **Slow**: On a failed Constitution save, the target loses 10 feet/3 meters of movement speed on their next turn.
+
 ## Monk
 ### Starting Ability Scores
 Unchanged from before.
