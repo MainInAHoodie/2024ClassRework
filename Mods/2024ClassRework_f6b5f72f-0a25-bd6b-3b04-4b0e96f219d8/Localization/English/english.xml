@@ -664,4 +664,20 @@
   <content contentuid="h016fc4a7g43dbg5b3eg43a8gd1103b1900a0" version="1">Gain a [1] bonus to your next Skill Check.</content>
   <content contentuid="h0f518f6bg3a02g88cbge967g95c747eec54c" version="1">Tactical Mind</content>
   <content contentuid="hdec04575g36d8g0fa8gf395ge5432a07f081" version="1">Gain [1] to your next Skill Check.</content>
+  <content contentuid="h67e3d6b7gec54g20ddg999agbc321177d392" version="1">Tactical Mastery</content>
+  <content contentuid="hc076598cge511g9246g6a74gce9b4b5a0920" version="2">Once per turn, you can apply &lt;LSTag Type="Status" Tooltip="PUSH"&gt;Push&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="TACTICAL_MASTERY_SAP&gt;Sap&lt;/Sap&gt;, or &lt;LSTag Type="Status" Tooltip="TACTICAL_MASTERY_SLOW"&gt;Slow&lt;/LSTag&gt; conditions.</content>
+  <content contentuid="h2b033ad2g309dg30cbgd6d9g239af097ccd0" version="1">Tactical Mastery</content>
+  <content contentuid="h0be676d9g3693g7a63g4e0eg30c139a8d98e" version="2">Once per turn, you can apply &lt;LSTag Type="Status" Tooltip="TACTICAL_MASTERY_PUSH"&gt;Push&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="TACTICAL_MASTERY_SAP&gt;Sap&lt;/Sap&gt;, or &lt;LSTag Type="Status" Tooltip="TACTICAL_MASTERY_SLOW"&gt;Slow&lt;/LSTag&gt; conditions.</content>
+  <content contentuid="h6c37c5fbgc393g369dg7b95g3948b36b515b" version="1">Tactical Mastery: Push</content>
+  <content contentuid="h73723757ged76ge995g65b0g85906f27cea2" version="1">Push the target back [1].</content>
+  <content contentuid="hf67226f6g76b6ga9begaeb0g2daaa55acbf7" version="1">Tactical Mastery: Sap</content>
+  <content contentuid="h3fdec874g4e14g3ea3g0748gcae5bb6daccb" version="1">Give the target &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on its next attack.</content>
+  <content contentuid="h16b9ccb4gd092g39b8gac60ga8b4ccf715cc" version="1">Sap</content>
+  <content contentuid="h3cb16f78g8be1g5a05g94efg70a3ed2d3543" version="1">Affected entity has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on its next attack.</content>
+  <content contentuid="hd0ea885bg4e5cg4f02gbd71gd3db229318e8" version="1">Tactical Mastery: Slow</content>
+  <content contentuid="hc244cfc0g8b3agbc20g488fg58715f83e14e" version="3">&lt;LSTag Type="Status" Tooltip="TACTICAL_MASTERY_SLOW"&gt;Slow&lt;/LSTag&gt; the target.</content>
+  <content contentuid="hd34fe6aagb8f7g7f5eg9badg1a36bade62a3" version="1">Slow</content>
+  <content contentuid="h965fce76g05c3ga552g64a8g00fb14d9b603" version="1">Affected entity has their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; reduced by [1]</content>
+  <content contentuid="h54a145b8g9a4fg2d06ge931ga26e93dd2ddc" version="1">Push</content>
+  <content contentuid="h56bad6f1g2e01ge1bdg4a86ga59a1b8b9413" version="1">The target makes a &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; Saving Throw.  On a failure, they are pushed back [1].</content>
 </contentList>

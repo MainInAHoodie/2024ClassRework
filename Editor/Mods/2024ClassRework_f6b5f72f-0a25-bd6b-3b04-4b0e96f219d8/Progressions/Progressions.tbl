@@ -588,6 +588,17 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_53" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5f69e04b-1d97-481c-995f-a069dfb9f555" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba4e707e-4bbd-4630-963b-ce2f2947f971" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Fighter" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Indomitable;TacticalMastery" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_38" />
         <field name="UUID" type="IdTableFieldDefinition" value="c17915f1-df2b-4cce-876f-68faf153f373" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="fe1319a2-86be-469c-aab5-e3b0bd714e0e" />
