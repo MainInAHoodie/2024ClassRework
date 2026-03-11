@@ -15,7 +15,6 @@
                 <node id="ProgressionDescription">
                     <attribute id="Description" type="TranslatedString" handle="h648e4977g7984g7751gd182g4447d24bd8e4" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="hd64ab6cegdc8ageee4g0e0eg9d14ad161ddf" version="1"/>
-                    <attribute id="ExactMatch" type="FixedString" value="Warden"/>
                     <attribute id="Hidden" type="bool" value="false"/>
                     <attribute id="PassivePrototype" type="FixedString" value="Warden"/>
                     <attribute id="Type" type="FixedString" value="Proficiency(MediumArmor);Proficiency(Scimitars)"/>

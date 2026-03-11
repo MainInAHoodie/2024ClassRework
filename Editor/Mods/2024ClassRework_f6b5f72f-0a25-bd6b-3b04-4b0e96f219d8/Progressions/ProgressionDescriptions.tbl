@@ -22,7 +22,6 @@
         <field name="Hidden" type="BoolTableFieldDefinition" value="False" />
         <field name="Type" type="FixedStringTableFieldDefinition" value="Proficiency(MediumArmor);Proficiency(Scimitars)" />
         <field name="PassivePrototype" type="FixedStringTableFieldDefinition" value="Warden" />
-        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="Warden" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

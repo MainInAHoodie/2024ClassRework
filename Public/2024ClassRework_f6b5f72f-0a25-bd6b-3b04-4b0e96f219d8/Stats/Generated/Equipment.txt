@@ -113,6 +113,8 @@ add equipmentgroup
 add equipment entry "OBJ_Backpack_CampSupplies"
 add equipmentgroup
 add equipment entry "WPN_Dagger"
+add equipmentgroup
+add equipment entry "ARM_Shield_Wood"
 
 new equipment "EQP_CC_Fighter"
 add initialweaponset "Melee"
@@ -169,7 +171,7 @@ add equipment entry "WPN_Dagger"
 new equipment "EQP_CC_Paladin"
 add initialweaponset "Melee"
 add equipmentgroup
-add equipment entry "ARM_Shield_C"
+add equipment entry "ARM_Shield_Fighter"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
@@ -233,7 +235,7 @@ add equipment entry "WPN_Dagger"
 new equipment "EQP_CC_Paladin_Devotion"
 add initialweaponset "Melee"
 add equipmentgroup
-add equipment entry "ARM_Shield_C"
+add equipment entry "ARM_Shield_Fighter"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
@@ -264,7 +266,7 @@ add equipment entry "WPN_Dagger"
 new equipment "EQP_CC_Paladin_Vengance"
 add initialweaponset "Melee"
 add equipmentgroup
-add equipment entry "ARM_Shield_C"
+add equipment entry "ARM_Shield_Fighter"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
@@ -295,7 +297,7 @@ add equipment entry "WPN_Dagger"
 new equipment "EQP_CC_Paladin_Crown"
 add initialweaponset "Melee"
 add equipmentgroup
-add equipment entry "ARM_Shield_C"
+add equipment entry "ARM_Shield_Fighter"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
@@ -583,4 +585,12 @@ add equipmentgroup
 add equipment entry "OBJ_Scroll_Revivify"
 add equipmentgroup
 add equipment entry "WPN_Dagger_Shar"
+
+new equipment "EQP_Cleric_RingMail"
+add equipmentgroup
+add equipment entry "ARM_RingMail_Body"
+
+new equipment "EQP_Druid_HideArmor"
+add equipmentgroup
+add equipment entry "ARM_Hide_Body"
 
