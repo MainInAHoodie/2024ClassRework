@@ -236,6 +236,7 @@ Persuasion has been added to the Fighter's Skill list.
     - **Push**: On a failed Strength save, the target is pushed back 10 feet/3 meters.
     - **Sap**: On a failed Constitution save, the target has Disadvantage on their next attack.
     - **Slow**: On a failed Constitution save, the target loses 10 feet/3 meters of movement speed on their next turn.
+ - **Indomitable** now grants a +10 to the Saving Throw reroll.
 
 ## Monk
 ### Starting Ability Scores
@@ -376,6 +377,12 @@ You're not gonna believe this, but Wizards start with a Dagger now.
 - **Barkskin** now increases AC to 17 instead of 16.
 
 ### Wizard
+**Color Spray**
+Now a Constitution Save instead of a Hit Point total.  Cone size starts at 4 meters and scales up 1 meter per Spell Level, topping out at 9 meters (30 feet) at 6th level.
+
+**Sleep**
+Now a Constitution Save instead of a Hit Point total.  Targets sleep for one extra turn for each Spell Slot level above 1.
+
 **Witch Bolt**
 Activating the ongoing damage now costs a Bonus Action instead of a full Action.  The ongoing damage has been reduced, but now actually scales as follows:
 - 1st Level: 1d6
@@ -403,8 +410,7 @@ Activating the ongoing damage now costs a Bonus Action instead of a full Action.
 # New Spells
 ## Cantrips
 ### Cleric
-**Word of Radiance**
-Each enemy within 7.5 ft of you (an increase from the book, because the Effect Radius in the engine doesn't let me enter 1.5 meters for some reason) must pass a Constitution Saving Throw or take 1d6 Radiant damage (scaling as you level)
+- **Word of Radiance**: Each enemy within 7.5 ft of you (an increase from the book, because the Effect Radius in the engine doesn't let me enter 1.5 meters for some reason) must pass a Constitution Saving Throw or take 1d6 Radiant damage (scaling as you level)
 
 ### Druid
 - **Druidcraft**: Give yourself Advantage on Nature and Survival checks for one minute.  Thaumaturgy for Druids, basically.

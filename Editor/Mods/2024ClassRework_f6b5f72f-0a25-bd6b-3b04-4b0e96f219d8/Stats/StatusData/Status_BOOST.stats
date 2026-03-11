@@ -8,7 +8,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_SpiritualWeapon" />
         <field name="StackId" type="StringTableFieldDefinition" value="WARDEN" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponAttackRollAbilityOverride(SpellCastingAbility);WeaponDamageDieOverride(max(MainMeleeWeapon, 1d6));WeaponDamageDieOverride(max(OffHandMeleeWeapon, 1d6));Attribute(InventoryBound);IF(HasPassive('Warden_Advanced',context.Source)):WeaponProperty(Magical);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponAttackRollAbilityOverride(SpellCastingAbility);WeaponDamageDieOverride(1d6);Attribute(InventoryBound);IF(HasPassive('Warden_Advanced',context.Source)):WeaponProperty(Magical);" />
         <field name="Passives" type="StringTableFieldDefinition" value="Warden;" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnUnequip" enumeration_type_name="StatusEvent" version="1" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyEquipmentStatus(WARDEN_CLEANER, 100, 0)" />
@@ -136,7 +136,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_FightingStyle_GreatWeaponFighting" />
         <field name="StackId" type="StringTableFieldDefinition" value="PROTECTOR" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponAttackRollAbilityOverride(SpellCastingAbility);WeaponDamageDieOverride(max(MainMeleeWeapon, 1d6));Attribute(InventoryBound);IF(HasPassive('Protector_Advanced',context.Source)):WeaponProperty(Magical);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponAttackRollAbilityOverride(SpellCastingAbility);WeaponDamageDieOverride(1d6);Attribute(InventoryBound);IF(HasPassive('Protector_Advanced',context.Source)):WeaponProperty(Magical);" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnUnequip" enumeration_type_name="StatusEvent" version="1" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyEquipmentStatus(PROTECTOR_CLEANER, 100, 0)" />

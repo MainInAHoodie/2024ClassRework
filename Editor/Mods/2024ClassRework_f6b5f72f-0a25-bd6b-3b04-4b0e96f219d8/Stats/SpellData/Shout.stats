@@ -5,7 +5,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b261270c-520b-416b-a9ce-4ac940b818ea" />
         <field name="Name" type="NameTableFieldDefinition" value="WardenBind" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(IsWeaponOfProficiencyGroup('Clubs|Quarterstaffs|Greatclubs|Scimitars', GetActiveWeapon())):ApplyEquipmentStatus(MainHand, WARDEN, 100, -1);IF(IsWeaponOfProficiencyGroup('Clubs|Quarterstaffs|Greatclubs|Scimitars', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand))):ApplyEquipmentStatus(OffHand, WARDEN, 100, -1);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(IsWeaponOfProficiencyGroup('Clubs|Quarterstaffs|Greatclubs|Scimitars', GetActiveWeapon())):ApplyEquipmentStatus(MainHand, WARDEN, 100, -1);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self();" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_SpiritualWeapon" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6b81cc5fgb781g8b3eg85bagbe3695684943" version="1" />
@@ -14,7 +14,7 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
         <field name="SpellCategory" type="EnumerationListTableFieldDefinition" value="SC_IntentBuff" enumeration_type_name="SpellCategoryFlags" version="1" />
         <field name="Requirements" type="StringTableFieldDefinition" value="!Combat" />
-        <field name="RequirementConditions" type="StringTableFieldDefinition" value="((IsWeaponOfProficiencyGroup('Clubs|Quarterstaffs|Greatclubs|Scimitars', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand))) and not (HasStatus('WARDEN', GetActiveWeapon(context.Source, true)))) or (IsWeaponOfProficiencyGroup('Clubs|Quarterstaffs|Greatclubs|Scimitars', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand)))" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="IsWeaponOfProficiencyGroup('Clubs|Quarterstaffs|Greatclubs|Scimitars', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand))" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Buff_Shillelagh_L0" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Buff_Shillelagh_L0" />
         <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_EnchantWeapon" />
@@ -43,7 +43,7 @@
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="31920fd1-c569-4325-be73-16431069d364" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="a9d7947e-3c88-41c6-aec8-18ae408c366a" />
         <field name="FollowUpOriginalSpell" type="StringTableFieldDefinition" value="Shout_WardenBind" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MainHand, WARDEN_CLEANER, 100, 0);ApplyEquipmentStatus(OffHand, WARDEN_CLEANER, 100, 0);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MainHand, WARDEN_CLEANER, 100, 0);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -335,7 +335,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f65f5fdd-44a4-41be-9101-8a478845edce" />
         <field name="Name" type="NameTableFieldDefinition" value="Protector_Bind" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(IsWeaponOfProficiencyGroup('Daggers|Maces|Spears', GetActiveWeapon())):ApplyEquipmentStatus(MainHand, PROTECTOR, 100, -1);IF(IsWeaponOfProficiencyGroup('Daggers|Maces|Spears', GetActiveWeapon(context.Target, false))):ApplyEquipmentStatus(OffHand, PROTECTOR, 100, -1);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(IsWeaponOfProficiencyGroup('Daggers|Maces|Spears', GetActiveWeapon())):ApplyEquipmentStatus(MainHand, PROTECTOR, 100, -1);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self();" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_PactOfTheBlade_Warhammer" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h21c69b28g831cg7f77g9607g74160c20031c" version="1" />
@@ -350,7 +350,7 @@
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="be75ea00-f753-4d9e-ab04-4993691d099c" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2f784038-2bea-49ba-b7c1-7b128b16b167" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
-        <field name="RequirementConditions" type="StringTableFieldDefinition" value="(IsWeaponOfProficiencyGroup('Daggers|Maces|Spears', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand)) or IsWeaponOfProficiencyGroup('Daggers|Maces|Spears', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand))) and not (HasStatus('PROTECTOR', GetActiveWeapon(context.Source, true)) or HasStatus('PROTECTOR', GetActiveWeapon(context.Source, false)))" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="IsWeaponOfProficiencyGroup('Daggers|Maces|Spears', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand)) and not HasStatus('PROTECTOR', GetActiveWeapon(context.Source, true))" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="AllowMoveAndCast" enumeration_type_name="SpellFlagList" version="1" />
         <field name="Requirements" type="StringTableFieldDefinition" value="!Combat" />
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="78c8a29a-cd3d-40a2-ba01-41d0ec4ccd74" />
@@ -360,7 +360,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="5b80c236-af76-4dba-a0e9-1acf93fa35c2" />
         <field name="Name" type="NameTableFieldDefinition" value="Protector_Remove" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MainHand, PROTECTOR_CLEANER, 100, 0);ApplyEquipmentStatus(OffHand, PROTECTOR_CLEANER, 100, 0);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyEquipmentStatus(MainHand, PROTECTOR_CLEANER, 100, 0);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self();" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_DispelMagic" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h125c12a2gb6cfg3d87g8d5bgf6bc41e0398a" version="1" />
@@ -511,7 +511,7 @@
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="a908e49b-b59f-4a20-b487-e25ae198d926" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="ha4f6cf87g3c84g9442ga48bg55b45b962c79" version="1" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Somatic" enumeration_type_name="SpellSheathing" version="1" />
-        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus(&quot;AURA_OF_LIFE_EMANATION&quot;)" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('AURA_OF_LIFE_EMANATION')" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

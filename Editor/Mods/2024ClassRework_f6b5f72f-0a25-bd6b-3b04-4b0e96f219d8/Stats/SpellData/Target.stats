@@ -1197,7 +1197,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9817cf58-aef9-459d-aef1-b664c4024261" />
         <field name="Name" type="NameTableFieldDefinition" value="OpenHandTechnique_Knock" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage , Bludgeoning);IF(not SavingThrow(Ability.Dexterity, ManeuverSaveDC())):ApplyStatus(PRONE,100,1)];" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage , Bludgeoning);IF(not SavingThrow(Ability.Dexterity, ManeuverSaveDC())):ApplyStatus(PRONE,100,1);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Monk_OpenHandTechnique_Knock" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbcc1bb7ag360bgfe80g21ffg997f7791c242" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h14e2d9dagc42eg820egd81fg5fec0a42c567" version="1" />
@@ -1217,7 +1217,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9303d50a-ea95-4e24-96a3-31b9e5d0ed1b" />
         <field name="Name" type="NameTableFieldDefinition" value="OpenHandTechnique_NoReactions" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage , Bludgeoning);ApplyStatus(OPEN_HAND_NO_REACTIONS,100,1)];" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage , Bludgeoning);ApplyStatus(OPEN_HAND_NO_REACTIONS,100,1);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Monk_OpenHandTechnique_NoReactions" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4dd9fb54gff6egf487gf6f8gcc9f2242463b" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7e5e38e5gb9d5g0fd3g81edgac146235a0a8" version="1" />
@@ -1374,6 +1374,114 @@
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="9342eaf4-6a20-44c6-a740-863b0f9c2475" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="a289cc42-2bdb-448e-8b1c-cf375fe55120" />
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="24ed0e06-f655-41bc-b796-f781527b8399" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7c87100c-1e7d-47cd-87f3-e91d937e5ed5" />
+        <field name="Name" type="NameTableFieldDefinition" value="Sleep" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Sleep" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h07fb3f30g7197gaf0ag946ege63d201c7ce9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="heb4695b6g3764gcdaagbe5ag7994031f9964" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="554a18f7-952e-494a-b301-7702a85d4bc9,,;,,;af94aac1-d8eb-4ccb-9520-694ade11b61c,,;f5db4001-b136-4c48-9aa4-026c4a7dd3b7,,;22dfbbf4-f417-4c84-b39e-2039315961e6,,;,,;5bfbe9f9-4fc3-4f26-b112-43d404db6a89,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Control" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;HasHighGroundRangeExtension;IsHarmful;RangeIgnoreVerticalThreshold;IgnorePreviouslyPickedEntities" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Enchantment" enumeration_type_name="SpellSchool" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Control_Sleep_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Control_Sleep_L1to3" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not HasStatus('SG_Unconscious') and not Dead() and Character() and not Ally() and not Tagged('UNDEAD') and not (not Player(context.Source) and IsCrowdControlled(context.Target)) and not IsImmuneToStatus('SLEEP');" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SLEEP,100,2)" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="2fa6b127-6f8a-4150-8be6-6f62b7a85911" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="40f543cf-7aac-4da5-bc97-b11bb693d297" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="91ef374a-8917-4b10-a4dc-89ba36ec60b4" />
+        <field name="PositionEffect" type="GuidObjectTableFieldDefinition" value="69cd378b-2fa5-466b-bbf4-2c2ccb165717" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="04cc3403-f67a-4747-b49e-a1802cc7a6ad" />
+        <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" value="a71e9779-ab72-47d8-b8d7-e0f16e1d0d9b" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Control_Gen_L1to3_01" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Control_Gen_L1to3_01_Loop" />
+        <field name="CombatAIOverrideSpell" type="StatReferenceTableFieldDefinition" value="Target_Sleep_AI" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution,SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(SLEEP,100,3);" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fc067843-ca91-42d1-be78-d6bb73dd7575" />
+        <field name="Name" type="NameTableFieldDefinition" value="Sleep_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7c87100c-1e7d-47cd-87f3-e91d937e5ed5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Sleep" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not HasStatus('SG_Unconscious') and not Dead() and Character() and not Ally() and not Tagged('UNDEAD') and not (not Player(context.Source) and IsCrowdControlled(context.Target)) and not IsImmuneToStatus('SLEEP');" />
+        <field name="CombatAIOverrideSpell" type="StatReferenceTableFieldDefinition" value="Target_Sleep_2_AI" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1db111e1g5b51g2148g052dgcdf606e2f943" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SLEEP,100,3)" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="14934efd-78a2-4924-9e4d-f09b6476ddb9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Sleep_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7c87100c-1e7d-47cd-87f3-e91d937e5ed5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Sleep" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not HasStatus('SG_Unconscious') and not Dead() and Character() and not Ally() and not Tagged('UNDEAD') and not (not Player(context.Source) and IsCrowdControlled(context.Target)) and not IsImmuneToStatus('SLEEP');" />
+        <field name="CombatAIOverrideSpell" type="StatReferenceTableFieldDefinition" value="Target_Sleep_3_AI" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h35ea0e24gf472g278ega2b5gaeca164cb822" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SLEEP,100,4)" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9c454d50-8106-41e3-a2cc-d77acb52cb37" />
+        <field name="Name" type="NameTableFieldDefinition" value="Sleep_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7c87100c-1e7d-47cd-87f3-e91d937e5ed5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Sleep" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not HasStatus('SG_Unconscious') and not Dead() and Character() and not Ally() and not Tagged('UNDEAD') and not (not Player(context.Source) and IsCrowdControlled(context.Target)) and not IsImmuneToStatus('SLEEP');" />
+        <field name="CombatAIOverrideSpell" type="StatReferenceTableFieldDefinition" value="Target_Sleep_4_AI" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SLEEP,100,5" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="caabe010-7d39-4a9f-9a33-bd902bdd18cc" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7c87100c-1e7d-47cd-87f3-e91d937e5ed5" />
+        <field name="Name" type="NameTableFieldDefinition" value="Sleep_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Sleep" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not HasStatus('SG_Unconscious') and not Dead() and Character() and not Ally() and not Tagged('UNDEAD') and not (not Player(context.Source) and IsCrowdControlled(context.Target)) and not IsImmuneToStatus('SLEEP');" />
+        <field name="CombatAIOverrideSpell" type="StatReferenceTableFieldDefinition" value="Target_Sleep_5_AI" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SLEEP,100,6)" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="068f3e85-0594-4cfb-8233-bcc0536485a6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7c87100c-1e7d-47cd-87f3-e91d937e5ed5" />
+        <field name="Name" type="NameTableFieldDefinition" value="Sleep_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Sleep" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not HasStatus('SG_Unconscious') and not Dead() and Character() and not Ally() and not Tagged('UNDEAD') and not (not Player(context.Source) and IsCrowdControlled(context.Target)) and not IsImmuneToStatus('SLEEP');" />
+        <field name="CombatAIOverrideSpell" type="StatReferenceTableFieldDefinition" value="Target_Sleep_6_AI" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SLEEP,100,7)" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="6" />
       </fields>
     </stat_object>
   </stat_objects>

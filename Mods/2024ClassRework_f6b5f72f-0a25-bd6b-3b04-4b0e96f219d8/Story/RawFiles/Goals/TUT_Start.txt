@@ -24,6 +24,8 @@ DB_DialogBlockAttackButton((DIALOGRESOURCE)TUT_Start_Brinepool_279b424b-b9dd-f05
 
 DB_TUT_Start_CurrentDeadThrall(S_TUT_DeadTrall_000_44779e34-e013-4b03-b452-8c1cd9e3a658,1);
 
+DB_TUT_Start_GearChest(S_LOW_MindFlayerChest_e3c2c13b-7fb8-4e3b-a3f1-da5bbefb6b64,1);
+
 DB_TUT_Start_KeepRangedWpnClass((TAG)BARD_d93434bd-6b71-4789-b128-ee24156057cc);
 DB_TUT_Start_KeepRangedWpnClass((TAG)RANGER_37a733c1-a862-4157-b92a-9cff46232c6a);
 
@@ -205,7 +207,8 @@ THEN
 PROC_CheckPartyFull();
 ClearFlag((FLAG)TUT_Misc_Event_CheckCompanionCanJoin_2aec3d37-19f6-42c1-846c-db857e7cb9c4);
 
-// re-written to just give the thrall 1 gold instead of moving the player's inventory around
+// no longer moves player's inventory around
+// instead, that dead thrall now gets 1 gold piece
 PROC
 PROC_TUT_Start_MoveStarterWeapon((CHARACTER)_Player)
 AND
@@ -219,6 +222,25 @@ DB_TUT_Start_DeadThrallWeaponContainer(_NewThrall,_Sum)
 THEN
 AddGold(_Thrall,1);
 
+PROC
+PROC_TUT_Start_AddRingArmorToChest((CHARACTER)_Player)
+AND
+DB_TUT_Start_GearChest(_Thrall,_Delta)
+AND
+DB_TUT_Start_DeadThrallWeaponContainer(_NewThrall,_Sum)
+AND 
+HasPassive(_Player, "Protector", 1)
+THEN
+CharacterGiveEquipmentSet((CHARACTER)_Thrall, "EQP_Cleric_RingMail");
+
+PROC
+PROC_TUT_Start_AddHideArmorToThrall((CHARACTER)_Player)
+AND
+DB_TUT_Start_GearChest(_Thrall,_Delta)
+AND 
+HasPassive(_Player, "Warden", 1)
+THEN
+CharacterGiveEquipmentSet((CHARACTER)_Thrall,"EQP_Druid_HideArmor");
 
 QRY
 QRY_TUT_Start_ChooseWpnToRemove((CHARACTER)_Player)
@@ -296,7 +318,8 @@ QRY_OnlyOnce("TUT_Start_PositionPlayers")
 AND
 DB_Players(_Player)
 THEN
-PROC_TUT_Start_MoveStarterWeapon((CHARACTER)_Player);
+PROC_TUT_Start_AddHideArmorToChest((CHARACTER)_Player);
+PROC_TUT_Start_AddRingArmorToChest((CHARACTER)_Player);
 
 //Always assigning the same pod to avatars with unique OMs that play in the same location - Shadowheart, Wyll, Karlach
 PROC

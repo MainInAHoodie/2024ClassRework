@@ -680,4 +680,14 @@
   <content contentuid="h965fce76g05c3ga552g64a8g00fb14d9b603" version="1">Affected entity has their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; reduced by [1]</content>
   <content contentuid="h54a145b8g9a4fg2d06ge931ga26e93dd2ddc" version="1">Push</content>
   <content contentuid="h56bad6f1g2e01ge1bdg4a86ga59a1b8b9413" version="1">The target makes a &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; Saving Throw.  On a failure, they are pushed back [1].</content>
+  <content contentuid="hbcda9c7ag9c49g9e22g7f46g4295c075f401" version="1">Colour Spray</content>
+  <content contentuid="h05cf1b5bgc20bgac39g7563g1ca14f44eaba" version="1">&lt;LSTag Type="Status" Tooltip="COLOR_SPRAY"&gt;Blind&lt;/LSTag&gt; creatures in a [1] Cone.</content>
+  <content contentuid="h75c26fc2g7333ga7bfg401dgf716b2741d46" version="1">Colour Spray</content>
+  <content contentuid="h433860bdgc9c5g3992gc2bag054fb63cab1e" version="1">Colour Spray</content>
+  <content contentuid="h07fb3f30g7197gaf0ag946ege63d201c7ce9" version="1">Sleep</content>
+  <content contentuid="heb4695b6g3764gcdaagbe5ag7994031f9964" version="1">Put creatures into a magical slumber.</content>
+  <content contentuid="hfe37d784g7baag4eb5g8fccg144f9e56813b" version="1">Put creatures into a magical slumber. Select targets up to a combined [1].</content>
+  <content contentuid="h1db111e1g5b51g2148g052dgcdf606e2f943" version="1">Sleep</content>
+  <content contentuid="hd2ec1a22gaf15g2cceg9dcbg323814c2a7e3" version="1">Put creatures into a magical slumber. Select targets up to a combined [1].</content>
+  <content contentuid="h35ea0e24gf472g278ega2b5gaeca164cb822" version="1">Sleep</content>
 </contentList>

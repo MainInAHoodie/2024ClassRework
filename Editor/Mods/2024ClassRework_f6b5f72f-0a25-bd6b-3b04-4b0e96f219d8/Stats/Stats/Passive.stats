@@ -9,7 +9,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h76fbf8d5g3f6agf566g8540g9a218b83e946" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h01a9ddf0g65b3g39b1gc91fg8cbcf531f266" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_SpiritualWeapon" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Scimitars);Proficiency(MediumArmor);UnlockSpell(Shout_WardenBind);UnlockSpell(Shout_WardenBind_Remove);" />
       </fields>
     </stat_object>
@@ -424,7 +424,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="DraconicResilience" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7a9a1197g7d8fg109fg53eage8a4a64127d3" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h27b8cd74gc5b1g90d1g638cg8e3e115fa393" version="3" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ACOverrideFormula(130true,Dexterity,Charisma);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ACOverrideFormula(10,true,Dexterity,Charisma);" />
         <field name="BoostConditions" type="StringTableFieldDefinition" value="not WearingArmor(context.Source)" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_DraconicResilience" />
