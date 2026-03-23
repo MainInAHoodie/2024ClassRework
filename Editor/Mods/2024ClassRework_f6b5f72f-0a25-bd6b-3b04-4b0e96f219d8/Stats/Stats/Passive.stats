@@ -570,5 +570,17 @@
         <field name="Icon" type="StringTableFieldDefinition" value="TacticalMastery" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0089043b-9386-44e6-a597-b91334d85ee2" />
+        <field name="Name" type="NameTableFieldDefinition" value="ImprovedDivineSmite" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h56a2c76fg465dgb561ge8fdg4d2e792af434" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb45d20beg8a53g4c1fga5feg18a23ac9f4b3" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Radiant)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsMeleeAttack() or IsUnarmedAttack()):CharacterWeaponDamage(1d8,Radiant);" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ImprovedDivineSmite" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

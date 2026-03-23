@@ -417,10 +417,10 @@
   <content contentuid="hadc535a0g5800ga13dg3f94gb31159143e86" version="1">Font of Inspiration: Level 4</content>
   <content contentuid="hb598fb3eg0985g8e04g899cge7a2c2c4a8bf" version="1">Font of Inspiration: Level 5</content>
   <content contentuid="h70879920g6f19gdb43gbbadg74dd422e7876" version="1">Font of Inspiration: Level 6</content>
-  <content contentuid="hc87ecdefge9fag54a7g5f8cg3d90133f08a4" version="1">Shield</content>
-  <content contentuid="h7e793e4cg79e1g38daga838gfd04fbb1c692" version="1">Though bearing the scars of battle, this shield feels sturdy.</content>
-  <content contentuid="hc9c12af7gcc75gba90gcfc8ga69b71336c6e" version="1">Shield</content>
-  <content contentuid="h698bf396g2d6dga1ddg12dcg3c3a44b46add" version="1">Shield</content>
+  <content contentuid="hc87ecdefge9fag54a7g5f8cg3d90133f08a4" version="2">Metal Shield</content>
+  <content contentuid="h7e793e4cg79e1g38daga838gfd04fbb1c692" version="2">Though bearing the scars of battle, this shield feels sturdy.</content>
+  <content contentuid="hc9c12af7gcc75gba90gcfc8ga69b71336c6e" version="2">Shield</content>
+  <content contentuid="h698bf396g2d6dga1ddg12dcg3c3a44b46add" version="2">Metal Shield</content>
   <content contentuid="hc7e9b38bg954eg436dg870eg3a9f4950faed" version="1">Starting Melee Weapon</content>
   <content contentuid="h633b7565g2ed6ge296ge8a2gd55d77816371" version="1">Pick your starting melee weapon.</content>
   <content contentuid="h6c3eaf24g8119g3e16g5a28g95d97c0788af" version="1">Starting Ranged Weapon</content>
@@ -690,4 +690,9 @@
   <content contentuid="h1db111e1g5b51g2148g052dgcdf606e2f943" version="1">Sleep</content>
   <content contentuid="hd2ec1a22gaf15g2cceg9dcbg323814c2a7e3" version="1">Put creatures into a magical slumber. Select targets up to a combined [1].</content>
   <content contentuid="h35ea0e24gf472g278ega2b5gaeca164cb822" version="1">Sleep</content>
+  <content contentuid="hf54f29f0gd38cg4a73g9db4gc716541013ed" version="2">Dead Thrall</content>
+  <content contentuid="h8ce2d764g6a84g9674g5a6fg43369582dc25" version="1">Starting Offhand Weapon</content>
+  <content contentuid="h21f7fc11gffa6g0e82g02bag5ab60bb226ad" version="1">Pick your starting off-hand equipment.</content>
+  <content contentuid="h56a2c76fg465dgb561ge8fdg4d2e792af434" version="1">Radiant Strikes</content>
+  <content contentuid="hb45d20beg8a53g4c1fga5feg18a23ac9f4b3" version="1">Your attacks are suffused with divine might.&lt;br&gt;&lt;br&gt;Melee weapon attacks deal an additional [1].</content>
 </contentList>

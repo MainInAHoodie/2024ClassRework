@@ -123,6 +123,27 @@
                     <attribute id="TableUUID" type="guid" value="e3a25a7a-e793-4b99-9d4a-0fbc17fcc1ff"/>
                     <attribute id="UUID" type="guid" value="b39188b3-b478-418e-ad7c-281fef78f40d"/>
                 </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="ARM_Shield_Fighter"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="StartingOffhandFighter"/>
+                    <attribute id="TableUUID" type="guid" value="ba4e707e-4bbd-4630-963b-ce2f2947f971"/>
+                    <attribute id="UUID" type="guid" value="22e54288-9a39-4f1d-8150-ff27335c1a17"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="WPN_Javelin"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="BarbarianOffhandWeapon"/>
+                    <attribute id="TableUUID" type="guid" value="60bbcc97-5381-4898-bc15-908c072895de"/>
+                    <attribute id="UUID" type="guid" value="65b89d62-aa2b-4b11-9c94-a3cbea9ef480"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="ARM_Shar_Shield"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="StartingOffhandPaladin"/>
+                    <attribute id="TableUUID" type="guid" value="ba2afe85-acba-4ea1-a238-2b4543f47821"/>
+                    <attribute id="UUID" type="guid" value="31cacfba-4588-4cc1-9f13-63294da9f8ee"/>
+                </node>
             </children>
         </node>
     </region>

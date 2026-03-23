@@ -27,10 +27,10 @@ This no longer happens -- you keep all your starting gear right at the start of 
 
 ### Starting Equipment
 You can now pick your starting equipment from the following options:
- - Any Martial Melee Weapon, a Spear, or a Quarterstaff
+ - Any Martial Melee Weapon, a Spear, a Quarterstaff, or a Handaxe
  - Any Ranged Weapon
  - Barbarian Leathers or Scale Armor
- - A Shield or a Javelin ("No Shield" isn't directly an option because of how the engine works).
+ - One of four shields (Metal, Wooden, Studded, or Iron-Banded), a Handaxe, a Shortsword, a Scimitar, a Light Hammer, a Javelin, or a Dagger.
 
 There's no good way to give you, say, a five-pack of Javelins, unfortunately.
 
@@ -213,11 +213,12 @@ Now limited to four options: Arid, Temperate, Polar, or Tropical.
 ### Starting Equipment
 
 You can now pick your starting equipment from among the following options:
- - Any Martial Melee Weapon, a Spear, or a Quarterstaff
+ - Any Martial Melee Weapon, a Spear, a Quarterstaff, or a Handaxe
  - Any Ranged Weapon
  - Studded Leather Armor, Scale Armor, or Chain Mail
+ - One of four shields (Metal, Wooden, Studded, or Iron-Banded), a Handaxe, a Shortsword, a Scimitar, a Light Hammer, a Javelin, or a Dagger.
 
-Your starting equipment now also includes both a Shield and a Dagger.
+Your starting equipment now also includes a Dagger.
 
 ### All Fighters
 #### **1st Level**
@@ -291,8 +292,9 @@ Unchanged from before
 
 ### Starting Equipment
 You can now pick your starting equipment from among the following options:
- - Any Martial Melee Weapon, a Spear, or a Quarterstaff
+ - Any Martial Melee Weapon, a Spear, a Quarterstaff, or a Handaxe
  - Any Ranged Weapon
+ - One of four shields (Metal, Wooden, Studded, or Iron-Banded), a Handaxe, a Shortsword, a Scimitar, a Light Hammer, a Javelin, or a Dagger.
 
 You can also pick your starting armor from among the following:
  - Studded Leather

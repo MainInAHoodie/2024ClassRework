@@ -10,7 +10,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Constitution);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(Rage,2,0)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(233793b3-838a-4d4e-9d68-1e0a1089aba5,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectEquipment(f791f7e4-7344-409a-bf35-f0265a51d119,1,StartingArmorBarbarian);SelectEquipment(7de2e5f1-a324-4bdd-a28c-a491962e77b7,1,ShieldOrNoShield);SelectEquipment(403f00e9-1ceb-46c4-8e26-ecaad574996a,1,StartingMeleeWeaponMartial);SelectEquipment(e0f11a39-1d64-4f59-bc10-744e61606353,1,StartingRangedWeaponMartial);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(233793b3-838a-4d4e-9d68-1e0a1089aba5,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectEquipment(f791f7e4-7344-409a-bf35-f0265a51d119,1,StartingArmorBarbarian);SelectEquipment(403f00e9-1ceb-46c4-8e26-ecaad574996a,1,StartingMeleeWeaponMartial);SelectEquipment(062fc9d7-6c1b-4aa7-bbc4-01b0383b637e,1,StartingOffhandWeapon);SelectEquipment(e0f11a39-1d64-4f59-bc10-744e61606353,1,StartingRangedWeaponMartial);" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="RageUnlock;UnarmouredDefence_Barbarian;Rage_Armour_Message;Rage_NoHeavyArmour_VFX" />
       </fields>
     </stat_object>
@@ -560,7 +560,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Constitution);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons)" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="AllowImprovement" type="BoolTableFieldDefinition" value="False" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(6a4f8598-3a17-42d1-beac-d7ced582bafa,2);AddSpells(9e32fc2b-ce4f-47aa-b113-25cbdc025123);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectEquipment(403f00e9-1ceb-46c4-8e26-ecaad574996a,1,StartingMeleeWeaponMartial);SelectEquipment(e0f11a39-1d64-4f59-bc10-744e61606353,1,StartingRangedWeaponMartial);SelectEquipment(a15f6072-57fe-4a5c-a759-6e09ba16eff5,1,StartingArmorFighter);" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(6a4f8598-3a17-42d1-beac-d7ced582bafa,2);AddSpells(9e32fc2b-ce4f-47aa-b113-25cbdc025123);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectEquipment(403f00e9-1ceb-46c4-8e26-ecaad574996a,1,StartingMeleeWeaponMartial);SelectEquipment(062fc9d7-6c1b-4aa7-bbc4-01b0383b637e,1,StartingOffhandFigher);SelectEquipment(e0f11a39-1d64-4f59-bc10-744e61606353,1,StartingRangedWeaponMartial);SelectEquipment(a15f6072-57fe-4a5c-a759-6e09ba16eff5,1,StartingArmorFighter);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -748,7 +748,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Paladin" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(627af380-2bbb-4a9f-9571-5ec781a6daf4,2);AddSpells(fb407d81-3a05-46f1-9153-0fb27dce95b6,,,,AlwaysPrepared);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectEquipment(403f00e9-1ceb-46c4-8e26-ecaad574996a,1,StartingMeleeWeaponMartial);SelectEquipment(e0f11a39-1d64-4f59-bc10-744e61606353,1,StartingRangedWeaponMartial)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(627af380-2bbb-4a9f-9571-5ec781a6daf4,2);AddSpells(fb407d81-3a05-46f1-9153-0fb27dce95b6,,,,AlwaysPrepared);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectEquipment(403f00e9-1ceb-46c4-8e26-ecaad574996a,1,StartingMeleeWeaponMartial);SelectEquipment(062fc9d7-6c1b-4aa7-bbc4-01b0383b637e,1,StartingOffhandPaladin);SelectEquipment(e0f11a39-1d64-4f59-bc10-744e61606353,1,StartingRangedWeaponMartial)" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons);ActionResource(LayOnHandsCharge,3,0);ActionResource(ChannelOath,1,0)" />
         <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="b36d247e-d39f-4ae9-9476-3ec315c55789;1c761ad0-6f5f-409e-ac1d-ddf6f85c1fc4;3cc3d397-c47d-4966-87ae-88827f73f645;eaad98ec-026b-429e-aa24-8274dfd1ecb7" />
       </fields>

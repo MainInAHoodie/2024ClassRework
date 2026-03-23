@@ -96,7 +96,6 @@
         <field name="10" type="StatReferenceTableFieldDefinition" value="ARM_Camp_Body" />
         <field name="11" type="StatReferenceTableFieldDefinition" value="ARM_Camp_Shoes" />
         <field name="12" type="StatReferenceTableFieldDefinition" value="OBJ_Backpack_CampSupplies" />
-        <field name="13" type="StatReferenceTableFieldDefinition" value="ARM_Shield_Fighter" />
         <field name="14" type="StatReferenceTableFieldDefinition" value="WPN_Dagger" />
       </fields>
     </stat_object>
