@@ -47,6 +47,17 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_17" />
+        <field name="UUID" type="IdTableFieldDefinition" value="65b89d62-aa2b-4b11-9c94-a3cbea9ef480" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="60bbcc97-5381-4898-bc15-908c072895de" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="WPN_Javelin" />
+        <field name="SelectorId" type="StringTableFieldDefinition" value="BarbarianOffhandWeapon" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Barbarian Starting Offhand Weapon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
         <field name="UUID" type="IdTableFieldDefinition" value="30858b63-b110-4a82-b009-60ef47137a9f" />
         <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="9a44e828-92db-4d6c-acbc-a4f8ef340415" />
@@ -109,6 +120,17 @@
         <field name="DefaultValues" type="StringTableFieldDefinition" value="WPN_Longsword" />
         <field name="SelectorId" type="StringTableFieldDefinition" value="StartingMeleeWeaponPaladin" />
         <field name="Comment" type="CommentTableFieldDefinition" value="Paladin Starting Melee Weapon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_18" />
+        <field name="UUID" type="IdTableFieldDefinition" value="22e54288-9a39-4f1d-8150-ff27335c1a17" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="ba4e707e-4bbd-4630-963b-ce2f2947f971" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="ARM_Shield_Fighter" />
+        <field name="SelectorId" type="StringTableFieldDefinition" value="StartingOffhandFighter" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Fighter Starting Offhand" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -186,6 +208,17 @@
         <field name="DefaultValues" type="StringTableFieldDefinition" value="ARM_ScaleMail_Body_Paladin_Crown" />
         <field name="SelectorId" type="StringTableFieldDefinition" value="CrownPaladinArmor" />
         <field name="Comment" type="CommentTableFieldDefinition" value="Oath of the Crown Starting Armor" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_19" />
+        <field name="UUID" type="IdTableFieldDefinition" value="31cacfba-4588-4cc1-9f13-63294da9f8ee" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="ba2afe85-acba-4ea1-a238-2b4543f47821" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="ARM_Shar_Shield" />
+        <field name="SelectorId" type="StringTableFieldDefinition" value="StartingOffhandPaladin" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Paladin Starting Offhand" />
       </fields>
     </stat_object>
   </stat_objects>

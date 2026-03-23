@@ -420,3 +420,12 @@ data "Icon" "TacticalMastery"
 data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Target_TacticalMastery_Container,AddChildren);"
 
+new entry "ImprovedDivineSmite"
+type "PassiveData"
+data "DisplayName" "h56a2c76fg465dgb561ge8fdg4d2e792af434;1"
+data "Description" "hb45d20beg8a53g4c1fga5feg18a23ac9f4b3;1"
+data "DescriptionParams" "DealDamage(1d8,Radiant)"
+data "Icon" "PassiveFeature_ImprovedDivineSmite"
+data "Properties" "Highlighted"
+data "Boosts" "IF(IsMeleeAttack() or IsUnarmedAttack()):CharacterWeaponDamage(1d8,Radiant);"
+

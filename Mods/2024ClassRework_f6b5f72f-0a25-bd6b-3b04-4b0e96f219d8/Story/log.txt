@@ -274,7 +274,6 @@ DB_TWN_CentralPlaque_PlaqueBeingChecked( (INTEGER)_, (ITEM)_ )
 DB_BUGFIX_Marker( (STRING)_, (CHARACTER)_, (DIALOGRESOURCE)_, (FLAG)_ )
 DB_BG3Version_Trace( (INTEGER)_, (INTEGER)_, (INTEGER)_, (INTEGER)_ )
 DB_WYR_KillDirectorGortash_SteelWatcherReplacement_Choosen( (CHARACTER)_ )
-DB_TUT_Start_GearChest( (GUIDSTRING)_, (INTEGER)_ )
 DB_CampNight_Error_CampNightFailedToPlay( (FLAG)_ )
 DB_CampSafetyCheckTriggered( (STRING)_ )
 DB_WYR_KillDirectorGortash_SteelWatcherReplacement_Temp( (CHARACTER)_ )
@@ -318,8 +317,6 @@ DB_UND_ChestOfMundane_JunkTemplates( (ITEMROOT)_ )
 DB_BG3Version_Trace( (INTEGER)_, (INTEGER)_, (INTEGER)_, (INTEGER)_ )
 DB_NOOP( (INTEGER)_ )
 DB_CRIME_TrespassCriminals( (CHARACTER)_ )
-DB_TUT_Start_GearChest( (GUIDSTRING)_, (INTEGER)_ )
-line 556519: warning: Database defined but never checked: DB_TUT_Start_GearChest( (GUIDSTRING)_, (INTEGER)_ )
 DB_BUGFIX_Marker_GUS309397( (STRING)_, (GUIDSTRING)_, (LEVELTEMPLATE)_ )
 DB_CampNight_Error_CampNightFailedToPlay( (FLAG)_ )
 DB_SCL_OliverFight_PlushSpawnPoints( (TRIGGER)_ )
@@ -328,4 +325,5 @@ DB_WYR_Chess_LifeGems( (ITEM)_ )
 DB_TWN_CentralSquare_UsedPlaques( (INTEGER)_, (ITEM)_ )
 DB_WYR_KillDirectorGortash_SteelWatcherReplacement_Temp( (CHARACTER)_ )
 
-0 error(s), 1 warning(s). Compilation ended.
+0 error(s), 0 warning(s). Compilation ended.
+DeleteAllData

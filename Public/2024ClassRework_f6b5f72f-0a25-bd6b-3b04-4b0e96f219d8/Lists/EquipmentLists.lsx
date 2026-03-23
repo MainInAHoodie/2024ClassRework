@@ -5,7 +5,7 @@
         <node id="root">
             <children>
                 <node id="EquipmentList">
-                    <attribute id="Items" type="LSString" value="WPN_Longsword;WPN_Battleaxe;WPN_Warhammer;WPN_Morningstar;WPN_Shortsword;WPN_Scimitar;WPN_Rapier;WPN_Maul;WPN_Greataxe;WPN_Greatsword;WPN_Halberd;WPN_Pike;WPN_Glaive;WPN_Spear;WPN_Quarterstaff"/>
+                    <attribute id="Items" type="LSString" value="WPN_Longsword;WPN_Battleaxe;WPN_Warhammer;WPN_Morningstar;WPN_Shortsword;WPN_Scimitar;WPN_Rapier;WPN_Maul;WPN_Greataxe;WPN_Greatsword;WPN_Halberd;WPN_Pike;WPN_Glaive;WPN_Spear;WPN_Quarterstaff;WPN_Handaxe"/>
                     <attribute id="Name" type="FixedString" value="Starting Melee Weapon: Martial"/>
                     <attribute id="UUID" type="guid" value="403f00e9-1ceb-46c4-8e26-ecaad574996a"/>
                 </node>
@@ -68,6 +68,11 @@
                     <attribute id="Items" type="LSString" value="ARM_StuddedLeather_Crown;ARM_ScaleMail_Body_Paladin_Crown;ARM_ChainMail_Crown"/>
                     <attribute id="Name" type="FixedString" value="Starting Armor: Oath of the Crown Paladin"/>
                     <attribute id="UUID" type="guid" value="1f510967-e638-486f-8db0-a12d507a6c0c"/>
+                </node>
+                <node id="EquipmentList">
+                    <attribute id="Items" type="LSString" value="ARM_Shield_Fighter;ARM_Shar_Shield;ARM_Shield_C;ARM_Shield;WPN_Handaxe;WPN_Shortsword;WPN_Scimitar;WPN_LightHammer;WPN_Dagger;WPN_Javelin"/>
+                    <attribute id="Name" type="FixedString" value="Starting Offhand Weapon"/>
+                    <attribute id="UUID" type="guid" value="062fc9d7-6c1b-4aa7-bbc4-01b0383b637e"/>
                 </node>
             </children>
         </node>

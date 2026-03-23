@@ -121,7 +121,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a6b9ac2e-457c-47e3-bb8e-cf435a69b99d" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h04b5a95ag887eg2732g8933ge9ccade6b0e3" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h032892c0g2744g456egc7a0gd0bd4badd559" version="1" />
-        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="ShieldOrNoShield" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="StartingOffhandWeapon" />
         <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="7de2e5f1-a324-4bdd-a28c-a491962e77b7" />
       </fields>
     </stat_object>
@@ -193,6 +193,16 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h22f46e4fgd443g6182g4e15gf0ffb7eab92d" version="1" />
         <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="FourElements" />
         <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="6c9fac23-d01a-4e0d-bfb1-28bed5581ee2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_16" />
+        <field name="UUID" type="IdTableFieldDefinition" value="dc4cc76a-7d08-42b7-bc1d-130021a43bab" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8ce2d764g6a84g9674g5a6fg43369582dc25" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h21f7fc11gffa6g0e82g02bag5ab60bb226ad" version="1" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="StartingOffhandWeapon" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="062fc9d7-6c1b-4aa7-bbc4-01b0383b637e" />
       </fields>
     </stat_object>
   </stat_objects>

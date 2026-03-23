@@ -5,7 +5,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="403f00e9-1ceb-46c4-8e26-ecaad574996a" />
         <field name="Name" type="NameTableFieldDefinition" value="Starting Melee Weapon: Martial" />
-        <field name="Items" type="StringTableFieldDefinition" value="WPN_Longsword;WPN_Battleaxe;WPN_Warhammer;WPN_Morningstar;WPN_Shortsword;WPN_Scimitar;WPN_Rapier;WPN_Maul;WPN_Greataxe;WPN_Greatsword;WPN_Halberd;WPN_Pike;WPN_Glaive;WPN_Spear;WPN_Quarterstaff" />
+        <field name="Items" type="StringTableFieldDefinition" value="WPN_Longsword;WPN_Battleaxe;WPN_Warhammer;WPN_Morningstar;WPN_Shortsword;WPN_Scimitar;WPN_Rapier;WPN_Maul;WPN_Greataxe;WPN_Greatsword;WPN_Halberd;WPN_Pike;WPN_Glaive;WPN_Spear;WPN_Quarterstaff;WPN_Handaxe" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -90,6 +90,13 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1f510967-e638-486f-8db0-a12d507a6c0c" />
         <field name="Name" type="NameTableFieldDefinition" value="Starting Armor: Oath of the Crown Paladin" />
         <field name="Items" type="StringTableFieldDefinition" value="ARM_StuddedLeather_Crown;ARM_ScaleMail_Body_Paladin_Crown;ARM_ChainMail_Crown" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="062fc9d7-6c1b-4aa7-bbc4-01b0383b637e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Starting Offhand Weapon" />
+        <field name="Items" type="StringTableFieldDefinition" value="ARM_Shield_Fighter;ARM_Shar_Shield;ARM_Shield_C;ARM_Shield;WPN_Handaxe;WPN_Shortsword;WPN_Scimitar;WPN_LightHammer;WPN_Dagger;WPN_Javelin" />
       </fields>
     </stat_object>
   </stat_objects>
