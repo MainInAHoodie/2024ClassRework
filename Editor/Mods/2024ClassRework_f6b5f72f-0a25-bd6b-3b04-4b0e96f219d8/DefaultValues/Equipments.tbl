@@ -221,5 +221,16 @@
         <field name="Comment" type="CommentTableFieldDefinition" value="Paladin Starting Offhand" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_20" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4129d91b-e983-4078-adb7-ee8a804112d4" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="2b9b50de-48e2-4b1c-b40d-6050aa85009a" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="WPN_Shortsword" />
+        <field name="SelectorId" type="StringTableFieldDefinition" value="StartingMeleeWeaponMartial" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Hexblade Starting Melee Weapon" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

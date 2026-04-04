@@ -85,10 +85,10 @@
                     <attribute id="UUID" type="guid" value="932dd956-c8a4-4379-b45f-2b5ac7b37cac"/>
                 </node>
                 <node id="ProgressionDescription">
-                    <attribute id="Description" type="TranslatedString" handle="h032892c0g2744g456egc7a0gd0bd4badd559" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h04b5a95ag887eg2732g8933ge9ccade6b0e3" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="h032892c0g2744g456egc7a0gd0bd4badd559" version="2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h04b5a95ag887eg2732g8933ge9ccade6b0e3" version="2"/>
                     <attribute id="ProgressionTableId" type="guid" value="7de2e5f1-a324-4bdd-a28c-a491962e77b7"/>
-                    <attribute id="SelectorId" type="FixedString" value="StartingOffhandWeapon"/>
+                    <attribute id="SelectorId" type="FixedString" value="StartingOffhandBarbarian"/>
                     <attribute id="UUID" type="guid" value="a6b9ac2e-457c-47e3-bb8e-cf435a69b99d"/>
                 </node>
                 <node id="ProgressionDescription">

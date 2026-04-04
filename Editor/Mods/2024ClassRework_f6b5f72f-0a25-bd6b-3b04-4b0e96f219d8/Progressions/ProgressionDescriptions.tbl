@@ -119,9 +119,9 @@
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_9" />
         <field name="UUID" type="IdTableFieldDefinition" value="a6b9ac2e-457c-47e3-bb8e-cf435a69b99d" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h04b5a95ag887eg2732g8933ge9ccade6b0e3" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h032892c0g2744g456egc7a0gd0bd4badd559" version="1" />
-        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="StartingOffhandWeapon" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h04b5a95ag887eg2732g8933ge9ccade6b0e3" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h032892c0g2744g456egc7a0gd0bd4badd559" version="2" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="StartingOffhandBarbarian" />
         <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="7de2e5f1-a324-4bdd-a28c-a491962e77b7" />
       </fields>
     </stat_object>

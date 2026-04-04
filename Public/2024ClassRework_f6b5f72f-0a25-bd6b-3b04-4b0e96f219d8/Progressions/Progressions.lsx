@@ -10,7 +10,7 @@
                     <attribute id="Name" type="LSString" value="Barbarian"/>
                     <attribute id="PassivesAdded" type="LSString" value="RageUnlock;UnarmouredDefence_Barbarian;Rage_Armour_Message;Rage_NoHeavyArmour_VFX"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSkills(233793b3-838a-4d4e-9d68-1e0a1089aba5,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectEquipment(f791f7e4-7344-409a-bf35-f0265a51d119,1,StartingArmorBarbarian);SelectEquipment(403f00e9-1ceb-46c4-8e26-ecaad574996a,1,StartingMeleeWeaponMartial);SelectEquipment(062fc9d7-6c1b-4aa7-bbc4-01b0383b637e,1,StartingOffhandWeapon);SelectEquipment(e0f11a39-1d64-4f59-bc10-744e61606353,1,StartingRangedWeaponMartial);"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(233793b3-838a-4d4e-9d68-1e0a1089aba5,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectEquipment(f791f7e4-7344-409a-bf35-f0265a51d119,1,StartingArmorBarbarian);SelectEquipment(e0f11a39-1d64-4f59-bc10-744e61606353,1,StartingRangedWeaponMartial);SelectEquipment(062fc9d7-6c1b-4aa7-bbc4-01b0383b637e,1,StartingOffhandWeapon);SelectEquipment(403f00e9-1ceb-46c4-8e26-ecaad574996a,1,StartingMeleeWeaponMartial);"/>
                     <attribute id="TableUUID" type="guid" value="60bbcc97-5381-4898-bc15-908c072895de"/>
                     <attribute id="UUID" type="guid" value="a2198ee9-ea4c-468e-b6b4-22b32d37806e"/>
                 </node>
@@ -513,7 +513,7 @@
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Fighter"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSkills(6a4f8598-3a17-42d1-beac-d7ced582bafa,2);AddSpells(9e32fc2b-ce4f-47aa-b113-25cbdc025123);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectEquipment(403f00e9-1ceb-46c4-8e26-ecaad574996a,1,StartingMeleeWeaponMartial);SelectEquipment(062fc9d7-6c1b-4aa7-bbc4-01b0383b637e,1,StartingOffhandFigher);SelectEquipment(e0f11a39-1d64-4f59-bc10-744e61606353,1,StartingRangedWeaponMartial);SelectEquipment(a15f6072-57fe-4a5c-a759-6e09ba16eff5,1,StartingArmorFighter);"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(6a4f8598-3a17-42d1-beac-d7ced582bafa,2);AddSpells(9e32fc2b-ce4f-47aa-b113-25cbdc025123);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectEquipment(e0f11a39-1d64-4f59-bc10-744e61606353,1,StartingRangedWeaponMartial);SelectEquipment(062fc9d7-6c1b-4aa7-bbc4-01b0383b637e,1,StartingOffhandWeapon);SelectEquipment(403f00e9-1ceb-46c4-8e26-ecaad574996a,1,StartingMeleeWeaponMartial);SelectEquipment(a15f6072-57fe-4a5c-a759-6e09ba16eff5,1,StartingArmorFighter);"/>
                     <attribute id="TableUUID" type="guid" value="ba4e707e-4bbd-4630-963b-ce2f2947f971"/>
                     <attribute id="UUID" type="guid" value="dfb2fd83-9849-4c2d-be84-adedb81a867a"/>
                 </node>
@@ -651,7 +651,7 @@
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Paladin"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSkills(627af380-2bbb-4a9f-9571-5ec781a6daf4,2);AddSpells(fb407d81-3a05-46f1-9153-0fb27dce95b6,,,,AlwaysPrepared);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectEquipment(403f00e9-1ceb-46c4-8e26-ecaad574996a,1,StartingMeleeWeaponMartial);SelectEquipment(062fc9d7-6c1b-4aa7-bbc4-01b0383b637e,1,StartingOffhandPaladin);SelectEquipment(e0f11a39-1d64-4f59-bc10-744e61606353,1,StartingRangedWeaponMartial)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(627af380-2bbb-4a9f-9571-5ec781a6daf4,2);AddSpells(fb407d81-3a05-46f1-9153-0fb27dce95b6,,,,AlwaysPrepared);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectEquipment(e0f11a39-1d64-4f59-bc10-744e61606353,1,StartingRangedWeaponMartial);SelectEquipment(062fc9d7-6c1b-4aa7-bbc4-01b0383b637e,1,StartingOffhandWeapon);SelectEquipment(403f00e9-1ceb-46c4-8e26-ecaad574996a,1,StartingMeleeWeaponMartial);"/>
                     <attribute id="TableUUID" type="guid" value="ba2afe85-acba-4ea1-a238-2b4543f47821"/>
                     <attribute id="UUID" type="guid" value="b60618d1-c262-42b5-9fdd-2c0f7aa5e5af"/>
                     <children>
@@ -743,7 +743,7 @@
                     <attribute id="Name" type="LSString" value="Hexblade"/>
                     <attribute id="PassivesAdded" type="LSString" value="HexWarrior;HexbladesCurse"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(c4020f68-bb82-4c45-8a4a-8c24fb400526);SelectSpells(d90e88eb-e5f9-4db2-b7ef-1dccb044839a,2,0,,,e9127b70-22b7-42a1-b172-d02f828f260a);SelectEquipment(403f00e9-1ceb-46c4-8e26-ecaad574996a,1,WarlockMeleeWeapon)"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(c4020f68-bb82-4c45-8a4a-8c24fb400526);SelectSpells(d90e88eb-e5f9-4db2-b7ef-1dccb044839a,2,0,,,e9127b70-22b7-42a1-b172-d02f828f260a);SelectEquipment(403f00e9-1ceb-46c4-8e26-ecaad574996a,1,StartingMeleeWeaponMartial)"/>
                     <attribute id="TableUUID" type="guid" value="2b9b50de-48e2-4b1c-b40d-6050aa85009a"/>
                     <attribute id="UUID" type="guid" value="5d8df68e-7cc2-4e8b-b03b-74616cd13d9f"/>
                 </node>
