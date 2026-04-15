@@ -16,5 +16,20 @@
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="6a4f8598-3a17-42d1-beac-d7ced582bafa" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e0a57db9-898e-4c56-9992-1bb87f806656" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wizard Skill Expertise" />
+        <field name="Skills" type="StringTableFieldDefinition" value="Arcana, History, Investigation, Medicine, Nature, Religion" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="63f85f97-b164-4f5f-b7d7-c9cc5afbe2bf" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wizard Skill Additions" />
+        <field name="Skills" type="StringTableFieldDefinition" value="Nature" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="9f3a9f8d-f645-40b5-b36f-fb079b7b805e" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

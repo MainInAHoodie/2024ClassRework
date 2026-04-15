@@ -853,6 +853,19 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_11" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d6184c47-5b99-4e63-95ac-02f8ce4ccda1" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="d18eda7e-4b7d-490d-9952-cd33a3c60479" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Wizard" />
+        <field name="Level" type="ByteTableFieldDefinition" value="2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1)" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="c059dca1-c17d-4dce-8260-83ede5070eac;e6a0eb75-7a01-4f40-8563-24ba2615e99b" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkillsExpertise(e0a57db9-898e-4c56-9992-1bb87f806656,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
         <field name="UUID" type="IdTableFieldDefinition" value="73773a6a-f107-4718-95d3-f8624d372fb5" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="9dc4240b-cd1a-4905-afbb-d2718477f617" />

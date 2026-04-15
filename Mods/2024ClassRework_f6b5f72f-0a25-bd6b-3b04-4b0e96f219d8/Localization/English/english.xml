@@ -595,13 +595,13 @@
   <content contentuid="h4cb45672gac36g4e13g29bdg14b55dc6174c" version="1">Patient Defense: Heightened Focus</content>
   <content contentuid="h6a6fd215gf74ag74e6gcc80g1cb13ef43a71" version="1">Gain [1] Temporary Hit Points</content>
   <content contentuid="h3e82ee53gb3a4g4d5ag5ec0ge9c2069a666a" version="1">Elemental Attunement</content>
-  <content contentuid="h1f60dc8bg5e75gc183g2820g1061b6269185" version="4">Spend one &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt; to imbue your attacks with elemental energy for 1 minute.  Your unarmed attacks will deal an additional damage of that element type.</content>
+  <content contentuid="h1f60dc8bg5e75gc183g2820g1061b6269185" version="5">Spend one &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt; to imbue your attacks with elemental energy for 1 minute.  Your weapon attacks will do that damage type in place of their usual type.</content>
   <content contentuid="h6ed0b707g3649g61a4g309fg7599f8de2adc" version="1">Elemental Attunement: Acid</content>
-  <content contentuid="h6a743cdbg6aa2g1bd0g70f4g14fb930ccc7b" version="2">Spend one &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt; to make your unarmed attacks deal an extra [1].</content>
+  <content contentuid="h6a743cdbg6aa2g1bd0g70f4g14fb930ccc7b" version="3">Spend one &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt; to make your weapon attacks deal [1] in place of their usual damage type.</content>
   <content contentuid="hf1b05c4cg7edeg211bg7e0eg9b548ade1d03" version="1">Elemental Attunement: Cold</content>
   <content contentuid="hcc174476gaf62g3784g526bg8684eb955231" version="1">Spend one &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt; to make your unarmed attacks deal Cold damage.</content>
   <content contentuid="h1bbef0bag9e53g63bfgb9b8gadc9e0996784" version="1">Elemental Attunement: Acid</content>
-  <content contentuid="h3e7bf313gb487g5a07g5327gd2e0429167ea" version="2">Your Unarmed Attacks do [1] in addition to their usual damage.</content>
+  <content contentuid="h3e7bf313gb487g5a07g5327gd2e0429167ea" version="3">Your Unarmed Attacks do [1] in addition to their usual damage.</content>
   <content contentuid="hf64a4f28g08d7g3f73gbb17g42b5cb09937c" version="1">Elemental Attunement: Cold</content>
   <content contentuid="hc7ec7fc1g5985g9780g13b0ge56f44a5ae59" version="1">Elemental Attunement</content>
   <content contentuid="hd596eaccg8eccgeb8bgdc13gcc533acc05bf" version="4">You can imbue the elements into your Unarmed Strikes, allowing them to deal an extra [1], [2], [3], [4], or [5].</content>
@@ -695,4 +695,6 @@
   <content contentuid="h21f7fc11gffa6g0e82g02bag5ab60bb226ad" version="1">Pick your starting off-hand equipment.</content>
   <content contentuid="h56a2c76fg465dgb561ge8fdg4d2e792af434" version="1">Radiant Strikes</content>
   <content contentuid="hb45d20beg8a53g4c1fga5feg18a23ac9f4b3" version="1">Your attacks are suffused with divine might.&lt;br&gt;&lt;br&gt;Melee weapon attacks deal an additional [1].</content>
+  <content contentuid="hb81ad98aga960g2511g0b23gb5ef0c3a7f63" version="1">Way of the Elements</content>
+  <content contentuid="h9c41861dg5d0bg7ffdg4675g5b59b3611563" version="1">You focus your ki to bend the elements to your will, using them as an extension of your own body.</content>
 </contentList>

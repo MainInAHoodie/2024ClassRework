@@ -41,5 +41,21 @@
         <field name="SpellList" type="GuidObjectTableFieldDefinition" value="4ed41a6d-19fd-4ca8-940a-072314b71e43" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_29" />
+        <field name="UUID" type="IdTableFieldDefinition" value="22894c32-54cf-49ea-b366-44bfcf01bb2a" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="FourElements" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb81ad98aga960g2511g0b23gb5ef0c3a7f63" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="6c9fac23-d01a-4e0d-bfb1-28bed5581ee2" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Wisdom" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Wisdom" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9c41861dg5d0bg7ffdg4675g5b59b3611563" version="1" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Monk" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
