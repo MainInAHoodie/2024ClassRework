@@ -5,7 +5,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="403f00e9-1ceb-46c4-8e26-ecaad574996a" />
         <field name="Name" type="NameTableFieldDefinition" value="Starting Melee Weapon: Martial" />
-        <field name="Items" type="StringTableFieldDefinition" value="WPN_Longsword;WPN_Battleaxe;WPN_Warhammer;WPN_Morningstar;WPN_Shortsword;WPN_Scimitar;WPN_Rapier;WPN_Maul;WPN_Greataxe;WPN_Greatsword;WPN_Halberd;WPN_Pike;WPN_Glaive;WPN_Spear;WPN_Quarterstaff;WPN_Handaxe" />
+        <field name="Items" type="StringTableFieldDefinition" value="WPN_Longsword;WPN_Battleaxe;WPN_Warhammer;WPN_Morningstar;WPN_Shortsword;WPN_Scimitar;WPN_Rapier;WPN_Maul;WPN_Greataxe;WPN_Greatsword;WPN_Halberd;WPN_Pike;WPN_Glaive;WPN_Spear;WPN_Quarterstaff;WPN_Handaxe;WPN_LightHammer" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
