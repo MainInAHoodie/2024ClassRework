@@ -15,6 +15,17 @@
                     <attribute id="Skills" type="LSString" value="Persuasion"/>
                     <attribute id="UUID" type="guid" value="d5f8b512-c7dc-45df-bdfd-93d173846f25"/>
                 </node>
+                <node id="SkillList">
+                    <attribute id="Name" type="FixedString" value="Wizard Skill Expertise"/>
+                    <attribute id="Skills" type="LSString" value="Arcana, History, Investigation, Medicine, Nature, Religion"/>
+                    <attribute id="UUID" type="guid" value="e0a57db9-898e-4c56-9992-1bb87f806656"/>
+                </node>
+                <node id="SkillList">
+                    <attribute id="MergedInto" type="guid" value="9f3a9f8d-f645-40b5-b36f-fb079b7b805e"/>
+                    <attribute id="Name" type="FixedString" value="Wizard Skill Additions"/>
+                    <attribute id="Skills" type="LSString" value="Nature"/>
+                    <attribute id="UUID" type="guid" value="63f85f97-b164-4f5f-b7d7-c9cc5afbe2bf"/>
+                </node>
             </children>
         </node>
     </region>
