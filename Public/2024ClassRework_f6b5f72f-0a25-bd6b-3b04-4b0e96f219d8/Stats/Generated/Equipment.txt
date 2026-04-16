@@ -169,8 +169,6 @@ add equipment entry "WPN_Dagger"
 new equipment "EQP_CC_Paladin"
 add initialweaponset "Melee"
 add equipmentgroup
-add equipment entry "ARM_Shield_Fighter"
-add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
@@ -202,8 +200,6 @@ add equipment entry "WPN_Dagger"
 new equipment "EQP_CC_Paladin_Ancients"
 add initialweaponset "Melee"
 add equipmentgroup
-add equipment entry "ARM_Shield_C"
-add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
@@ -232,8 +228,6 @@ add equipment entry "WPN_Dagger"
 
 new equipment "EQP_CC_Paladin_Devotion"
 add initialweaponset "Melee"
-add equipmentgroup
-add equipment entry "ARM_Shield_Fighter"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
@@ -264,8 +258,6 @@ add equipment entry "WPN_Dagger"
 new equipment "EQP_CC_Paladin_Vengance"
 add initialweaponset "Melee"
 add equipmentgroup
-add equipment entry "ARM_Shield_Fighter"
-add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
@@ -294,8 +286,6 @@ add equipment entry "WPN_Dagger"
 
 new equipment "EQP_CC_Paladin_Crown"
 add initialweaponset "Melee"
-add equipmentgroup
-add equipment entry "ARM_Shield_Fighter"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
@@ -591,4 +581,10 @@ add equipment entry "ARM_RingMail_Body"
 new equipment "EQP_Druid_HideArmor"
 add equipmentgroup
 add equipment entry "ARM_Hide_Body"
+
+new equipment "EQP_Thrall_Default"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+add equipmentgroup
+add equipment entry "ARM_Shield_C"
 

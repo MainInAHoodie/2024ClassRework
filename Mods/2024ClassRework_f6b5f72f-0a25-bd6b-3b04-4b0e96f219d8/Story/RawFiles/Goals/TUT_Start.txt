@@ -251,7 +251,7 @@ NOT HasPassive(_Player, "Warden", 1)
 AND
 NOT HasPassive(_Player, "Protector", 1)
 THEN
-CharacterGiveEquipmentSet((CHARACTER)_Thrall,"EQP_Leather");
+CharacterGiveEquipmentSet((CHARACTER)_Thrall,"EQP_Thrall_Default");
 
 QRY
 QRY_TUT_Start_ChooseWpnToRemove((CHARACTER)_Player)
