@@ -619,5 +619,20 @@
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnAttacked" enumeration_type_name="StatusEvent" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="babca400-7be6-4ecd-992a-5aa0f3069562" />
+        <field name="Name" type="NameTableFieldDefinition" value="WEAPON_ATTACK_ABILITY_OVERRIDE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h03ce4324g23edge05cg47b5g5f49cb4582c2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd414b668g5939gdee7g3505gc61b335c369c" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Divination_TrueStrike" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SHILLELAGH" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical);WeaponAttackRollAbilityOverride(SpellCastingAbility);Attribute(InventoryBound);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="IsAttack()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnAttack;OnDamage;OnUnequip;OnSourceDeath" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

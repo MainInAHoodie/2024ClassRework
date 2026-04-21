@@ -533,3 +533,16 @@ data "OnRemoveFunctors" "RemoveStatus(SELF,HUNTERS_MARK_OWNER);IF(RemoveCause(St
 data "ApplyEffect" "5a259bdd-10d5-453a-9aee-1e85a986baf4"
 data "StatusEffect" "0d122bff-6d13-4373-a807-b8663d48559e"
 
+new entry "WEAPON_ATTACK_ABILITY_OVERRIDE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h03ce4324g23edge05cg47b5g5f49cb4582c2;1"
+data "Description" "hd414b668g5939gdee7g3505gc61b335c369c;1"
+data "Icon" "Spell_Divination_TrueStrike"
+data "StackId" "SHILLELAGH"
+data "StackPriority" "0"
+data "Boosts" "WeaponProperty(Magical);WeaponAttackRollAbilityOverride(SpellCastingAbility);Attribute(InventoryBound);"
+data "RemoveConditions" "IsAttack()"
+data "RemoveEvents" "OnAttack;OnDamage;OnUnequip;OnSourceDeath"
+data "StatusGroups" "SG_RemoveOnRespec"
+
