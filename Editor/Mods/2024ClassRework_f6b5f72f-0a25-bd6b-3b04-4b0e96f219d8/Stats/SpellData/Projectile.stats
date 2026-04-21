@@ -156,7 +156,7 @@
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="RangedSpellAttack" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(WITCH_BOLT,100,10)" />
         <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(1d6,Lightning);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(1d12,Lightning);" />
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_Electric" enumeration_type_name="HitAnimationType" version="1" />
         <field name="TargetFloor" type="StringTableFieldDefinition" value="-1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="77241e8c-ae8d-4402-92d8-a871ce64d86f" />
@@ -185,7 +185,7 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d12,Lightning)" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h53fc2f38g23a2g7a8egc398ga2ca0ba99730" version="1" />
         <field name="ConcentrationSpellID" type="StringTableFieldDefinition" value="Shout_WitchBolt_Activate_2" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(1d12,Lightning);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(1d6,Lightning);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(WITCH_BOLT_2,100,10)" />
       </fields>
     </stat_object>
