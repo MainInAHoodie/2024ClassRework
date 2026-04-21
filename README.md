@@ -369,6 +369,9 @@ You're not gonna believe this, but Wizards start with a Dagger now.
 ### Druid
 - **Shillelagh**: Shillelagh can now apply to Greatclubs, too.  Hey, a giant club is still a club.
 
+### Wizard
+- **True Strike**: True Strike now lets you make one attack with your melee weapon using your Spellcasting Ability Modifier.
+
 ## 1st Level
 ### Cleric
 - **Cure Wounds** now starts at 2d8 + Spellcasting and scales up 2d8 per level from there.

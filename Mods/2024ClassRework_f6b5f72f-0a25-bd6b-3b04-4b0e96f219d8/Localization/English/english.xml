@@ -704,4 +704,8 @@
   <content contentuid="hf5c8e1f5g301cg7c76g4680g252d26269815" version="1">When you attack your quarry, you deal an additional [1].</content>
   <content contentuid="h7cf66881gbd54gac28gf60eg926d12b9b4d0" version="1">Hunter's Mark Quarry</content>
   <content contentuid="h328b7d07g9066gad24g731ag7f38c870d884" version="2">Affected entity suffers an additional 1d6 damage if the spellcaster hits it with an attack.</content>
+  <content contentuid="h981ba4f5gb92aga0c1g8b20gee5f376eb4ea" version="1">True Strike</content>
+  <content contentuid="h0c99a40bga9cbgebeeg4dc3g49d4e7097628" version="2">Make a &lt;LSTag Tooltip="AttackRoll"&gt;Melee Weapon Attack&lt;/LSTag&gt; against the target using your &lt;LSTag Tooltip="SpellCastingAbilityModifier"&gt;Spellcasting Ability Modifier&lt;/LSTag&gt;</content>
+  <content contentuid="h03ce4324g23edge05cg47b5g5f49cb4582c2" version="1">Spellcasting Ability Override</content>
+  <content contentuid="hd414b668g5939gdee7g3505gc61b335c369c" version="1">Use your Spellcasting Ability for your next Weapon Attack.</content>
 </contentList>
