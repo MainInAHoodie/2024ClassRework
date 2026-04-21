@@ -601,5 +601,23 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Shove" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="47737f9a-5518-418e-8d25-4320f6dc2ae8" />
+        <field name="Name" type="NameTableFieldDefinition" value="HUNTERS_MARK" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7cf66881gbd54gac28gf60eg926d12b9b4d0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h328b7d07g9066gad24g731ag7f38c870d884" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Divination_HuntersMark" />
+        <field name="SoundStart" type="StringTableFieldDefinition" value="Spell_Status_HuntersMark_MO" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(SELF,HUNTERS_MARK_OWNER);IF(RemoveCause(StatusRemoveCause.Death)):ApplyStatus(SELF,HUNTERS_MARK_REAPPLY,100,-1,,,,,true);IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(SELF,HUNTERS_MARK_REAPPLY,100,-1,,,,,true)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="AI_ONLY:IF(not HasStatus('HUNTERS_MARK') and not IsDowned() and (not HasStatus('HUNTERS_MARK_OWNER', context.Source) or HasStatus('HUNTERS_MARK_REAPPLY', context.Source))):ApplyStatus(SELF,AI_HELPER_HUNTERSMARK_OWNER,100,-1);AI_ONLY:IF(not HasStatus('HUNTERS_MARK') and not HasStatus('DOWNED') and (not HasStatus('HUNTERS_MARK_OWNER', context.Source) or HasStatus('HUNTERS_MARK_REAPPLY', context.Source))):ApplyStatus(AI_HELPER_HUNTERSMARK,100,-1);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;BringIntoCombat" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="5a259bdd-10d5-453a-9aee-1e85a986baf4" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="0d122bff-6d13-4373-a807-b8663d48559e" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_HuntersMark_MO_Stop" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="HasStatus('KNOCKED_OUT')" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnAttacked" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

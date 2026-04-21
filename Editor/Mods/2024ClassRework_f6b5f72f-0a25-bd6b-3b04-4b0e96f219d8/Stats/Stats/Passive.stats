@@ -582,5 +582,21 @@
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ImprovedDivineSmite" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="57c81a71-acd5-4238-b1d5-632a7497de77" />
+        <field name="Name" type="NameTableFieldDefinition" value="HuntersMark" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4d4cb470gf299geb81g4c03gc96d7f8e817f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf5c8e1f5g301cg7c76g4680g252d26269815" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasStatus('HUNTERS_MARK',context.Target,context.Source) and IsWeaponAttack() and HasDamageEffectFlag(DamageFlags.Hit) and TotalAttackDamageDoneGreaterThan(0)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_HUNTERS_MARK,100,0)" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Force)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('HUNTERS_MARK',context.Target,context.Source) and IsAttack() and HasDamageEffectFlag(DamageFlags.Hit)):DamageBonus(1d6,Force);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_HuntersMark" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

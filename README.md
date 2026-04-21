@@ -374,6 +374,9 @@ You're not gonna believe this, but Wizards start with a Dagger now.
 - **Cure Wounds** now starts at 2d8 + Spellcasting and scales up 2d8 per level from there.
 - **Healing Word** now starts at 2d4 + Spellcasting and scales up 2d4 per level from there.
 
+### Ranger
+- **Hunter's Mark** now applies to all attacks, not just weapons, and now does 1d6 of Force damage.
+
 ## 2nd Level
 ### Druid
 - **Barkskin** now increases AC to 17 instead of 16.
@@ -393,6 +396,8 @@ Activating the ongoing damage now costs a Bonus Action instead of a full Action.
 - 4th Level: 3d6
 - 5th Level: 2d12
 - 6th Level: 4d6
+
+The initial damage is the same as the recurring damage now.
 
 ## 3rd Level
 ### Cleric
@@ -436,9 +441,10 @@ Activating the ongoing damage now costs a Bonus Action instead of a full Action.
 ## 4th Level
 ### Cleric
 **Aura of Life**
-You and any Allies within 30 feet of you gain Resistance to Necrotic damage and can't have your maximum HP reduced*.  In addition, if an Ally starts their turn in the Aura with 0HP remaining, they gain 1HP.
+You and any Allies within 30 feet of you gain Resistance to Necrotic damage and can't have your maximum HP reduced, at least not by anything in the base game.  The way the game engine works means it can only block specific Statuses that reduce Maximum HP, so if a mod adds a new Status that does that, this aura ain't gonna help one bit.  
 
-*At least, not by anything in the base game.  The way the game engine works means it can only block specific Statuses that reduce Maximum HP, so if a mod adds a new Status that does that, this aura ain't gonna help one bit.
+In addition, if an Ally starts their turn in the Aura with 0HP remaining, they gain 1HP.
+
 ---
 
 # Character Defaults

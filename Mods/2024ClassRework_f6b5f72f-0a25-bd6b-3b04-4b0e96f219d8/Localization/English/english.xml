@@ -697,4 +697,11 @@
   <content contentuid="hb45d20beg8a53g4c1fga5feg18a23ac9f4b3" version="1">Your attacks are suffused with divine might.&lt;br&gt;&lt;br&gt;Melee weapon attacks deal an additional [1].</content>
   <content contentuid="hb81ad98aga960g2511g0b23gb5ef0c3a7f63" version="1">Way of the Elements</content>
   <content contentuid="h9c41861dg5d0bg7ffdg4675g5b59b3611563" version="1">You focus your ki to bend the elements to your will, using them as an extension of your own body.</content>
+  <content contentuid="hc125186eg336cg511bgc2ffgd47a99779be5" version="1">Hunter's Mark</content>
+  <content contentuid="he5f25fabgf95fg2352g01bfgf59cf6f0b5f0" version="1">Mark a creature as your quarry to deal an additional [1] whenever you hit it with an attack. </content>
+  <content contentuid="h5f909952geb26ga8adg0c07geef39c5d8ed4" version="1">If the target dies before the spell ends, you can mark a new creature without expending a &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;.</content>
+  <content contentuid="h4d4cb470gf299geb81g4c03gc96d7f8e817f" version="1">Hunter's Mark</content>
+  <content contentuid="hf5c8e1f5g301cg7c76g4680g252d26269815" version="1">When you attack your quarry, you deal an additional [1].</content>
+  <content contentuid="h7cf66881gbd54gac28gf60eg926d12b9b4d0" version="1">Hunter's Mark Quarry</content>
+  <content contentuid="h328b7d07g9066gad24g731ag7f38c870d884" version="2">Affected entity suffers an additional 1d6 damage if the spellcaster hits it with an attack.</content>
 </contentList>

@@ -1482,5 +1482,39 @@
         <field name="AmountOfTargets" type="StringTableFieldDefinition" value="6" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="82be50d6-1f94-4659-a5c6-d2ec12c0e065" />
+        <field name="Name" type="NameTableFieldDefinition" value="HuntersMark" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,HUNTERS_MARK_OWNER,100,-1);ApplyStatus(HUNTERS_MARK,100,-1)" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Divination_HuntersMark" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc125186eg336cg511bgc2ffgd47a99779be5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he5f25fabgf95fg2352g01bfgf59cf6f0b5f0" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="9313094a-bae2-454f-9701-f920d0e8e98d,,;,,;3e441d3f-11f9-432d-877c-c0ba4d92c74a,,;8b7ae969-2a04-4720-9685-3bde54c18ffe,,;808fdfab-2e6c-472e-b3c4-19ce4a719d9d,,;,,;ea745d30-eb87-447f-b190-c81298e27d9c,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Debuff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasHighGroundRangeExtension;IsConcentration;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Divination" enumeration_type_name="SpellSchool" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Debuff_HuntersMark_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Debuff_HuntersMark_L1to3" />
+        <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_HuntersMark" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Self() and not (not Player(context.Source) and not Enemy()) and not HasStatus('DOWNED')" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h5f909952geb26ga8adg0c07geef39c5d8ed4" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HUNTERS_MARK,100,-1)" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="de6dddd8-8a32-4db1-a521-70706648a83b" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2e44371c-a637-4cab-a120-3088b3d83369" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="7537e8f0-1897-4a66-83fe-7f58e9dbd12e" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d6,MainWeaponDamageType,,,,ad727a13-c6f0-4b5b-aefd-aac79c6ed46e)" />
+        <field name="ConcentrationSpellID" type="StringTableFieldDefinition" value="Target_HuntersMark_Reapply" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,MainWeaponDamageType)" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
