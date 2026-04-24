@@ -598,5 +598,17 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="aefb8db8-1a3d-4796-a085-75b92ff492f5" />
+        <field name="Name" type="NameTableFieldDefinition" value="MartialArts_BonusUnarmedStrike" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha5aeeb57g4f74g5464g13b0g9c65d947e905" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2aa7bbacg9746g9997gea7fg80cf667c7cf4" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(MartialArts), Bludgeoning)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MartialArts_BonusUnarmedStrike" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_UnarmedStrike_Monk);" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
