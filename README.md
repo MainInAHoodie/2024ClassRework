@@ -249,7 +249,7 @@ Yep, Monks get a Dagger now.
 ### All Monks
 #### **2nd Level**
 - **Flurry of Blows** can now target multiple enemies.  They all have to be within melee range, thouugh.
-- You can now use **Step of the Wind** to Dash or **Patient Defense** to Disengage without spending a Ki Point.
+- You can now use **Step of the Wind** to Dash or **Patient Defense** to Disengage as a Bonus Action without spending a Ki Point.
 - You can also spend a Ki Point to use **Step of the Wind** to both Dash and Disengage or **Patient Defense** to Dodge and Disengage.
 
 #### **10th Level**
@@ -265,16 +265,14 @@ You no longer select "spells" (Elemental Disciplines, but let's face it, they're
 
 #### **3rd Level**
 - **Harmony of Fire and Water** has been removed entirely.
-- **Elemental Attunement**: For the cost of 1 Ki Point, your Unarmed Attacks deal an extra 1d4 plus your Wisdom modifier of Acid, Cold, Fire, Lightning, or Thunder damage (your choice) for the next minute.  Because of how the engine works, it doesn't appear possible to directly override the damage type of your unarmed attacks, and making new techniques that deal different damage types is just incredibly clunky from a user perspective.
+- **Elemental Attunement**: For the cost of 1 Ki Point, you can change your Weapon's damage type to Acid, Cold, Fire, Lightning, or Thunder damage for the next minute.  Because of how the engine works, it doesn't appear possible to directly override the damage type of your unarmed attacks, and making new techniques that deal different damage types is just incredibly clunky from a user perspective.  Plus, there are just too many good quarterstaffs and other Monk equipment to rely entirely on your fists.
 
 #### **6th Level**
 - You gain Water Whip, Fangs of the Fire Snake, and Shaping of the Ice for free.
-- Fangs of the Fire Snake now costs 2 Ki Points instead of 1, but its extra 1d4 Fire damage stacks with Elemental Attunement.
 
 #### **9th Level**
 - Water Whip increases to 4d10 Bludgeoning.
 - Fangs of the Fire Snake now correctly scales to deal an extra 2d10 on the initial hit.
-- Elemental Attunement now deals an extra 2d4 plus Wisdom Modifier per hit.
 
 #### **11th Level**
 You gain Mist Stance for free.  It is otherwise unchanged.

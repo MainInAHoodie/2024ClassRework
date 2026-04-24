@@ -442,3 +442,12 @@ data "StatsFunctorContext" "OnAttack"
 data "Conditions" "HasStatus('HUNTERS_MARK',context.Target,context.Source) and IsWeaponAttack() and HasDamageEffectFlag(DamageFlags.Hit) and TotalAttackDamageDoneGreaterThan(0)"
 data "StatsFunctors" "ApplyStatus(PASSIVE_HUNTERS_MARK,100,0)"
 
+new entry "MartialArts_BonusUnarmedStrike"
+type "PassiveData"
+data "DisplayName" "ha5aeeb57g4f74g5464g13b0g9c65d947e905;1"
+data "Description" "h2aa7bbacg9746g9997gea7fg80cf667c7cf4;1"
+data "DescriptionParams" "DealDamage(LevelMapValue(MartialArts), Bludgeoning)"
+data "Icon" "PassiveFeature_MartialArts_BonusUnarmedStrike"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Target_UnarmedStrike_Monk);"
+

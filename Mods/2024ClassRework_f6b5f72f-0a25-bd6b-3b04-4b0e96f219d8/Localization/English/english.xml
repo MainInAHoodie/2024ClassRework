@@ -708,4 +708,8 @@
   <content contentuid="h0c99a40bga9cbgebeeg4dc3g49d4e7097628" version="2">Make a &lt;LSTag Tooltip="AttackRoll"&gt;Melee Weapon Attack&lt;/LSTag&gt; against the target using your &lt;LSTag Tooltip="SpellCastingAbilityModifier"&gt;Spellcasting Ability Modifier&lt;/LSTag&gt;</content>
   <content contentuid="h03ce4324g23edge05cg47b5g5f49cb4582c2" version="1">Spellcasting Ability Override</content>
   <content contentuid="hd414b668g5939gdee7g3505gc61b335c369c" version="1">Use your Spellcasting Ability for your next Weapon Attack.</content>
+  <content contentuid="ha5aeeb57g4f74g5464g13b0g9c65d947e905" version="1">Martial Arts: Bonus Unarmed Strike</content>
+  <content contentuid="h2aa7bbacg9746g9997gea7fg80cf667c7cf4" version="1">You can make an unarmed attack as a bonus action.</content>
+  <content contentuid="h83dd29c2g3154g6ea0g56d2g65125f9ac71d" version="1">Unarmed Strike</content>
+  <content contentuid="hac5bb205ga97cg05e1gefb0g3d2749684d2d" version="1">Swiftly strike an enemy as a bonus action.</content>
 </contentList>
