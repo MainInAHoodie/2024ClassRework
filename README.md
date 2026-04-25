@@ -50,7 +50,8 @@ At 3rd Level, all Barbarians gain Primal Knowledge.  This lets them pick another
 **Intimidating Presence** has been replaced with **Retaliation**.  Similar to Riposte, if you take damage from a target within 5ft of you, you can spend a Reaction to make one melee attack against that target.
 
 ### Wildheart
-**Bear Heart** no longer grants resistance to Radiant, Necrotic, or Force damages.
+- **Bear Heart** no longer grants resistance to Radiant, Necrotic, or Force damages.
+- **Eagle Heart** now lets you Dash and Disengage both on activation and as a Bonus Action while Raging.
 
 ## Bard
 ### Starting Ability Scores
@@ -251,6 +252,7 @@ Yep, Monks get a Dagger now.
 - **Flurry of Blows** can now target multiple enemies.  They all have to be within melee range, thouugh.
 - You can now use **Step of the Wind** to Dash or **Patient Defense** to Disengage as a Bonus Action without spending a Ki Point.
 - You can also spend a Ki Point to use **Step of the Wind** to both Dash and Disengage or **Patient Defense** to Dodge and Disengage.
+- **Uncanny Metabolism:** New.  Once per Long Rest, while not in combat, you regain all of your Ki Points and heal for one Martial Arts die plus your Monk Level.
 
 #### **10th Level**
 - **Flurry of Blows** increases to three attacks instead of two.

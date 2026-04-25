@@ -607,6 +607,7 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(KiPoint,1,0)" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnarmoredMovement_1;MonksFocus" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(d9f8575e-3b76-49f3-8c36-9227e9cdee0e)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

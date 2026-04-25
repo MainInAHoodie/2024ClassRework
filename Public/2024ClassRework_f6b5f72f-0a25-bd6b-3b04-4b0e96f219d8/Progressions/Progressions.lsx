@@ -548,6 +548,7 @@
                     <attribute id="Name" type="LSString" value="Monk"/>
                     <attribute id="PassivesAdded" type="LSString" value="UnarmoredMovement_1;MonksFocus"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(d9f8575e-3b76-49f3-8c36-9227e9cdee0e)"/>
                     <attribute id="TableUUID" type="guid" value="fe1319a2-86be-469c-aab5-e3b0bd714e0e"/>
                     <attribute id="UUID" type="guid" value="c17915f1-df2b-4cce-876f-68faf153f373"/>
                 </node>
@@ -748,6 +749,27 @@
                     <attribute id="UUID" type="guid" value="5d8df68e-7cc2-4e8b-b03b-74616cd13d9f"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1)"/>
+                    <attribute id="Level" type="uint8" value="2"/>
+                    <attribute id="Name" type="LSString" value="Wizard"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkillsExpertise(e0a57db9-898e-4c56-9992-1bb87f806656,1)"/>
+                    <attribute id="TableUUID" type="guid" value="d18eda7e-4b7d-490d-9952-cd33a3c60479"/>
+                    <attribute id="UUID" type="guid" value="d6184c47-5b99-4e63-95ac-02f8ce4ccda1"/>
+                    <children>
+                        <node id="SubClasses">
+                            <children>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="c059dca1-c17d-4dce-8260-83ede5070eac"/>
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="e6a0eb75-7a01-4f40-8563-24ba2615e99b"/>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Progression">
                     <attribute id="Boosts" type="LSString" value="ActionResource(Movement,9,0);Tag(DRUID);ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(Clubs);Proficiency(Daggers);Proficiency(Javelins);Proficiency(Maces);Proficiency(Quarterstaffs);Proficiency(Scimitars);Proficiency(Sickles);Proficiency(Spears)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="NPC_Jaheria"/>
@@ -774,27 +796,6 @@
                     <attribute id="Selectors" type="LSString" value="AddSpells(50115a84-a7d7-4734-98a2-03fccfbdbcd3)"/>
                     <attribute id="TableUUID" type="guid" value="9c77844d-c201-47f4-a25f-7925dec8180d"/>
                     <attribute id="UUID" type="guid" value="e9bd3ad3-31d1-4ea5-8604-e28a719591f2"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1)"/>
-                    <attribute id="Level" type="uint8" value="2"/>
-                    <attribute id="Name" type="LSString" value="Wizard"/>
-                    <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSkillsExpertise(e0a57db9-898e-4c56-9992-1bb87f806656,1)"/>
-                    <attribute id="TableUUID" type="guid" value="d18eda7e-4b7d-490d-9952-cd33a3c60479"/>
-                    <attribute id="UUID" type="guid" value="d6184c47-5b99-4e63-95ac-02f8ce4ccda1"/>
-                    <children>
-                        <node id="SubClasses">
-                            <children>
-                                <node id="SubClass">
-                                    <attribute id="Object" type="guid" value="c059dca1-c17d-4dce-8260-83ede5070eac"/>
-                                </node>
-                                <node id="SubClass">
-                                    <attribute id="Object" type="guid" value="e6a0eb75-7a01-4f40-8563-24ba2615e99b"/>
-                                </node>
-                            </children>
-                        </node>
-                    </children>
                 </node>
             </children>
         </node>

@@ -135,6 +135,11 @@
                     <attribute id="Spells" type="LSString" value="Shout_TacticalMind"/>
                     <attribute id="UUID" type="guid" value="6ae2ff96-6506-4b5c-aae6-7eebbc34b8cd"/>
                 </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="UncannyMetabolism"/>
+                    <attribute id="Spells" type="LSString" value="Shout_UncannyMetabolism"/>
+                    <attribute id="UUID" type="guid" value="d9f8575e-3b76-49f3-8c36-9227e9cdee0e"/>
+                </node>
             </children>
         </node>
     </region>
