@@ -353,6 +353,25 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a10a2a2b-efe0-455d-a61b-e6a71f38fed4" />
+        <field name="Name" type="NameTableFieldDefinition" value="RAGE_TOTEM_EAGLE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bfc99d24-1cc1-4a74-9883-c388a1a62db6" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc3744784gbdc0gff15g7a62gadf6674df3a5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha0426e55g636fgdd6dg1344g372c9eb27a44" version="3" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(RAGE_MUTE);RemoveStatus(RAGE_STOP_REMOVE);RemoveStatus(RAGE_EAGLE_NO_HEAVY_ARMOUR_VFX);IF(RemoveCause(StatusRemoveCause.TimeOut) or RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(RAGE_ENDED,100,1);IF(RemoveCause(StatusRemoveCause.TimeOut) or RemoveCause(StatusRemoveCause.Condition)):UseSpell(Shout_EndRage,true,true,true)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(VFX_RAGE);BlockSpellCast();UnlockSpell(Shout_EndRage);Attribute(ForceMainhandAlternativeEquipBones);IF(IsReactionAttack(context.Source)):Disadvantage(AttackTarget);UnlockSpell(Shout_DashDisengage_BonusAction);" />
+        <field name="StackId" type="StringTableFieldDefinition" value="RAGE" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_Rage_EagleTotem" />
+        <field name="Passives" type="StringTableFieldDefinition" value="TotemSpirit_Eagle_Rage_Boosts;Rage_Attack;Rage_Damaged;Rage_Eagle_NoHeavyArmour_VFX" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="6c124b07-4d8f-4d51-a945-4ce871d749fc" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_Rage" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="LevelMapValue(RageDamage)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasHeavyArmor(context.Source)):ApplyStatus(RAGE_EAGLE_NO_HEAVY_ARMOUR_VFX,100,10);ApplyStatus(RAGE_STOP_REMOVE,100,1);BreakConcentration()" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="76909c69-f2d3-4b65-9cd2-147e19cf3c34" />
         <field name="Name" type="NameTableFieldDefinition" value="PATIENT_DEFENSE_TEMP_HP" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4cb45672gac36g4e13g29bdg14b55dc6174c" version="1" />

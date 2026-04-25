@@ -712,4 +712,13 @@
   <content contentuid="h2aa7bbacg9746g9997gea7fg80cf667c7cf4" version="1">You can make an unarmed attack as a bonus action.</content>
   <content contentuid="h83dd29c2g3154g6ea0g56d2g65125f9ac71d" version="1">Unarmed Strike</content>
   <content contentuid="hac5bb205ga97cg05e1gefb0g3d2749684d2d" version="1">Swiftly strike an enemy as a bonus action.</content>
+  <content contentuid="hc3744784gbdc0gff15g7a62gadf6674df3a5" version="1">Rage: Eagle Heart</content>
+  <content contentuid="ha0426e55g636fgdd6dg1344g372c9eb27a44" version="3">Deals an additional [1] damage with melee and improvised weapons, and when throwing objects.&lt;br&gt;&lt;br&gt;Can &lt;LSTag Type="Spell" Tooltip="Shout_Dash"&gt;Dash&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Shout_Disengage"&gt;Disengage&lt;/LSTag&gt; as a bonus action, and foes have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Also has Resistance to physical damage, and &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+  <content contentuid="h95c6c45cg180bg210ag8b64g2702cd448eec" version="1">Dash and Disengage</content>
+  <content contentuid="h35ed91dag2c31gadbdgb3a1g2fd2ac166b25" version="1">&lt;LSTag Type="Spell" Tooltip="Shout_Dash"&gt;Dash&lt;/LSTag&gt; and  &lt;LSTag Type="Spell" Tooltip="Shout_Disengage"&gt;Disengage&lt;/LSTag&gt;.</content>
+  <content contentuid="ha0ef5a21gdb95g2f87g5ddbg82a9fa4908bd" version="1">Rage: Eagle Heart</content>
+  <content contentuid="h3bae2af7gcf1eg0b72g9416g15bad1ceb633" version="1">Enter a &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Rage&lt;/LSTag&gt; that makes you near untouchable. </content>
+  <content contentuid="he20f45b2g4589g8c1eg463egc25c7c03f1fb" version="2">You can use &lt;LSTag Type="Spell" Tooltip="Projectile_DivingStrike"&gt;Diving Strike&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Foes also have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt; against you, and you can &lt;LSTag Type="Spell" Tooltip="Shout_Dash"&gt;Dash&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Shout_Disengage"&gt;Disengage&lt;/LSTag&gt; as a bonus action.</content>
+  <content contentuid="h9733fb5fgddf1g18b4g1880gfb65b5da1d6b" version="1">Uncanny Metabolism</content>
+  <content contentuid="hc57c5ebeg3965g287cg7a1cg681d721f9e21" version="2">Regain all expended &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Points&lt;/LSTag&gt; and restore hit points equal to [1] plus [2].</content>
 </contentList>

@@ -997,5 +997,73 @@
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="bc392fbd-4ca6-4066-954b-169eb0b963e0" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b4e43869-e50e-4fde-a5da-cb8b06848047" />
+        <field name="Name" type="NameTableFieldDefinition" value="DashDisengage_BonusAction" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cf6b9c56-faa4-424f-834d-4a10bc45cb91" />
+        <field name="AIFlags" type="EnumerationListTableFieldDefinition" value="GrantsResources;UseAsSupportingActionOnly" enumeration_type_name="AIFlags" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DASH,100,1);ApplyStatus(DISENGAGE,100,1);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h95c6c45cg180bg210ag8b64g2702cd448eec" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h35ed91dag2c31gadbdgb3a1g2fd2ac166b25" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DASH,100,1); ApplyStatus(DISENGAGE,100,1)" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Generic_GeneralAction_Start" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Generic_GeneralAction_Loop" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="5e57443f-284e-47b2-915e-5b6417db269c,,;925779e7-8bf6-4d56-8c4d-42c3bc01c60c,,;50398f4e-dd82-4d6a-ad43-aedd578543d9,,;1c343e00-7e6c-4f53-b588-074a3cdb9c7d,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;5fdb66be-7506-411a-a7ea-c4783288aac8,,;,,;,," />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not Immobilized()" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence;Stealth;Invisible;NoCameraMove;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="33ce7f95-6d0b-45d6-9f3e-ee1b23f7d21c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Rage_Totem_Eagle" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a2f1afc0-ad7e-40d0-a159-9688cb197118" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="AI_IGNORE:IF(not ClassLevelHigherOrEqualThan(9,'Barbarian')):ApplyStatus(RAGE_TOTEM_EAGLE,100,10);AI_IGNORE:IF(ClassLevelHigherOrEqualThan(9,'Barbarian')):ApplyStatus(RAGE_TOTEM_EAGLE_2,100,10);AI_ONLY:IF(HasActionResource('ActionPoint', 1, 0, false)):ApplyStatus(AI_HELPER_RAGE,100,1);ApplyStatus(DASH,100,1); ApplyStatus(DISENGAGE,100,1);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha0ef5a21gdb95g2f87g5ddbg82a9fa4908bd" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3bae2af7gcf1eg0b72g9416g15bad1ceb633" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RAGE_TOTEM_EAGLE,100,10)" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('RAGE_TOTEM_EAGLE') and not HasStatus('CALM_EMOTIONS')" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_Rage_EagleTotem" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="62300b3d-4242-4aa7-9d43-d2b3b30bff6d" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="6b88e664-d58a-41d7-89e8-3b29013b2930" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Rage_Eagle" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Rage" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="he20f45b2g4589g8c1eg463egc25c7c03f1fb" version="2" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1c8592a6-5ced-4c3d-a29e-98ef55c72520" />
+        <field name="Name" type="NameTableFieldDefinition" value="UncannyMetabolism" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RestoreResource(KiPoint,100%,0);RegainHitPoints(LevelMapValue(MartialArts) + ClassLevel(Monk));" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_DivineHealth" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9733fb5fgddf1g18b4g1880gfb65b5da1d6b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc57c5ebeg3965g287cg7a1cg681d721f9e21" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(LevelMapValue(MartialArts));RegainHitPoints(ClassLevel(Monk))" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="RegainHitPoints(LevelMapValue(MartialArts) + ClassLevel(Monk))" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Vocal_Component_Monk_Utility" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Generic_GeneralAction_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_SecondWind" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_SecondWind" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="b3b2d16b-61c7-4082-8394-0c04fb9ffdec,,;81c58c55-625d-46c3-bbb7-179b23ef725e,,;3c35a4e1-4441-4603-9c71-82179057d452,,;18c8ab7a-cfef-45b9-851d-e2bc52c9ebc3,,;e601e8fd-4017-4d26-a63a-e1d7362c99b3,,;,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Healing" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="Stealth;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Peaceful" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="Requirements" type="StringTableFieldDefinition" value="!Combat" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="c520a0bf-adc6-44f6-abcd-94bc0925b881" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="0ed6eeea-fb80-45e5-a190-d72579f7e3d6" />
+        <field name="CinematicArenaFlags" type="EnumerationTableFieldDefinition" value="Ignore" enumeration_type_name="CinematicArenaFlags" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
