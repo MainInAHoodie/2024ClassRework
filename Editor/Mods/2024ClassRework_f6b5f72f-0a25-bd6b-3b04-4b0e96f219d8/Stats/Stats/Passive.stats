@@ -610,5 +610,23 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_UnarmedStrike_Monk);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f66af229-9b68-435c-8cfc-7e1e52db77be" />
+        <field name="Name" type="NameTableFieldDefinition" value="DeftExplorer" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf9434132g4698gd163g3776g06d17d80eb30" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h699ae063ge80cg66a7gde4cgbc8ee9d76417" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_NaturalRecovery" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8d2d2cec-d5c5-4147-ae2b-6cf8415bd9ec" />
+        <field name="Name" type="NameTableFieldDefinition" value="Expertise_Ranger" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0846f2aa-61ae-40c5-9f7f-54892a44a235" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb94d2d41g3398gb01ag0e80g62a69d1115b6" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

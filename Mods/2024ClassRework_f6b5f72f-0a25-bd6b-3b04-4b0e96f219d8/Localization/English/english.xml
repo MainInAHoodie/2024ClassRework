@@ -721,4 +721,13 @@
   <content contentuid="he20f45b2g4589g8c1eg463egc25c7c03f1fb" version="2">You can use &lt;LSTag Type="Spell" Tooltip="Projectile_DivingStrike"&gt;Diving Strike&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Foes also have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt; against you, and you can &lt;LSTag Type="Spell" Tooltip="Shout_Dash"&gt;Dash&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Shout_Disengage"&gt;Disengage&lt;/LSTag&gt; as a bonus action.</content>
   <content contentuid="h9733fb5fgddf1g18b4g1880gfb65b5da1d6b" version="1">Uncanny Metabolism</content>
   <content contentuid="hc57c5ebeg3965g287cg7a1cg681d721f9e21" version="2">Regain all expended &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Points&lt;/LSTag&gt; and restore hit points equal to [1] plus [2].</content>
+  <content contentuid="hf9434132g4698gd163g3776g06d17d80eb30" version="1">Deft Explorer</content>
+  <content contentuid="h699ae063ge80cg66a7gde4cgbc8ee9d76417" version="1">Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in one Skill.</content>
+  <content contentuid="hb94d2d41g3398gb01ag0e80g62a69d1115b6" version="1">Choose one &lt;LSTag Tooltip="Skill"&gt;Skill&lt;/LSTag&gt; you are &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; in. Your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; is doubled for any &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Check&lt;/LSTag&gt; you make that uses that Skill.</content>
+  <content contentuid="h87aeed0ag5c90g1707g986agb188b881ea2b" version="2">Ranger's Studded Leather</content>
+  <content contentuid="hb9bd05e9g72d2gac49g3f29g45b822000e95" version="2" />
+  <content contentuid="hf3124f2fge6b1gc431gb90cg27a9ad6952db" version="2" />
+  <content contentuid="h75546fd0geac4g8189g3678g375955a82940" version="2">Shaped, hardened, and reinforced with metal studs, this is the armor of choice for someone on the hunt.</content>
+  <content contentuid="h0e868263g1cdeg7204g59fegafdc90551216" version="2">Ranger's Studded Leather</content>
+  <content contentuid="hc90791fbg9b1bgde4fg23dcg10416d63293d" version="2">Ranger's Studded Leather</content>
 </contentList>
