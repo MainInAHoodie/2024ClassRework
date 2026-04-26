@@ -314,6 +314,13 @@ Rangers now start with Studded Leather and a Longbow instead of Regular Leather 
 
 Oh, and they get a Dagger.  Don't forget the Dagger.
 
+### All Rangers
+#### **2nd Level**
+- **Deft Explorer**: Gain Expertise in one Skill.
+
+#### **9th Level**
+- **Expertise**: Gain Expertise in another Skill.
+
 ## Rogue
 ### Starting Ability Scores
 8 STR, 17 DEX, 14 CON, 14 INT, 12 WIS, 10 CHA

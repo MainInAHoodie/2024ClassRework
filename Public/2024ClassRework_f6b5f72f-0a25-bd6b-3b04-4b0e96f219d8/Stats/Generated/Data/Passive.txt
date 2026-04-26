@@ -451,3 +451,15 @@ data "Icon" "PassiveFeature_MartialArts_BonusUnarmedStrike"
 data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Target_UnarmedStrike_Monk);"
 
+new entry "DeftExplorer"
+type "PassiveData"
+data "DisplayName" "hf9434132g4698gd163g3776g06d17d80eb30;1"
+data "Description" "h699ae063ge80cg66a7gde4cgbc8ee9d76417;1"
+data "Icon" "Skill_Druid_NaturalRecovery"
+data "Properties" "Highlighted"
+
+new entry "Expertise_Ranger"
+type "PassiveData"
+using "Expertise"
+data "Description" "hb94d2d41g3398gb01ag0e80g62a69d1115b6;1"
+
