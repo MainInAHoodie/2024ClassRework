@@ -221,11 +221,12 @@ You can now pick your starting equipment from among the following options:
 
 Your starting equipment now also includes a Dagger.
 
+### Skills
+Persuasion has been added to the Fighter's Skill list.
+
 ### All Fighters
 #### **1st Level**
 Fighting Style has been moved to 2nd Level for reasons discussed under Known Issues.
-
-Persuasion has been added to the Fighter's Skill list.
 
 #### **2nd Level**
 - **Tactical Mind**: Once per Short Rest, you can add 1d10 to a Skill Check.
@@ -365,6 +366,13 @@ Hexblade Warlocks now start with a Chain Shirt, a Shield, and their choice of Ma
 
 ### Starting Equipment
 You're not gonna believe this, but Wizards start with a Dagger now.
+
+### Skills
+Nature has been added to the Wizard's Spell List
+
+### All Wizards
+#### **2nd Level**
+**Scholar**: Gain Expertise in one Skill on the Wizard's Spell List other than Insight.
 
 ---
 
