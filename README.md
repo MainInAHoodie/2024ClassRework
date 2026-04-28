@@ -17,7 +17,7 @@ I specifically didn't want to do a 1:1 translation of the 2024 PHB.  I wanted to
 
 In the base game, the game will take away some of your starting equipment and put it on a Dead Thrall you can find shortly after your first battle with the Imps on the Nautiloid.  The Bard's Rapier is an example of this.  Why Larian did this is unclear.
 
-This no longer happens -- you keep all your starting gear right at the start of the game.  That dead guy now gets an extra gold piece for his troubles.
+This no longer happens -- you keep all your starting gear right at the start of the game.  That dead guy has been moved next to the player's starting point on the Nautiloid and will have different equipment based on what Passives you have: Ring Armor for Protector Clerics (see Known Issues), Hide Armor for Warden Druids, and Leather Armor and a Shield otherwise.
 
 # Class Changes
 
