@@ -386,6 +386,7 @@ Nature has been added to the Wizard's Spell List
 
 ### Wizard
 - **True Strike**: True Strike now lets you make one attack with your melee weapon using your Spellcasting Ability Modifier.
+- **Blade Ward**: Now requires Concentration, but lasts for 1 minute instead of 1 round.
 
 ## 1st Level
 ### Cleric
