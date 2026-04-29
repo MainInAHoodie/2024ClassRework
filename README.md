@@ -401,22 +401,18 @@ Nature has been added to the Wizard's Spell List
 - **Barkskin** now increases AC to 17 instead of 16.
 
 ### Wizard
-**Color Spray**
-Now a Constitution Save instead of a Hit Point total.  Cone size starts at 4 meters and scales up 1 meter per Spell Level, topping out at 9 meters (30 feet) at 6th level.
+- **Color Spray**: Now a Constitution Save instead of a Hit Point total.  Cone size starts at 4 meters and scales up 1 meter per Spell Level, topping out at 9 meters (30 feet) at 6th level.
+- **Magic Weapon**: Now a Bonus Action, and no longer requires Concentration.
+- **Sleep**: Now a Constitution Save instead of a Hit Point total.  Targets sleep for one extra turn for each Spell Slot level above 1.
+- **Witch Bolt**: Activating the ongoing damage now costs a Bonus Action instead of a full Action.  The ongoing damage has been reduced, but now actually scales as follows:
+    - 1st Level: 1d6
+    - 2nd Level: 1d12
+    - 3rd Level: 2d6
+    - 4th Level: 3d6
+    - 5th Level: 2d12
+    - 6th Level: 4d6
 
-**Sleep**
-Now a Constitution Save instead of a Hit Point total.  Targets sleep for one extra turn for each Spell Slot level above 1.
-
-**Witch Bolt**
-Activating the ongoing damage now costs a Bonus Action instead of a full Action.  The ongoing damage has been reduced, but now actually scales as follows:
-- 1st Level: 1d6
-- 2nd Level: 1d12
-- 3rd Level: 2d6
-- 4th Level: 3d6
-- 5th Level: 2d12
-- 6th Level: 4d6
-
-The initial damage is the same as the recurring damage now.
+    The initial damage is the same as the recurring damage now.
 
 ## 3rd Level
 ### Cleric
