@@ -732,4 +732,6 @@
   <content contentuid="hc90791fbg9b1bgde4fg23dcg10416d63293d" version="2">Ranger's Studded Leather</content>
   <content contentuid="h0a6563acg6a87gf8ceg4f4fg5e34823c326e" version="1">Blade Ward</content>
   <content contentuid="hc0eecce3g3757gf35eg4af9gf9618347be10" version="1">Take only half the damage from Bludgeoning, Piercing, and Slashing attacks.</content>
+  <content contentuid="hc705a67dg9ef8g07b8g13f5gf26aa838dcd2" version="1">Magic Weapon</content>
+  <content contentuid="h6120db5fg3b91g1faag2531g8b93b85a51b9" version="1">Infuse a weapon with arcane energy. The weapon becomes magical, receiving a +[1] bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; and Damage Rolls.</content>
 </contentList>
