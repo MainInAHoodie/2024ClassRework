@@ -385,8 +385,9 @@ Nature has been added to the Wizard's Spell List
 - **Shillelagh**: Shillelagh can now apply to Greatclubs, too.  Hey, a giant club is still a club.
 
 ### Wizard
-- **True Strike**: True Strike now lets you make one attack with your melee weapon using your Spellcasting Ability Modifier.
 - **Blade Ward**: Now requires Concentration, but lasts for 1 minute instead of 1 round.
+- **Poison Spray**: Now an attack roll rather than a Saving Throw, and now has a range of 30ft.
+- **True Strike**: True Strike now lets you make one attack with your melee weapon using your Spellcasting Ability Modifier.
 
 ## 1st Level
 ### Cleric
