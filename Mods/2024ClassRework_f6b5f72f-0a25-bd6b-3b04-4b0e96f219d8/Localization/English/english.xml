@@ -734,4 +734,6 @@
   <content contentuid="hc0eecce3g3757gf35eg4af9gf9618347be10" version="1">Take only half the damage from Bludgeoning, Piercing, and Slashing attacks.</content>
   <content contentuid="hc705a67dg9ef8g07b8g13f5gf26aa838dcd2" version="1">Magic Weapon</content>
   <content contentuid="h6120db5fg3b91g1faag2531g8b93b85a51b9" version="1">Infuse a weapon with arcane energy. The weapon becomes magical, receiving a +[1] bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; and Damage Rolls.</content>
+  <content contentuid="ha2bce029gb7fcgaa4cgdd9dgd6d99dcd7ee3" version="1">Poison Spray</content>
+  <content contentuid="hc03cadb3gfb27g8eb0g2c08g586aa7952b42" version="1">Project a puff of noxious gas.</content>
 </contentList>
