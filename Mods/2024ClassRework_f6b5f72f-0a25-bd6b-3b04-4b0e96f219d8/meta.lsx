@@ -21,10 +21,10 @@
                     <attribute id="Author" type="LSString" value="ManInAHoodie"/>
                     <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
                     <attribute id="Description" type="LSString" value="Updates all classes based on the 2024 Player&apos;s Handbook, along with some of my own homebrew changes.  Protector Clerics and Warden Druids are much better in the frontline/melee rolls they&apos;re intended for."/>
-                    <attribute id="FileSize" type="uint64" value="27866555"/>
+                    <attribute id="FileSize" type="uint64" value="27875324"/>
                     <attribute id="Folder" type="LSString" value="2024ClassRework_f6b5f72f-0a25-bd6b-3b04-4b0e96f219d8"/>
                     <attribute id="LobbyLevelName" type="FixedString" value=""/>
-                    <attribute id="MD5" type="LSString" value="4599b00e27342ad9edc207fc19cd4a0e"/>
+                    <attribute id="MD5" type="LSString" value="9fa104f3b6c3545ea345c8fdaa38c689"/>
                     <attribute id="MenuLevelName" type="FixedString" value=""/>
                     <attribute id="Name" type="LSString" value="2024ClassRework"/>
                     <attribute id="NumPlayers" type="uint8" value="4"/>
@@ -32,7 +32,7 @@
                     <attribute id="PublishHandle" type="uint64" value="5854092"/>
                     <attribute id="StartupLevelName" type="FixedString" value=""/>
                     <attribute id="UUID" type="FixedString" value="f6b5f72f-0a25-bd6b-3b04-4b0e96f219d8"/>
-                    <attribute id="Version64" type="int64" value="36028797018963996"/>
+                    <attribute id="Version64" type="int64" value="36028797018963997"/>
                     <children>
                         <node id="PublishVersion">
                             <attribute id="Version64" type="int64" value="144255927718626661"/>
