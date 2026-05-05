@@ -397,10 +397,6 @@ Nature has been added to the Wizard's Spell List
 ### Ranger
 - **Hunter's Mark** now applies to all attacks, not just weapons, and now does 1d6 of Force damage.
 
-## 2nd Level
-### Druid
-- **Barkskin** now increases AC to 17 instead of 16.
-
 ### Wizard
 - **Color Spray**: Now a Constitution Save instead of a Hit Point total.  Cone size starts at 4 meters and scales up 1 meter per Spell Level, topping out at 9 meters (30 feet) at 6th level.
 - **Magic Weapon**: Now a Bonus Action, and no longer requires Concentration.
@@ -415,6 +411,10 @@ Nature has been added to the Wizard's Spell List
 
     The initial damage is the same as the recurring damage now.
 
+## 2nd Level
+### Druid
+- **Barkskin** now increases AC to 17 instead of 16.
+
 ## 3rd Level
 ### Cleric
 - **Mass Healing Word** now starts at 2d4 + Spellcasting and scales up 1d4 per level from there
@@ -424,6 +424,9 @@ Nature has been added to the Wizard's Spell List
 ## 4th Level
 ### Druid
 - **Fount of Moonlight**: A cool light wreathes your body.  Until the spell ends, you are Resistant to Radiant damage, and your weapon attacks deal an extra 2d6 damage.
+
+### Wizard
+- **Stoneskin**: Now provides Resistance to Magical Bludegoning, Piercing, and Slashing damage too.
 
 ## 5th Level
 ### Cleric

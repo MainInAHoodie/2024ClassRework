@@ -736,4 +736,8 @@
   <content contentuid="h6120db5fg3b91g1faag2531g8b93b85a51b9" version="1">Infuse a weapon with arcane energy. The weapon becomes magical, receiving a +[1] bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; and Damage Rolls.</content>
   <content contentuid="ha2bce029gb7fcgaa4cgdd9dgd6d99dcd7ee3" version="1">Poison Spray</content>
   <content contentuid="hc03cadb3gfb27g8eb0g2c08g586aa7952b42" version="1">Project a puff of noxious gas.</content>
+  <content contentuid="h28b4826eg5b5cg787ag00b5g070abede4bff" version="1">Stoneskin</content>
+  <content contentuid="h5a84824egf914g8934g7ca6gbf8fcba76fa4" version="1">Turn a creature's flesh hard as stone. It takes only &lt;LSTag Tooltip="Resistant"&gt;half the damage&lt;/LSTag&gt; of all Bludgeoning, Piercing, and Slashing damage, magical or otherwise.</content>
+  <content contentuid="hcf78a6f6gb483g4555g90cdg2b58b655f34a" version="1">Stoneskin</content>
+  <content contentuid="h3368920fg733dgafd7g6edfgbe54024fe2a8" version="1">Has &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Bludgeoning, Piercing, and Slashing damage.</content>
 </contentList>
