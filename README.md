@@ -306,6 +306,12 @@ The Studded Leather and Chain Mail include new versions that match the color sch
 
 Your starting equipment now also includes a Dagger.
 
+### All Paladins
+#### **2nd Level**
+**Fighting Style**: You can now pick every Fighting Style the Fighters get, and you also have two brand-new options:
+    - **Blessed Warrior: Offense**: Gain the Sacred Flame and Toll the Dead cantrips.  Charisma is your Spellcasting Ability for them.
+    - **Blessed Warrior: Support**: Gain the Guidance and Resistance cantrips.
+
 ## Ranger
 ### Starting Ability Scores
 Unchanged from before.
@@ -313,11 +319,16 @@ Unchanged from before.
 ### Starting Equipment
 Rangers now start with Studded Leather and a Longbow instead of Regular Leather and a Shortbow.  Their new Studded Leather has a unique color scheme, too.
 
+Rangers also start with a Club, just in case you feel like going the Druidic Warrior route and abusing Shillelagh.
+
 Oh, and they get a Dagger.  Don't forget the Dagger.
 
 ### All Rangers
 #### **2nd Level**
 - **Deft Explorer**: Gain Expertise in one Skill.
+- **Fighting Style**: You can now pick every Fighting Style the Fighters get, and you also have two brand-new options:
+    - **Druidic Warrior: Offense**: Gain the Shillelagh and Starry Wisp cantrips.  Wisdom is your Spellcasting Abiliy for them.
+    - **Druidic Warrior: Support**: Gain the Guidance and Druidcraft cantrips
 
 #### **9th Level**
 - **Expertise**: Gain Expertise in another Skill.
@@ -480,3 +491,7 @@ In addition, if an Ally starts their turn in the Aura with 0HP remaining, they g
 For whatever reason, selecting a Passive at the same level you select Equipment doesn't work.  It will *look* like you're selecting a Passive, but when you actually leave Character Creation, you'll find you don't have whatever Passive you selected.  Apparently, SelectPassive() and SelectEquipment() don't play nicely together.
 
 For this reason, the Fighter's Fighting Style has been moved to 2nd Level.  This is also why Clerics and Druids can't select their starting equipment -- they wouldn't actually keep their Protector/Thaumaturge Passives, which would defeat the whole point of having them.
+
+## "Can we pick the cantrips for Blessed and Druidic Warrior?"
+
+Unfortunately, no.  The engine just doesn't allow for that.

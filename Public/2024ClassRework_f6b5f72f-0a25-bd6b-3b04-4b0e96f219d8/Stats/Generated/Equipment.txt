@@ -343,6 +343,8 @@ add equipmentgroup
 add equipment entry "OBJ_Backpack_CampSupplies"
 add equipmentgroup
 add equipment entry "WPN_Dagger"
+add equipmentgroup
+add equipment entry "WPN_Club"
 
 new equipment "EQP_CC_Rogue"
 add initialweaponset "Ranged"

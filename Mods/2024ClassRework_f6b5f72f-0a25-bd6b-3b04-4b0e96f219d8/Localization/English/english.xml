@@ -11,7 +11,7 @@
   <content contentuid="h01c5c495gc037gb6c8gbe69gd3e79819deec" version="2">Magician: Resistance</content>
   <content contentuid="hfb6c508bgf713ge06ege648ge5b4807c103b" version="2">You gain the &lt;LSTag Type="Spell" Tooltip="Target_Resistance"&gt;Resistance&lt;/LSTag&gt; cantrip.  In addition, you can add your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; modifier to Arcana and Nature checks.</content>
   <content contentuid="h015d81a5g25ebg9ff4gd0f6g016b2ac1c809" version="1">Magician: Starry Wisp</content>
-  <content contentuid="h2e804833g3320gf929g82edg376ec41a3caa" version="1">You gain the &lt;LSTag Type="Spell" Tooltip="Target_StarryWisp"&gt;Starry Wisp&lt;/LSTag&gt; cantrip.  In addition, you can add your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; modifier to Arcana and Nature checks.</content>
+  <content contentuid="h2e804833g3320gf929g82edg376ec41a3caa" version="2">You gain the &lt;LSTag Type="Spell" Tooltip="Projectile_StarryWisp"&gt;Starry Wisp&lt;/LSTag&gt; cantrip.  In addition, you can add your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; modifier to Arcana and Nature checks.</content>
   <content contentuid="h335a5004gd565ga78cgdd6cga0f02322b09b" version="1">Starry Wisp</content>
   <content contentuid="h9e57c995g97c5g0237g352cg275e9a1f7f94" version="3">Launch a mote of light at a target.  On a hit, the target emits Dim Light in a [1] radius and can't benefit from being &lt;LSTag Type="Status" Tooltip="INVISIBILITY"&gt;Invisible&lt;/LSTag&gt;</content>
   <content contentuid="h331fc9b8g7392gd567g11c4g8c4e5c05a4c2" version="1">Starry Wisp</content>
@@ -740,4 +740,20 @@
   <content contentuid="h5a84824egf914g8934g7ca6gbf8fcba76fa4" version="1">Turn a creature's flesh hard as stone. It takes only &lt;LSTag Tooltip="Resistant"&gt;half the damage&lt;/LSTag&gt; of all Bludgeoning, Piercing, and Slashing damage, magical or otherwise.</content>
   <content contentuid="hcf78a6f6gb483g4555g90cdg2b58b655f34a" version="1">Stoneskin</content>
   <content contentuid="h3368920fg733dgafd7g6edfgbe54024fe2a8" version="1">Has &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Bludgeoning, Piercing, and Slashing damage.</content>
+  <content contentuid="h0b98d290g08cdg454cg6759gc33645f8f35c" version="1">Ram</content>
+  <content contentuid="h3eb2a96eg19e7g1ab5g5641g4cc8b050b993" version="1">Slam into an enemy creature or object. On a successful save, the target still takes half damage.</content>
+  <content contentuid="h9d912037g2513gf4e7g1fe4g0b356e57d978" version="1">Flaming Aura</content>
+  <content contentuid="hfb1c2282g7e36gc58dgb964gd53aa91c2ed2" version="1">Creature is standing within [1] of a flaming sphere and will take [2] at the end of its turn. On a successful save, it will still take half damage.</content>
+  <content contentuid="h59421ac6g2f27g4ec2ga3e7g36144289dde8" version="1">Blessed Warrior: Offense</content>
+  <content contentuid="hc56073ddgff8eg3761gcb84g17706951bf1b" version="2">Gain the &lt;LSTag Type="Spell" Tooltip="Target_SacredFlame"&gt;Sacred Flame&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_TollTheDead"&gt;Toll the Dead&lt;/LSTag&gt; cantrips.</content>
+  <content contentuid="hdf6c829dge168g464eg98bfg7c7ca385c7cc" version="1">Blessed Warrior: Support</content>
+  <content contentuid="h888ae7aag0828gfe3bg7c74gf29b1adc65c7" version="2">Gain the &lt;LSTag Type="Spell" Tooltip="Target_Guidance"&gt;Guidance&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_Resistance"&gt;Resistance&lt;/LSTag&gt; cantrips.</content>
+  <content contentuid="h690e42d6g5e6cgc55fg3425g278494823d54" version="1">Blessed Warrior: Balance</content>
+  <content contentuid="h0a35856bg18efgc361g7027g58d4d99e42ee" version="1">Gain the &lt;LSTag Type="Spell" Tooltip="Target_Guidance"&gt;Guidance&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_SacredFlame"&gt;Sacred Flame&lt;/LSTag&gt;.  &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; is your Spellcasting ability for them.</content>
+  <content contentuid="ha1db2430gd51ag7a4bg2735gf938d46d6238" version="1">&lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; is your Spellcasting ability for them.</content>
+  <content contentuid="h8df839d8ga257g4975gf13fg66831afebce3" version="1">Druidic Warrior: Offense</content>
+  <content contentuid="hf47f7215g9df3ga1cegce68g0c89753e6280" version="2">Gain the &lt;LSTag Type="Spell" Tooltip="Shout_Shillelagh"&gt;Shillelagh&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Projectile_StarryWisp"&gt;Starry Wisp&lt;/LSTag&gt; cantrips.</content>
+  <content contentuid="hff9c3da3g63a9g3d01gb828g374ec89880a1" version="1">&lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; is your Spellcasting ability for them.</content>
+  <content contentuid="h660b422bg6a9agb778g88ddg0059bf29847c" version="1">Druidic Warrior: Support</content>
+  <content contentuid="hd5367828g929ag3469g0f14g8efd24566d3c" version="2">Gain the &lt;LSTag Type="Spell" Tooltip="Target_Resistance"&gt;Resistance&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Shout_Druidcraft"&gt;Druidcraft&lt;/LSTag&gt; cantrips.</content>
 </contentList>

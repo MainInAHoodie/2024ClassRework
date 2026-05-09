@@ -41,7 +41,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="638f9b78-aa66-4a2f-bd59-24ab195a2429" />
         <field name="Name" type="NameTableFieldDefinition" value="Magician_StarryWisp" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h015d81a5g25ebg9ff4gd0f6g016b2ac1c809" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2e804833g3320gf929g82edg376ec41a3caa" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2e804833g3320gf929g82edg376ec41a3caa" version="2" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_StarryWisp);Skill(Nature, WisdomModifier);Skill(Arcana, WisdomModifier);" />
         <field name="Icon" type="StringTableFieldDefinition" value="StarryWisp" />
@@ -626,6 +626,53 @@
         <field name="Name" type="NameTableFieldDefinition" value="Expertise_Ranger" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0846f2aa-61ae-40c5-9f7f-54892a44a235" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb94d2d41g3398gb01ag0e80g62a69d1115b6" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="289b8d9f-3408-4833-ba65-5edba42222e6" />
+        <field name="Name" type="NameTableFieldDefinition" value="FightingStyle_BlessedWarrior_Offense" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h59421ac6g2f27g4ec2ga3e7g36144289dde8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc56073ddgff8eg3761gcb84g17706951bf1b" version="2" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="ha1db2430gd51ag7a4bg2735gf938d46d6238" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_SacredFlame" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_SacredFlame,,,,Charisma);UnlockSpell(Target_TollTheDead,,,,Charisma);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="176ff70a-82ae-4e9b-9ef1-516455a35ba3" />
+        <field name="Name" type="NameTableFieldDefinition" value="FightingStyle_BlessedWarrior_Support" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="289b8d9f-3408-4833-ba65-5edba42222e6" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdf6c829dge168g464eg98bfg7c7ca385c7cc" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h888ae7aag0828gfe3bg7c74gf29b1adc65c7" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Divination_Guidance" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Guidance);UnlockSpell(Target_Resistance);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c65e115f-7080-47d6-ab34-7766fc6f4959" />
+        <field name="Name" type="NameTableFieldDefinition" value="FightingStyle_DruidicWarrior_Offense" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8df839d8ga257g4975gf13fg66831afebce3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf47f7215g9df3ga1cegce68g0c89753e6280" version="2" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hff9c3da3g63a9g3d01gb828g374ec89880a1" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="StarryWisp" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Shillelagh,,,,Wisdom);UnlockSpell(Projectile_StarryWisp,,,,Wisdom);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="005d5bc3-929b-401d-aff4-da725dfbbf59" />
+        <field name="Name" type="NameTableFieldDefinition" value="FightingStyle_DruidicWarrior_Support" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c65e115f-7080-47d6-ab34-7766fc6f4959" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h660b422bg6a9agb778g88ddg0059bf29847c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd5367828g929ag3469g0f14g8efd24566d3c" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Druidcraft" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Druidcraft);UnlockSpell(Target_Resistance);" />
       </fields>
     </stat_object>
   </stat_objects>
