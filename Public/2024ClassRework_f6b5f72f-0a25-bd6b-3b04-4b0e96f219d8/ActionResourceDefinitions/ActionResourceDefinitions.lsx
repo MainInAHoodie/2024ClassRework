@@ -22,15 +22,6 @@
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
                     <attribute id="UUID" type="guid" value="f6de1624-04af-4499-8f07-edd6721ead73"/>
                 </node>
-                <node id="ActionResourceDefinition">
-                    <attribute id="Description" type="TranslatedString" handle="hacc9f556g0dcag7b09g68e5g3210b7e904b7" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h4496bbf8g8f01gb02dg2c40ga180d4dc7032" version="1"/>
-                    <attribute id="IsHidden" type="bool" value="false"/>
-                    <attribute id="Name" type="FixedString" value="TrickstersTranspositionCharge"/>
-                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
-                    <attribute id="UUID" type="guid" value="f740ed74-e657-4ee4-b738-cd8e45ea3fb0"/>
-                </node>
             </children>
         </node>
     </region>

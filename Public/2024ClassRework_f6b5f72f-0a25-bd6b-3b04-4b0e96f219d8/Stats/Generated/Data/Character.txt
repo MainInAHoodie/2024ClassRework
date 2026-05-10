@@ -112,3 +112,10 @@ using "Companion_Boar_11"
 data "Strength" "18"
 data "Passives" "AttackOfOpportunity;DarknessRules;ShortResting;CompanionsBond_Creature;ExceptionalTraining;BestialFury;ExtraAttack"
 
+new entry "InvokeDuplicity"
+type "Character"
+using "MinorIllusion"
+data "Flags" "InvulnerableAndInteractive"
+data "ActionResources" "Movement:9"
+data "Passives" "Duplicate_Disappear"
+

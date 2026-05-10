@@ -675,5 +675,15 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Druidcraft);UnlockSpell(Target_Resistance);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d409d52c-cf4c-4890-bd3c-0917c63a066f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Illusion_Disappear" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h10d60fe2g49d2g9c33g4d5bg25e086641bdf" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="Kill()" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

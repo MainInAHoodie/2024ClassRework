@@ -178,5 +178,15 @@
         <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;DarknessRules;ShortResting;CompanionsBond_Creature;ExceptionalTraining;BestialFury;ExtraAttack" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f001ce62-26da-4853-9fec-ba2dc1b5a9ca" />
+        <field name="Name" type="NameTableFieldDefinition" value="InvokeDuplicity" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e43eb35f-3283-44cd-ad17-d83a32db36bc" />
+        <field name="Flags" type="EnumerationListTableFieldDefinition" value="InvulnerableAndInteractive" enumeration_type_name="AttributeFlags" version="1" />
+        <field name="ActionResources" type="StringTableFieldDefinition" value="Movement:9" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Duplicate_Disappear" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

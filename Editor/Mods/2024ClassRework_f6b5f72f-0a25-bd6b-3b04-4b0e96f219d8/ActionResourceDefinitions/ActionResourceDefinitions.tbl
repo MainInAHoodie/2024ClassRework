@@ -25,17 +25,5 @@
         <field name="IsHidden" type="BoolTableFieldDefinition" value="False" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
-        <field name="UUID" type="IdTableFieldDefinition" value="f740ed74-e657-4ee4-b738-cd8e45ea3fb0" />
-        <field name="NameFS" type="FixedStringTableFieldDefinition" value="TrickstersTranspositionCharge" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4496bbf8g8f01gb02dg2c40ga180d4dc7032" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hacc9f556g0dcag7b09g68e5g3210b7e904b7" version="1" />
-        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
-        <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
-        <field name="IsHidden" type="BoolTableFieldDefinition" value="False" />
-      </fields>
-    </stat_object>
   </stat_objects>
 </stats>

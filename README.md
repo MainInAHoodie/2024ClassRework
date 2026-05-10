@@ -103,8 +103,11 @@ Warding Flare can now be used on either yourself or an ally right from the get-g
 #### **1st Level**
 Now grants Medium Armor Master for free, so you're not at cross-purposes with what the class is theoretically supposed to be doing.
 
+#### **2nd Level**
+**Invoke Duplicity**: Your Illusory Double now has 30 feet of movement speed.
+
 #### 6th Level
-**Trickster's Transposition**: 3 free uses of Misty Step per Long Rest.  I wasn't able to figure out how to implement moving the Invoke Duplicity clone or any of the stuff around that, although granted, I didn't try very hard.  Maybe I'll look into that at some point down the road.
+**Trickster's Transposition**: You can swap places with your Illusory Duplicate as a Bonus Action.
 
 ### War Domain
 #### **1st Level**
@@ -495,3 +498,9 @@ For this reason, the Fighter's Fighting Style has been moved to 2nd Level.  This
 ## "Can we pick the cantrips for Blessed and Druidic Warrior?"
 
 Unfortunately, no.  The engine just doesn't allow for that.
+
+## Illusory Double Having Movement Speed
+
+If you're wondering why I didn't make a new spell to move the Illusory Duplicate and instead gave it a movement speed, well...every time I tried to adjust Invoke Duplicity, the editor crashed when I tried to save.  And when I subsequently tried to load the mod.
+
+Invoke Duplicity has a bunch of different conditions around which Illusory Duplicate to spawn based on which species and gender does the invoking.  So many conditions, in fact, that attempting to add something else (like having it nlock a new spell) breaks the editor.  This is also why Trickster's Transposition is always unlocked instead of only being unlocked when you have a Duplicate spawned.

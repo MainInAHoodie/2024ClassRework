@@ -267,7 +267,6 @@
                     <attribute id="UUID" type="guid" value="97ba481e-13d2-4a8c-8503-e1b146c21b7b"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(TrickstersTranspositionCharge,3,0)"/>
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="TrickeryDomain"/>
                     <attribute id="PassivesAdded" type="LSString" value="TrickstersTransposition"/>
