@@ -366,7 +366,7 @@
   <content contentuid="hd2187260gc512g1259gf513gb58121176318" version="1">Guided Strike: Ally</content>
   <content contentuid="hc184bcaag7fa2gda5age2c4g3e45bb201276" version="1">Endow a nearby ally with the glory of your god to grant them a +[1] bonus to their &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
   <content contentuid="h88f5af2ag776fg94afgbbe7g8e95e9043d14" version="1">Trickster’s Transposition </content>
-  <content contentuid="h9d005e8bg476eg4175g61a8gf38985b4da91" version="2">Teleport to an unoccupied space that you can see.  This spell does not have Verbal Components.</content>
+  <content contentuid="h9d005e8bg476eg4175g61a8gf38985b4da91" version="3">Swap places with your illusory double.</content>
   <content contentuid="h29b8c09bg882ag063dg5f29gf0d07496a29d" version="1">You can use this spell [1] times per &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;</content>
   <content contentuid="h4496bbf8g8f01gb02dg2c40ga180d4dc7032" version="1">Trickster's Transposition Charges</content>
   <content contentuid="hacc9f556g0dcag7b09g68e5g3210b7e904b7" version="1">Represents how many times you can use &lt;LSTag Type="Spell" Tooltip="Target_TrickstersTransposition&gt;Trickster's Transposition&lt;/LSTag&gt;</content>
@@ -756,4 +756,33 @@
   <content contentuid="hff9c3da3g63a9g3d01gb828g374ec89880a1" version="1">&lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; is your Spellcasting ability for them.</content>
   <content contentuid="h660b422bg6a9agb778g88ddg0059bf29847c" version="1">Druidic Warrior: Support</content>
   <content contentuid="hd5367828g929ag3469g0f14g8efd24566d3c" version="2">Gain the &lt;LSTag Type="Spell" Tooltip="Target_Resistance"&gt;Resistance&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Shout_Druidcraft"&gt;Druidcraft&lt;/LSTag&gt; cantrips.</content>
+  <content contentuid="h8fb63064g094agf934gf35bgb18a870093e2" version="1">Invoke Duplicity: Move</content>
+  <content contentuid="h0030958bgbd59ga94cg026eg161e5907d967" version="1">Move your illusory duplicate.</content>
+  <content contentuid="h6e7281f6g84ecg10eeg2b17g2bb3e167b5b8" version="1">%% EMPTY</content>
+  <content contentuid="h94232645g434fg82e7g6483g259f7fb8475d" version="1">Invoke Duplicity</content>
+  <content contentuid="hd71be4f3g43f6g36e2g5b56g804e3b2f5000" version="1">Distract your enemies with an illusion. Within [1] of the illusion, &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; for you and your allies.</content>
+  <content contentuid="h9d220761g9930gca76g83e4g4a893a2ea418" version="1">Both the attacker and the creature must be within [1] of the illusion.</content>
+  <content contentuid="h10d60fe2g49d2g9c33g4d5bg25e086641bdf" version="1">%%% Illusion Disappear</content>
+  <content contentuid="h91694715g52fcg44c9g817fgf34474a39792" version="2">Illusory Double</content>
+  <content contentuid="h4810f776g1676g4804g9c56g478ab72532d6" version="2">Illusory Double</content>
+  <content contentuid="he8f67120gdcb6g4091g91ffg94650e05190b" version="2">Illusory Double</content>
+  <content contentuid="h618ae231g65fag466agbcf1g2c1648d0ab9a" version="2">Illusory Double</content>
+  <content contentuid="h9acabc81g541cg487dga7e7gcbcef30d667e" version="2">Illusory Double</content>
+  <content contentuid="h120a75adg2de7g40begbd2ag93a1b9dbad2e" version="2">Illusory Double</content>
+  <content contentuid="h32ee883fg97ecg4b07g8fcagbea009c78dc7" version="2">Illusory Double</content>
+  <content contentuid="h96264672g8267g4fd7g8b86g3493b0edf24a" version="2">Illusory Double</content>
+  <content contentuid="hd5c82adag80b3g47b4g9813g3aee961d84b3" version="2">Illusory Double</content>
+  <content contentuid="h6d6dcd74g9fdag4d04g84cag6bc1b1384d80" version="2">Illusory Double</content>
+  <content contentuid="h3230c5a2g9972g4afagbe10gce5e8490ef2f" version="2">Illusory Double</content>
+  <content contentuid="h287d705fgddf7g4ba4gb3a5g304d154dfe7a" version="2">Illusory Double</content>
+  <content contentuid="he4b69f44g3cb8g477egab7bg24bcce100ea0" version="2">Illusory Double</content>
+  <content contentuid="h4e573a98g7b36g4861gbff3gc5bdc8d9e369" version="2">Illusory Double</content>
+  <content contentuid="hb78d8231g0f4dg478egb0beg1b223727b63f" version="2">Illusory Double</content>
+  <content contentuid="h3261d28bga702g4b30g9e5egb77519a6e551" version="2">Illusory Double</content>
+  <content contentuid="hb51487e0g4401g435eg9426gace54083a12c" version="2">Illusory Double</content>
+  <content contentuid="h1f5a9798g3e72g4b72gacdeg5716545581f0" version="2">Illusory Double</content>
+  <content contentuid="h1a13846cgfebag423fgb843g207ea46f78aa" version="2">Illusory Double</content>
+  <content contentuid="h6ec73614gb9a8g44b6gadfdg838db4841887" version="2">Illusory Double</content>
+  <content contentuid="h476b3cf9g061eg407cgb3bbgd84b0a8cefbc" version="2">Illusory Double</content>
+  <content contentuid="hc338eb32g6155g43c9g90fcg596061ae42c9" version="2">Illusory Double</content>
 </contentList>

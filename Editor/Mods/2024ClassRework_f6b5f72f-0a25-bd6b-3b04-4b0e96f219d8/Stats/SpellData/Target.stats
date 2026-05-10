@@ -1003,13 +1003,14 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4ecba494-6b02-4864-afde-1c165aff7498" />
         <field name="Name" type="NameTableFieldDefinition" value="TrickstersTransposition" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="fdf25d3d-b45f-47b6-9760-d2f2f0651239" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h88f5af2ag776fg94afgbbe7g8e95e9043d14" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9d005e8bg476eg4175g61a8gf38985b4da91" version="2" />
-        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h29b8c09bg882ag063dg5f29gf0d07496a29d" version="1" />
-        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="3" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;TrickstersTranspositionCharge:1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9d005e8bg476eg4175g61a8gf38985b4da91" version="3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SwapPlaces();" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and HasStatus('INVOKE_DUPLICITY_AURA');" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fdf25d3d-b45f-47b6-9760-d2f2f0651239" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

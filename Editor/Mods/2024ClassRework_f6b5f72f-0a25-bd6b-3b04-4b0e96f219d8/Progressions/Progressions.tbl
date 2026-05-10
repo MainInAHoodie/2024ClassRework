@@ -258,7 +258,6 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(90acd47f-3475-4c85-99ea-7fd503591be4,,,,AlwaysPrepared)" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="TrickstersTransposition" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(TrickstersTranspositionCharge,3,0)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

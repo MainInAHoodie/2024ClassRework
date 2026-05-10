@@ -498,3 +498,10 @@ data "Description" "hd5367828g929ag3469g0f14g8efd24566d3c;2"
 data "Icon" "Druidcraft"
 data "Boosts" "UnlockSpell(Shout_Druidcraft);UnlockSpell(Target_Resistance);"
 
+new entry "Illusion_Disappear"
+type "PassiveData"
+data "DisplayName" "h10d60fe2g49d2g9c33g4d5bg25e086641bdf;1"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnDamaged"
+data "StatsFunctors" "Kill()"
+
