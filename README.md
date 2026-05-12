@@ -392,6 +392,9 @@ Nature has been added to the Wizard's Spell List
 
 # Spell Changes
 ## Cantrips
+### Multiple Classes
+- **Minor Illusion**: Your Minor Illusion no longer gets dispelled if it gets hit with a status effect.  You have to actually deal damage to dispel it.
+
 ### Bard
 - **Vicious Mockery**: Vicious Mockery now uses a D6 instead of a D4.
 
@@ -449,6 +452,10 @@ Nature has been added to the Wizard's Spell List
 
 # New Spells
 ## Cantrips
+### Multiple Classes
+- **Frostbite**: Target must make a Constitution Saving Throw or take 1d6 Cold Damage (scaling) and have Disadvantage on its next Weapon or Unarmed attack.
+    - Available to Druids, Sorcerers, Warlocks, and Wizards.
+
 ### Cleric
 - **Word of Radiance**: Each enemy within 7.5 ft of you (an increase from the book, because the Effect Radius in the engine doesn't let me enter 1.5 meters for some reason) must pass a Constitution Saving Throw or take 1d6 Radiant damage (scaling as you level)
 

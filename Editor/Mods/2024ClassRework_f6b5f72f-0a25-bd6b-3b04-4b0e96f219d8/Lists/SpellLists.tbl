@@ -41,7 +41,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b5bf9da4-fc27-4205-bddf-53eaf8a15c74" />
         <field name="Name" type="NameTableFieldDefinition" value="New Druid Cantrips" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Shout_Druidcraft;Projectile_StarryWisp;" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_Druidcraft;Projectile_StarryWisp;Target_Frostbite" />
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="b8faf12f-ca42-45c0-84f8-6951b526182a" />
       </fields>
     </stat_object>
@@ -136,7 +136,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="71d397e7-3863-4f88-b6fe-b6e9988ea978" />
         <field name="Name" type="NameTableFieldDefinition" value="New Sorcerer Cantrips" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Projectile_SorcerousBurst" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Projectile_SorcerousBurst;Target_Frostbite" />
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="485a68b4-c678-4888-be63-4a702efbe391" />
       </fields>
     </stat_object>
@@ -187,6 +187,22 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d9f8575e-3b76-49f3-8c36-9227e9cdee0e" />
         <field name="Name" type="NameTableFieldDefinition" value="UncannyMetabolism" />
         <field name="Spells" type="StringTableFieldDefinition" value="Shout_UncannyMetabolism" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a1c5d773-18e4-410d-97e1-71c95419cca1" />
+        <field name="Name" type="NameTableFieldDefinition" value="New Wizard Cantrips" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Frostbite" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="3cae2e56-9871-4cef-bba6-96845ea765fa" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0ad4ebf8-bfb9-4377-b3ae-ad93baf6ba01" />
+        <field name="Name" type="NameTableFieldDefinition" value="New Warlock Cantrips" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Frostbite" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="f5c4af9c-5d8d-4526-9057-94a4b243cd40" />
       </fields>
     </stat_object>
   </stat_objects>

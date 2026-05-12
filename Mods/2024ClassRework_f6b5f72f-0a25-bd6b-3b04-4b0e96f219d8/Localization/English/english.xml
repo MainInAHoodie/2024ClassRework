@@ -785,4 +785,8 @@
   <content contentuid="h6ec73614gb9a8g44b6gadfdg838db4841887" version="2">Illusory Double</content>
   <content contentuid="h476b3cf9g061eg407cgb3bbgd84b0a8cefbc" version="2">Illusory Double</content>
   <content contentuid="hc338eb32g6155g43c9g90fcg596061ae42c9" version="2">Illusory Double</content>
+  <content contentuid="h7f740e05g8dafg6bd3gfd1cg86548962421c" version="1">Frostbite</content>
+  <content contentuid="hf6e3c2fdgb8abg278fgfda8ge7f08dcb4b45" version="2">Affected entity has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on their next &lt;LSTag Tooltip="AttackRoll"&gt;Weapon or Unarmed Attack Roll&lt;/LSTag&gt;.</content>
+  <content contentuid="hec1f0491g48beg2d7dg540fg3d8a123cb416" version="1">Frostbite</content>
+  <content contentuid="h4e8f5c6ag0d0ag3ae1g9cecgba007e4d27fd" version="3">You cause numbing frost to form on one creature that you can see within range.  The target must make a &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; Saving Throw or take [1] and have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on its next &lt;LSTag Tooltip="AttackRoll"&gt;Weapon or Unarmed Attack Roll&lt;/LSTag&gt;.</content>
 </contentList>

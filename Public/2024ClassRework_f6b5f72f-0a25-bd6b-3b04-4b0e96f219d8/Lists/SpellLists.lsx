@@ -33,7 +33,7 @@
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="b8faf12f-ca42-45c0-84f8-6951b526182a"/>
                     <attribute id="Name" type="FixedString" value="New Druid Cantrips"/>
-                    <attribute id="Spells" type="LSString" value="Shout_Druidcraft;Projectile_StarryWisp;"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Druidcraft;Projectile_StarryWisp;Target_Frostbite"/>
                     <attribute id="UUID" type="guid" value="b5bf9da4-fc27-4205-bddf-53eaf8a15c74"/>
                 </node>
                 <node id="SpellList">
@@ -102,7 +102,7 @@
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="485a68b4-c678-4888-be63-4a702efbe391"/>
                     <attribute id="Name" type="FixedString" value="New Sorcerer Cantrips"/>
-                    <attribute id="Spells" type="LSString" value="Projectile_SorcerousBurst"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_SorcerousBurst;Target_Frostbite"/>
                     <attribute id="UUID" type="guid" value="71d397e7-3863-4f88-b6fe-b6e9988ea978"/>
                 </node>
                 <node id="SpellList">
@@ -139,6 +139,18 @@
                     <attribute id="Name" type="FixedString" value="UncannyMetabolism"/>
                     <attribute id="Spells" type="LSString" value="Shout_UncannyMetabolism"/>
                     <attribute id="UUID" type="guid" value="d9f8575e-3b76-49f3-8c36-9227e9cdee0e"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="3cae2e56-9871-4cef-bba6-96845ea765fa"/>
+                    <attribute id="Name" type="FixedString" value="New Wizard Cantrips"/>
+                    <attribute id="Spells" type="LSString" value="Target_Frostbite"/>
+                    <attribute id="UUID" type="guid" value="a1c5d773-18e4-410d-97e1-71c95419cca1"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="f5c4af9c-5d8d-4526-9057-94a4b243cd40"/>
+                    <attribute id="Name" type="FixedString" value="New Warlock Cantrips"/>
+                    <attribute id="Spells" type="LSString" value="Target_Frostbite"/>
+                    <attribute id="UUID" type="guid" value="0ad4ebf8-bfb9-4377-b3ae-ad93baf6ba01"/>
                 </node>
             </children>
         </node>
