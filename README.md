@@ -429,6 +429,9 @@ Nature has been added to the Wizard's Spell List
     The initial damage is the same as the recurring damage now.
 
 ## 2nd Level
+### Multiple Classes
+- **Flaming Sphere** now correctly uses the spellcaster's Spellcasting Ability instead of being hardcoded to Wisdom.
+
 ### Druid
 - **Barkskin** now increases AC to 17 instead of 16.
 

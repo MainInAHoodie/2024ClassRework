@@ -789,4 +789,8 @@
   <content contentuid="hf6e3c2fdgb8abg278fgfda8ge7f08dcb4b45" version="2">Affected entity has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on their next &lt;LSTag Tooltip="AttackRoll"&gt;Weapon or Unarmed Attack Roll&lt;/LSTag&gt;.</content>
   <content contentuid="hec1f0491g48beg2d7dg540fg3d8a123cb416" version="1">Frostbite</content>
   <content contentuid="h4e8f5c6ag0d0ag3ae1g9cecgba007e4d27fd" version="3">You cause numbing frost to form on one creature that you can see within range.  The target must make a &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; Saving Throw or take [1] and have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on its next &lt;LSTag Tooltip="AttackRoll"&gt;Weapon or Unarmed Attack Roll&lt;/LSTag&gt;.</content>
+  <content contentuid="h849a0c7cg74b9g6f60g11f7gbec7f46d99ba" version="1">Ram</content>
+  <content contentuid="hcd77c795g7ab8g9906g4529gc6f9ab9943a4" version="1">Slam into an enemy creature or object. On a successful save, the target still takes half damage.</content>
+  <content contentuid="h502b1ecbg7bb9gbe6fg3cbbg95524932fa97" version="1">Flaming Aura</content>
+  <content contentuid="ha463e549gb900gaa91g31f0g7f5eff189b9a" version="1">Creature is standing within [1] of a flaming sphere and will take [2] at the end of its turn. On a successful save, it will still take half damage.</content>
 </contentList>
