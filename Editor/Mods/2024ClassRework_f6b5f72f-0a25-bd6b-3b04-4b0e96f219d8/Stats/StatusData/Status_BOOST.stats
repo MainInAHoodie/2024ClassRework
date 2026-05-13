@@ -685,5 +685,26 @@
         <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Negative" enumeration_type_name="ManagedStatusEffectType" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7e1912ac-edbb-4135-a88e-1ba78f267d00" />
+        <field name="Name" type="NameTableFieldDefinition" value="FLAMING_SPHERE" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_FlamingSphere" />
+        <field name="StackId" type="StringTableFieldDefinition" value="FLAMING_SPHERE" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h502b1ecbg7bb9gbe6fg3cbbg95524932fa97" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha463e549gb900gaa91g31f0g7f5eff189b9a" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(2d6,Fire)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableCombatlog;InitiateCombat;BringIntoCombat" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Misc_Status_Burning_MO" />
+        <field name="SurfaceChange" type="StringTableFieldDefinition" value="Ignite" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="c0873536-30d7-4bc5-83cb-d94a6acbc7b8" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="28433b2f-01e6-4871-ab0c-f6ce78cd1814" />
+        <field name="OnTickRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Dexterity, CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="DealDamage(2d6,Fire,Magical)" />
+        <field name="OnTickFail" type="FunctorsTableFieldDefinition" value="DealDamage(2d6/2,Fire,Magical)" />
+        <field name="TooltipSave" type="StringTableFieldDefinition" value="Dexterity" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
