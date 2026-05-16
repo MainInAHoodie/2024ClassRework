@@ -610,3 +610,19 @@ data "OnTickFail" "DealDamage(2d6/2,Fire,Magical)"
 data "ApplyEffect" "c0873536-30d7-4bc5-83cb-d94a6acbc7b8"
 data "StatusEffect" "28433b2f-01e6-4871-ab0c-f6ce78cd1814"
 
+new entry "UNARMEDATTACK_OVERRIDE_CRAB"
+type "StatusData"
+data "StatusType" "BOOST"
+using "UNARMEDATTACK_OVERRIDE_BOAR"
+data "Boosts" "AttackSpellOverride(Target_Slice_Crab, Target_UnarmedAttack);"
+
+new entry "RANGERS_COMPANION_CRAB"
+type "StatusData"
+data "StatusType" "BOOST"
+using "RANGERS_COMPANION_BEAR"
+
+new entry "RANGERS_COMPANION_CAT"
+type "StatusData"
+data "StatusType" "BOOST"
+using "RANGERS_COMPANION_BEAR"
+

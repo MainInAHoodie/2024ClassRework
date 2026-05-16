@@ -199,7 +199,7 @@
         <field name="Intelligence" type="IntegerTableFieldDefinition" value="10" />
         <field name="Wisdom" type="IntegerTableFieldDefinition" value="10" />
         <field name="Charisma" type="IntegerTableFieldDefinition" value="10" />
-        <field name="Vitality" type="IntegerTableFieldDefinition" value="20" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="9" />
         <field name="ActionResources" type="StringTableFieldDefinition" value="BonusActionPoint:1;Movement:9" />
         <field name="BludgeoningResistance" type="EnumerationListTableFieldDefinition" value="Resistant" enumeration_type_name="ResistanceFlags" version="1" />
         <field name="SlashingResistance" type="EnumerationListTableFieldDefinition" value="Resistant" enumeration_type_name="ResistanceFlags" version="1" />
@@ -222,6 +222,81 @@
         <field name="Passives" type="StringTableFieldDefinition" value="DarknessRules;ShortResting" />
         <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY:PLAYER_BONUSES_EASYMODE" />
         <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="Ability" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="76c1f75c-0a0e-48e1-8297-a5f22e8d5842" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Crab" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c90234ca-4b13-4340-bbc9-2ea19e37ad35" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="3" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="4" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="17" />
+        <field name="UnarmedAttackAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
+        <field name="UnarmedRangedAttackAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;ShortResting;AttackOfOpportunity;DarknessRules;ThickShell" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="3" />
+        <field name="BludgeoningResistance" type="EnumerationListTableFieldDefinition" value="ResistantToNonMagical" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="SlashingResistance" type="EnumerationListTableFieldDefinition" value="ResistantToNonMagical" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="PiercingResistance" type="EnumerationListTableFieldDefinition" value="ResistantToNonMagical" enumeration_type_name="ResistanceFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ce39663c-bb3d-4645-8b0e-58f8dc4ab663" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Crab_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="76c1f75c-0a0e-48e1-8297-a5f22e8d5842" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="25" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;CompanionsBond_Creature;ShortResting;AttackOfOpportunity;DarknessRules;ThickShell" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6c1e5081-14fa-4fbd-a0f5-930717a883e7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Crab_7" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ce39663c-bb3d-4645-8b0e-58f8dc4ab663" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="33" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;AttackOfOpportunity;DarknessRules;ShortResting;CompanionsBond_Creature;ExceptionalTraining;ThickShell" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="216174da-029e-42fc-98c1-e5816eb935e7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Crab_8" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6c1e5081-14fa-4fbd-a0f5-930717a883e7" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="19" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="41" />
+        <field name="BludgeoningResistance" type="EnumerationListTableFieldDefinition" value="Resistant;ResistantToMagical" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="SlashingResistance" type="EnumerationListTableFieldDefinition" value="Resistant;ResistantToMagical" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="PiercingResistance" type="EnumerationListTableFieldDefinition" value="Resistant;ResistantToMagical" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="FireResistance" type="EnumerationListTableFieldDefinition" value="Resistant;ResistantToMagical" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="18" />
+        <field name="ThunderResistance" type="EnumerationListTableFieldDefinition" value="ResistantToMagical;Resistant" enumeration_type_name="ResistanceFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="14cc1e1c-1613-431e-8486-ec669a9a7970" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Crab_11" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="216174da-029e-42fc-98c1-e5816eb935e7" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="50" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;AttackOfOpportunity;DarknessRules;ShortResting;CompanionsBond_Creature;ExceptionalTraining;BestialFury;ExtraAttack;ThickShell" />
+        <field name="SlashingResistance" type="EnumerationListTableFieldDefinition" value="Resistant;ResistantToMagical" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="PiercingResistance" type="EnumerationListTableFieldDefinition" value="Resistant;ResistantToMagical" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="11" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="22" />
       </fields>
     </stat_object>
   </stat_objects>

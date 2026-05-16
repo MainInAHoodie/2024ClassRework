@@ -685,5 +685,17 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="Kill()" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8578d845-39ec-46ac-95ec-9384f0b735b1" />
+        <field name="Name" type="NameTableFieldDefinition" value="ThickShell" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h881f76afgf3b7gf171ga6b4g8e805927e8eb" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h55e58688g38d4g156dg050bgb620306e6f6b" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_HeavyArmorMaster" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DamageReduction(All, Flat, ProficiencyBonus);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="ProficiencyBonus" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

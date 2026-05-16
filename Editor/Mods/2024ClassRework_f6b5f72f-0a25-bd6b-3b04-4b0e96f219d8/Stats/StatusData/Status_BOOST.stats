@@ -706,5 +706,27 @@
         <field name="TooltipSave" type="StringTableFieldDefinition" value="Dexterity" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5509cf79-ecae-4eb1-9cbf-2aa785ffc623" />
+        <field name="Name" type="NameTableFieldDefinition" value="UNARMEDATTACK_OVERRIDE_CRAB" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="AttackSpellOverride(Target_Slice_Crab, Target_UnarmedAttack);" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="36c6c5ea-f70d-4899-a28d-1017869aa7b9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9a031831-72d9-4ab0-a255-304619abbb7e" />
+        <field name="Name" type="NameTableFieldDefinition" value="RANGERS_COMPANION_CRAB" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="58f8a01e-752f-4716-a21c-788ac2fa1354" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="41b791e3-04b7-4a5c-b0a6-e1e8d10761d8" />
+        <field name="Name" type="NameTableFieldDefinition" value="RANGERS_COMPANION_CAT" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="58f8a01e-752f-4716-a21c-788ac2fa1354" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

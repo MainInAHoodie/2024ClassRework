@@ -336,6 +336,12 @@ Oh, and they get a Dagger.  Don't forget the Dagger.
 #### **9th Level**
 - **Expertise**: Gain Expertise in another Skill.
 
+### Beast Master
+#### **3rd Level**
+Beast Masters get two new options for their animal companion:
+ - Crab: heavily armored, damage resistances, and can cause enemies to Bleed with its Pinch.  Turns into a Hermit Crab at 8th Level, which is even more heavily armored and has more damage resistances.
+ - Cat: Nimble. Can Dash as a Bonus Action, and as it levels up, Opportunity Attacks have Disadvantage.  At 11th Ranger level, it doesn't trigger Opportunity Attacks at all.
+
 ## Rogue
 ### Starting Ability Scores
 8 STR, 17 DEX, 14 CON, 14 INT, 12 WIS, 10 CHA

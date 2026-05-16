@@ -1707,5 +1707,59 @@
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="08b67438-9680-4b09-8e79-a002638cb159" />
+        <field name="Name" type="NameTableFieldDefinition" value="RangersCompanion" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Ranger_RangersCompanion" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h91fea722g5f47g2318g9a65gb103d0cbe0f4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf132538bg5908gf7baga899g63f593500083" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="VFX_Somatic_03" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_RangersCompanion" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="85f63b1e-1fe6-4228-863d-71f43a945b46,,;,,;551b8855-805c-45fa-973f-88df0cbe646a,,;394f93b4-106a-44e4-8e08-2feae2881df1,,;db52441a-8a80-4630-bcb8-0f220e1b8323,,;,,;f588875b-9a5f-4e05-ac41-3f3e73cdb4e4,,;,,;,," />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence;IsLinkedSpellContainer;CannotTargetItems;CannotTargetCharacter" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Summon" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_RangersCompanion_Bear;Target_RangersCompanion_Boar;Target_RangersCompanion_GiantSpider;Target_RangersCompanion_Raven;Target_RangersCompanion_Wolf;Target_RangersCompanion_Crab;Target_RangersCompanion_Cat;" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_RangersCompanion" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="2adc2574-07ac-4116-ba89-9ffe367ff77b" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="a8bd13f1-3918-4c25-a3c4-ca312ef20178" />
+        <field name="PositionEffect" type="GuidObjectTableFieldDefinition" value="47de8912-a859-436b-b88b-e849b1f5e180" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Poison" enumeration_type_name="Damage Type" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0e899979-616d-47fe-9dfd-004c287f8d9d" />
+        <field name="Name" type="NameTableFieldDefinition" value="RangersCompanion_Crab" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="08b67438-9680-4b09-8e79-a002638cb159" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_RangersCompanion" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_FindFamiliar_Crab" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1a3092e6g036cg23b8g7b80gf941a3437f3e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haec024eeg99d8g90a3g7473gabc95cd5af86" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(not ClassLevelHigherOrEqualThan(5,'Ranger')):Summon(ae5c71ef-514d-42ce-9964-2e9b5b8a1a48,Permanent,,,'CombatSummonStack',UNSUMMON_ABLE,RANGERS_COMPANION_CRAB,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(ClassLevelHigherOrEqualThan(5,'Ranger') and not ClassLevelHigherOrEqualThan(7,'Ranger')):Summon(f7a2b73c-e4e7-4590-9d85-8f40f4fda09d,Permanent,,,'CombatSummonStack',UNSUMMON_ABLE,RANGERS_COMPANION_CRAB,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(ClassLevelHigherOrEqualThan(7,'Ranger') and not ClassLevelHigherOrEqualThan(8,'Ranger')):Summon(0e969496-e723-49cb-b753-4e3bbb460ad7,Permanent,,,'CombatSummonStack',UNSUMMON_ABLE,RANGERS_COMPANION_CRAB,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(ClassLevelHigherOrEqualThan(8,'Ranger') and not ClassLevelHigherOrEqualThan(11,'Ranger')):Summon(0194ac19-1855-4a98-9224-a183d2cb2cb4,Permanent,,,'CombatSummonStack',UNSUMMON_ABLE,RANGERS_COMPANION_CRAB,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(ClassLevelHigherOrEqualThan(11,'Ranger')):Summon(d902c38a-5ddc-4eb8-affa-8e64e5f2d194,Permanent,,,'CombatSummonStack',UNSUMMON_ABLE,RANGERS_COMPANION_CRAB,SHADOWCURSE_SUMMON_CHECK);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="888f4e70-f335-4ca1-bb7b-ba7c0d88b04d" />
+        <field name="Name" type="NameTableFieldDefinition" value="RangersCompanion_Cat" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="08b67438-9680-4b09-8e79-a002638cb159" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_RangersCompanion" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9d41c801-8d7a-4e75-a608-a9f4b50f0a66" />
+        <field name="Name" type="NameTableFieldDefinition" value="Slice_Crab" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1eb6f69b-e717-4f36-9078-e8df04c850ab" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CRAB_PINCHED,100,2);DealDamage(LevelMapValue(CrabClaw)+UnarmedMeleeAbilityModifier,Piercing);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(CrabClaw)+UnarmedMeleeAbilityModifier,Piercing)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
