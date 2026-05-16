@@ -1761,5 +1761,35 @@
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(CrabClaw)+UnarmedMeleeAbilityModifier,Piercing)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="644c16b1-9da8-4d8c-b27c-978a9d6c9b1b" />
+        <field name="Name" type="NameTableFieldDefinition" value="LesserRestoration" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="2" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="1.5" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and (HasStatus('SG_Poisoned') or HasStatus('SG_Disease') or HasStatus('SG_Paralyzed') or HasStatus('SG_Blinded') or HasStatus('ASTARION_WEAK'))" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_LesserRestoration" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h04d98bf1ga76ag318cg4961gf55a7fe87903" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1591612ag9472g2ed0ga95eg91c688419f9b" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="414bbf02-2918-4f01-83fb-1ddc7a588d88,,;,,;454e3439-19f2-4c42-8773-e18cf4ee233a,15209db5-584b-451e-9fde-65fc5fa83945,c79098ac-4635-4bb3-a761-5541d5c0b057;ccdf11dc-08f7-4d7f-bca9-55cfcc8f94bd,a1257697-f0d0-41e1-916c-a56e2c5a4bb5,83da82ea-147d-45ba-9549-cfdd3e39b109;0c5dcc83-fa78-41da-b6a5-440b5ea30936,,;,,;bea988a0-2ec5-40d8-a67e-ffbd7454bc53,,;236087a5-5597-4ee7-ab06-75b01147f596,,;ee0b6a78-c6b6-4852-aecb-d7c474a37d68,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Healing" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="RechargeValues" type="StringTableFieldDefinition" value="4-6" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(SG_Poisoned);RemoveStatus(SG_Disease);RemoveStatus(SG_Paralyzed);RemoveStatus(SG_Blinded);RemoveStatus(ASTARION_WEAK)" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Abjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Healing_LesserRestoration_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Healing_LesserRestoration_L1to3" />
+        <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_RemoveNegativeStatuses" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Ally() and not Dead()" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="96a51ac8-2e7e-4718-bb62-dcfd18964a02" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b3087bdc-96ad-495a-9199-18846152088d" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="0b923965-fccd-41cc-9227-f886c427f65f" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
