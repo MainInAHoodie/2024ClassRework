@@ -104,5 +104,13 @@
         <field name="Level10" type="StringTableFieldDefinition" value="4d4" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="CrabClaw" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c2df5cb4-61e2-447f-966b-a8662ebc1fa8" />
+        <field name="Level1" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level8" type="StringTableFieldDefinition" value="2d6" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

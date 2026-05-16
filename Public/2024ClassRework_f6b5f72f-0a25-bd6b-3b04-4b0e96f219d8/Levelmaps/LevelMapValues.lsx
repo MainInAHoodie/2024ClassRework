@@ -95,6 +95,12 @@
                     <attribute id="PreferredClassUUID" type="guid" value="784001e2-c96d-4153-beb6-2adbef5abc92"/>
                     <attribute id="UUID" type="guid" value="41c44e3e-bb3b-449b-865e-121b0983b985"/>
                 </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1d6"/>
+                    <attribute id="Level8" type="LSString" value="2d6"/>
+                    <attribute id="Name" type="FixedString" value="CrabClaw"/>
+                    <attribute id="UUID" type="guid" value="c2df5cb4-61e2-447f-966b-a8662ebc1fa8"/>
+                </node>
             </children>
         </node>
     </region>

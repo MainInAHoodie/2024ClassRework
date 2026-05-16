@@ -793,4 +793,17 @@
   <content contentuid="hcd77c795g7ab8g9906g4529gc6f9ab9943a4" version="1">Slam into an enemy creature or object. On a successful save, the target still takes half damage.</content>
   <content contentuid="h502b1ecbg7bb9gbe6fg3cbbg95524932fa97" version="1">Flaming Aura</content>
   <content contentuid="ha463e549gb900gaa91g31f0g7f5eff189b9a" version="1">Creature is standing within [1] of a flaming sphere and will take [2] at the end of its turn. On a successful save, it will still take half damage.</content>
+  <content contentuid="h91fea722g5f47g2318g9a65gb103d0cbe0f4" version="1">Ranger's Companion</content>
+  <content contentuid="hf132538bg5908gf7baga899g63f593500083" version="1">Gain a beast companion that accompanies you on your adventures and fights alongside you.</content>
+  <content contentuid="had5993e8g8f38g6bcbg8b64gf9c1df34b8c1" version="1">Pinch</content>
+  <content contentuid="hef5760c8g115eg4f18ge34ag1e1a914e2075" version="1">Pinch a creature.</content>
+  <content contentuid="h7208c0c4g3752gb6a5gf3b4gf1d440cd7fdc" version="6">Citizen Snips</content>
+  <content contentuid="h86fe92c5g99afg93adgc586g118803c22755" version="9">First Citizen Snips</content>
+  <content contentuid="hd5923c38g02d7gcb9cgeae6ga4d61efc1849" version="1">Entity's thick shell reduces all incoming damage by [1]</content>
+  <content contentuid="h55e58688g38d4g156dg050bgb620306e6f6b" version="2">Entity's thick shell reduces all incoming damage by [1]</content>
+  <content contentuid="h1a3092e6g036cg23b8g7b80gf941a3437f3e" version="1">Crab Companion</content>
+  <content contentuid="haec024eeg99d8g90a3g7473gabc95cd5af86" version="1">Summon a crab that resists and reduces damage thanks to its heavy shell, and which can slice enemies with its &lt;LSTag Type="Spell" Tooltip="Target_CripplingPinch_Crab_Summon&gt;Crippling Pinch&lt;/LSTag&gt;.</content>
+  <content contentuid="h881f76afgf3b7gf171ga6b4g8e805927e8eb" version="1">Thick Shell</content>
+  <content contentuid="h78a83cbeg4de0g25beg49ceg823df7374f53" version="11">Citizen Snips</content>
+  <content contentuid="habfbbe53g5993g9814ge7dcgde64c0ebd65f" version="1">First Citizen Snips</content>
 </contentList>

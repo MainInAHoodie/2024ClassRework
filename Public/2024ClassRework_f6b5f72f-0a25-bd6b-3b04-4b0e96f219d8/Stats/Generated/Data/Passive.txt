@@ -505,3 +505,12 @@ data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnDamaged"
 data "StatsFunctors" "Kill()"
 
+new entry "ThickShell"
+type "PassiveData"
+data "DisplayName" "h881f76afgf3b7gf171ga6b4g8e805927e8eb;1"
+data "Description" "h55e58688g38d4g156dg050bgb620306e6f6b;2"
+data "DescriptionParams" "ProficiencyBonus"
+data "Icon" "PassiveFeature_HeavyArmorMaster"
+data "Properties" "Highlighted"
+data "Boosts" "DamageReduction(All, Flat, ProficiencyBonus);"
+
