@@ -438,6 +438,9 @@ Nature has been added to the Wizard's Spell List
 ### Multiple Classes
 - **Flaming Sphere** now correctly uses the spellcaster's Spellcasting Ability instead of being hardcoded to Wisdom.
 
+### Cleric
+- **Lesser Restoration** is now a Bonus Action instead of an Action.
+
 ### Druid
 - **Barkskin** now increases AC to 17 instead of 16.
 
@@ -519,4 +522,4 @@ Unfortunately, no.  The engine just doesn't allow for that.
 
 If you're wondering why I didn't make a new spell to move the Illusory Duplicate and instead gave it a movement speed, well...every time I tried to adjust Invoke Duplicity, the editor crashed when I tried to save.  And when I subsequently tried to load the mod.
 
-Invoke Duplicity has a bunch of different conditions around which Illusory Duplicate to spawn based on which species and gender does the invoking.  So many conditions, in fact, that attempting to add something else (like having it nlock a new spell) breaks the editor.  This is also why Trickster's Transposition is always unlocked instead of only being unlocked when you have a Duplicate spawned.
+Invoke Duplicity has a bunch of different conditions around which Illusory Duplicate to spawn based on which species and gender does the invoking.  So many conditions, in fact, that attempting to add something else (like having it unlock a new spell) breaks the editor.  This is also why Trickster's Transposition is always unlocked instead of only being unlocked when you have a Duplicate spawned.
