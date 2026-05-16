@@ -292,7 +292,7 @@ You gain Ride the Wind for free.  It is otherwise unchanged.
 
 ## Paladin
 ### Starting Abilities
-Unchanged from before
+17 STR, 12 DEX, 14 CON, 8 INT, 10 WIS, 14 CHA
 
 ### Starting Equipment
 You can now pick your starting equipment from among the following options:
@@ -317,7 +317,7 @@ Your starting equipment now also includes a Dagger.
 
 ## Ranger
 ### Starting Ability Scores
-Unchanged from before.
+12 STR, 17 DEX, 14 CON, 8 INT, 14 WIS, 10 CHA
 
 ### Starting Equipment
 Rangers now start with Studded Leather and a Longbow instead of Regular Leather and a Shortbow.  Their new Studded Leather has a unique color scheme, too.
