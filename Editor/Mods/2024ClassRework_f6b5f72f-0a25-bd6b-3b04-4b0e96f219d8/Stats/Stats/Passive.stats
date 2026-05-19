@@ -697,5 +697,38 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="ProficiencyBonus" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ab88aa09-6370-47fd-980e-0fca48d6aef4" />
+        <field name="Name" type="NameTableFieldDefinition" value="CatQuickReflexes" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h37266401gca48gd03bg3d57gd67a515cae04" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6341f2f3g30d7gfeb3g739cg8ad714cfc50c" version="3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_Cat" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsReactionAttack(context.Source)):Disadvantage(AttackTarget);Advantage(SavingThrow, Dexterity);JumpMaxDistanceMultiplier(2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d0c21692-9ed1-4b86-897b-cecb9f2125fb" />
+        <field name="Name" type="NameTableFieldDefinition" value="CatQuickerReflexes" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ab88aa09-6370-47fd-980e-0fca48d6aef4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h01cc5b4ag0fa8g30a2gf553gc3acca01211e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6ec77fb9gf149g9ea0gca68g0a486d5ee64b" version="3" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IgnoreLeaveAttackRange();JumpMaxDistanceMultiplier(2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e6d15497-030e-4d09-a627-c6812b17d375" />
+        <field name="Name" type="NameTableFieldDefinition" value="CatlikeTread" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h174236e1ga5ebg90cbgf7a7g36df657f5889" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4aea245eg275dgb50dgf8ccg1889e4b055d2" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_EnhanceAbility_CatsGrace" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Cat_Hide);" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

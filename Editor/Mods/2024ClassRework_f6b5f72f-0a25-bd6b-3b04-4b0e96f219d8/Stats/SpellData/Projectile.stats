@@ -533,5 +533,19 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(LevelMapValue(D12Cantrip),Poison,Magical);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="af56ade8-d840-41a7-b5f8-62f16d1972c7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cat_Pounce" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="58884948-b33b-4477-a10a-33e335008fc2" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(1d8+UnarmedMeleeAbilityModifier,Bludgeoning);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d8+UnarmedMeleeAbilityModifier,Bludgeoning);ApplyStatus(PRONE,100,2);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((1d8+UnarmedMeleeAbilityModifier)/2,Bludgeoning);ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL, 100, 0);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d8+UnarmedMeleeAbilityModifier,Bludgeoning);" />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsJump;IgnoreVisionBlock;IsAttack" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

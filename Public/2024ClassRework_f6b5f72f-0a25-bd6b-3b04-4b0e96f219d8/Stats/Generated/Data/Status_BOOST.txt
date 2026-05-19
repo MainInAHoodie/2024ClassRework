@@ -626,3 +626,9 @@ type "StatusData"
 data "StatusType" "BOOST"
 using "RANGERS_COMPANION_BEAR"
 
+new entry "UNARMEDATTACK_OVERRIDE_CAT"
+type "StatusData"
+data "StatusType" "BOOST"
+using "UNARMEDATTACK_OVERRIDE_WOLF"
+data "Boosts" "AttackSpellOverride(Target_Claws_Summon, Target_UnarmedAttack);AttackSpellOverride(Target_Claws_Summon, Target_MainHandAttack);"
+

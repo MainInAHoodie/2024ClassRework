@@ -804,8 +804,25 @@
   <content contentuid="h1a3092e6g036cg23b8g7b80gf941a3437f3e" version="1">Crab Companion</content>
   <content contentuid="haec024eeg99d8g90a3g7473gabc95cd5af86" version="1">Summon a crab that resists and reduces damage thanks to its heavy shell, and which can slice enemies with its &lt;LSTag Type="Spell" Tooltip="Target_CripplingPinch_Crab_Summon&gt;Crippling Pinch&lt;/LSTag&gt;.</content>
   <content contentuid="h881f76afgf3b7gf171ga6b4g8e805927e8eb" version="1">Thick Shell</content>
-  <content contentuid="h78a83cbeg4de0g25beg49ceg823df7374f53" version="11">Citizen Snips</content>
-  <content contentuid="habfbbe53g5993g9814ge7dcgde64c0ebd65f" version="1">First Citizen Snips</content>
+  <content contentuid="h78a83cbeg4de0g25beg49ceg823df7374f53" version="12">Citizen Snips</content>
+  <content contentuid="habfbbe53g5993g9814ge7dcgde64c0ebd65f" version="2">First Citizen Snips</content>
   <content contentuid="h04d98bf1ga76ag318cg4961gf55a7fe87903" version="1">Lesser Restoration</content>
   <content contentuid="h1591612ag9472g2ed0ga95eg91c688419f9b" version="1">Cure a creature from disease, poison, paralysis or blindness.</content>
+  <content contentuid="h37266401gca48gd03bg3d57gd67a515cae04" version="1">Cat-Quick Reflexes</content>
+  <content contentuid="h6341f2f3g30d7gfeb3g739cg8ad714cfc50c" version="3">&lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt; against you have &lt;LSTag Tooltip="DIsadvantage"&gt;Disadvantage&lt;/LSTag&gt;.  You can also jump [1] times as far and have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Dexterity Saving Throws&lt;/LSTag&gt;.</content>
+  <content contentuid="h01cc5b4ag0fa8g30a2gf553gc3acca01211e" version="1">Cat-Quick Reflexes</content>
+  <content contentuid="h6ec77fb9gf149g9ea0gca68g0a486d5ee64b" version="3">You no longer provoke &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt; at all.  You can still jump [1] times as far.</content>
+  <content contentuid="ha2d9add5gd218g7d3cgcaeeg2a27961368be" version="11">Garfield</content>
+  <content contentuid="h75b489cfg0317g53b3g2096g49b5e72faea0" version="1">Claws</content>
+  <content contentuid="h3c19cf47g2fceg4008g8ca1g314df353c455" version="1">Shash a creature with your claws.</content>
+  <content contentuid="h72a42434g30a6g1827gba85gc2d7880af985" version="7">Felix</content>
+  <content contentuid="h9ee56211g690bg493aga24cgfbb996766e9e" version="6">Chairman Meow</content>
+  <content contentuid="h33f865cbg5f73gc2feg2236g892f9e2fd866" version="2">Chairman Meow</content>
+  <content contentuid="he3c816b9gd0e9gb256g0aa1gc717b7acbcf3" version="1">Cat Companion</content>
+  <content contentuid="h294b7c99g250fg0fabg9005ga5f1171dc67a" version="2">Summon a cat that can &lt;LSTag Type="Spell" Tooltip="Projectile_Cat_Pounce"&gt;Pounce&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_Cat_SneakAttack"&gt;Sneak Attack&lt;/LSTag&gt; its enemies.  &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt; also have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; against it.</content>
+  <content contentuid="h285ead90gcbe7g44d5ga4e1g450da83b2c3b" version="1">Sneak Attack</content>
+  <content contentuid="h92a866c1g78efg4cdag45a7g405798133c51" version="1">Unarmed Attack Override: Cat</content>
+  <content contentuid="h174236e1ga5ebg90cbgf7a7g36df657f5889" version="1">Catlike Tread</content>
+  <content contentuid="h4aea245eg275dgb50dgf8ccg1889e4b055d2" version="2">You can &lt;LSTag Type="Spell" Tooltip="Shout_Hide"&gt;Hide&lt;/LSTag&gt; as a &lt;LSTag Tooltip="BonusAction"&gt;Bonus Action&lt;/LSTag&gt;.</content>
+  <content contentuid="hd2546392g0d1egaf66gadebg432338f1dfb8" version="1">Hide: Bonus Action</content>
 </contentList>

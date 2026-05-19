@@ -236,7 +236,7 @@
         <field name="Wisdom" type="IntegerTableFieldDefinition" value="12" />
         <field name="Charisma" type="IntegerTableFieldDefinition" value="4" />
         <field name="Armor" type="IntegerTableFieldDefinition" value="14" />
-        <field name="Vitality" type="IntegerTableFieldDefinition" value="17" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="10" />
         <field name="UnarmedAttackAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
         <field name="UnarmedRangedAttackAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
         <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;ShortResting;AttackOfOpportunity;DarknessRules;ThickShell" />
@@ -254,7 +254,7 @@
         <field name="Strength" type="IntegerTableFieldDefinition" value="14" />
         <field name="Constitution" type="IntegerTableFieldDefinition" value="14" />
         <field name="Armor" type="IntegerTableFieldDefinition" value="15" />
-        <field name="Vitality" type="IntegerTableFieldDefinition" value="25" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="17" />
         <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;CompanionsBond_Creature;ShortResting;AttackOfOpportunity;DarknessRules;ThickShell" />
         <field name="Level" type="IntegerTableFieldDefinition" value="5" />
       </fields>
@@ -264,9 +264,10 @@
         <field name="UUID" type="IdTableFieldDefinition" value="6c1e5081-14fa-4fbd-a0f5-930717a883e7" />
         <field name="Name" type="NameTableFieldDefinition" value="Companion_Crab_7" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ce39663c-bb3d-4645-8b0e-58f8dc4ab663" />
-        <field name="Vitality" type="IntegerTableFieldDefinition" value="33" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="25" />
         <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;AttackOfOpportunity;DarknessRules;ShortResting;CompanionsBond_Creature;ExceptionalTraining;ThickShell" />
         <field name="Level" type="IntegerTableFieldDefinition" value="7" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="18" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -282,7 +283,6 @@
         <field name="PiercingResistance" type="EnumerationListTableFieldDefinition" value="Resistant;ResistantToMagical" enumeration_type_name="ResistanceFlags" version="1" />
         <field name="FireResistance" type="EnumerationListTableFieldDefinition" value="Resistant;ResistantToMagical" enumeration_type_name="ResistanceFlags" version="1" />
         <field name="Level" type="IntegerTableFieldDefinition" value="8" />
-        <field name="Constitution" type="IntegerTableFieldDefinition" value="18" />
         <field name="ThunderResistance" type="EnumerationListTableFieldDefinition" value="ResistantToMagical;Resistant" enumeration_type_name="ResistanceFlags" version="1" />
       </fields>
     </stat_object>
@@ -296,7 +296,66 @@
         <field name="SlashingResistance" type="EnumerationListTableFieldDefinition" value="Resistant;ResistantToMagical" enumeration_type_name="ResistanceFlags" version="1" />
         <field name="PiercingResistance" type="EnumerationListTableFieldDefinition" value="Resistant;ResistantToMagical" enumeration_type_name="ResistanceFlags" version="1" />
         <field name="Level" type="IntegerTableFieldDefinition" value="11" />
-        <field name="Armor" type="IntegerTableFieldDefinition" value="22" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="19" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="de2c401f-3489-41a9-8da0-67f0286cc051" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Cat" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ebfa723b-9089-43ac-a9c9-6e777a225f20" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="3" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="10" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="DialogueBlock();BlockRegainHP(Undead;Construct);ProficiencyBonus(Skill, Perception);ProficiencyBonus(Skill, Acrobatics);" />
+        <field name="Passives" type="StringTableFieldDefinition" value="CatQuickReflexes;FelineFall;ShortResting;AttackOfOpportunity;Darkvision;DarknessRules;HuntersMark_RangerCompanion;Darkvision" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d66d3882-4bf0-4d99-b131-7f2637496054" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Cat_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="de2c401f-3489-41a9-8da0-67f0286cc051" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="5" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="17" />
+        <field name="Passives" type="StringTableFieldDefinition" value="CatQuickReflexes;FelineFall;ShortResting;AttackOfOpportunity;Darkvision;DarknessRules;HuntersMark_RangerCompanion;CompanionsBond_Creature;CatlikeTread;Darkvision" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="faa351bd-580e-49a3-97e2-71834a3d9512" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Cat_7" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d66d3882-4bf0-4d99-b131-7f2637496054" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="7" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="24" />
+        <field name="Passives" type="StringTableFieldDefinition" value="CatQuickReflexes;FelineFall;ShortResting;AttackOfOpportunity;Darkvision;DarknessRules;HuntersMark_RangerCompanion;CompanionsBond_Creature;ExceptionalTraining;CatlikeTread;Darkvision" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f5c45008-8e9f-452c-a514-6c95aec96132" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Cat_8" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="faa351bd-580e-49a3-97e2-71834a3d9512" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="20" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="40" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e03c8418-79fb-429d-b0a5-93e6857ac4d4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Cat_11" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f5c45008-8e9f-452c-a514-6c95aec96132" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="11" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="20" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="47" />
+        <field name="Passives" type="StringTableFieldDefinition" value="CatQuickerReflexes;FelineFall;ShortResting;AttackOfOpportunity;Darkvision;DarknessRules;HuntersMark_RangerCompanion;CompanionsBond_Creature;ExceptionalTraining;BestialFury;ExtraAttack;CatlikeTread;Darkvision" />
       </fields>
     </stat_object>
   </stat_objects>

@@ -101,6 +101,18 @@
                     <attribute id="Name" type="FixedString" value="CrabClaw"/>
                     <attribute id="UUID" type="guid" value="c2df5cb4-61e2-447f-966b-a8662ebc1fa8"/>
                 </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1d6"/>
+                    <attribute id="Level8" type="LSString" value="2d6"/>
+                    <attribute id="Name" type="FixedString" value="CatClaw"/>
+                    <attribute id="UUID" type="guid" value="1cfc5817-8887-448e-82f7-fd3bd96f95fa"/>
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1d6"/>
+                    <attribute id="Level8" type="LSString" value="2d6"/>
+                    <attribute id="Name" type="FixedString" value="Cat_SneakAttack"/>
+                    <attribute id="UUID" type="guid" value="b628bea6-4436-418f-a18b-6ac77a70a9d6"/>
+                </node>
             </children>
         </node>
     </region>

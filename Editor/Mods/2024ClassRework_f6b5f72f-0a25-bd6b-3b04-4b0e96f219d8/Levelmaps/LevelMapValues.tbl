@@ -112,5 +112,21 @@
         <field name="Level8" type="StringTableFieldDefinition" value="2d6" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="CatClaw" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1cfc5817-8887-448e-82f7-fd3bd96f95fa" />
+        <field name="Level1" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level8" type="StringTableFieldDefinition" value="2d6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="Cat_SneakAttack" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b628bea6-4436-418f-a18b-6ac77a70a9d6" />
+        <field name="Level1" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level8" type="StringTableFieldDefinition" value="2d6" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
