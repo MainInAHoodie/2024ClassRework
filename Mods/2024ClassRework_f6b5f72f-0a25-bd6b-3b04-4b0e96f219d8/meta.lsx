@@ -21,7 +21,7 @@
                     <attribute id="Author" type="LSString" value="ManInAHoodie"/>
                     <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
                     <attribute id="Description" type="LSString" value="Updates all classes based on the 2024 Player&apos;s Handbook, along with some of my own homebrew changes.  Protector Clerics and Warden Druids are much better in the frontline/melee rolls they&apos;re intended for."/>
-                    <attribute id="FileSize" type="uint64" value="28249600"/>
+                    <attribute id="FileSize" type="uint64" value="27875324"/>
                     <attribute id="Folder" type="LSString" value="2024ClassRework_f6b5f72f-0a25-bd6b-3b04-4b0e96f219d8"/>
                     <attribute id="LobbyLevelName" type="FixedString" value=""/>
                     <attribute id="MD5" type="LSString" value="4b094c1800a75b9877d0a04dada40067"/>

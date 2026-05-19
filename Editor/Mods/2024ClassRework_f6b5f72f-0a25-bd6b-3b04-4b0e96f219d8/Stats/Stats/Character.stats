@@ -323,6 +323,7 @@
         <field name="Charisma" type="IntegerTableFieldDefinition" value="10" />
         <field name="Vitality" type="IntegerTableFieldDefinition" value="17" />
         <field name="Passives" type="StringTableFieldDefinition" value="CatQuickReflexes;FelineFall;ShortResting;AttackOfOpportunity;Darkvision;DarknessRules;HuntersMark_RangerCompanion;CompanionsBond_Creature;CatlikeTread;Darkvision" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="10" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -342,7 +343,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="faa351bd-580e-49a3-97e2-71834a3d9512" />
         <field name="Level" type="IntegerTableFieldDefinition" value="8" />
         <field name="Dexterity" type="IntegerTableFieldDefinition" value="20" />
-        <field name="Armor" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="9" />
         <field name="Vitality" type="IntegerTableFieldDefinition" value="40" />
       </fields>
     </stat_object>
@@ -356,6 +357,7 @@
         <field name="Constitution" type="IntegerTableFieldDefinition" value="14" />
         <field name="Vitality" type="IntegerTableFieldDefinition" value="47" />
         <field name="Passives" type="StringTableFieldDefinition" value="CatQuickerReflexes;FelineFall;ShortResting;AttackOfOpportunity;Darkvision;DarknessRules;HuntersMark_RangerCompanion;CompanionsBond_Creature;ExceptionalTraining;BestialFury;ExtraAttack;CatlikeTread;Darkvision" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="9" />
       </fields>
     </stat_object>
   </stat_objects>
