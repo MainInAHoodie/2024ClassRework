@@ -347,10 +347,10 @@ Beast Masters get two new options for their animal companion:
     - At 11th Level, your crab's HP increases to 50, and its AC increases to 23.
  - **Cat**: Nimble feline companion with Advantage on Dex saves.  It starts with Proficiency in Perception and Acrobatics as well as Darkvision.
     - At 3rd Level, your cat will have 14 AC, 15 DEX, and 10 HP.  It can Sneak Attack (1d6 extra Slashing damage), and Opportunity Attacks against it have Disadvantage.  It can also Pounce, forcing targets to make a Strength save or be knocked Prone.
-    - At 5th Level, your cat can Hide as a Bonus Action.  Its Dexterity increases to 16, its AC increases to 18, and its HP increases to 17.
+    - At 5th Level, your cat can Hide as a Bonus Action.  Its Dexterity increases to 16, its AC increases to 16, and its HP increases to 17.
     - At 7th Level, your cat's HP increases to 24.
-    - At 8th Level, your cat's Dexterity increases to 20, its AC increases to 21, and its HP increases to 40.
-    - At 11th Level, your cat no longer provokes Opportunity Attacks at all.  Its AC increases to 22, and its HP increases to 47.
+    - At 8th Level, your cat's Dexterity increases to 20, its AC increases to 17, and its HP increases to 40.
+    - At 11th Level, your cat no longer provokes Opportunity Attacks at all.  Its AC increases to 18, and its HP increases to 47.
 
 ## Rogue
 ### Starting Ability Scores
