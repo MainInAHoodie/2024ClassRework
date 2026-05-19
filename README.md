@@ -339,8 +339,18 @@ Oh, and they get a Dagger.  Don't forget the Dagger.
 ### Beast Master
 #### **3rd Level**
 Beast Masters get two new options for their animal companion:
- - Crab: heavily armored, damage resistances, and can cause enemies to Bleed with its Pinch.  Turns into a Hermit Crab at 8th Level, which is even more heavily armored and has more damage resistances.
- - Cat: Nimble. Can Dash as a Bonus Action, and as it levels up, Opportunity Attacks have Disadvantage.  At 11th Ranger level, it doesn't trigger Opportunity Attacks at all.
+ - **Crab**: heavily armored companion with various damage resistances that can cause enemies to Bleed with its Pinch.
+    - At 3rd Level, your crab will have 14 AC, 12 STR, and 10 hit points.  It also has Resistance to non-magical Physical damage, and its Thick Shell passive reduces incoming damage by its Proficiency Bonus.
+    - At 5th Level, your crab will add your Proficiency bonus to its AC (bringing that up to 17).  Its HP increases to 17, its AC increases to 18, and its Strength increases to 14.
+    - At 7th Level, your crab's HP increases to 25, and its Constitution increases from 14 to 18.
+    - At 8th Level, your crab's HP increases to 41, its AC increases to 22, and its Strength increases to 16.  It gains Resistance to all Physical, Fire, and Thunder damage at this point.  It also turns into a Hermit Crab.
+    - At 11th Level, your crab's HP increases to 50, and its AC increases to 23.
+ - **Cat**: Nimble feline companion with Advantage on Dex saves.  It starts with Proficiency in Perception and Acrobatics as well as Darkvision.
+    - At 3rd Level, your cat will have 14 AC, 15 DEX, and 10 HP.  It can Sneak Attack (1d6 extra Slashing damage), and Opportunity Attacks against it have Disadvantage.  It can also Pounce, forcing targets to make a Strength save or be knocked Prone.
+    - At 5th Level, your cat can Hide as a Bonus Action.  Its Dexterity increases to 16, its AC increases to 18, and its HP increases to 17.
+    - At 7th Level, your cat's HP increases to 24.
+    - At 8th Level, your cat's Dexterity increases to 20, its AC increases to 21, and its HP increases to 40.
+    - At 11th Level, your cat no longer provokes Opportunity Attacks at all.  Its AC increases to 22, and its HP increases to 47.
 
 ## Rogue
 ### Starting Ability Scores

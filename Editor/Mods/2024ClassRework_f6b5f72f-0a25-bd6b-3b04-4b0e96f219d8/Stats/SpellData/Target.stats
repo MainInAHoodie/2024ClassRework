@@ -1750,6 +1750,10 @@
         <field name="Name" type="NameTableFieldDefinition" value="RangersCompanion_Cat" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="08b67438-9680-4b09-8e79-a002638cb159" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_RangersCompanion" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(not ClassLevelHigherOrEqualThan(5,'Ranger')):Summon(8fd0c276-eff2-427c-bb9b-cead1479176a,Permanent,,,'CombatSummonStack',UNSUMMON_ABLE,RANGERS_COMPANION_CAT,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(ClassLevelHigherOrEqualThan(5,'Ranger') and not ClassLevelHigherOrEqualThan(7,'Ranger')):Summon(cfacc4c5-31a2-4929-85dc-c88d7f95174a,Permanent,,,'CombatSummonStack',UNSUMMON_ABLE,RANGERS_COMPANION_CAT,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(ClassLevelHigherOrEqualThan(7,'Ranger') and not ClassLevelHigherOrEqualThan(8,'Ranger')):Summon(208b08ea-8fb9-412c-8870-4ce61c4d4713,Permanent,,,'CombatSummonStack',UNSUMMON_ABLE,RANGERS_COMPANION_CAT,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(ClassLevelHigherOrEqualThan(8,'Ranger') and not ClassLevelHigherOrEqualThan(11,'Ranger')):Summon(8772c9e4-a61b-48ea-9603-772f133014a1,Permanent,,,'CombatSummonStack',UNSUMMON_ABLE,RANGERS_COMPANION_CAT,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(ClassLevelHigherOrEqualThan(11,'Ranger')):Summon(b51b8734-ee06-4277-84be-9c7ab59e6928,Permanent,,,'CombatSummonStack',UNSUMMON_ABLE,RANGERS_COMPANION_CAT,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_FindFamiliar" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he3c816b9gd0e9gb256g0aa1gc717b7acbcf3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h294b7c99g250fg0fabg9005ga5f1171dc67a" version="2" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1789,6 +1793,42 @@
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b3087bdc-96ad-495a-9199-18846152088d" />
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="0b923965-fccd-41cc-9227-f886c427f65f" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d3f9dfaf-05f0-4c0c-aacd-fb8201ec836d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Claws_Summon" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="775a0869-d292-401c-ab9d-4115306b9817" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(CatClaw)+UnarmedMeleeAbilityModifier,Slashing);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h75b489cfg0317g53b3g2096g49b5e72faea0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3c19cf47g2fceg4008g8ca1g314df353c455" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(CatClaw)+UnarmedMeleeAbilityModifier,Slashing);" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Slashing" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="35163418-68e2-47f5-88d1-28443979377d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cat_SneakAttack" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5f124fec-1605-4952-a13f-f61f92cb53f8" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(UnarmedDamage, Slashing);IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="1.5" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="%% EMPTY;" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeUnarmedAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage((UnarmedDamage, Slashing) + LevelMapValue(Cat_SneakAttack), Slashing);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Self() and not Dead() and ((HasAdvantage(AttackType.MeleeUnarmedAttack) or HasAllyWithinRange('SG_Incapacitated',1.5)) and not HasDisadvantage(AttackType.MeleeUnarmedAttack)) and not Tagged('INANIMATE');" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h285ead90gcbe7g44d5ga4e1g450da83b2c3b" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MeleeUnarmedDamage + LevelMapValue(Cat_SneakAttack), Slashing)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeUnarmedAttack" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_Claw" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="CrSpell_Impact_Claw" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,,;f4ac302b-1569-404f-bd52-1fe443e265df,,;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,,;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;IsHarmful;IsAttack" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Slashing" enumeration_type_name="Damage Type" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Intent" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="WeaponType" type="EnumerationListTableFieldDefinition" value="None" enumeration_type_name="WeaponFlags" version="1" />
       </fields>
     </stat_object>
   </stat_objects>

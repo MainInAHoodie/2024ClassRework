@@ -1092,5 +1092,13 @@
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Radiant_Gen_L1to3_Loop" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d8238335-e95c-499a-bbd4-7c12c50c0727" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cat_Hide" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ba7823a9-ebfa-4c14-bef4-b4d7dd310e5d" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd2546392g0d1egaf66gadebg432338f1dfb8" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -728,5 +728,13 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="58f8a01e-752f-4716-a21c-788ac2fa1354" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ada10829-e8ff-4421-a8a0-297751f5063d" />
+        <field name="Name" type="NameTableFieldDefinition" value="UNARMEDATTACK_OVERRIDE_CAT" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="51a4031c-febc-43e0-9018-6085d9b242e8" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="AttackSpellOverride(Target_Claws_Summon, Target_UnarmedAttack);AttackSpellOverride(Target_Claws_Summon, Target_MainHandAttack);" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
