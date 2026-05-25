@@ -524,6 +524,12 @@ For whatever reason, selecting a Passive at the same level you select Equipment 
 
 For this reason, the Fighter's Fighting Style has been moved to 2nd Level.  This is also why Clerics and Druids can't select their starting equipment -- they wouldn't actually keep their Protector/Thaumaturge Passives, which would defeat the whole point of having them.
 
+## Equipment Selection on Respec
+
+If you respec a character, you'll be prompted to pick their equipment again, and you'll have this equipment when you leave character creation.  If you were so inclined, you could go through the process again and again and again and sell all the free equipment you just got (pickpocketing the money back from Withers in the process), though I think doing so is its own punishment.
+
+This already happened in the base game with the Bard when you selected their musical instrument, but it wasn't as much of an issue there since instruments sell for peanuts.
+
 ## "Can we pick the cantrips for Blessed and Druidic Warrior?"
 
 Unfortunately, no.  The engine just doesn't allow for that.
