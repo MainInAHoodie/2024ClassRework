@@ -24,7 +24,7 @@
                     <attribute id="FileSize" type="uint64" value="27875324"/>
                     <attribute id="Folder" type="LSString" value="2024ClassRework_f6b5f72f-0a25-bd6b-3b04-4b0e96f219d8"/>
                     <attribute id="LobbyLevelName" type="FixedString" value=""/>
-                    <attribute id="MD5" type="LSString" value="4b094c1800a75b9877d0a04dada40067"/>
+                    <attribute id="MD5" type="LSString" value="c7467c027716d9656aa538a27a4d4bc6"/>
                     <attribute id="MenuLevelName" type="FixedString" value=""/>
                     <attribute id="Name" type="LSString" value="2024ClassRework"/>
                     <attribute id="NumPlayers" type="uint8" value="4"/>
@@ -32,7 +32,7 @@
                     <attribute id="PublishHandle" type="uint64" value="5854092"/>
                     <attribute id="StartupLevelName" type="FixedString" value=""/>
                     <attribute id="UUID" type="FixedString" value="f6b5f72f-0a25-bd6b-3b04-4b0e96f219d8"/>
-                    <attribute id="Version64" type="int64" value="36028797018964009"/>
+                    <attribute id="Version64" type="int64" value="36028797018964012"/>
                     <children>
                         <node id="PublishVersion">
                             <attribute id="Version64" type="int64" value="144255927718626661"/>
