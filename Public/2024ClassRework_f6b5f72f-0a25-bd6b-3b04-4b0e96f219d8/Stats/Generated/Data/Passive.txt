@@ -400,7 +400,7 @@ data "Boosts" "UnlockSpell(Shout_ElementalAttunement_Container);"
 new entry "ImprovedElementalCasting"
 type "PassiveData"
 data "DisplayName" "hb1f7c169gc2a0ge36egf37dgf05620379dd1;1"
-data "Description" "h23e49e56g376dg0c22g4938gd6e4ce3563e7;2"
+data "Description" "h23e49e56g376dg0c22g4938gd6e4ce3563e7;3"
 data "Icon" "PassiveFeature_Generic_Magical"
 data "Properties" "Highlighted"
 

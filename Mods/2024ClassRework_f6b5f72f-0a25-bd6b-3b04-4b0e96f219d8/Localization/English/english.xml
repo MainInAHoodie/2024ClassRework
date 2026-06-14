@@ -618,7 +618,7 @@
   <content contentuid="hc02ff41fgf744g12cbg0a4egea20e19a09e4" version="1">Fangs of the Fire Snake</content>
   <content contentuid="h965fc49cg8c7cgc48bgfa45g06b25e228256" version="1">Affected entity's fists are flickering with flame. Its melee attacks deal an additional [1].</content>
   <content contentuid="hb1f7c169gc2a0ge36egf37dgf05620379dd1" version="1">Improved Elemental Casting</content>
-  <content contentuid="h23e49e56g376dg0c22g4938gd6e4ce3563e7" version="2">Your affinity with elemental ki deepens.  Your &lt;LSTag Type="Spell" Tooltip="Shout_ElementalAttunement_Container"&gt;Elemental Attunement&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tootlip="Projectile_FangsOfTheFireSnake"&gt;Fangs of the Fire Snake&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_WaterWhip"&gt;Water Whip&lt;/LSTag&gt; deal an extra die of damage.</content>
+  <content contentuid="h23e49e56g376dg0c22g4938gd6e4ce3563e7" version="3">Your affinity with elemental ki deepens.  Your &lt;LSTag Type="Spell" Tooltip="Projectile_FangsOfTheFireSnake"&gt;Fangs of the Fire Snake&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_WaterWhip"&gt;Water Whip&lt;/LSTag&gt; deal an extra die of damage.</content>
   <content contentuid="h286ceae6g1077gb922g6d6fgb0b83c835cda" version="1">Fangs of the Fire Snake</content>
   <content contentuid="h644f87adg1e06g397ag3570g854bea6ba40d" version="1">Hit your foe from afar. Your next melee attacks deal an additional [1].</content>
   <content contentuid="hb0ea4bd5gd0b8gcda6g1d78g7ed1010df231" version="1">Way of the Elements</content>
