@@ -409,18 +409,16 @@ Nature has been added to the Wizard's Spell List
 # Spell Changes
 ## Cantrips
 ### Multiple Classes
+- **Blade Ward**: Now requires Concentration, but lasts for 1 minute instead of 1 round.
 - **Minor Illusion**: Your Minor Illusion no longer gets dispelled if it gets hit with a status effect.  You have to actually deal damage to dispel it.
+- **Poison Spray**: Now an attack roll rather than a Saving Throw, and now has a range of 30ft.
+- **True Strike**: True Strike now lets you make one attack with your melee weapon using your Spellcasting Ability Modifier.
 
 ### Bard
 - **Vicious Mockery**: Vicious Mockery now uses a D6 instead of a D4.
 
 ### Druid
 - **Shillelagh**: Shillelagh can now apply to Greatclubs, too.  Hey, a giant club is still a club.
-
-### Wizard
-- **Blade Ward**: Now requires Concentration, but lasts for 1 minute instead of 1 round.
-- **Poison Spray**: Now an attack roll rather than a Saving Throw, and now has a range of 30ft.
-- **True Strike**: True Strike now lets you make one attack with your melee weapon using your Spellcasting Ability Modifier.
 
 ## 1st Level
 ### Cleric
@@ -431,6 +429,10 @@ Nature has been added to the Wizard's Spell List
 - **Hunter's Mark** now applies to all attacks, not just weapons, and now does 1d6 of Force damage.
 
 ### Wizard
+- **Chromatic Orb**:
+    - All elements now start at 3d8 damage, not just Thunder.
+    - The orb no longer leaves an elemental surface.
+    - If you upcast the spell to 4th level or above, on a hit, the orb will bounce to another conscious enemy, much as the Arrow of Many Targets does.  It will bounce to one target at 4th level, two targets at 5th level, and three targets at 6th level.  Each subsequent target, starting with the first, will take 2d8 less damage.
 - **Color Spray**: Now a Constitution Save instead of a Hit Point total.  Cone size starts at 4 meters and scales up 1 meter per Spell Level, topping out at 9 meters (30 feet) at 6th level.
 - **Magic Weapon**: Now a Bonus Action, and no longer requires Concentration.
 - **Sleep**: Now a Constitution Save instead of a Hit Point total.  Targets sleep for one extra turn for each Spell Slot level above 1.
