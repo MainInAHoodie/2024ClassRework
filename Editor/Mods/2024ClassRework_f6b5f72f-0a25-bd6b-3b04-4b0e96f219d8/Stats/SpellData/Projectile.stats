@@ -547,5 +547,1046 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b8b0c97a-30fc-4c1e-ae08-f23a99ba18da" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead()" />
+        <field name="ProjectileCount" type="StringTableFieldDefinition" value="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_ChromaticOrb" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hce3a11e0g8167gd0e3g002cgd60e4d79c039" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc8844629g8eddg8d7dg5c5ag95a45bba9f85" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;38cdb41c-2eec-4e03-bb31-83cff0346c35,,;85414f5f-b448-4dda-9370-1b6c4b38b561,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasHighGroundRangeExtension;HasVerbalComponent;HasSomaticComponent;RangeIgnoreVerticalThreshold;IsHarmful;IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Acid;Projectile_ChromaticOrb_Cold;Projectile_ChromaticOrb_Fire;Projectile_ChromaticOrb_Lightning;Projectile_ChromaticOrb_Poison;Projectile_ChromaticOrb_Thunder" />
+        <field name="TargetFloor" type="StringTableFieldDefinition" value="-1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(2,2,Acid)" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="f77c14be-cc25-40d6-a7dd-99b2e0a2df1c" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8,Thunder)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="RangedSpellAttack" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d8,Thunder)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1ababef8-c892-4130-935d-849b8eac396c" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Acid" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.RangedSpellAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d8,Acid,Magical);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead()" />
+        <field name="ProjectileCount" type="StringTableFieldDefinition" value="1" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="f77c14be-cc25-40d6-a7dd-99b2e0a2df1c" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_ChromaticOrb_Acid" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hba758149g3715g6c1fg11c7g474fc6e90e1e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7087c21dgb675g5c62ge86egfba2f2f87e5c" version="2" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8,Acid)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="RangedSpellAttack" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;38cdb41c-2eec-4e03-bb31-83cff0346c35,,;85414f5f-b448-4dda-9370-1b6c4b38b561,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasHighGroundRangeExtension;HasVerbalComponent;HasSomaticComponent;RangeIgnoreVerticalThreshold;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
+        <field name="TargetFloor" type="StringTableFieldDefinition" value="-1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="17173dd6-e330-4769-b6bd-d757689e7f9a" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="eb96a8c6-37b4-4a13-a622-034a1dcbee60" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Acid_ChromaticOrbAcid_L1to3" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Acid" enumeration_type_name="Damage Type" version="1" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Acid)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9b29d548-7645-4cb8-ac56-5c4b9880a26b" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Cold" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ababef8-c892-4130-935d-849b8eac396c" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d8,Cold,Magical);RemoveStatus(BURNING);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8,Cold)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_ChromaticOrb_Cold" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd6acadbbgf324gbf99g6763g49ba470562ae" version="1" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="32fab210-8c88-4fe2-a33c-ade6a9c880b7" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="cc7c02e9-b4f2-4c4d-bb4a-7526d7bef885" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="31fdeb9c-f917-4fc5-a0ac-93993a17cab4" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Ice_ChromaticOrbIce_L1to3" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:SurfaceChange(Freeze);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h91dbe3a1g4c28gca90g2376g551014ca1475" version="2" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Cold" enumeration_type_name="Damage Type" version="1" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Cold)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="74f7ebd0-7428-41f2-b70b-c59dc27f02fd" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Acid_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ababef8-c892-4130-935d-849b8eac396c" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d8,Acid,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Acid_Ricochet_4);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d8,Acid)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Acid" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hea7ddbe5gdd65ge0a2g724agf06db6ca25ec" version="2" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="1;DealDamage(2d8, Acid)" />
+        <field name="ExtraProjectileTargetConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead() and not HasStatus('KNOCKED_OUT');" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9eb849b3-c73f-422e-8cb0-d504d4a4b5b2" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Cold_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9b29d548-7645-4cb8-ac56-5c4b9880a26b" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d8,Cold,Magical);RemoveStatus(BURNING);SpawnExtraProjectiles(Projectile_ChromaticOrb_Cold_Ricochet_4);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d8,Cold)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Cold" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hacd26a4cg0229g2fc9gd8fagf4e48a782d2a" version="2" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="1;DealDamage(2d8, Cold)" />
+        <field name="ExtraProjectileTargetConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead() and not HasStatus('KNOCKED_OUT');" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a31c9149-4a39-474b-a106-075bf20164a8" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Fire_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c423acc0-e59d-43b2-8bf4-1cc0d8bf9704" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d8,Fire,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Fire_Ricochet_4);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d8,Fire)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Fire" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h23d7285cg6e26g1d81g41eag3b2354ee0bef" version="2" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="1;DealDamage(2d8, Fire)" />
+        <field name="ExtraProjectileTargetConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead() and not HasStatus('KNOCKED_OUT');" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="90a6ff56-e510-4c15-8982-77cc4fc19253" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Lightning_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e7b5aa0a-2bf5-4c37-9496-4469e89ca36d" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d8,Lightning,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Lightning_Ricochet_4);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d8,Lightning)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Lightning" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h7924eeacg96e8g3387g3481g418d59032321" version="2" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="1;DealDamage(2d8, Lightning)" />
+        <field name="ExtraProjectileTargetConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead() and not HasStatus('KNOCKED_OUT');" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f679b02d-55b6-4137-a141-c46821dd6522" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Poison_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5ab16307-2824-42e2-adde-0074c7331c92" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d8,Poison,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Acid_Poison_4);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d8,Poison)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Poison" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hcfffb5b4gb0d6g557bg99e0gc186f399f016" version="2" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="1;DealDamage(2d8, Poison)" />
+        <field name="ExtraProjectileTargetConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead() and not HasStatus('KNOCKED_OUT');" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ed04a606-267f-4512-8e64-13a80c52d9e9" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Thunder_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7907fa20-abbf-4712-a06c-629d5ee28b96" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d8,Thunder,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Acid_Thunder_4);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d8,Thunder)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Thunder" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h2b2415a3g46e6g4fddg5b39gb0f92f4257fc" version="2" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="1;DealDamage(2d8, Thunder)" />
+        <field name="ExtraProjectileTargetConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead() and not HasStatus('KNOCKED_OUT');" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5f1cc4fd-7902-42c7-ab3a-131879d3731c" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ababef8-c892-4130-935d-849b8eac396c" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Acid_5" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d8,Acid,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Acid_Ricochet_5);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Acid" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d8,Acid)" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="ha10d4ceagcac8g0657ge159g07a92661c446" version="2" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="2;DealDamage(2d8, Acid)" />
+        <field name="ExtraProjectileTargetConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead() and not HasStatus('KNOCKED_OUT');" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="90b6be49-a5e5-4974-a978-cfa468b8524f" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ababef8-c892-4130-935d-849b8eac396c" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Acid_6" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(8d8,Acid,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Acid_Ricochet_6);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Acid" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d8,Acid)" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hf3872cf5g30degd24ag2605g60145f047138" version="2" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="3;DealDamage(2d8, Acid)" />
+        <field name="ExtraProjectileTargetConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead() and not HasStatus('KNOCKED_OUT');" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="42223d81-de2b-420e-9559-5afeba112856" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9b29d548-7645-4cb8-ac56-5c4b9880a26b" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Cold_5" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d8,Cold,Magical);RemoveStatus(BURNING);SpawnExtraProjectiles(Projectile_ChromaticOrb_Cold_Ricochet_5);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d8,Cold)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Cold" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h79c0566bg3a51g0d5eg3bb2g137bb0cdc590" version="2" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="2;DealDamage(2d8, Cold)" />
+        <field name="ExtraProjectileTargetConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead() and not HasStatus('KNOCKED_OUT');" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4e6199c6-66c7-46dd-81be-a1b061fbf96b" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9b29d548-7645-4cb8-ac56-5c4b9880a26b" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Cold_6" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(8d8,Cold,Magical);RemoveStatus(BURNING);SpawnExtraProjectiles(Projectile_ChromaticOrb_Cold_Ricochet_6);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d8,Cold)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Cold" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h080d0b88g2ec2gf001gd956g08041b83a38d" version="2" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="3;DealDamage(2d8, Cold)" />
+        <field name="ExtraProjectileTargetConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead() and not HasStatus('KNOCKED_OUT');" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1cb8cecf-7558-4ab8-bf9e-aa8aeac83b9a" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c423acc0-e59d-43b2-8bf4-1cc0d8bf9704" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Fire_5" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d8,Fire,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Fire_Ricochet_5);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d8,Fire)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Fire" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="ha9b3fc6dge6b2g04c6g70ffg4180d28453e7" version="2" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="2;DealDamage(2d8, Fire)" />
+        <field name="ExtraProjectileTargetConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead() and not HasStatus('KNOCKED_OUT');" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fc5279e9-e5fb-4acf-b040-b5847fd8607c" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c423acc0-e59d-43b2-8bf4-1cc0d8bf9704" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Fire_6" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(8d8,Fire,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Fire_Ricochet_6);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d8,Fire)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Fire" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h622053dagf382g068cgc8a2gc194ac051712" version="2" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="3;DealDamage(2d8, Fire)" />
+        <field name="ExtraProjectileTargetConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead() and not HasStatus('KNOCKED_OUT');" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="65b89378-9952-48e6-9161-73946af96523" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e7b5aa0a-2bf5-4c37-9496-4469e89ca36d" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Lightning_5" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d8,Lightning,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Lightning_Ricochet_5);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d8,Lightning)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Lightning" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="ha0563ed9g918fg85dagc270g01c2ee55195e" version="2" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="2;DealDamage(2d8, Lightning)" />
+        <field name="ExtraProjectileTargetConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead() and not HasStatus('KNOCKED_OUT');" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5a5c98b6-d687-4a1d-88f3-768936d84900" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e7b5aa0a-2bf5-4c37-9496-4469e89ca36d" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Lightning_6" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(8d8,Lightning,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Lightning_Ricochet_6);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d8,Lightning)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Lightning" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h55575fbbg35f3g31d2g627bgc4c96d045556" version="2" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="3;DealDamage(2d8, Lightning)" />
+        <field name="ExtraProjectileTargetConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead() and not HasStatus('KNOCKED_OUT');" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="224dba1e-027a-4abf-b8ee-27202fd6ab05" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5ab16307-2824-42e2-adde-0074c7331c92" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Poison_5" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d8,Poison,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Poison_Ricochet_5);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d8,Poison)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Poison" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h7372c6d9g623agc269g903eg8da53f37f556" version="2" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="2;DealDamage(2d8, Poison)" />
+        <field name="ExtraProjectileTargetConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead() and not HasStatus('KNOCKED_OUT');" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4c110fdf-9547-46d5-96b1-e733987a9b20" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5ab16307-2824-42e2-adde-0074c7331c92" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Poison_6" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(8d8,Poison,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Poison_Ricochet_6);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d8,Poison)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Poison" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hbb6ead04g4522g3f90gd75bg3b8db35011d2" version="2" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="3;DealDamage(2d8, Poison)" />
+        <field name="ExtraProjectileTargetConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead() and not HasStatus('KNOCKED_OUT');" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="423c3fee-ef25-4756-bab3-a6379eb70393" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7907fa20-abbf-4712-a06c-629d5ee28b96" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Thunder_5" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d8,Thunder,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Thunder_Ricochet_5);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d8,Thunder)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Thunder" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hb7523575g9a51gdbcfga9f3g1a6fb6e58021" version="2" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="2;DealDamage(2d8, Thunder)" />
+        <field name="ExtraProjectileTargetConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead() and not HasStatus('KNOCKED_OUT');" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9222ff8c-868c-4f38-8854-c8c394dcd486" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7907fa20-abbf-4712-a06c-629d5ee28b96" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Thunder_6" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(8d8,Thunder,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Thunder_Ricochet_6);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d8,Thunder)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Thunder" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hb6b943ccgce97g9181g9378g8113eb7968e1" version="2" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="3;DealDamage(2d8, Thunder)" />
+        <field name="ExtraProjectileTargetConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead() and not HasStatus('KNOCKED_OUT');" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d61d388d-beb0-4a5f-81a6-2cc7f11a43a6" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Acid_Ricochet_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="74f7ebd0-7428-41f2-b70b-c59dc27f02fd" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8,Acid,Magical);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd8e1e8aegca56g05bcgdecegf92a8e61290d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h29932a42gcd65g3b92gb04cgc54f669ea577" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8,Acid)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a9e7a488-b0ca-4884-ae31-bf7894461cd8" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Cold_Ricochet_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9eb849b3-c73f-422e-8cb0-d504d4a4b5b2" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8,Cold,Magical);RemoveStatus(BURNING);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h33858b94g8a9eg9cf2g315agc933f3a81a48" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1e00d69eg620eg01c2g03fdg953d41535df1" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8,Cold)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="02dd5c00-ec8a-4e79-a3fd-70eaaccdcd54" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Fire_Ricochet_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a31c9149-4a39-474b-a106-075bf20164a8" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8,Fire,Magical);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;IgnoreSilence" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9bd1ef91g8193g8ea4gb852g03cd56ea0115" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb039f534g34adg3af1g6849g52fb1d192b96" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8,Fire)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="85620299-acf3-4f19-99d0-596fe73b5ccc" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Lightning_Ricochet_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="90a6ff56-e510-4c15-8982-77cc4fc19253" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8,Lightning,Magical);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6ba1a194gd0dfg4b89g4423gaed3ce5361de" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4afe9a28g224cgfbb2gf1a1ge8c76e9379ef" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8,Lightning)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0e3ee421-2c57-4a6a-b83c-39e78770009c" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Poison_Ricochet_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f679b02d-55b6-4137-a141-c46821dd6522" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8,Poison,Magical);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7c616518gf215g25cbg0e49gbca786316790" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5172486fgcee7g7ed8g96a9g9d8394037e6c" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8,Poison)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3f184fca-08ff-42cb-8920-28d00729c55c" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Thunder_Ricochet_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ed04a606-267f-4512-8e64-13a80c52d9e9" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8,Thunder,Magical);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd472ddb9g0d31g9165geb05g35ec28603c7b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haea88826g11edg7404gb2f3gbbcf6a3ee230" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8,Thunder)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cc935ea8-a841-4804-94b1-b2f5b94135a5" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Acid_Ricochet_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5f1cc4fd-7902-42c7-ab3a-131879d3731c" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8,Acid,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Acid_Ricochet_5_2);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h22a8ec27g571bgd6c2gdd46gf4e5493523fc" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h68dc79b3gd60dg45bdga3f3g2f8f567e1696" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d8,Acid)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8bdf2238-f352-42e8-b17a-fc81b81ee305" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Acid_Ricochet_5_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5f1cc4fd-7902-42c7-ab3a-131879d3731c" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d8,Acid,Magical);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h812a1a0egdee6gaf4agded2g3e438de1259b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2906e953ga9e5g232bg8b17gb753c6c1c68a" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8,Acid)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9c2747a8-d764-44f1-98c1-82b87738ba0c" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Cold_Ricochet_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="42223d81-de2b-420e-9559-5afeba112856" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8,Cold,Magical);RemoveStatus(BURNING);SpawnExtraProjectiles(Projectile_ChromaticOrb_Cold_Ricochet_5_2);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf88baad9g2379g8191gf7bbg84a0fa706211" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he3ce918eg54b7g3af8gbfb6gb3717038eb72" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0114f61c-d8e1-4db5-b9fc-e4dc4c3e8858" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Cold_Ricochet_5_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="42223d81-de2b-420e-9559-5afeba112856" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d8,Cold,Magical);RemoveStatus(BURNING);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h31ff6977g73beg5f49g00dcg831b0c349da8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5f08a7bcgd8d1gf85ag2010g11da1ea1bad8" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1d1cdcdd-1c98-4918-a172-8d73a710ba91" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Fire_Ricochet_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1cb8cecf-7558-4ab8-bf9e-aa8aeac83b9a" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8,Fire,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Fire_Ricochet_5_2);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h01a524eeg46e1g58aag84f5g6910b0e579c0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9e231f5egeb93g9f47gb3c3gf2879418cd17" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e9518f0c-4511-4087-9286-af5ac73e7f9a" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Fire_Ricochet_5_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1cb8cecf-7558-4ab8-bf9e-aa8aeac83b9a" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d8,Fire,Magical);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4e1fd1b3g8927gbb75g1dd7g776f9eb0ad25" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h44f40eacg1d77g8667gc918gcb9ceebbfa93" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="98f42a48-a78a-4d5a-90a0-4bcb57e96949" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Lightning_Ricochet_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="65b89378-9952-48e6-9161-73946af96523" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8,Lightning,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Lightning_Ricochet_5_2);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6f3e09c1g2a36g75fag6d43g69aa1e888820" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hced58732ge876gd7e4g5db7g739ede33bf93" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ba6abfbc-94b7-4715-a0ee-e738f31afa99" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Lightning_Ricochet_5_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="65b89378-9952-48e6-9161-73946af96523" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d8,Lightning,Magical);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc3ffb77fg9abagaa13g3b68g8d2fda6e3359" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd5d4ba81g1d1bgc1f2gbfffg443ebb65fe1b" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="28fff666-6ced-4bc8-9921-a768b733c6b9" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Poison_Ricochet_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="224dba1e-027a-4abf-b8ee-27202fd6ab05" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8,Poison,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Poison_Ricochet_5_2);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h74be1d78ge41egad74gb9d9g3902cdc72c47" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2e5744d4g2526g54cagf79fg4a4294d25820" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b4cf749b-e100-4abf-ba71-25a31fa3b07d" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Poison_Ricochet_5_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="224dba1e-027a-4abf-b8ee-27202fd6ab05" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d8,Poison,Magical);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h129b52ecgc1c1g8a45g3710g7a8b01968686" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0ec6be1eg01eeg10a0g89b9g7e4eaad4e9eb" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c54bc6eb-9dd6-44a3-bf77-a131a9ffcff1" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Thunder_Ricochet_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="423c3fee-ef25-4756-bab3-a6379eb70393" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8,Thunder,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Thunder_Ricochet_5_2);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3e336c87gd7dage878g2797gaf6b54a1add0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h78d02752g81e0gdaf0gee7fg85d6de244a2a" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6fae6c3c-863e-4304-99c8-ddda12368e2d" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Thunder_Ricochet_5_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="423c3fee-ef25-4756-bab3-a6379eb70393" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d8,Thunder,Magical);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4f826e91g2ce7g3a01gcfd4gbfbda2937fba" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd24711e6g1adeg01acg1778g6ee5bc0f627f" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9e00ac42-e83d-4692-a104-6afe66f915aa" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Acid_Ricochet_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="90b6be49-a5e5-4974-a978-cfa468b8524f" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d8,Acid,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Acid_Ricochet_6_2);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h258aa324g81e5gc66fgbe30gd03441916d71" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h039bc36agd384g625ag85ccgb38508324b6e" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2d75882c-0e1a-429f-b45e-7962286ebe15" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Acid_Ricochet_6_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="90b6be49-a5e5-4974-a978-cfa468b8524f" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8,Acid,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Acid_Ricochet_6_3);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h481aa6afg579egbb76g5294ga4e61d583b72" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h712f1e0cgc248gac42g1000g72f8e0fe4aae" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="39f8b2e6-c81f-411f-9572-6065638d40a8" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Acid_Ricochet_6_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="90b6be49-a5e5-4974-a978-cfa468b8524f" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d8,Acid,Magical);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h53520d14gdfb4g5b6fg9dbagac431fd9e769" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9972e882g2cb1g4633g896egad5b9dc18b41" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="640fa06a-c141-4176-b9bb-5dcafc791270" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Cold_Ricochet_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4e6199c6-66c7-46dd-81be-a1b061fbf96b" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d8,Cold,Magical);RemoveStatus(BURNING);SpawnExtraProjectiles(Projectile_ChromaticOrb_Cold_Ricochet_6_2);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8dc36cbcge7e2gc6e7g7291gee945b46bd3b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he417c31bg9c54g824ag68c6g0747f7c19f7e" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1c61a0c9-fb41-459f-9de3-5c8675c1df34" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Cold_Ricochet_6_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4e6199c6-66c7-46dd-81be-a1b061fbf96b" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8,Cold,Magical);RemoveStatus(BURNING);SpawnExtraProjectiles(Projectile_ChromaticOrb_Cold_Ricochet_6_3);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h84de0eb8g5828gd50ag20c4g54522a4b4155" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfd273a8bgd04dgf92dgf5dfg3d408d6fef75" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="47c96f36-a428-4cd0-bcb4-6ba28f1bc3d4" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Cold_Ricochet_6_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4e6199c6-66c7-46dd-81be-a1b061fbf96b" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d8,Cold,Magical);RemoveStatus(BURNING);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h543baea5g232fgcfebg175bg1ee946864df9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd2b5e2e0gf79bgb5aege8dag90a76c4b6d9a" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7de7d324-dfc0-4d01-b0ed-5553c2c81400" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Fire_Ricochet_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fc5279e9-e5fb-4acf-b040-b5847fd8607c" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d8,Fire,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Fire_Ricochet_6_2);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h76be465dg998eg8834gcc5ag4853d8c38f92" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8c517f22g2d65g879eg0583g6837f439e3c5" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6be3d9fc-067e-4dc1-a13c-0f8481b2335a" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Fire_Ricochet_6_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fc5279e9-e5fb-4acf-b040-b5847fd8607c" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8,Fire,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Fire_Ricochet_6_3);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd980c04ege39dgda15gc832ga8cc2777eafb" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7c6b2f49gd289gdb42gb62egec2a09e0319e" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="25f19d88-88a5-49a0-b0a1-6e1ca09df7e1" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Fire_Ricochet_6_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fc5279e9-e5fb-4acf-b040-b5847fd8607c" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d8,Fire,Magical);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h479a4c04ga9a0g5192g7729g4b6f246ce1e5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h56e5a1b6g77ffg64fbg2f63g47140e116fee" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="667f201d-248d-4cd6-bc74-34d18a3d8200" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Lightning_Ricochet_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5a5c98b6-d687-4a1d-88f3-768936d84900" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d8,Lightning,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Lightning_Ricochet_6_2);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hab6198f5g147cgbc0eg4a1cg2e0981d48dbb" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfb74d423g845egde66ged02g0fe278191bb9" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e3a3ce3c-68a4-4fd5-80ce-00a0f9e4abb0" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Lightning_Ricochet_6_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5a5c98b6-d687-4a1d-88f3-768936d84900" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8,Lightning,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Lightning_Ricochet_6_3);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb5732b2ag0384g9c06gda5dg5c7b323609b1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6b7aff68ge968g7687g51d9gfceaa89d150d" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a9d7b759-4392-4b5e-962a-3b6cc7884dd3" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Lightning_Ricochet_6_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5a5c98b6-d687-4a1d-88f3-768936d84900" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d8,Lightning,Magical);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0b11b30egc170g368fg9f1cg641abf5267c5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h255d77ddga3fag0ba2g0e53g231f54bf6d99" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5c9a90d8-9b4d-45a6-ab22-11c6c83f7b4b" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Poison_Ricochet_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="90b6be49-a5e5-4974-a978-cfa468b8524f" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d8,Acid,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Acid_Ricochet_6_2);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1b1f928fg8d59g227eg97beg02417b14eb0c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd2888818g5722g5d3bg7d88g01a9991803a3" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cda98ce7-b432-41c2-abbf-8d2a05e6257c" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Poison_Ricochet_6_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4c110fdf-9547-46d5-96b1-e733987a9b20" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8,Poison,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Poison_Ricochet_6_3);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h91341458g6a92g02ccg9eefg6e34afe3e774" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha1141a03g4096g8689gf25egdff23bd11030" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="34287635-e17e-4f76-8a53-24abb8f0a431" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Poison_Ricochet_6_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4c110fdf-9547-46d5-96b1-e733987a9b20" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d8,Poison,Magical);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha2db830dg9e97ge56dg4d69g3944eecc73d0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h53d29428g1063g9617g83a7g54288b481f38" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7c60cf34-da9d-4729-9493-008e8aa57826" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Thunder_Ricochet_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9222ff8c-868c-4f38-8854-c8c394dcd486" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d8,Thunder,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Thunder_Ricochet_6_2);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h75a78666gea3dg425ag7afdg1ac7acdd2c0d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5f516df4g6777g943aga1c4gd88bbbd8e7f4" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d88f2789-8efa-4123-bfdf-e61ee83ea790" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Thunder_Ricochet_6_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9222ff8c-868c-4f38-8854-c8c394dcd486" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8,Thunder,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Thunder_Ricochet_6_3);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb7a46146g0055g12efg5b2agbdd2e8c7b640" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf71a8c1cgd18ag998bga0cbg333064ad6315" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9d5cc2d0-3bac-4c41-9c27-89ff0174f14f" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Thunder_Ricochet_6_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9222ff8c-868c-4f38-8854-c8c394dcd486" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d8,Thunder,Magical);" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3c55bddag513cg5869g8abcg6216ecf95a1e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h586c5bb4gd0e5g7933gfc03g2f20a3e2c5b3" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c423acc0-e59d-43b2-8bf4-1cc0d8bf9704" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Fire" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ababef8-c892-4130-935d-849b8eac396c" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d8,Fire,Magical);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8,Fire)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_ChromaticOrb_Fire" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc5d9d262g3407gb3adgf059g0f6a694757bc" version="1" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="02038395-3092-4580-a119-0e5fd1a650ee" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="25fc6c31-fc26-497a-af6d-ef816a82be3c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="3911e604-b850-43da-baa6-816ca49aa823" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Fire_ChromaticOrbFire_L1to3" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:SurfaceChange(Ignite);GROUND:SurfaceChange(Melt);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5c91e4ddg4b0ag2763g3ff2gd7112aac2410" version="2" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Fire" enumeration_type_name="Damage Type" version="1" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Fire)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e7b5aa0a-2bf5-4c37-9496-4469e89ca36d" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Lightning" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ababef8-c892-4130-935d-849b8eac396c" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d8,Lightning,Magical);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8,Lightning)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_ChromaticOrb_Lightning" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h38df09f8g402bgd8cbg9294gc8b05c6d222a" version="1" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="7a2eea92-5a51-408d-ac76-c45098c87d93" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="a0aead53-5047-4b0f-a31f-ecc89e5599c0" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="fa7b3b8f-3187-45c2-9895-f1ce4c432679" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Lightning_ChromaticOrbLightning_L1to3" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:SurfaceChange(Electrify);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5a0ecd78gccadg5286gf218g8a91d8bdc4bf" version="2" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Lightning" enumeration_type_name="Damage Type" version="1" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Lightning)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5ab16307-2824-42e2-adde-0074c7331c92" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Poison" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ababef8-c892-4130-935d-849b8eac396c" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d8,Poison,Magical);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8,Poison)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_ChromaticOrb_Poison" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="habd3a9c1gfb36g4719g0844gdb4132404806" version="1" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="8c7bb016-4706-45b0-bcf4-5b59011ced12" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="92a96bf8-28c7-4565-8ceb-7cd02978b1ee" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="ecd2a765-5888-42bc-bc88-7bb2303e82b7" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Poison_ChromaticOrbPoison_L1to3" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(2,2,Poison)" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h79f238beg2793g9ee2g82ffg244a764a3d0b" version="2" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Poison" enumeration_type_name="Damage Type" version="1" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Poison)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d15c622f-ab48-4a6d-b967-99b803f89288" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Acid_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ababef8-c892-4130-935d-849b8eac396c" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8,Acid,Magical);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Acid" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8,Acid)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="01ba6ab7-61d7-4c4d-a27e-4a814693d5bd" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Cold_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9b29d548-7645-4cb8-ac56-5c4b9880a26b" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8,Cold,Magical);RemoveStatus(BURNING);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8,Cold)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Cold" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="67cdec13-3fc0-4aa6-b475-be4898a164ff" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Fire_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c423acc0-e59d-43b2-8bf4-1cc0d8bf9704" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8,Fire,Magical);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8,Fire)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Fire" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="020765a3-a49f-4fa8-b43b-d0df4ab29e2c" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Lightning_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e7b5aa0a-2bf5-4c37-9496-4469e89ca36d" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8,Lightning,Magical);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8,Lightning)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Lightning" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d4f24aec-d4b5-4f30-8793-83d92c454387" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Poison_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5ab16307-2824-42e2-adde-0074c7331c92" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8,Poison,Magical);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8,Poison)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Poison" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="374421f6-3667-47ff-8413-8262bc30aebf" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Acid_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ababef8-c892-4130-935d-849b8eac396c" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8,Acid,Magical);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8,Acid)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Acid" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="10255719-f734-4ef9-9c5b-dc22b21de7bd" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Cold_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9b29d548-7645-4cb8-ac56-5c4b9880a26b" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8,Cold,Magical);RemoveStatus(BURNING);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8,Cold)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Cold" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="304e4401-f606-41fb-8392-dfd98f4fc5a6" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Fire_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c423acc0-e59d-43b2-8bf4-1cc0d8bf9704" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8,Fire,Magical);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8,Fire)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Fire" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="98024e85-0fc5-4503-a737-c0b48b2361f8" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Lightning_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e7b5aa0a-2bf5-4c37-9496-4469e89ca36d" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8,Lightning,Magical);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8,Lightning)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Lightning" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5f8504e0-d2fb-4ef6-bd6b-9beb4b8cdc3f" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Poison_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5ab16307-2824-42e2-adde-0074c7331c92" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8,Poison,Magical);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8,Poison)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Poison" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
