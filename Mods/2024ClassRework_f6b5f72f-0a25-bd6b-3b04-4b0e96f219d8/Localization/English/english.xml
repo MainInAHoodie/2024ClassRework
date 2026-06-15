@@ -36,7 +36,7 @@
   <content contentuid="h39b49894g69f3g224eg6028g292e50a3f124" version="1">You know Druidic, the secret language of Druids. While learning this ancient tongue, you also unlocked the magic of communicating with animals; you always have the &lt;LSTag Type="Spell" Tooltip="SpeakWithAnimals"&gt;Speak with Animals&lt;/LSTag&gt; spell prepared.</content>
   <content contentuid="hcf90ab81g4dfeg391dge6e7gbb1e8889b35f" version="3">The might of the elements flows through you. You can add your Wisdom &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; to the damage you deal with cantrips.</content>
   <content contentuid="h50ffa190g9b68g055fg01f2gd50a11ba6305" version="1">Elemental Strike</content>
-  <content contentuid="hd1887b00gc72bg1937g590age68910d81ba6" version="1">The might of the elements flows through you. Once on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form’s attack in &lt;LSTag Tooltip="WildShape"&gt;Wild Shape&lt;/LSTag&gt;, you can cause the target to take an extra Cold, Fire, Lightning, or Thunder damage</content>
+  <content contentuid="hd1887b00gc72bg1937g590age68910d81ba6" version="2">The might of the elements flows through you. Once on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form’s attack in &lt;LSTag Tooltip="WildShape"&gt;Wild Shape&lt;/LSTag&gt;, you can cause the target to take an extra [1], [2], [3], or [4].</content>
   <content contentuid="h2298a2f3g3a90g694cg2c08g2677cb369f6a" version="2">Elemental Strike: Thunder (Ranged)</content>
   <content contentuid="hc6d1fa18g993dg613bgc106g1ba9dd1687a3" version="1">Deal an additional [1].</content>
   <content contentuid="hb7022181gbe88gb782gbcf1g8eca2f8415cd" version="2">Elemental Strike: Thunder (Melee)</content>
@@ -238,11 +238,11 @@
   <content contentuid="h223dd458g49a5gb35cgeff2g854974b2f660" version="1">Divine Spark</content>
   <content contentuid="ha0176d36gba76g8c41g6f4ag527309ab635e" version="1">As a Magic action, you point your Holy Symbol at another creature you can see within 30 feet of yourself and focus divine energy at it.   You can either heal it for [1] hit points, or damage it for that many points of Radiant or Necrotic damage (your choice).</content>
   <content contentuid="h89dd6427gc6c4gf28ag0d4cg841e03871b9f" version="1">Divine Spark: Heal</content>
-  <content contentuid="h313aec79g25b5g4557gcbf3g887e94f1c098" version="2">Channel a spark of divinity to heal a creature you can see.</content>
+  <content contentuid="h313aec79g25b5g4557gcbf3g887e94f1c098" version="4">Channel a spark of divinity to heal a creature you can see by [1] + [2].</content>
   <content contentuid="hfcd31ff9gcb72g3b35g3bbbged996a911dd2" version="1">Divine Spark: Damage (Radiant)</content>
-  <content contentuid="hedb61806g309eg8ae5g5e42g0528b1595314" version="2">Channel a spark of divinity to damage a creature you can see with Radiant damage.  The creature makes a Constitution Saving Throw, taking half damage on a successful save.</content>
+  <content contentuid="hedb61806g309eg8ae5g5e42g0528b1595314" version="4">Channel a spark of divinity to damage a creature you can see by [1].  The creature makes a &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, taking half damage on a successful save.</content>
   <content contentuid="ha889e56ag4a11g6276gf46eg22ebcea15998" version="1">Divine Spark: Damage (Necrotic)</content>
-  <content contentuid="hc7e38c1fgeccegd80eg6b5dg0846589008a3" version="2">Channel a spark of divinity to damage a creature you can see with Necrotic damage.  The creature makes a Constitution Saving Throw, taking half damage on a successful save.</content>
+  <content contentuid="hc7e38c1fgeccegd80eg6b5dg0846589008a3" version="4">Channel a spark of divinity to damage a creature you can see by [1].  The creature makes a &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, taking half damage on a successful save.</content>
   <content contentuid="hc0dd641dgdf22ge175g6993g83854a00b145" version="2">Divine Spark</content>
   <content contentuid="hdb44bc6cg3c26gc483gdfacg4e141c6bef4f" version="1">Divine Spark</content>
   <content contentuid="h59541ff2gb8dfge0a3g4d0bgcc70a37aa556" version="1">Divine Spark: Heal</content>
@@ -262,7 +262,7 @@
   <content contentuid="h7b38a073g796bgc2efg18adg10520dcb2856" version="1">Channel a spark of divinity to damage a creature you can see.  That creature makes a Constitution saving throw.  On a failed save, that creature takes [1] or half as much on a successful one.</content>
   <content contentuid="had02e93dgb769gcdb2gd395g9b845d92c900" version="1">Divine Spark: Damage (Necrotic)</content>
   <content contentuid="hc33144d6g2364g950fg912bg09c63ca0504b" version="1">Channel a spark of divinity to damage a creature you can see.  That creature makes a Constitution saving throw.  On a failed save, that creature takes [1] or half as much on a successful one.</content>
-  <content contentuid="hd76969fage6ffg7063g4006ge09263f39b0f" version="2">Channel a spark of divinity to heal a creature you can see by [1] plus your Wisdom modifier or inflict an equal amount of Radiant or Necrotic damage.</content>
+  <content contentuid="hd76969fage6ffg7063g4006ge09263f39b0f" version="4">Channel a spark of divinity to heal a creature you can see by [1] + [2] or inflict [3] or [4]</content>
   <content contentuid="h3371fad0g56b4g2a43g8b71g2d02182cf260" version="1">Channel a spark of divinity to damage a creature you can see.  That creature makes a Constitution saving throw.  On a failed save, that creature takes [1] or half as much on a successful one.</content>
   <content contentuid="h198e5477gbae2ged73g908bg529129364928" version="1">Channel a spark of divinity to damage a creature you can see.  That creature makes a Constitution saving throw.  On a failed save, that creature takes [1] or half as much on a successful one.</content>
   <content contentuid="h8841b157ge76fg7959gd96dg924acebce07f" version="1">Thaumaturge (Thaumaturgy)</content>
@@ -330,7 +330,7 @@
   <content contentuid="h85e19fb8gdccdg5120gcf1cga359215c05b9" version="1">Cure Wounds</content>
   <content contentuid="he8c13b79geb71g98cbgec98g9136d264acce" version="1">Heal a creature you can touch.</content>
   <content contentuid="h8d55b94bgd78fg00a3g1668gd29e3f9b6b3a" version="1">Divine Strike</content>
-  <content contentuid="h15a00080g251bg3577gbe49ga5a842818988" version="1">Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra 1d8 Necrotic or Radiant damage (your choice).</content>
+  <content contentuid="h15a00080g251bg3577gbe49ga5a842818988" version="2">Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra [1] or [2].</content>
   <content contentuid="h7e20aef3gd1e0g1542g4ee0g2e29c8e715f9" version="1">Divine Strike: Radiant (Ranged)</content>
   <content contentuid="h7880c595g1c2ag3c12gf5edgfc2915590ce2" version="1">Deal an additional [1].</content>
   <content contentuid="h4f827637g3aacgd1b5gf5adgde4119156cfe" version="1">Divine Strike: Radiant (Melee)</content>
@@ -340,7 +340,7 @@
   <content contentuid="h2f4f30c4ge97cg5a43gb4e4g7f890b040853" version="1">Divine Strike: Necrotic (Ranged)</content>
   <content contentuid="hc20345feg9af5gae6cg3641g5b249e93cbb4" version="1">Deal an additional [1].</content>
   <content contentuid="hb39cd746g82bbgb578g8730g7fc4c8dd7413" version="1">Divine Strike</content>
-  <content contentuid="hdc78f8afgce0dg2036gc7f1g7e41ff875989" version="2">Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra [1] or [2] (your choice).</content>
+  <content contentuid="hdc78f8afgce0dg2036gc7f1g7e41ff875989" version="3">Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra [1] or [2].</content>
   <content contentuid="h5e0501a1g7289gf72fge05bg1d0103e610a4" version="1">Blessed Strikes</content>
   <content contentuid="h787cae7fga74agd3f8g236fge7fe6378fc5e" version="1">Divine power infuses you in battle. You gain one of the following options of your choice.</content>
   <content contentuid="h7d2de4d9gd015g663ega6cdgc64f781f42e0" version="1">Guided Strike</content>
