@@ -128,10 +128,11 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b18f49de-b75b-4b4b-aea4-b20f619b5ee9" />
         <field name="Name" type="NameTableFieldDefinition" value="ElementalStrike" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h50ffa190g9b68g055fg01f2gd50a11ba6305" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd1887b00gc72bg1937g590age68910d81ba6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd1887b00gc72bg1937g590age68910d81ba6" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Melee" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_ElementalStrike_Container);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8, Cold);DealDamage(1d8,Fire);DealDamage(1d8,Lightning);DealDamage(1d8,Thunder)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -362,11 +363,12 @@
         <field name="UUID" type="IdTableFieldDefinition" value="27d7d054-da43-4b9d-8cea-e7f9d7f88755" />
         <field name="Name" type="NameTableFieldDefinition" value="DivineStrike" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8d55b94bgd78fg00a3g1668gd29e3f9b6b3a" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h15a00080g251bg3577gbe49ga5a842818988" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h15a00080g251bg3577gbe49ga5a842818988" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Melee" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_DivineStrike_Radiant);UnlockInterrupt(Interrupt_DivineStrike_Radiant_Critical);UnlockInterrupt(Interrupt_DivineStrike_Necrotic);UnlockInterrupt(Interrupt_DivineStrike_Necrotic_Critical);UnlockSpell(Target_DivineStrike_Container);ActionResource(Interrupt_DivineStrike,1,0);" />
         <field name="ToggleGroup" type="StringTableFieldDefinition" value="DivineStrike" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8, Radiant);DealDamage(1d8, Necrotic)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
