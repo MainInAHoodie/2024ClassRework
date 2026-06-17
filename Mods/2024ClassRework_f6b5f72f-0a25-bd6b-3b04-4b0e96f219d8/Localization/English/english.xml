@@ -483,7 +483,7 @@
   <content contentuid="he428499bgfbf1g8ba8g6005gd02f74ba25c7" version="1">Brutal Strike</content>
   <content contentuid="h63a64c6fg6f27gf8f1gb323g0fb5b22ca87a" version="1">When you use &lt;LSTag Type="Status" Tooltip="RECKLESS_ATTACK"&gt;Reckless Attack&lt;/LSTag&gt;, you can give up Advantage on one Strength-based attack to gain [1] extra damage as well as one of the contained effects.</content>
   <content contentuid="h81e850adge451g0712ga152g5eff836cf82f" version="1">Brutal Strike: Forceful Strike</content>
-  <content contentuid="h365633bdg3ec7g0cc3ge7a6gf06075ed35ae" version="4">If the target fails a &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag, it will be pushed back [1].  You can also move an additional [2] without provoking &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;.</content>
+  <content contentuid="h365633bdg3ec7g0cc3ge7a6gf06075ed35ae" version="5">If the target fails a &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, it will be pushed back [1].  You can also move an additional [2] without provoking &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;.</content>
   <content contentuid="h0c7cd5c9g5a29g9d04g1002g9bb99797939b" version="1">Brutal Strike: Hamstring Blow</content>
   <content contentuid="hcb447069g5ad0g90c2gb9e0gac3e135026c2" version="1">Affected target's movement speed is reduced by [1].</content>
   <content contentuid="h87591065gb8b6g85eegcbd7g669a501fa991" version="1">Brutal Strike: Hamstring Blow</content>
