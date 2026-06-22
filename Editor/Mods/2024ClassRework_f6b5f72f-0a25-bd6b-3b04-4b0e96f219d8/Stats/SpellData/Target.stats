@@ -1080,7 +1080,7 @@
         <field name="TargetRadius" type="StringTableFieldDefinition" value="MeleeMainWeaponRange" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="CanUseWeaponActions();" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeWeaponAttack);CastOffhand[Attack(AttackType.MeleeOffHandWeaponAttack)]" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon + 1d10,MainMeleeWeaponDamageType);IF(not SavingThrow(Ability.Strength, ManeuverSaveDC())):ApplyStatus(BRUTAL_STRIKE_FORCEFUL_BLOW,100,1);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon + 1d10,MainMeleeWeaponDamageType);ApplyStatus(SELF,BRUTAL_STRIKE_FORCEFUL_BLOW_MOVEMENT,100,1);ApplyStatus(SELF,DISENGAGE,100,1);IF(not SavingThrow(Ability.Strength, ManeuverSaveDC())):Force(4.5);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead() and not Self() and not HasStatus('SG_UNCONSCIOUS');" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Steady" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h81e850adge451g0712ga152g5eff836cf82f" version="1" />
@@ -1089,7 +1089,7 @@
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon + 1d10,MainMeleeWeaponDamageType);" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Topple" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Topple" />
-        <field name="CastTextEvent" type="StringTableFieldDefinition" value="used" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy();" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
         <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
@@ -1104,7 +1104,7 @@
         <field name="SpellSoundMagnitude" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="SpellSoundMagnitude" version="1" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_BrutalStrike_Container" />
-        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BRUTAL_STRIKE_FORCEFUL_BLOW)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BRUTAL_STRIKE_FORCEFUL_BLOW_MOVEMENT,100,1)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeWeaponAttack" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
       </fields>
@@ -1118,7 +1118,7 @@
         <field name="TargetRadius" type="StringTableFieldDefinition" value="MeleeMainWeaponRange" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="CanUseWeaponActions();" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeWeaponAttack);CastOffhand[Attack(AttackType.MeleeOffHandWeaponAttack)]" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon + 1d10,MainMeleeWeaponDamageType);ApplyStatus(BRUTAL_STRIKE_HAMSTRING_BLOW,100,1);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon + 1d10,MainMeleeWeaponDamageType);ApplyStatus(BRUTAL_STRIKE_HAMSTRING_BLOW,100,2);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead() and not Self() and not HasStatus('SG_UNCONSCIOUS');" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_HamstringShot" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h87591065gb8b6g85eegcbd7g669a501fa991" version="1" />
@@ -1129,7 +1129,7 @@
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_BrutalStrike_Container" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Topple" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Topple" />
-        <field name="CastTextEvent" type="StringTableFieldDefinition" value="used" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy();" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
         <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />

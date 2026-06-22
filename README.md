@@ -41,8 +41,8 @@ Barbarians also start with a Simple Robe so they don't appear starkers in the ch
 At 3rd Level, all Barbarians gain Primal Knowledge.  This lets them pick another skill proficiency from the list of Barbarian skills and lets them add half their Strength to Intimidation, Stealth, Survival, and Perception.
 
 #### **9th Level**
-**Brutal Critical** has been replaced by **Brutal Strike**.  This new Ability removes the Advantage from your Reckless Attack (for that attack onky) in exchange for an extra D10 of damage and one of the following rider effects:
- - **Forceful Strike**: If the target is Large or smaller, they make a Strength Saving Throw to avoid being knocked 15ft backwards.  If they fail, you can also move an additional half your movement speed without provoking Opportunity Attacks.
+**Brutal Critical** has been replaced by **Brutal Strike**.  This new Ability removes the Advantage from your Reckless Attack (for that attack only) in exchange for an extra D10 of damage and one of the following rider effects.   You don't need to have Reckless Attack enabled to select one of the effects; it will automatically be applied.
+ - **Forceful Strike**: If the target is Large or smaller, they make a Strength Saving Throw to avoid being knocked 15ft backwards.  Regardless, you can also move an additional 3m/10ft (downgraded from the PHB, since now it always triggers -- I wasn't able to tie every effect to the Strength save) without provoking Opportunity Attacks.
  - **Hamstring Blow**: Reduce the target's speed by 15ft.
 
 ### Berserker
