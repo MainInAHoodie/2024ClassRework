@@ -545,3 +545,12 @@ type "PassiveData"
 data "DisplayName" "h63b78bbdgf353g6fa3g5d76gd37fb44eca66;1"
 data "Description" "hc0fb8560g853egbc79g2e39g305cba7d3848;1"
 
+new entry "MAG_Gish_ArcaneAcuity_Gloves_Passive"
+type "PassiveData"
+data "DisplayName" "h077df330g5aa9gfa65g37e6g14d23eb1238b;1"
+data "Description" "hd5a082c0g39ddg6b45ge79fgdbee41676851;1"
+data "Properties" "OncePerAttack"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "ArcaneAcuityGlovesCondition();"
+data "StatsFunctors" "ApplyStatus(SELF, MAG_GISH_ARCANE_ACUITY, 100, 2);ApplyStatus(SELF, MAG_GISH_ARCANE_ACUITY_DURATION_TECHNICAL, 100, 1)"
+
