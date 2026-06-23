@@ -390,7 +390,7 @@
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self();" />
         <field name="Icon" type="StringTableFieldDefinition" value="WordOfRadiance" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4b356a45g3e87g21bdgddfag7782b550ab52" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2cff2127g2974g3229g6063g6c27dd90d262" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2cff2127g2974g3229g6063g6c27dd90d262" version="5" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Radiant_SacredFlame_L1to3" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Damage_Radiant_SacredFlame_L1to3" />
@@ -406,6 +406,7 @@
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Somatic" enumeration_type_name="SpellSheathing" version="1" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6Cantrip),Radiant)" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(2)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -314,7 +314,7 @@
   <content contentuid="ha015b44bg7701gf1e5g4ac7g4a84f9fe9f8c" version="3">Impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on an ally's attacker, possibly causing their attack to miss.  That ally also gains [1].</content>
   <content contentuid="h5bc79706ge358gd647g7420g6217db40a983" version="1">Has no effect on creatures that can't be &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
   <content contentuid="h4b356a45g3e87g21bdgddfag7782b550ab52" version="1">Word of Radiance</content>
-  <content contentuid="h2cff2127g2974g3229g6063g6c27dd90d262" version="3">Burning radiance erupts from you in a 5-foot emanation. Every enemy that you can see in it must succeed on a &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; saving throw or take damage.</content>
+  <content contentuid="h2cff2127g2974g3229g6063g6c27dd90d262" version="5">Burning radiance erupts from you in a [1] emanation. Every enemy that you can see in it must succeed on a &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or take damage.</content>
   <content contentuid="ha16bdf67g5ac1gb2beg66ebgeb0ec076c6c7" version="1">Word of Radiance</content>
   <content contentuid="hcd3ed5d3g9b30g0b2bg7fe1ga497ee1f36a7" version="1">Affected Creatures take [1] damage</content>
   <content contentuid="h154993aeg5cc8gf635g5b09gf067c656b9bf" version="1">Thaumaturge (Word Of Radiance)</content>
@@ -936,4 +936,6 @@
   <content contentuid="hc0fb8560g853egbc79g2e39g305cba7d3848" version="1">You are invested with the power of the meadows and woods of the land, and have the effect of &lt;LSTag Type="Status" Tooltip="BARKSKIN"&gt;Barkskin&lt;/LSTag&gt;, increasing your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; to 17.</content>
   <content contentuid="h077df330g5aa9gfa65g37e6g14d23eb1238b" version="1">Battlemage's Power</content>
   <content contentuid="hd5a082c0g39ddg6b45ge79fgdbee41676851" version="1">When you hit a target with a spell or &lt;LSTag Tooltip="Cantrip"&gt;cantrip&lt;/LSTag&gt; that uses a weapon, you gain &lt;LSTag Type="Status" Tooltip="MAG_GISH_ARCANE_ACUITY"&gt;Arcane Acuity&lt;/LSTag&gt;.</content>
+  <content contentuid="h88564f66gd84bgfb6egf400g071ff4165505" version="1">Witch Bolt</content>
+  <content contentuid="h6e5c9b0cg705dg42b5g0600g4883e4d7bb73" version="1">The spellcaster can activate the arc linking it to this creature to automatically deal 1d6 Lightning damage.</content>
 </contentList>
