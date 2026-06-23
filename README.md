@@ -412,7 +412,7 @@ Nature has been added to the Wizard's Spell List
 - **Blade Ward**: Now requires Concentration, but lasts for 1 minute instead of 1 round.
 - **Minor Illusion**: Your Minor Illusion no longer gets dispelled if it gets hit with a status effect.  You have to actually deal damage to dispel it.
 - **Poison Spray**: Now an attack roll rather than a Saving Throw, and now has a range of 30ft.
-- **True Strike**: True Strike now lets you make one attack with your melee weapon using your Spellcasting Ability Modifier.
+- **True Strike**: True Strike now lets you make one attack with your melee weapon using your Spellcasting Ability Modifier.  Now also works with Battlemage's Gloves.
 
 ### Bard
 - **Vicious Mockery**: Vicious Mockery now uses a D6 instead of a D4.
