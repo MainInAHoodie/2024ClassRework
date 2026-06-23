@@ -540,3 +540,8 @@ data "Icon" "Spell_Transmutation_EnhanceAbility_CatsGrace"
 data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Shout_Cat_Hide);"
 
+new entry "MAG_Barkskin_Shield_Passive"
+type "PassiveData"
+data "DisplayName" "h63b78bbdgf353g6fa3g5d76gd37fb44eca66;1"
+data "Description" "hc0fb8560g853egbc79g2e39g305cba7d3848;1"
+
