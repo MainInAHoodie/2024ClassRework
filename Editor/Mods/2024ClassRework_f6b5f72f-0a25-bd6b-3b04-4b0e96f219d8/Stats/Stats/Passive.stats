@@ -732,5 +732,13 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Cat_Hide);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8f1b5eac-ecbb-4f27-b835-c8bb31ea6e56" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Barkskin_Shield_Passive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h63b78bbdgf353g6fa3g5d76gd37fb44eca66" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc0fb8560g853egbc79g2e39g305cba7d3848" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

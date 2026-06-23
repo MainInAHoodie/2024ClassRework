@@ -932,4 +932,6 @@
   <content contentuid="h586c5bb4gd0e5g7933gfc03g2f20a3e2c5b3" version="1">If you can see this, something has gone very wrong.</content>
   <content contentuid="hd30b13c7g6044g0378g8970ge32e5e597fc6" version="1">Brutal Strike: Forceful Blow: Extra Movement</content>
   <content contentuid="hd45d866bg699bg96f3g9e46gfedf35f4fdaf" version="1">You gain an additional [1] of movement speed, and you don't provoke &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;</content>
+  <content contentuid="h63b78bbdgf353g6fa3g5d76gd37fb44eca66" version="1">Forest Aegis</content>
+  <content contentuid="hc0fb8560g853egbc79g2e39g305cba7d3848" version="1">You are invested with the power of the meadows and woods of the land, and have the effect of &lt;LSTag Type="Status" Tooltip="BARKSKIN"&gt;Barkskin&lt;/LSTag&gt;, increasing your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; to 17.</content>
 </contentList>
