@@ -938,4 +938,6 @@
   <content contentuid="hd5a082c0g39ddg6b45ge79fgdbee41676851" version="1">When you hit a target with a spell or &lt;LSTag Tooltip="Cantrip"&gt;cantrip&lt;/LSTag&gt; that uses a weapon, you gain &lt;LSTag Type="Status" Tooltip="MAG_GISH_ARCANE_ACUITY"&gt;Arcane Acuity&lt;/LSTag&gt;.</content>
   <content contentuid="h88564f66gd84bgfb6egf400g071ff4165505" version="1">Witch Bolt</content>
   <content contentuid="h6e5c9b0cg705dg42b5g0600g4883e4d7bb73" version="1">The spellcaster can activate the arc linking it to this creature to automatically deal 1d6 Lightning damage.</content>
+  <content contentuid="ha46691a1g696dg6236g22d1g95dd4d849ba0" version="1">Bursting Sinew</content>
+  <content contentuid="hf928f753g07bdgf3afgb71ag5bf7dc9940f7" version="1">Explode a corpse, causing it to impale those around it.</content>
 </contentList>
