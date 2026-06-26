@@ -53,6 +53,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2298a2f3g3a90g694cg2c08g2677cb369f6a" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc6d1fa18g993dg613bgc106g1ba9dd1687a3" version="1" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_ElementalStrike_Container" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Thunder_Ranged" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -63,6 +64,7 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);DealDamage(1d8,Cold,Magical);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4e467e4fgbd51gf2ddg52e8g51b7fc983e15" version="2" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Cold);DealDamage(MainRangedWeapon, MainRangedWeaponDamageType)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Cold_Ranged" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -72,6 +74,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e52c9cd0-bfc6-4618-b4ef-33a8b4d23775" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_ElementalStrike_Container" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h92aed352ga35bg7df2g346eg34ff9c01f5ed" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Fire_Ranged" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -82,6 +85,7 @@
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_ElementalStrike_Container" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Lightning);DealDamage(MainRangedWeapon, MainRangedWeaponDamageType)" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdf8da627gd39agbfd3gf06cg8d5d86c2f062" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Lightning_Ranged" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
