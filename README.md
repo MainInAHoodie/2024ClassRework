@@ -466,7 +466,7 @@ Nature has been added to the Wizard's Spell List
 - **Fount of Moonlight**: A cool light wreathes your body.  Until the spell ends, you are Resistant to Radiant damage, and your weapon attacks deal an extra 2d6 damage.
 
 ### Wizard
-- **Stoneskin**: Now provides Resistance to Magical Bludegoning, Piercing, and Slashing damage too.  All such damage is also reduced by 3 to give you a reason to use it over Blade Ward.
+- **Stoneskin**: Now provides Resistance to Magical Bludegoning, Piercing, and Slashing damage too.  All such damage is also reduced by 1 to give you a reason to use it over Blade Ward.
 
 ## 5th Level
 ### Cleric
