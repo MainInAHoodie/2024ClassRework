@@ -477,6 +477,8 @@ Nature has been added to the Wizard's Spell List
 ### Multiple Classes
 - **Frostbite**: Target must make a Constitution Saving Throw or take 1d6 Cold Damage (scaling) and have Disadvantage on its next Weapon or Unarmed attack.
     - Available to Druids, Sorcerers, Warlocks, and Wizards.
+- **Thunderclap**: Everyone within 7.5 feet of you must make a Constitution Saving Throw or take 1d6 Thunder Damage (scaling).
+    - Available to Bards, Druids, Sorcerers, WWarlocks, and Wizards.
 
 ### Cleric
 - **Word of Radiance**: Each enemy within 7.5 ft of you (an increase from the book, because the Effect Radius in the engine doesn't let me enter 1.5 meters for some reason) must pass a Constitution Saving Throw or take 1d6 Radiant damage (scaling as you level)
@@ -488,8 +490,6 @@ Nature has been added to the Wizard's Spell List
 ### Sorcerer
 - **Sorcerous Burst**: Make a ranged spell attack that deals your choice of Acid, Cold, Fire, Lightning, Poison, or Thunder.  This spell, unlike the PHB, will deal 2d4 at 1st Level, 3d4 at 5th Level, and 4d4 at 10th Level, a change made in a misguided attempt at game balance (the "exploding dice" mechanic isn't especially easy to implement in the BG3 engine, and leaving it at 1d8 meant there was very little reason to select anything else).
 
-## 2nd Level
-
 ## 3rd Level
 ### Druid
 - **Conjure Animal**:
@@ -498,7 +498,7 @@ Nature has been added to the Wizard's Spell List
    - If you summon them with a 4th level spell slot, they get the Exceptional Training passive as well
    - If you summon them with a 5th level spell slot, they get an Ability Score boost
    - If you summon them with a 6th level spell slot, they get an extra attack.
-   - This should have been Conjure Animals, perhaps letting you conjure a Large pack of spectral, intangible animals in an unoccupied space, but the nature spirits are a bit short-staffed right now what with the whole Shadow Curse thing.
+   - This should have been Conjure Animals, perhaps letting you conjure a Large pack of spectral, intangible animals in an unoccupied space, but the nature spirits are a bit short-staffed right now.
 
 ## 4th Level
 ### Cleric

@@ -407,6 +407,8 @@
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6Cantrip),Radiant)" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(2)" />
+        <field name="AIFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSelf" enumeration_type_name="AIFlags" version="1" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="2" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1099,6 +1101,36 @@
         <field name="Name" type="NameTableFieldDefinition" value="Cat_Hide" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ba7823a9-ebfa-4c14-bef4-b4d7dd310e5d" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd2546392g0d1egaf66gadebg432338f1dfb8" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6aadb9a5-d51b-405f-9d39-859e7a027566" />
+        <field name="Name" type="NameTableFieldDefinition" value="Thunderclap" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,THUNDERCLAP_EMANATION,100,0);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Thunderclap" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2c214701g4193gfb28g9c06gdb911d986f13" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h815afcffg65bcg66b7g02f6g78b5975469f4" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(2); DealDamage(LevelMapValue(D6Cantrip), Thunder)" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Thunder_Gen_L1to3" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Damage_Thunder_Gen_L1to3" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Thunder_Thunderwave_L1to3_01" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;5e7e63e1-0e69-46e7-ade7-fe3dadcc9184,,;e9ad50df-e7f1-43a0-b782-4c08f92b0f5a,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsHarmful;NoSurprise" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_External" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="2af907e1-127c-4c83-a117-af18f211c59d" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="7be34b37-43b8-4b47-bd2d-a20c7ea1c8fd" />
+        <field name="CinematicArenaFlags" type="EnumerationTableFieldDefinition" value="Ignore" enumeration_type_name="CinematicArenaFlags" version="1" />
+        <field name="AIFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSelf" enumeration_type_name="AIFlags" version="1" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="2" />
       </fields>
     </stat_object>
   </stat_objects>

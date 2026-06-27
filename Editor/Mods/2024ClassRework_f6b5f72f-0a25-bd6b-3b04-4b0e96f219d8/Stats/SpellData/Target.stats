@@ -1833,5 +1833,40 @@
         <field name="WeaponType" type="EnumerationListTableFieldDefinition" value="None" enumeration_type_name="WeaponFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f908542d-e979-48a1-9e9f-623854c926b8" />
+        <field name="Name" type="NameTableFieldDefinition" value="BurstingSinew" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Necromancy" enumeration_type_name="SpellSchool" version="1" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="0" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="TARGET:SwitchDeathType(Explode);TARGET:ApplyStatus(BURSTING_USED,100,-1)" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Dead() and FreshCorpse() and not HasStatus('BURSTING_USED') and not Tagged('OOZE',context.Target) and not Tagged('PLANT',context.Target) and not Tagged('CONSTRUCT',context.Target) and not Tagged('ELEMENTAL',context.Target);" />
+        <field name="AoEConditions" type="StringTableFieldDefinition" value="Character() and not Dead()" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="554a18f7-952e-494a-b301-7702a85d4bc9,,;,,;09ae2f11-f5b4-42f5-ae16-687a5b57d500,,;10caea0e-c949-4d91-8ab7-3b50019dd054,,;22dfbbf4-f417-4c84-b39e-2039315961e6,,;,,;5bfbe9f9-4fc3-4f26-b112-43d404db6a89,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;IsHarmful;HasSomaticComponent;HasVerbalComponent" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Piercing" enumeration_type_name="Damage Type" version="1" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Dexterity, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="TARGET:AOE:IF(not Dead()):DealDamage(LevelMapValue(D10Cantrip),Piercing,Magical);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_BurstingSinew" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha46691a1g696dg6236g22d1g95dd4d849ba0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf928f753g07bdgf3afgb71ag5bf7dc9940f7" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D10Cantrip),Piercing)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Dexterity" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="0aae35fb-4e0f-4ecd-b8c9-8929e89a257b" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="a1b229db-954a-466b-bfeb-0536dc17d673" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="74c3d8de-5937-4a60-84b4-ef5005c039f2" />
+        <field name="PositionEffect" type="GuidObjectTableFieldDefinition" value="4d22ced8-9206-41d7-a842-a3f4c290277a" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Cleric_DeathDomain_Gen" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Cleric_DeathDomain_Gen" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Cleric_DeathDomain_Gen" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Cleric_DeathDomain_BurstingSinew" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="TARGET:AOE:IF(not Dead() and HasPassive('PotentCantrip',context.Source)):DealDamage(LevelMapValue(D10Cantrip)/2,Piercing,Magical);" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
