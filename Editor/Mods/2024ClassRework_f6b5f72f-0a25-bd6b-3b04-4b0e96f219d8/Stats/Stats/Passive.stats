@@ -282,9 +282,9 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a0b2ea9e-5000-4b27-a2e1-ad9327bc1e94" />
         <field name="Name" type="NameTableFieldDefinition" value="Thaumaturge_ProduceFlame" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4432a90cge1ddg47b8g8630g8fcd8c20168d" version="2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4432a90cge1ddg47b8g8630g8fcd8c20168d" version="3" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb7edcc50g8963g4c3dg55a5g48ba0ef23195" version="6" />
-        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MagicInitiateCleric" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ProduceFlame_Light" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;DisplayBoostInTooltip;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Religion, WisdomModifier);Skill(Arcana, WisdomModifier);UnlockSpell(Shout_ProduceFlame);" />
       </fields>
@@ -293,9 +293,9 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4dc0931e-003a-4ac1-9935-9e1593aa1acf" />
         <field name="Name" type="NameTableFieldDefinition" value="Thaumaturge_TollTheDead" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h319edb71g3ee9g5f41g711dg37303006653a" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h319edb71g3ee9g5f41g711dg37303006653a" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h991ce155gce35g72fageab0g40fe2c650df9" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MagicInitiateCleric" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_TollOfTheDead" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;DisplayBoostInTooltip;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Religion, WisdomModifier);Skill(Arcana, WisdomModifier);UnlockSpell(Target_TollTheDead);" />
       </fields>
@@ -304,9 +304,9 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="33efe65c-f580-4d1a-90cd-11c5b086146b" />
         <field name="Name" type="NameTableFieldDefinition" value="Thaumaturge_Thaumaturgy" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hff215c75gbd20g0783g7d27ge6efa7a0a247" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hff215c75gbd20g0783g7d27ge6efa7a0a247" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h34db9f33gf7b0gd13dg8001g9d6703b83ff4" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MagicInitiateCleric" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_Thaumaturgy" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;DisplayBoostInTooltip;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Religion, WisdomModifier);Skill(Arcana, WisdomModifier);UnlockSpell(Shout_Thaumaturgy);" />
       </fields>
@@ -315,11 +315,44 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="83501031-79de-4df7-ab15-45085d6221f5" />
         <field name="Name" type="NameTableFieldDefinition" value="Thaumaturge_WordOfRadiance" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h154993aeg5cc8gf635g5b09gf067c656b9bf" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h154993aeg5cc8gf635g5b09gf067c656b9bf" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6fcb0028g2391g587dg6577g6d2aa1ad260f" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MagicInitiateCleric" />
+        <field name="Icon" type="StringTableFieldDefinition" value="WordOfRadiance" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;DisplayBoostInTooltip" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Religion, WisdomModifier);Skill(Arcana, WisdomModifier);UnlockSpell(Shout_WordOfRadiance);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="27a588a3-fe95-4dc6-83a3-cebe55de9a3a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Thaumaturge_Guidance" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heea6bf1egd16eg7fafg99bcg3c1dcedcc2b0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1142127dg4e58gbd3egd81agef9b982dbdc7" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Divination_Guidance" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Religion, WisdomModifier);Skill(Arcana, WisdomModifier);UnlockSpell(Target_Guidance);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="265de2f8-1a05-40cc-a089-f1dd8d1b2670" />
+        <field name="Name" type="NameTableFieldDefinition" value="Thaumaturge_Resistance" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcb84e975g4b16g5d68gb719g27565e5f38b0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0907dafbg0b28gbee3g18eeg32f30a583a60" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_Resistance" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Religion, WisdomModifier);Skill(Arcana, WisdomModifier);UnlockSpell(Target_Resistance);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1f139862-474c-42a6-bb61-a275c7ba6a3c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Thaumaturge_SacredFlame" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6f6d3148gb0fdgab44g3651ga8fca1111772" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h26f6b91bge93fg9609g7c01g3c1b96422c45" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_SacredFlame" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Religion, WisdomModifier);Skill(Arcana, WisdomModifier);UnlockSpell(Target_SacredFlame);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -72,12 +72,12 @@ Your starting equipment now includes a Dagger, as does Shadowheart's.  Sadly, le
 
 ### All Clerics
 #### **1st Level**
-At 1st Level, you're given the choice between two Divine Orders (well, technically 5 because of how the game's engine works):
+At 1st Level, you're given the choice between two Divine Orders (well, technically 8 because of how the game's engine works):
 - **Protector**
   - Grants Heavy Armor Proficiency and, in a departure from the PHB, no longer grants any Martial Weapon Proficiencies.  Instead, you can now Bind a Mace, Spear, or Dagger, imbuing it with Divine Energy.  You can use your Wisdom in place of your Strength or Dexterity for attack and damage rolls, and the damage die becomes a d6, unless it was already higher than that. 
   - At 5th Cleric level, you can make a second attack with this weapon, and the weapon's damage becomes magical if it wasn't already
 - **Thaumaturge**
-  - You can add your Wisdom Modifier to Arcana and Religion checks.  You can also choose an additional cantrip from Produce Flame, Thaumaturgy, Toll the Dead, and Word of Radiance.
+  - You can add your Wisdom Modifier to Arcana and Religion checks.  You can also choose an additional cantrip from Guidance, Resistance, Sacred Flame, Produce Flame, Thaumaturgy, Toll the Dead, and Word of Radiance.
 
 *Explanation*: I found Protector to be very underpowered as written.  Martial Weapon proficiency doesn't suddenly make Clerics good at using weapons, so all you're functionally getting is Proficiency in Heavy Armor.  If you want that, starting with a level of Fighter gets you that and more, and it's not like you have bad AC without Heavy Armor.  This was intended to make Protector more viable.
 
@@ -538,3 +538,13 @@ Unfortunately, no.  The engine just doesn't allow for that.
 If you're wondering why I didn't make a new spell to move the Illusory Duplicate and instead gave it a movement speed, well...every time I tried to adjust Invoke Duplicity, the editor crashed when I tried to save.  And when I subsequently tried to load the mod.
 
 Invoke Duplicity has a bunch of different conditions around which Illusory Duplicate to spawn based on which species and gender does the invoking.  So many conditions, in fact, that attempting to add something else (like having it unlock a new spell) breaks the editor.  This is also why Trickster's Transposition is always unlocked instead of only being unlocked when you have a Duplicate spawned.
+
+## "Hey, I selected a Shield for my Paladin!  Why isn't it showing up in Character Creation?!"
+
+Auto-equip in this game is...weird.  Check your inventory once you start the game.  Your equipment should be there.
+
+## Thaumaturge and Magician Don't Have Icons in Dice Rolls
+
+The bonuses for Magician and Thaumaturge are correctly applied, but the marker for them doesn't have an Icon, for some reason.
+
+I'm still looking into this.

@@ -26,7 +26,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="38776f0c-e88e-44e6-8e03-5efafc080d9d" />
         <field name="Name" type="NameTableFieldDefinition" value="ClericDivineOrders" />
-        <field name="Passives" type="StringTableFieldDefinition" value="Protector,Thaumaturge_ProduceFlame,Thaumaturge_TollTheDead,Thaumaturge_Thaumaturgy,Thaumaturge_WordOfRadiance" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Protector,Thaumaturge_Guidance,Thaumaturge_Resistance,Thaumaturge_SacredFlame,Thaumaturge_ProduceFlame,Thaumaturge_TollTheDead,Thaumaturge_Thaumaturgy,Thaumaturge_WordOfRadiance" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

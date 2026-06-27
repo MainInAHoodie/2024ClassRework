@@ -21,7 +21,7 @@
                 </node>
                 <node id="PassiveList">
                     <attribute id="Name" type="FixedString" value="ClericDivineOrders"/>
-                    <attribute id="Passives" type="LSString" value="Protector,Thaumaturge_ProduceFlame,Thaumaturge_TollTheDead,Thaumaturge_Thaumaturgy,Thaumaturge_WordOfRadiance"/>
+                    <attribute id="Passives" type="LSString" value="Protector,Thaumaturge_Guidance,Thaumaturge_Resistance,Thaumaturge_SacredFlame,Thaumaturge_ProduceFlame,Thaumaturge_TollTheDead,Thaumaturge_Thaumaturgy,Thaumaturge_WordOfRadiance"/>
                     <attribute id="UUID" type="guid" value="38776f0c-e88e-44e6-8e03-5efafc080d9d"/>
                 </node>
                 <node id="PassiveList">
