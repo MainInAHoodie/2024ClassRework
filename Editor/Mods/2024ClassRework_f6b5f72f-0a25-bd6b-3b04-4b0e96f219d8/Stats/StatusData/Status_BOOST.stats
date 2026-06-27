@@ -645,11 +645,11 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcf78a6f6gb483g4555g90cdg2b58b655f34a" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3368920fg733dgafd7g6edfgbe54024fe2a8" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_Stoneskin" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Bludgeoning, Resistant);Resistance(Piercing, Resistant);Resistance(Slashing, Resistant);DamageReduction(Bludgeoning, Flat, 3);DamageReduction(Slashing, Flat, 3);DamageReduction(Piercing, Flat, 3);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Bludgeoning, Resistant);Resistance(Piercing, Resistant);Resistance(Slashing, Resistant);DamageReduction(Bludgeoning, Flat, 1);DamageReduction(Slashing, Flat, 1);DamageReduction(Piercing, Flat, 1);" />
         <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="10e29e97-31af-400f-8520-71fbed87d2aa" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="StackId" type="StringTableFieldDefinition" value="STONESKIN" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
