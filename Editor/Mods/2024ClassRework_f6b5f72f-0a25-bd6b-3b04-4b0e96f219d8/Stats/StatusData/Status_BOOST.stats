@@ -246,6 +246,7 @@
         <field name="OnApplyRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
         <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" value="IF(not HasPassive('PotentSpellcasting',context.Source)):DealDamage(LevelMapValue(D6Cantrip),Radiant,Magical);IF(HasPassive('PotentSpellcasting',context.Source)):DealDamage(LevelMapValue(D6Cantrip)+(max(0, SpellCastingAbilityModifier)),Radiant,Magical)" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="BringIntoCombat;InitiateCombat" enumeration_type_name="StatusPropertyFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -731,6 +732,41 @@
         <field name="StackId" type="StringTableFieldDefinition" value="BRUTAL_STRIKE_FORCEFUL_BLOW_SELF" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,3,0);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e2fa3842-2273-4e50-9d7f-f3340eb4ccbb" />
+        <field name="Name" type="NameTableFieldDefinition" value="THUNDERCLAP_EMANATION" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2ead5859g31d3ge80fg8f50g09904c86729e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0888c600g5741g4653gf010gc50597524e35" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6Cantrip),Thunder)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Thunderclap" />
+        <field name="AuraRadius" type="IntegerTableFieldDefinition" value="2" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(not Self() and not Dead()):ApplyStatus(THUNDERCLAP,100,0)" />
+        <field name="AuraFlags" type="EnumerationListTableFieldDefinition" value="AIIgnoreOnSelf;CanAffectInvisibleItems" enumeration_type_name="AuraFlags" version="1" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="HasStatus('SANCTUARY')" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="StatusEvent" version="1" />
+        <field name="TooltipSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6Cantrip),Thunder)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableCombatlog;DisableOverhead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="7be34b37-43b8-4b47-bd2d-a20c7ea1c8fd" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3adab03a-03c6-4b6c-a420-df6f3845bb6a" />
+        <field name="Name" type="NameTableFieldDefinition" value="THUNDERCLAP" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h77a577a1g520dg3ee5gde64gc5c6c05607d5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h04bf608bgafb5g9cfag9ab7g193357fe3d20" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6Cantrip),Thunder)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Thunderclap" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;BringIntoCombat;DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnApplyRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" value="IF(not HasPassive('PotentSpellcasting',context.Source)):DealDamage(LevelMapValue(D6Cantrip),Thunder,Magical);IF(HasPassive('PotentSpellcasting',context.Source)):DealDamage(LevelMapValue(D6Cantrip)+(max(0, SpellCastingAbilityModifier)),Thunder,Magical)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="62c93179-7074-43f1-9fb9-71851615c279" />
       </fields>
     </stat_object>
   </stat_objects>

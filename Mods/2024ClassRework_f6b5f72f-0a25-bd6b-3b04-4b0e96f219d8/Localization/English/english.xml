@@ -940,4 +940,10 @@
   <content contentuid="h6e5c9b0cg705dg42b5g0600g4883e4d7bb73" version="1">The spellcaster can activate the arc linking it to this creature to automatically deal 1d6 Lightning damage.</content>
   <content contentuid="ha46691a1g696dg6236g22d1g95dd4d849ba0" version="1">Bursting Sinew</content>
   <content contentuid="hf928f753g07bdgf3afgb71ag5bf7dc9940f7" version="1">Explode a corpse, causing it to impale those around it.</content>
+  <content contentuid="h2c214701g4193gfb28g9c06gdb911d986f13" version="1">Thunderclap</content>
+  <content contentuid="h815afcffg65bcg66b7g02f6g78b5975469f4" version="1">Each creature within [1] must make a &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or take [2].</content>
+  <content contentuid="h2ead5859g31d3ge80fg8f50g09904c86729e" version="1">Thunderclap</content>
+  <content contentuid="h0888c600g5741g4653gf010gc50597524e35" version="1">Affected entities take [1].</content>
+  <content contentuid="h77a577a1g520dg3ee5gde64gc5c6c05607d5" version="1">Thunderclap</content>
+  <content contentuid="h04bf608bgafb5g9cfag9ab7g193357fe3d20" version="1">Affected entities take [1].</content>
 </contentList>
