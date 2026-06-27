@@ -1641,6 +1641,8 @@
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Buff_Gen_L1to3_01" />
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Buff_Gen_L1to3_01_Loop" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h9db13888g1a84gf76fg3f67g4f85a66bad05" version="1" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="3" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

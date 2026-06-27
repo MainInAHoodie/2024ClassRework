@@ -739,7 +739,7 @@
   <content contentuid="h28b4826eg5b5cg787ag00b5g070abede4bff" version="1">Stoneskin</content>
   <content contentuid="h5a84824egf914g8934g7ca6gbf8fcba76fa4" version="1">Turn a creature's flesh hard as stone. It takes only &lt;LSTag Tooltip="Resistant"&gt;half the damage&lt;/LSTag&gt; of all Bludgeoning, Piercing, and Slashing damage, magical or otherwise.</content>
   <content contentuid="hcf78a6f6gb483g4555g90cdg2b58b655f34a" version="1">Stoneskin</content>
-  <content contentuid="h3368920fg733dgafd7g6edfgbe54024fe2a8" version="1">Has &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Bludgeoning, Piercing, and Slashing damage.</content>
+  <content contentuid="h3368920fg733dgafd7g6edfgbe54024fe2a8" version="2">Has &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Bludgeoning, Piercing, and Slashing damage.  All such damage is also reduced by [1].</content>
   <content contentuid="h0b98d290g08cdg454cg6759gc33645f8f35c" version="1">Ram</content>
   <content contentuid="h3eb2a96eg19e7g1ab5g5641g4cc8b050b993" version="1">Slam into an enemy creature or object. On a successful save, the target still takes half damage.</content>
   <content contentuid="h9d912037g2513gf4e7g1fe4g0b356e57d978" version="1">Flaming Aura</content>
@@ -946,4 +946,5 @@
   <content contentuid="h0888c600g5741g4653gf010gc50597524e35" version="1">Affected entities take [1].</content>
   <content contentuid="h77a577a1g520dg3ee5gde64gc5c6c05607d5" version="1">Thunderclap</content>
   <content contentuid="h04bf608bgafb5g9cfag9ab7g193357fe3d20" version="1">Affected entities take [1].</content>
+  <content contentuid="h9db13888g1a84gf76fg3f67g4f85a66bad05" version="1">All such damage is also reduced by [1].</content>
 </contentList>
