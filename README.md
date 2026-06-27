@@ -64,7 +64,8 @@ Once per rest, you can convert a Spell Slot to a number of uses of Bardic Inspir
 ## Cleric
 ### Starting Ability Scores
 Trickery Domain Clerics, including Shadowheart: 12 STR, 14 DEX, 14 CON, 10 INT, 17 WIS, 8 CHA
-Everyone else: 10 CHA, 14 DEX, 14 CON, 12 INT, 17 WIS, 8 CHA
+
+Everyone else: 10 STR, 14 DEX, 14 CON, 12 INT, 17 WIS, 8 CHA
 
 ### Starting Equipment
 Your starting equipment now includes a Dagger, as does Shadowheart's.  Sadly, letting you pick your equipment doesn't work, for reasons I'll get into in the "Known Issues" section.
@@ -82,8 +83,7 @@ At 1st Level, you're given the choice between two Divine Orders (well, technical
 
 #### **2nd Level**
 You always have the following Channel Divinity option:
-- **Divine Spark**
-    Starting at 2nd Level, you can heal an ally for 1d8 + Wisdom HP or deal that much Radiant or Necrotic damage (your choice) to an enemy.  This amount increases to 2d8 at 7th level and 3d8 at 12th.
+- **Divine Spark**: Starting at 2nd Level, you can heal an ally for 1d8 + Wisdom HP or deal that much Radiant or Necrotic damage (your choice) to an enemy.  This amount increases to 2d8 at 7th level and 3d8 at 12th.
 
 #### **5th Level**
 **Destroy Undead** has been renamed to **Sear Undead** and damage scales, starting at 4d8 when you unlock it.
@@ -144,8 +144,7 @@ Your starting equipment now includes both a Dagger and a Shield.  You can't pick
 
 *Explanation*: everything I wrote about Protector Clerics above applies to Warden Druids.  It's even worse for Warden Druids, though, since Shillelagh essentially forces them into Clubs or Quarterstaffs anyway.
 
-**Druidic**
-In a nutshell, you always have Speak With Animals prepared for free.  Speak With Animals is still on the Druid's Spell List, though, just in case you pick Magic Initiate.
+**Druidic**: In a nutshell, you always have Speak With Animals prepared for free.  Speak With Animals is still on the Druid's Spell List, though, just in case you pick Magic Initiate.
 
 #### **2nd Level**
 **Wild Companion**: You can cast Find Familiar and always have it prepared for free.
@@ -212,7 +211,8 @@ Now limited to four options: Arid, Temperate, Polar, or Tropical.
 ## Fighter
 ### Starting Ability Scores
 17 STR, 14 DEX, 14 CON, 10 INT, 12 WIS, 8 CHA
-(though really, put your 15 in either Dexterity or Strength and your 10 in the other)
+
+(though really, either put 15 in Strength and 10 in Dexterity or 8 in Strength and 15 in Dexterity.  Splitting the difference that way is usually a recipe for disaster.)
 
 ### Starting Equipment
 
@@ -312,8 +312,8 @@ Your starting equipment now also includes a Dagger.
 ### All Paladins
 #### **2nd Level**
 **Fighting Style**: You can now pick every Fighting Style the Fighters get, and you also have two brand-new options:
-    - **Blessed Warrior: Offense**: Gain the Sacred Flame and Toll the Dead cantrips.  Charisma is your Spellcasting Ability for them.
-    - **Blessed Warrior: Support**: Gain the Guidance and Resistance cantrips.
+- **Blessed Warrior: Offense**: Gain the Sacred Flame and Toll the Dead cantrips.  Charisma is your Spellcasting Ability for them.
+- **Blessed Warrior: Support**: Gain the Guidance and Resistance cantrips.
 
 ## Ranger
 ### Starting Ability Scores
@@ -466,7 +466,7 @@ Nature has been added to the Wizard's Spell List
 - **Fount of Moonlight**: A cool light wreathes your body.  Until the spell ends, you are Resistant to Radiant damage, and your weapon attacks deal an extra 2d6 damage.
 
 ### Wizard
-- **Stoneskin**: Now provides Resistance to Magical Bludegoning, Piercing, and Slashing damage too.
+- **Stoneskin**: Now provides Resistance to Magical Bludegoning, Piercing, and Slashing damage too.  All such damage is also reduced by 3 to give you a reason to use it over Blade Ward.
 
 ## 5th Level
 ### Cleric
@@ -503,10 +503,8 @@ Nature has been added to the Wizard's Spell List
 
 ## 4th Level
 ### Cleric
-**Aura of Life**
-You and any Allies within 30 feet of you gain Resistance to Necrotic damage and can't have your maximum HP reduced, at least not by anything in the base game.  The way the game engine works means it can only block specific Statuses that reduce Maximum HP, so if a mod adds a new Status that does that, this aura ain't gonna help one bit.  
 
-In addition, if an Ally starts their turn in the Aura with 0HP remaining, they gain 1HP.
+- **Aura of Life**:  You and any Allies within 30 feet of you gain Resistance to Necrotic damage and can't have your maximum HP reduced, at least not by anything in the base game.  The way the game engine works means it can only block specific Statuses that reduce Maximum HP, so if a mod adds a new Status that does that, this aura ain't gonna help one bit.  In addition, if an Ally starts their turn in the Aura with 0HP remaining, they gain 1HP.
 
 ---
 
