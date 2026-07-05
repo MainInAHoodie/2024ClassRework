@@ -27,7 +27,7 @@ This no longer happens -- you keep all your starting gear right at the start of 
 
 ### Starting Equipment
 You can now pick your starting equipment from the following options:
- - Any Martial Melee Weapon, a Spear, a Quarterstaff, or a Handaxe
+ - Any Martial Melee Weapon, a Spear, a Quarterstaff, a Handaxe, or a Light Hammer
  - Any Ranged Weapon
  - Barbarian Leathers or Scale Armor
  - One of four shields (Metal, Wooden, Studded, or Iron-Banded), a Handaxe, a Shortsword, a Scimitar, a Light Hammer, a Javelin, or a Dagger.
@@ -217,7 +217,7 @@ Now limited to four options: Arid, Temperate, Polar, or Tropical.
 ### Starting Equipment
 
 You can now pick your starting equipment from among the following options:
- - Any Martial Melee Weapon, a Spear, a Quarterstaff, or a Handaxe
+ - Any Martial Melee Weapon, a Spear, a Quarterstaff, a Handaxe, or a Light Hammer
  - Any Ranged Weapon
  - Studded Leather Armor, Scale Armor, or Chain Mail
  - One of four shields (Metal, Wooden, Studded, or Iron-Banded), a Handaxe, a Shortsword, a Scimitar, a Light Hammer, a Javelin, or a Dagger.
@@ -296,7 +296,7 @@ You gain Ride the Wind for free.  It is otherwise unchanged.
 
 ### Starting Equipment
 You can now pick your starting equipment from among the following options:
- - Any Martial Melee Weapon, a Spear, a Quarterstaff, or a Handaxe
+ - Any Martial Melee Weapon, a Spear, a Quarterstaff, a Handaxe, or a Light Hammer
  - Any Ranged Weapon
  - One of four shields (Metal, Wooden, Studded, or Iron-Banded), a Handaxe, a Shortsword, a Scimitar, a Light Hammer, a Javelin, or a Dagger.
 
@@ -310,6 +310,10 @@ The Studded Leather and Chain Mail include new versions that match the color sch
 Your starting equipment now also includes a Dagger.
 
 ### All Paladins
+#### **1st Level**
+
+Paladins have gods again.
+
 #### **2nd Level**
 **Fighting Style**: You can now pick every Fighting Style the Fighters get, and you also have two brand-new options:
 - **Blessed Warrior: Offense**: Gain the Sacred Flame and Toll the Dead cantrips.  Charisma is your Spellcasting Ability for them.
@@ -387,6 +391,7 @@ Your Draconic Resilience now sets you AC to 10 + DEX + CHA when you're not weari
 ### Starting Equipment
 Hexblade Warlocks now start with a Chain Shirt, a Shield, and their choice of Martial Melee Weapon (same options as Fighters, Barbarians, and Paladins).  Their Chain Shirt has been recolored to match their starting Padded Armor.
 
+### All Warlocks
 #### **2nd Level**
 *Repelling Blast* now only works on targets that are Large or smaller, and the forced movement can be blocked with a Strength Saving Throw.
 
@@ -459,12 +464,7 @@ Nature has been added to the Wizard's Spell List
 ### Cleric
 - **Mass Healing Word** now starts at 2d4 + Spellcasting and scales up 1d4 per level from there
 
-### Druid
-
 ## 4th Level
-### Druid
-- **Fount of Moonlight**: A cool light wreathes your body.  Until the spell ends, you are Resistant to Radiant damage, and your weapon attacks deal an extra 2d6 damage.
-
 ### Wizard
 - **Stoneskin**: Now provides Resistance to Magical Bludegoning, Piercing, and Slashing damage too.  All such damage is also reduced by 1 to give you a reason to use it over Blade Ward.
 
@@ -479,7 +479,7 @@ Nature has been added to the Wizard's Spell List
 - **Frostbite**: Target must make a Constitution Saving Throw or take 1d6 Cold Damage (scaling) and have Disadvantage on its next Weapon or Unarmed attack.
     - Available to Druids, Sorcerers, Warlocks, and Wizards.
 - **Thunderclap**: Everyone within 7.5 feet of you must make a Constitution Saving Throw or take 1d6 Thunder Damage (scaling).
-    - Available to Bards, Druids, Sorcerers, WWarlocks, and Wizards.
+    - Available to Bards, Druids, Sorcerers, Warlocks, and Wizards.
 
 ### Cleric
 - **Word of Radiance**: Each enemy within 7.5 ft of you (an increase from the book, because the Effect Radius in the engine doesn't let me enter 1.5 meters for some reason) must pass a Constitution Saving Throw or take 1d6 Radiant damage (scaling as you level)
@@ -503,8 +503,10 @@ Nature has been added to the Wizard's Spell List
 
 ## 4th Level
 ### Cleric
-
 - **Aura of Life**:  You and any Allies within 30 feet of you gain Resistance to Necrotic damage and can't have your maximum HP reduced, at least not by anything in the base game.  The way the game engine works means it can only block specific Statuses that reduce Maximum HP, so if a mod adds a new Status that does that, this aura ain't gonna help one bit.  In addition, if an Ally starts their turn in the Aura with 0HP remaining, they gain 1HP.
+
+### Druid
+- **Fount of Moonlight**: A cool light wreathes your body.  Until the spell ends, you are Resistant to Radiant damage, and your weapon attacks deal an extra 2d6 damage.
 
 ---
 
